@@ -1,3 +1,7 @@
+# RAG evaluation
+- Main repository is [here](https://github.com/DCGM/semant-demo).
+
+### Tips if something does not work
 - If "generateTests.py" Ollama mode does not work while generating to many questions, try to increase timeout (default 300s).
 - Both evaluate.py and generateTests.py require .env file.
 #### evaluate.py requires:
