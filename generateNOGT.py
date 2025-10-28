@@ -2,7 +2,7 @@ import os
 import json
 
 #program to generate no gt dataset in txt from .json gt dataset
-input_name = "test"
+input_name = "dataset_synthetick_gt_246"
 base = os.path.dirname(os.path.abspath(__file__))
 in_path = os.path.join(base, ("datasets/" + input_name + ".json"))
 out_path = os.path.join(base, ("datasets/" + input_name + ".txt"))

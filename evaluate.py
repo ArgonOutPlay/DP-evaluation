@@ -10,18 +10,19 @@ from semant_demo.rag.rag_generator import RagGenerator
 from semant_demo.schemas import RagConfig, RagSearch, SearchType
 #ragas openai
 from langchain_openai import ChatOpenAI
-from ragas.embeddings import OpenAIEmbeddings
 import openai
 #ragas ollama
 from langchain_ollama import OllamaLLM
-from langchain_community.embeddings import HuggingFaceEmbeddings
 #ragas
 from ragas import EvaluationDataset
 from ragas import evaluate
 from ragas.llms.base import llm_factory
-
+#context precission (basicly context relevancy but harsher (very simplified))
 from ragas import SingleTurnSample
 from ragas.metrics import LLMContextPrecisionWithoutReference
+#context relevancy
+from ragas.dataset_schema import SingleTurnSample
+from ragas.metrics import ContextRelevance
 #metrics imported as instances
 from ragas.metrics import (
     faithfulness,
@@ -145,11 +146,16 @@ async def main():
                     default="OLLAMA",
                     choices=["OLLAMA", "OPENAI"],
                     help="Model used for evaluation: 'OLLAMA' or 'OPENAI' ")
-    parser.add_argument("--precission",
+    parser.add_argument("--context_precission",
                     type=str,
                     default="OFF",
                     choices=["ON", "OFF"],
                     help="Only relevant in 'NOGT' mode. Precission choices: 'ON' or 'OFF' ")
+    parser.add_argument("--context_relevancy",
+                    type=str,
+                    default="OFF",
+                    choices=["ON", "OFF"],
+                    help="Does not work with OLLAMA evaluation model. Only relevant in 'NOGT' mode. Relevancy choices: 'ON' or 'OFF' ")
     parser.add_argument("--path",
                     type=str,
                     default="PATH_MISSING",
@@ -166,7 +172,7 @@ async def main():
             Starting evaluation in mode: {args.mode} with RAG model: {args.rag_model}
             and temperature: {args.temperature} and limit: {args.limit}
             and search type: {args.search_type} and alpha parametr: {args.alpha} 
-            and evaluation model: {args.eval_model} and precission: {args.precission} 
+            and evaluation model: {args.eval_model} and context precission: {args.context_precission} and context relevancy: {args.context_relevancy} 
             and synthetic dataset: {args.synthetic_dataset}. 
             {Colors.RESET} """)
 
@@ -174,6 +180,7 @@ async def main():
     rag_model = args.rag_model
     mode = args.mode
     precission_mode = False
+    relevancy_mode = False
 
     #--- get path ---
     if(args.path == "PATH_MISSING"):
@@ -187,9 +194,16 @@ async def main():
     if (args.synthetic_dataset == "ON"):
         path = os.getenv("PATH_SYN")
 
-    if (args.precission == "ON"):
+    if (args.context_precission == "ON"):
         precission_mode = True
+
+    if (args.context_relevancy == "ON"):
+        relevancy_mode = True
  
+    if (eval_model == "OLLAMA" and relevancy_mode):
+        print(f"{Colors.YELLOW} In this version of Ragas context relevancy is not supported for Ollama. We recommend you to use context precission instead or use OPENAI for evaluation. {Colors.RESET}")
+        relevancy_mode = False
+
     #--- load data ---
     try:
         queries = []
@@ -201,10 +215,10 @@ async def main():
         elif (mode == "GT"):
             queries, ground_truths = loadDataFromJson(path)
     except FileNotFoundError as e:
-        print("Invalid path, error detail:", e)
+        print(f"{Colors.RED} Invalid path, error detail: {e} {Colors.RESET}")
         return
     except Exception as e:
-        print("Error detail:", e)
+        print(f"{Colors.RED} Error detail: {e} {Colors.RESET}")
         return
 
     #--- get desired evaluation model ---
@@ -215,7 +229,7 @@ async def main():
     elif(eval_model == "OLLAMA"):
         eval_model_name = os.getenv("OLLAMA_EVAL_MODEL")
         ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
-        llm = OllamaLLM(model=eval_model_name, base_url = ollama_url)
+        llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=300.0 )  #new version can be used if not using context relevancy with NOGT
     else:
         print(f"\n Invalid model: {eval_model}. Possible models: [OPENAI, OLLAMA].")
         return
@@ -228,8 +242,10 @@ async def main():
     try:
         dataset = []
         if (mode == "NOGT"):
-            single_context_precision = LLMContextPrecisionWithoutReference(llm=llm)
+            single_context_precision_evaluator = LLMContextPrecisionWithoutReference(llm=llm)
+            single_context_relevancy_evaluator = ContextRelevance(llm=llm)
             precisions = []
+            relevancies = []
 
             for query in queries:
                 ragSP = createRagSupportParameters(
@@ -265,7 +281,16 @@ async def main():
                         retrieved_contexts=retrieved_contexts_text
                     )
                     #add precision of sample to list
-                    precisions.append(await single_context_precision.single_turn_ascore(sample))
+                    precisions.append(await single_context_precision_evaluator.single_turn_ascore(sample))
+
+                #calculate context relevancy
+                if(relevancy_mode == True):
+                    sample = SingleTurnSample(
+                        user_input=query,
+                        retrieved_contexts=retrieved_contexts_text
+                    )
+                    #add precision of sample to list
+                    relevancies.append(await single_context_relevancy_evaluator.single_turn_ascore(sample))
 
             evaluation_dataset = EvaluationDataset.from_list(dataset)
 
@@ -277,9 +302,14 @@ async def main():
             
             print(f"{Colors.GREEN}---Evaluation finished ---{Colors.RESET}")
             print(f"{Colors.GREEN} {result} {Colors.RESET}")
+
             if(precission_mode == True):
                 average_precision = sum(precisions) / len(precisions)
                 print(f"{Colors.GREEN} average_precission: {average_precision} {Colors.RESET}")
+            
+            if(relevancy_mode == True):
+                average_relevancy = sum(relevancies) / len(relevancies)
+                print(f"{Colors.GREEN} average_relevancy: {average_relevancy} {Colors.RESET}")
 
         elif(mode == "GT"):
             for query, gt in zip(queries, ground_truths):
