@@ -40,10 +40,6 @@ def loadDataFromJsonl (path: str) -> List[str]:
                 continue 
     return texts
 
-#"arguments"
-#path to data
-in_dir_path = "/mnt/ssd2/weaviate_data/all.768/chunks.vec.lang"
-out_dir_path = "dataset_synthetick_gt.json"
 ending = "*.jsonl"   #glob
 #number of generated questions
 GPTmodel = "gpt-4o"
@@ -56,10 +52,12 @@ generate_question_prompt_template = (
     Your task is to act as user who has not seen this text. \
     Based on the information in the text, formulate ONE natural sounding question about a key fact or detail. 
     Follow these rules:
-    1) The question must be standalone question that makes sense on its own.
-    2) Do NOT mention the text, context, document. For example, do not ask things such as: "Based on the context" or "Given a text" or "What does text say about" 
-    3) Question should be something a real person would ask to learn specific information.
-    4) Respond ONLY with generated question and nothing else.
+    1) The question MUST be standalone question that makes sense on its own.
+    2) The question MUST be answerable using only the facts present in the context. Do not ask for interpretations, motivations, \
+        or feelings that are not explicitly stated. For example, avoid questions like "Why was he..." or "What did she mean by..."
+    4) Do NOT mention the text, context, document. For example, do not ask things such as: "Based on the context..." or "Given a text" or "What does text say about..." 
+    5) Question should be something a real person would ask to learn specific information.
+    6) Respond ONLY with generated question and nothing else.
     """
 )
 
@@ -67,11 +65,11 @@ generate_gt_prompt_template = (
     """
     Here is the context:
     {context_str}
-    Given the context information and not prior knowledge, answer the following question.
+    Given the context information and not prior knowledge, answer the following question with whole sentence.
     Question: {query_str}
     Follow these rules:
     1) Answer the question using ONLY the given context. Do not generate any other text. Respond ONLY with the answer.
-    2) Do not just extract name or a date. Explain the answer based on the context.
+    2) Do NOT just extract name or a date. Explain the answer based on the context.
     """
 )
 
@@ -83,6 +81,14 @@ def main():
                         default="OLLAMA",
                         choices=["OLLAMA", "OPENAI"],
                         help="Evaluation models: 'OLLAMA' (server/local) or 'OPENAI' (API) ")
+    parser.add_argument("--input",
+                    type=str,
+                    default="/mnt/ssd2/weaviate_data/all.768/chunks.vec.lang",
+                    help="Input path.")
+    parser.add_argument("--output",
+                    type=str,
+                    default="dataset_synthetick_gt.json",
+                    help="Output path.")
     parser.add_argument("--num_chunks_to_proc",
                     type=int,
                     default=1)
@@ -91,10 +97,14 @@ def main():
                     default=1)
     
     args = parser.parse_args()
-    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {args.num_chunks_to_proc} from: {args.num_files_to_proc} documents, using {args.num_chunks_to_proc} chunks. {Colors.RESET} ")
+    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {args.num_chunks_to_proc} from: {args.num_files_to_proc} documents, using {args.num_chunks_to_proc} chunks. Reading from: {args.input} and saving to: {args.output}. {Colors.RESET} ")
     
     num_chunks_to_proc = args.num_chunks_to_proc
     num_files_to_proc = args.num_files_to_proc
+
+    #path to data
+    in_dir_path = args.input
+    out_dir_path = args.output
 
     #--- load data ---
     try:
