@@ -49,6 +49,32 @@ ending = "*.jsonl"   #glob
 GPTmodel = "gpt-4o"
 OLLAMAmodel = "gemma3:12b"
 
+generate_question_prompt_template = (
+    """
+    Here is a piece of text with some information:
+    {context_str}
+    Your task is to act as user who has not seen this text. \
+    Based on the information in the text, formulate ONE natural sounding question about a key fact or detail. 
+    Follow these rules:
+    1) The question must be standalone question that makes sense on its own.
+    2) Do NOT mention the text, context, document. For example, do not ask things such as: "Based on the context" or "Given a text" or "What does text say about" 
+    3) Question should be something a real person would ask to learn specific information.
+    4) Respond ONLY with generated question and nothing else.
+    """
+)
+
+generate_gt_prompt_template = (
+    """
+    Here is the context:
+    {context_str}
+    Given the context information and not prior knowledge, answer the following question.
+    Question: {query_str}
+    Follow these rules:
+    1) Answer the question using ONLY the given context. Do not generate any other text. Respond ONLY with the answer.
+    2) Do not just extract name or a date. Explain the answer based on the context.
+    """
+)
+
 def main():
     #parse parameters
     parser = argparse.ArgumentParser(description="Genereting questions for RAG.")
@@ -57,9 +83,6 @@ def main():
                         default="OLLAMA",
                         choices=["OLLAMA", "OPENAI"],
                         help="Evaluation models: 'OLLAMA' (server/local) or 'OPENAI' (API) ")
-    parser.add_argument("--num_questions",
-                    type=int,
-                    default=1)
     parser.add_argument("--num_chunks_to_proc",
                     type=int,
                     default=1)
@@ -68,14 +91,11 @@ def main():
                     default=1)
     
     args = parser.parse_args()
-    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {args.num_questions} from: {args.num_files_to_proc} documents, using {args.num_chunks_to_proc} chunks. {Colors.RESET} ")
+    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {args.num_chunks_to_proc} from: {args.num_files_to_proc} documents, using {args.num_chunks_to_proc} chunks. {Colors.RESET} ")
     
-    num_questions = args.num_questions
     num_chunks_to_proc = args.num_chunks_to_proc
     num_files_to_proc = args.num_files_to_proc
 
-    if (num_questions < num_chunks_to_proc):
-        print(f"{Colors.YELLOW} Because given number of questions (num_questions) to generate is smaller then number of chunks to process (num_chunks_to_proc), program will generate: {num_chunks_to_proc} questions (num_chunks_to_proc).\n{Colors.RESET} ")
     #--- load data ---
     try:
         #get all files and select desired amount (base on input arguments)
@@ -91,8 +111,6 @@ def main():
             data.extend(loadDataFromJsonl(filepath))
         #gen desired amount of chunks to process
         data_reduced = random.sample(data, min(num_chunks_to_proc, len(data)))
-        #get desired amout of questions to generate (per chunk)
-        num_questions_per_chunk = max(round(num_questions / num_chunks_to_proc), 1)
         #convert to desired format
         documents = [Document(text=t) for t in data_reduced]
 
@@ -100,46 +118,26 @@ def main():
     except Exception as e:
         print("\nError occured while loading data, error detail:", e)
 
+    # custom prompts
+    question_template = PromptTemplate(generate_question_prompt_template)
+    answer_template = PromptTemplate(generate_gt_prompt_template)
+
     #--- generate data ---
     if (args.model == "OPENAI"):    #OPENAI
         generator_llm = OpenAI(model=GPTmodel)
-        generator = DatasetGenerator.from_documents(
-            documents=documents,
-            llm=generator_llm,
-            num_questions_per_chunk=num_questions_per_chunk,
-            show_progress=True
-        )
 
     else:   #OLLAMA
         generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = 300.0)
-        #custom promts are required, otherwise ollama wil act like chatbot 
-        text_question_template_str = (
-            """
-            Here is the context:\n {context_str}\n
-            Given the context, generate ONE question that can be answered by the context. Do not generate any other text. Respond ONLY with the question. \n
-            """
-        )
-        
-        text_qa_template_str = (
-            """
-            Here is the context:\n
-            {context_str}\n
-            Here is the question: {query_str}\n
-            Answer the question using ONLY the given context. Do not generate any other text. Respond ONLY with the answer.\n
-            """
-        )
-        text_question_template_tem = PromptTemplate(text_question_template_str)
-        text_qa_template_tem = PromptTemplate(text_qa_template_str)
 
-        generator = DatasetGenerator.from_documents(
-            documents=documents,
-            llm=generator_llm,
-            num_questions_per_chunk=num_questions_per_chunk,
-            show_progress=True,
-            # rewrite weird ollama prompt
-            text_question_template=text_question_template_tem,
-            text_qa_template=text_qa_template_tem
-        )
+    generator = DatasetGenerator.from_documents(
+        documents=documents,
+        llm=generator_llm,
+        num_questions_per_chunk=1,
+        show_progress=True,
+        # rewrite prompts
+        text_question_template=question_template,
+        text_qa_template=answer_template
+    )
 
 
     #generate questions and gt
@@ -154,10 +152,11 @@ def main():
             "ground_truth": pair[1]
         })
 
-    with open(out_dir_path, 'w', encoding='utf-8') as f:
+    output_name = str(len(final_data)) + "_" +  args.model + "_" + out_dir_path
+    with open(output_name, 'w', encoding='utf-8') as f:
         json.dump(final_data, f, ensure_ascii=False, indent=4)
 
-    print(f"{Colors.GREEN} ----- Generating completed, saved to file: {out_dir_path} ----- {Colors.RESET}")
+    print(f"{Colors.GREEN} ----- Generating completed, saved to file: {output_name} ----- {Colors.RESET}")
 
 if __name__ == "__main__":
     main()
