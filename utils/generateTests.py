@@ -14,6 +14,12 @@ from llama_index.llms.openai import OpenAI
 from llama_index.llms.ollama import Ollama
 from llama_index.core.prompts import PromptTemplate
 
+
+from deepeval.synthesizer import Synthesizer, Evolution
+
+from deepeval.models import GPTModel as DeepEvalOpenAI
+from deepeval_wrappers import CustomEmbeddingModel
+
 #colors for better logs in terminal
 class Colors:
     GREEN = '\033[92m'
@@ -42,7 +48,7 @@ ending = "*.jsonl"   #glob
 #Used models
 GPTmodel = "gpt-4o"
 OLLAMAmodel = "gemma3:12b"
-#custom prompts used for generating questions and answers
+#custom prompts used for generating questions and answers with LlamaIndex
 generate_question_prompt_template = (
     """
     Here is a piece of text with some information:
@@ -74,6 +80,11 @@ generate_gt_prompt_template = (
 
 def main():
     parser = argparse.ArgumentParser(description="Genereting questions for RAG.")
+    parser.add_argument("--generator",
+                    type=str,
+                    default="llama",
+                    choices=["llama", "deepeval"],
+                    help="Library used for generating questions.")
     parser.add_argument("--model",
                         type=str,
                         default="OLLAMA",
@@ -119,7 +130,7 @@ def main():
     if (num_files_to_proc < 0):
         num_files_to_proc = 1
 
-    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {num_chunks_to_proc} from: {num_files_to_proc} documents, using {num_chunks_to_proc} chunks. Reading from: {args.input} and saving to: {args.output}. Ollama timeout is {timeout}. Show progress: {args.show_progress}. {Colors.RESET} ")
+    print(f"{Colors.GREEN} Generating  with library: {args.generator} and with model: {args.model}, number of tests to generate: {num_chunks_to_proc} from: {num_files_to_proc} documents, using {num_chunks_to_proc} chunks. Reading from: {args.input} and saving to: {args.output}. Ollama timeout is {timeout}. Show progress: {args.show_progress}. {Colors.RESET} ")
     
     #path to data
     in_dir_path = args.input
@@ -140,61 +151,96 @@ def main():
             data.extend(loadDataFromJsonl(filepath))
         #gen desired amount of chunks to process
         data_reduced = random.sample(data, min(num_chunks_to_proc, len(data)))
-        #convert to desired format
-        documents = [Document(text=t) for t in data_reduced]
 
         print("----- Data loaded -----")
     except Exception as e:
         print("\nError occured while loading data, error detail:", e)
 
-    # custom prompts
-    question_template = PromptTemplate(generate_question_prompt_template)
-    answer_template = PromptTemplate(generate_gt_prompt_template)
+    #--- generate data ---
+    final_data = []
+    #LlamaIndex
+    if (args.generator == "llama"):
+        #convert to desired format
+        documents = [Document(text=t) for t in data_reduced]
+        # custom prompts
+        question_template = PromptTemplate(generate_question_prompt_template)
+        answer_template = PromptTemplate(generate_gt_prompt_template)
 
+        try:
+            if (args.model == "OPENAI"):    #OPENAI
+                generator_llm = OpenAI(model=GPTmodel)
+
+            else:   #OLLAMA
+                generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = timeout)
+        except Exception as e:
+            print("\nError occured while creating model instances, error detail:", e)
+
+        try:
+            generator = DatasetGenerator.from_documents(
+                documents=documents,
+                llm=generator_llm,
+                num_questions_per_chunk=1,
+                show_progress=show_progress,
+                # rewrite prompts
+                text_question_template=question_template,
+                text_qa_template=answer_template
+            )
+
+            #generate questions and gt
+            gen_out = generator.generate_dataset_from_nodes()
+
+            for i, pair in enumerate(gen_out.qr_pairs):
+                final_data.append({
+                    "question_id": f"gen_li_{i + 1}",
+                    "question": pair[0],
+                    "ground_truth": pair[1]
+                })
+
+        except Exception as e:
+            print("\nError occured while generating data with LlamaIndex, error detail:", e)
+
+    #Deepeval
+    else:
+        try:
+            if (args.model == "OPENAI"):    #OPENAI
+                generator_llm = DeepEvalOpenAI(model=GPTmodel)
+            else:   #OLLAMA
+                pass
+                # generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = timeout)
+
+            generator = Synthesizer(
+                model=generator_llm
+            )
+
+            final_contexts = [[c] for c in data_reduced]
+            generator.generate_goldens_from_contexts(
+                    contexts=final_contexts,
+                    max_goldens_per_context=1,
+                    include_expected_output=True
+            )
+
+            for i, golden in enumerate(generator.synthetic_goldens):
+                final_data.append({
+                    "question_id": f"gen_de_{i + 1}",
+                    "question": golden.input,
+                    "ground_truth": golden.expected_output
+                })
+            
+        except Exception as e:
+            print("\nError occured while generating data with Deepeval, error detail:", e)
+        
+
+
+    #---save data---
     try:
-        #--- generate data ---
-        if (args.model == "OPENAI"):    #OPENAI
-            generator_llm = OpenAI(model=GPTmodel)
-
-        else:   #OLLAMA
-            generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = timeout)
-    except Exception as e:
-        print("\nError occured while creating model instances, error detail:", e)
-
-    try:
-        generator = DatasetGenerator.from_documents(
-            documents=documents,
-            llm=generator_llm,
-            num_questions_per_chunk=1,
-            show_progress=show_progress,
-            # rewrite prompts
-            text_question_template=question_template,
-            text_qa_template=answer_template
-        )
-
-        #generate questions and gt
-        gen_out = generator.generate_dataset_from_nodes()
-
-    except Exception as e:
-        print("\nError occured while generating data, error detail:", e)
-
-    try:
-        #--- save data ---
-        final_data = []
-        for i, pair in enumerate(gen_out.qr_pairs):
-            final_data.append({
-                "question_id": f"gen_li_{i + 1}",
-                "question": pair[0],
-                "ground_truth": pair[1]
-            })
-
-        output_name = f"{str(len(final_data))}_{num_files_final}_{args.model}_{out_dir_path}"
+        output_name = f"{str(len(final_data))}_{num_files_final}_{args.generator}_{args.model}_{out_dir_path}"
         with open(output_name, 'w', encoding='utf-8') as f:
             json.dump(final_data, f, ensure_ascii=False, indent=4)
+
+        print(f"{Colors.GREEN} ----- Generating completed, saved to file: {output_name} ----- {Colors.RESET}")
+
     except Exception as e:
         print("\nError occured while saving data, error detail:", e)
-
-    print(f"{Colors.GREEN} ----- Generating completed, saved to file: {output_name} ----- {Colors.RESET}")
 
 if __name__ == "__main__":
     main()
