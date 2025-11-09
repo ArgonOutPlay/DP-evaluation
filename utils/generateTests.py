@@ -6,6 +6,7 @@ import argparse
 import glob
 from typing import List
 
+#llama
 from llama_index.core import Document
 from llama_index.core.evaluation import DatasetGenerator    # ignore warnings, older version is required
 #openai
@@ -14,11 +15,11 @@ from llama_index.llms.openai import OpenAI
 from llama_index.llms.ollama import Ollama
 from llama_index.core.prompts import PromptTemplate
 
-
+#deepeval
 from deepeval.synthesizer import Synthesizer, Evolution
-
+#models
 from deepeval.models import GPTModel as DeepEvalOpenAI
-from deepeval_wrappers import CustomEmbeddingModel
+from deepeval.models import OllamaModel as DeepEvalOllama
 
 #colors for better logs in terminal
 class Colors:
@@ -107,7 +108,7 @@ def main():
     parser.add_argument("--timeout",
                     type=float,
                     default=300.0,
-                    help="Timeout for Ollama, default is 300.0s. Its timeout for whole dataset. (one Ollama on sophie ~ 500 questions in 300.0s)")
+                    help="Timeout for Ollama, default is 300.0s. Only works for llama generator. Its timeout for whole dataset. (one Ollama on sophie ~ 500 questions in 300.0s)")
     parser.add_argument("--show_progress",
                 action="store_true",
                 help="Show progress while generating data. Information about every sample.")
@@ -205,8 +206,7 @@ def main():
             if (args.model == "OPENAI"):    #OPENAI
                 generator_llm = DeepEvalOpenAI(model=GPTmodel)
             else:   #OLLAMA
-                pass
-                # generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = timeout)
+                generator_llm = DeepEvalOllama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"))
 
             generator = Synthesizer(
                 model=generator_llm
