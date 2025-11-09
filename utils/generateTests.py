@@ -2,14 +2,12 @@ import os
 from dotenv import load_dotenv
 import random
 import json
-import pandas
 import argparse
 import glob
 from typing import List
 
 from llama_index.core import Document
-from llama_index.core.evaluation import DatasetGenerator
-from tqdm import tqdm
+from llama_index.core.evaluation import DatasetGenerator    # ignore warnings, older version is required
 #openai
 from llama_index.llms.openai import OpenAI
 #ollama
@@ -41,10 +39,10 @@ def loadDataFromJsonl (path: str) -> List[str]:
     return texts
 
 ending = "*.jsonl"   #glob
-#number of generated questions
+#Used models
 GPTmodel = "gpt-4o"
 OLLAMAmodel = "gemma3:12b"
-
+#custom prompts used for generating questions and answers
 generate_question_prompt_template = (
     """
     Here is a piece of text with some information:
@@ -70,11 +68,11 @@ generate_gt_prompt_template = (
     Follow these rules:
     1) Answer the question using ONLY the given context. Do not generate any other text. Respond ONLY with the answer.
     2) Do NOT just extract name or a date. Explain the answer based on the context.
+    3) Do NOT write things such as "According to text..." or "Based on the context..."
     """
 )
 
 def main():
-    #parse parameters
     parser = argparse.ArgumentParser(description="Genereting questions for RAG.")
     parser.add_argument("--model",
                         type=str,
@@ -95,13 +93,34 @@ def main():
     parser.add_argument("--num_files_to_proc",
                     type=int,
                     default=1)
+    parser.add_argument("--timeout",
+                    type=float,
+                    default=300.0,
+                    help="Timeout for Ollama, default is 300.0s. Its timeout for whole dataset. (one Ollama on sophie ~ 500 questions in 300.0s)")
+    parser.add_argument("--show_progress",
+                action="store_true",
+                help="Show progress while generating data. Information about every sample.")
     
     args = parser.parse_args()
-    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {args.num_chunks_to_proc} from: {args.num_files_to_proc} documents, using {args.num_chunks_to_proc} chunks. Reading from: {args.input} and saving to: {args.output}. {Colors.RESET} ")
-    
-    num_chunks_to_proc = args.num_chunks_to_proc
-    num_files_to_proc = args.num_files_to_proc
 
+    show_progress = False
+    if (args.show_progress):
+        show_progress = True
+
+    timeout = args.timeout
+    if (timeout < 10.0):
+        timeout = 10.0
+
+    num_chunks_to_proc = args.num_chunks_to_proc
+    if (num_chunks_to_proc < 0):
+        num_chunks_to_proc = 1
+
+    num_files_to_proc = args.num_files_to_proc
+    if (num_files_to_proc < 0):
+        num_files_to_proc = 1
+
+    print(f"{Colors.GREEN} Generating with model: {args.model}, number of tests to generate: {num_chunks_to_proc} from: {num_files_to_proc} documents, using {num_chunks_to_proc} chunks. Reading from: {args.input} and saving to: {args.output}. Ollama timeout is {timeout}. Show progress: {args.show_progress}. {Colors.RESET} ")
+    
     #path to data
     in_dir_path = args.input
     out_dir_path = args.output
@@ -132,39 +151,48 @@ def main():
     question_template = PromptTemplate(generate_question_prompt_template)
     answer_template = PromptTemplate(generate_gt_prompt_template)
 
-    #--- generate data ---
-    if (args.model == "OPENAI"):    #OPENAI
-        generator_llm = OpenAI(model=GPTmodel)
+    try:
+        #--- generate data ---
+        if (args.model == "OPENAI"):    #OPENAI
+            generator_llm = OpenAI(model=GPTmodel)
 
-    else:   #OLLAMA
-        generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = 300.0)
+        else:   #OLLAMA
+            generator_llm = Ollama(model=OLLAMAmodel, base_url=os.getenv("OLLAMA_URL"), request_timeout = timeout)
+    except Exception as e:
+        print("\nError occured while creating model instances, error detail:", e)
 
-    generator = DatasetGenerator.from_documents(
-        documents=documents,
-        llm=generator_llm,
-        num_questions_per_chunk=1,
-        show_progress=True,
-        # rewrite prompts
-        text_question_template=question_template,
-        text_qa_template=answer_template
-    )
+    try:
+        generator = DatasetGenerator.from_documents(
+            documents=documents,
+            llm=generator_llm,
+            num_questions_per_chunk=1,
+            show_progress=show_progress,
+            # rewrite prompts
+            text_question_template=question_template,
+            text_qa_template=answer_template
+        )
 
+        #generate questions and gt
+        gen_out = generator.generate_dataset_from_nodes()
 
-    #generate questions and gt
-    gen_out = generator.generate_dataset_from_nodes()
+    except Exception as e:
+        print("\nError occured while generating data, error detail:", e)
 
-    #--- save data ---
-    final_data = []
-    for i, pair in enumerate(gen_out.qr_pairs):
-        final_data.append({
-            "question_id": f"gen_li_{i + 1}",
-            "question": pair[0],
-            "ground_truth": pair[1]
-        })
+    try:
+        #--- save data ---
+        final_data = []
+        for i, pair in enumerate(gen_out.qr_pairs):
+            final_data.append({
+                "question_id": f"gen_li_{i + 1}",
+                "question": pair[0],
+                "ground_truth": pair[1]
+            })
 
-    output_name = str(len(final_data)) + "_" +  args.model + "_" + out_dir_path
-    with open(output_name, 'w', encoding='utf-8') as f:
-        json.dump(final_data, f, ensure_ascii=False, indent=4)
+        output_name = f"{str(len(final_data))}_{num_files_final}_{args.model}_{out_dir_path}"
+        with open(output_name, 'w', encoding='utf-8') as f:
+            json.dump(final_data, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        print("\nError occured while saving data, error detail:", e)
 
     print(f"{Colors.GREEN} ----- Generating completed, saved to file: {output_name} ----- {Colors.RESET}")
 
