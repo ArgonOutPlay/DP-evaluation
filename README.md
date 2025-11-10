@@ -1,6 +1,9 @@
 # RAG evaluation
 - Main repository is [here](https://github.com/DCGM/semant-demo).
 
+### Evaluation
+- If you want to run evaluation script using deepeval with ollama, use this command: deepeval set-ollama deepseek-r1:1.5b
+
 ### Tips if something does not work
 - If "generateTests.py" Ollama mode does not work while generating to many questions, try to increase timeout (default 300s).
 - Both evaluate.py and generateTests.py require .env file.
@@ -21,5 +24,6 @@
 
 #### generateTests.py requires:
 - OPENAI_API_KEY
+- OLLAMA_URL
 
 

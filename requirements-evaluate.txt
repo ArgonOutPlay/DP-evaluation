@@ -1,5 +1,6 @@
 # common dependencies
 python-dotenv
 ragas
+deepeval
 # rag from semant_demo
 -e ../../RAG-projekt/semant-demo/semant_demo_backend
