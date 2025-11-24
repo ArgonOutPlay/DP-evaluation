@@ -54,7 +54,7 @@ generate_question_prompt_template = (
     """
     Here is a piece of text with some information:
     {context_str}
-    Your task is to act as user who has not seen this text. \
+    Your task is to act as user who has not seen this text. Questions will be used to evaluate RAG. \
     Based on the information in the text, formulate ONE natural sounding question about a key fact or detail. 
     Follow these rules:
     1) The question MUST be standalone question that makes sense on its own.
