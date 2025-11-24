@@ -700,29 +700,9 @@
         "ground_truth": "Approximately 478 different kinds of fish were known before the 19th century, as the Swedish naturalist Linné estimated the number of known fish species to be 478."
     },
     {
-        "question_id": "gen_li_301",
-        "question": "Who will be the director of the new Knaben Vürgerschule in Oberplan?",
-        "ground_truth": "According to the context, Herr Josef Walter will be the director of the new Knaben Vürgerschule in Oberplan."
-    },
-    {
-        "question_id": "gen_li_302",
-        "question": "By approximately how much did the price of finished products increase compared to the increase in the price of the raw materials like satin?",
-        "ground_truth": "The price of finished products increased by approximately 30 percent, which was a reduction from the more than 50 percent increase observed in the price of raw materials like satin."
-    },
-    {
-        "question_id": "gen_li_303",
+        "question_id": "gen_li_303_TODO",
         "question": "Why did Jennie Dolly have to pawn her jewelry in Paris?",
         "ground_truth": "Jennie Dolly had to pawn her jewelry in Paris because she had \"Schulden und Wunden\" and needed to do so."
-    },
-    {
-        "question_id": "gen_li_304",
-        "question": "How many more bales of cotton were expected from the new harvest compared to three years prior?",
-        "ground_truth": "The context states that 943,000 bales more cotton were expected from the new harvest compared to three years prior."
-    },
-    {
-        "question_id": "gen_li_305",
-        "question": "If a cubic equation has the form y³ — ay + b = 0 and b is positive, what is the relationship between the product of its roots and the value of b?",
-        "ground_truth": "If a cubic equation has the form y³ — ay + b = 0 and b is positive, the product of its roots (a' β' γ') is equal to — b."
     },
     {
         "question_id": "gen_li_306",
