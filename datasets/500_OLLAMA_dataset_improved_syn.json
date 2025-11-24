@@ -260,54 +260,19 @@
         "ground_truth": "According to the text, individuals aged 35 to 45 years will belong to the first reserve of the SA."
     },
     {
-        "question_id": "gen_li_102",
+        "question_id": "gen_li_102_TODO",
         "question": "What figures are depicted above the niche, and what is the top figure called?",
         "ground_truth": "Above the niche, a dove is depicted in a ray of glory, and the top figure is called God-Father."
     },
     {
-        "question_id": "gen_li_103",
-        "question": "When will the initial draw take place?",
-        "ground_truth": "The initial draw will take place on the ninth of December."
-    },
-    {
         "question_id": "gen_li_104",
-        "question": "When must shareholders deposit their shares to be eligible to attend?",
+        "question": "When must shareholders deposit their shares at the Dresdner Bank to be eligible to attend?",
         "ground_truth": "Shareholders must deposit their shares at the Dresdner Bank, Filiale Reichenberg, and Zweigstelle Gablonz, as well as at the Deutsche Bank, Filiale Reichenberg, during business hours until August 8, 1942, and keep them deposited until the end of the main assembly to be eligible to attend."
     },
     {
         "question_id": "gen_li_105",
         "question": "What is the approximate number of Montenegrins involved in the effort to capture Kotor?",
         "ground_truth": "The approximate number of Montenegrins involved in the effort to capture Kotor is 25,000."
-    },
-    {
-        "question_id": "gen_li_106",
-        "question": "Who is credited with the Czech national team's loss?",
-        "ground_truth": "Herr Hencl is credited with the Czech national team's loss, along with him and the goalkeeper Planička, due to the goalkeeper's \"overhuman\" work."
-    },
-    {
-        "question_id": "gen_li_107",
-        "question": "When was this news published?",
-        "ground_truth": "This news was published on Freitag, den 1. Dezember 1938."
-    },
-    {
-        "question_id": "gen_li_108",
-        "question": "What was the total amount of money available in cash at the beginning of the period?",
-        "ground_truth": "The context states that at the beginning of the period, there was 470.31 in cash, which was the amount remaining from the previous year 1905/6."
-    },
-    {
-        "question_id": "gen_li_109",
-        "question": "When was the book published?",
-        "ground_truth": "The book was published in Prag in 1908."
-    },
-    {
-        "question_id": "gen_li_110",
-        "question": "During what part of the dance do the partners hold onto each other's right hands?",
-        "ground_truth": "During the dance, the partners hold onto each other's right hands from takt 9 to takt 12, when they dance a trotting turn to the right."
-    },
-    {
-        "question_id": "gen_li_111",
-        "question": "Where did this come from?",
-        "ground_truth": "This came from Josef Wiltschko in Krummau."
     },
     {
         "question_id": "gen_li_112",
@@ -318,16 +283,6 @@
         "question_id": "gen_li_113",
         "question": "How often is the newspaper published in Reichenberg?",
         "ground_truth": "The newspaper is published in Reichenberg daily twice."
-    },
-    {
-        "question_id": "gen_li_114",
-        "question": "How much money was allocated for the preliminary work on the planned electric railway?",
-        "ground_truth": "One thousand five hundred marks were allocated for the preliminary work on the projected electric railway."
-    },
-    {
-        "question_id": "gen_li_115",
-        "question": "What position did the Hungarian statesman hold when the emperor spoke to him?",
-        "ground_truth": "The Hungarian statesman was not in an official position when the emperor spoke to him."
     },
     {
         "question_id": "gen_li_116",
@@ -350,47 +305,12 @@
         "ground_truth": "Someone should send offers related to Scandinavian export items to the Annonzen=Expediien von Rudolf Mosse in Hamburg."
     },
     {
-        "question_id": "gen_li_120",
-        "question": "When will the payment deadline for the first installment begin?",
-        "ground_truth": "The payment deadline for the first installment will begin on the day of the meeting, which is November 14, 1869, and will continue in the coming days."
-    },
-    {
-        "question_id": "gen_li_121",
-        "question": "How much does a single copy of the newspaper cost?",
-        "ground_truth": "A single copy of the newspaper costs Lei 3."
-    },
-    {
-        "question_id": "gen_li_122",
+        "question_id": "gen_li_122_TODO",
         "question": "When is the Volkstanzabend taking place?",
         "ground_truth": "The Volkstanzabend is taking place today, Friday, December 1st, at 5:20."
     },
     {
-        "question_id": "gen_li_123",
-        "question": "When was the election for the district school council held?",
-        "ground_truth": "The election for the district school council was held on 8th November."
-    },
-    {
-        "question_id": "gen_li_124",
-        "question": "Who wrote the novel?",
-        "ground_truth": "The novel was written by 111. Mark Twain, as stated in the text \"Irta: 111. Mark Tvain.\""
-    },
-    {
-        "question_id": "gen_li_125",
-        "question": "What happens when children have too many toys?",
-        "ground_truth": "When children are too richly provided with toys, the play turns into playfulness, the child gets used to it, and more serious occupations do not taste good afterward."
-    },
-    {
-        "question_id": "gen_li_126",
-        "question": "When was the possibility of England’s decision first mentioned?",
-        "ground_truth": "The possibility of England’s decision was first mentioned in the year 1898."
-    },
-    {
-        "question_id": "gen_li_127",
-        "question": "How old was the man when he died?",
-        "ground_truth": "The man was 32 years old when he died."
-    },
-    {
-        "question_id": "gen_li_128",
+        "question_id": "gen_li_128_TODO",
         "question": "What was a consequence of the tariff discrimination affecting the export of \"tschsl.\" goods?",
         "ground_truth": "The tariff discrimination affected the export of \"tschsl.\" goods, which resulted in a significant disadvantage for the \"tschsl.\" export in favor of Austrian competition."
     },
@@ -415,19 +335,9 @@
         "ground_truth": "The accident involving Wenzel Krause occurred on the Laipaerstraße, near the waterworks."
     },
     {
-        "question_id": "gen_li_133",
-        "question": "When was the session adjourned?",
-        "ground_truth": "The session was adjourned until the 28th of December, as stated in the royal rescript that was read."
-    },
-    {
-        "question_id": "gen_li_134",
+        "question_id": "gen_li_134_TODO",
         "question": "Where was Herr Bolocan employed as a police officer?",
         "ground_truth": "Herr Bolocan was employed as a police officer in Cernauti."
-    },
-    {
-        "question_id": "gen_li_135",
-        "question": "How should payments for school fees be sent?",
-        "ground_truth": "School fees must be sent via the postal savings bank."
     },
     {
         "question_id": "gen_li_136",
@@ -445,29 +355,19 @@
         "ground_truth": "The deadline for submitting offers for the excavation work near the planned workshops of the mechanical engineering department of the Czech Technical University in Brünn is July 31st."
     },
     {
-        "question_id": "gen_li_139",
+        "question_id": "gen_li_139_TODO",
         "question": "Who is considered the best-dressed woman in Berlin?",
         "ground_truth": "According to the text, the German Crown Princess is considered the best-dressed woman in Berlin."
     },
     {
-        "question_id": "gen_li_140",
-        "question": "What type of people are suggested to lead the procession?",
-        "ground_truth": "The procession is suggested to be led by čekt uvěznění neb již z vězaní vyšli političti zločinci, which translates to those who are currently imprisoned or have recently been released from prison and are political criminals."
-    },
-    {
-        "question_id": "gen_li_141",
+        "question_id": "gen_li_141_TODO",
         "question": "When did the academy take place that was organized to commemorate the anniversary of Karel Bendl's death?",
         "ground_truth": "The academy that was organized to commemorate the anniversary of Karel Bendl's death took place on May 8th."
     },
     {
-        "question_id": "gen_li_142",
+        "question_id": "gen_li_142_TODO",
         "question": "What types of gifts or rewards did employers start giving to workers instead of food and drink?",
         "ground_truth": "Instead of food and drink, employers started giving money and other gifts to reward the workers above the agreed-upon wage after the harvest was completed."
-    },
-    {
-        "question_id": "gen_li_143",
-        "question": "When are the oral conferences regarding the trade agreement expected to begin?",
-        "ground_truth": "The oral conferences regarding the trade agreement are expected to begin on Wednesday in Berlin."
     },
     {
         "question_id": "gen_li_144",
@@ -475,34 +375,9 @@
         "ground_truth": "Dr. Salazar has been Ministerpräsident for ten years."
     },
     {
-        "question_id": "gen_li_145",
-        "question": "How many students participated in the excursion to Josefov, Cejl, the children's hospital, and Černá Pole?",
-        "ground_truth": "Forty-four students participated in the excursion to Josefov, Cejl, the children’s hospital, and Černá Pole, as indicated by the number \"44\" associated with that excursion."
-    },
-    {
-        "question_id": "gen_li_146",
-        "question": "How many students in the 6th grade took the written exams?",
-        "ground_truth": "Forty-two students in the 6th grade took the written exams."
-    },
-    {
-        "question_id": "gen_li_147",
+        "question_id": "gen_li_147_TODO",
         "question": "Where will the water cooperative extend along the Friedrichswalder Neiße?",
         "ground_truth": "The water cooperative will extend along the Friedrichswalder Neiße from Friedrichswald bis Gablonz=Brandl."
-    },
-    {
-        "question_id": "gen_li_148",
-        "question": "What was actually inside the large, dark object that was found?",
-        "ground_truth": "The large, dark object contained disinfection powder, which was needed because the lower house smelled very bad."
-    },
-    {
-        "question_id": "gen_li_149",
-        "question": "Is the building Adam is looking at called the Lazarettkirche?",
-        "ground_truth": "Yes, Adam asks if the building is the Peterskirche, but someone corrects him, stating that it is actually the Lazarettkirche."
-    },
-    {
-        "question_id": "gen_li_150",
-        "question": "What was the sentence given to the young man?",
-        "ground_truth": "The sentence given to the young man was six months of hard imprisonment."
     },
     {
         "question_id": "gen_li_151",
@@ -510,29 +385,9 @@
         "ground_truth": "Hospitals and private clinics in Cairo are being asked to report their bed availability and staffing levels because the existing lazarett facilities are apparently not sufficient to accommodate the unexpected number of wounded and sick soldiers."
     },
     {
-        "question_id": "gen_li_152",
-        "question": "How many Bohemian cattle were brought to the livestock market?",
-        "ground_truth": "Three hundred and twenty-nine Bohemian cattle were brought to the livestock market, as stated in the text: \"darunter waren 329 Stuck böhmische\"."
-    },
-    {
-        "question_id": "gen_li_153",
-        "question": "Was war der Grund, auf den sich der Kläger bezogen hat?",
-        "ground_truth": "Der Kläger hat sich auf das Gesetz vom Jahre 1915 bezogen, auf das er sich bezieht, wobei die Verteidiger argumentierten, dass es bloß eine Notverordnung war und vom österreichischen Parlament nicht ratifiziert worden sei."
-    },
-    {
         "question_id": "gen_li_154",
         "question": "What were the names of the two people managing the \"Mickenhaner Glassandwerke\" company?",
         "ground_truth": "According to the context, the two people managing the \"Mickenhaner Glassandwerke\" company were Hugo Schwarz, Direktor der Anglo-Österreich. Bank in Wien, and Edwin Riethof, Fabrikant in Teplitz-Schönau."
-    },
-    {
-        "question_id": "gen_li_155",
-        "question": "Where will the district gymnastics festival be held?",
-        "ground_truth": "The district gymnastics festival will be held in Schlag."
-    },
-    {
-        "question_id": "gen_li_156",
-        "question": "What kind of efforts are being made to foster interest and understanding in people of all ages?",
-        "ground_truth": "Successful efforts are being made everywhere to awaken and increase both interest and loving understanding in people of all ages."
     },
     {
         "question_id": "gen_li_157",
@@ -540,24 +395,9 @@
         "ground_truth": "You should seek professional medical help for nosebleeds due to the frequency of their occurrence and the size of the blood loss, and also when local pathological changes like polyps or ulcers are present, and generally when the nosebleeds are more frequent or stronger."
     },
     {
-        "question_id": "gen_li_158",
-        "question": "According to the information, what type of events or practices do the customs being referenced resemble?",
-        "ground_truth": "The customs being referenced resemble the Roman Saturnalia and Lusernalia."
-    },
-    {
         "question_id": "gen_li_159",
         "question": "In what locations did the five subjects of Wolf Soldan and Margarethe von Steinbach reside?",
         "ground_truth": "The five subjects of Wolf Soldan and Margarethe von Steinbach resided in Groß- und Kleinkaudern, Niesenbahn and Postitz."
-    },
-    {
-        "question_id": "gen_li_160",
-        "question": "Where do Eschner and the woman supposedly live?",
-        "ground_truth": "According to the text, they supposedly live in Neu-wolta."
-    },
-    {
-        "question_id": "gen_li_161",
-        "question": "At what age might she be expected to live if she loses her leg?",
-        "ground_truth": "She might be expected to live approximately 50 years if she loses her leg."
     },
     {
         "question_id": "gen_li_162",
@@ -565,27 +405,12 @@
         "ground_truth": "The initial source of capital for small settlements and plantations in New Guinea was the revenue from hunting paradise birds."
     },
     {
-        "question_id": "gen_li_163",
-        "question": "How many people were cremated in the year prior to the period being discussed?",
-        "ground_truth": "The number of people cremated in the year prior to the period being discussed was 10,064."
-    },
-    {
-        "question_id": "gen_li_164",
-        "question": "What was written inside the hat that helped identify the attacker?",
-        "ground_truth": "The attacker's name was written inside the hat, which allowed them to be secured and arrested."
-    },
-    {
-        "question_id": "gen_li_165",
-        "question": "Who was appointed as a temporary lecturer for the chair of animal hygiene?",
-        "ground_truth": "Oberveterinär Dr. med. vot. habil. Otto Hofferber is entrusted with the temporary assumption of the ordinary chair for animal hygiene."
-    },
-    {
         "question_id": "gen_li_166",
         "question": "When did Hans v. Schönberg and Dr. Georg Komerstadt act as schiedsrichter?",
         "ground_truth": "Hans v. Schönberg and Dr. Georg Komerstadt acted as schiedsrichter in a dispute between Rudolf and a creditor, Paul Weberstedt."
     },
     {
-        "question_id": "gen_li_167",
+        "question_id": "gen_li_167_TODO",
         "question": "Where is Erich’s atelier located?",
         "ground_truth": "Erich’s atelier is located schräg gegenüber, which means diagonally opposite, to Elena’s apartment."
     },
@@ -593,11 +418,6 @@
         "question_id": "gen_li_168",
         "question": "What is the interest rate on the \"Pilsen-Priesen B.\" bonds?",
         "ground_truth": "The \"Pilsen-Priesen B.\" bonds have an interest rate of 4%."
-    },
-    {
-        "question_id": "gen_li_169",
-        "question": "What is the maximum number of years mentioned for a loan or investment period?",
-        "ground_truth": "The maximum number of years mentioned for a loan or investment period is fifty years, as indicated by several entries such as \"50 J. verl.\" and \"50 J. verl.\"."
     },
     {
         "question_id": "gen_li_170",
@@ -615,16 +435,6 @@
         "ground_truth": "L. B. Kašpar is the publisher of the \"Evanjelicke Listy,\" and he is a pastor in Hradišti."
     },
     {
-        "question_id": "gen_li_173",
-        "question": "What value does h become when 3h - 50 is set to zero?",
-        "ground_truth": "When 3h - 50 is set to zero, h becomes 30."
-    },
-    {
-        "question_id": "gen_li_174",
-        "question": "What formulas are used to determine the roots of the equation y³ + ay — b = 0?",
-        "ground_truth": "The roots of the equation y³ + ay — b = 0 are determined using formulas derived from Cardan's formula, involving a first auxiliary angle capable of logarithmic solution, and formulas previously derived to obtain y₂, y₃, which include expressions like a ctg & — tg �, a ctg � + tg 4, and √3, alongside the formulas derived from auxiliary equations."
-    },
-    {
         "question_id": "gen_li_175",
         "question": "How much sugar did Willibald Fritsch obtain beyond what was allocated to him?",
         "ground_truth": "Willibald Fritsch obtained 30,000 kg of sugar beyond what was allocated to him."
@@ -640,12 +450,7 @@
         "ground_truth": "Péchy Zsigmond was one of the outstanding members of the association and was greeted in the first place during the dinner."
     },
     {
-        "question_id": "gen_li_178",
-        "question": "What does the text say Christ tells his church to do despite their suffering?",
-        "ground_truth": "Christ tells his church to seek to believe even more strongly than before."
-    },
-    {
-        "question_id": "gen_li_179",
+        "question_id": "gen_li_179_TODO",
         "question": "What specific activities was Salhausen prohibited from doing related to fishing and trapping?",
         "ground_truth": "Salhausen was prohibited from setting nets, digging pits, or engaging in any fishing activities, neither during the day nor at night."
     },
@@ -655,44 +460,9 @@
         "ground_truth": "Marie Prošková was the form teacher for the fourth class."
     },
     {
-        "question_id": "gen_li_181",
-        "question": "How much money does he typically earn each day?",
-        "ground_truth": "He typically earns 40 to 80 Lei daily, and sometimes as much as 100 Lei."
-    },
-    {
-        "question_id": "gen_li_182",
-        "question": "How much money was collected in taxes from the twenty new banks?",
-        "ground_truth": "The context states that a total of 833,000 zl was collected in taxes from the twenty new banks."
-    },
-    {
-        "question_id": "gen_li_183",
-        "question": "What was the net profit remaining after depreciation and allocations to reserves?",
-        "ground_truth": "After depreciation of 3,38 million K and allocation of 2,55 million K to reserves, a net profit of 1,764,049 K remains."
-    },
-    {
         "question_id": "gen_li_184",
-        "question": "How were some of the important documents saved?",
+        "question": "How were some of the important documents saved by the Ratsmann Dorn?",
         "ground_truth": "The Ratsmann Dorn saved some of the important documents by hiding a large part of them on his person."
-    },
-    {
-        "question_id": "gen_li_185",
-        "question": "What is the annual school fee?",
-        "ground_truth": "The annual school fee is 200 K."
-    },
-    {
-        "question_id": "gen_li_186",
-        "question": "What is the value associated with \"Assicurazioni generali\"?",
-        "ground_truth": "The value associated with \"Assicurazioni generali\" is 2100."
-    },
-    {
-        "question_id": "gen_li_187",
-        "question": "If the white king takes the rook on d1, what move allows black to win?",
-        "ground_truth": "If the white king takes the rook on d1, black can win with the move g schlägt 1."
-    },
-    {
-        "question_id": "gen_li_188",
-        "question": "What was the amount of the contribution to the cremation fund?",
-        "ground_truth": "The contribution to the cremation fund was left at two crowns."
     },
     {
         "question_id": "gen_li_189",
@@ -700,59 +470,14 @@
         "ground_truth": "Viléma Halámová was from Mokré Hory."
     },
     {
-        "question_id": "gen_li_190",
-        "question": "Under what legal authority is payment ultimately compelled?",
-        "ground_truth": "Payment is ultimately compelled through the legally mandated obligation according to § 26 U.-V.=G. in the administrative way."
-    },
-    {
-        "question_id": "gen_li_191",
-        "question": "Who attended the consecration of the church and cemetery?",
-        "ground_truth": "According to the text, a very respected Prince George of Lobkowicz attended the consecration of the church and cemetery."
-    },
-    {
         "question_id": "gen_li_192",
         "question": "What is the address of the Gresham agency?",
         "ground_truth": "The address of the Gresham agency is Fő-utcza 45. sz. (Haydu-ház) in Kassa."
     },
     {
-        "question_id": "gen_li_193",
-        "question": "How did the man die?",
-        "ground_truth": "The man, Richard Bach, died after another deranged person entered his open cell and, during a fight, grabbed a chair and beat him until he collapsed."
-    },
-    {
-        "question_id": "gen_li_194",
+        "question_id": "gen_li_194_TODO",
         "question": "During what years are there mentions of Anna von Rosenberg, the wife of Heinrich von Leipa?",
         "ground_truth": "According to the text, there are mentions of Anna von Rosenberg, the wife of Heinrich von Leipa, from the years 1363—1377."
-    },
-    {
-        "question_id": "gen_li_195",
-        "question": "What was the amount of money Rudolf promised to pay back in installments?",
-        "ground_truth": "Rudolf promised to pay back 200 Taler, which is equivalent to 30 w. Gr., in installments."
-    },
-    {
-        "question_id": "gen_li_196",
-        "question": "What street is the house located at where viewings are held between 2 and 5 o’clock?",
-        "ground_truth": "The viewings are held at Glockengasse Nr. 9."
-    },
-    {
-        "question_id": "gen_li_197",
-        "question": "What was the total amount of deposits from regular members and contributors?",
-        "ground_truth": "The total amount of deposits from regular members and contributors was 6586 zl. 20 kr."
-    },
-    {
-        "question_id": "gen_li_198",
-        "question": "When were the recent local elections held in the place called Hohenelebe?",
-        "ground_truth": "The recent local elections in the place called Hohenelebe were held recently, as indicated by the text mentioning \"der Ausfall der jüngsten Gemeindewahlen in unserem Orte\"."
-    },
-    {
-        "question_id": "gen_li_199",
-        "question": "Where did the person end up lying down?",
-        "ground_truth": "The person ended up lying down on the lawn of the Széchenyi park, because he was encouraged by the warm summer night."
-    },
-    {
-        "question_id": "gen_li_200",
-        "question": "What time does the Jewish service begin today?",
-        "ground_truth": "The Jewish service begins at 4:00 PM, as stated in the context: \"Beim heutigen Abend-gottesdienst predigt Herr Dr. Levy im neuen Tempel, Glacis 57. Beginn des Gottesdienstes 16 Uhr.\""
     },
     {
         "question_id": "gen_li_201",
@@ -765,39 +490,9 @@
         "ground_truth": "The Museum der Stadt Wien, with its Roman branch of Museum Vindobonense, can be considered a relief for the planned Niederösterreichisches Landesmuseum because it allows for the latter's establishment with lesser space requirements."
     },
     {
-        "question_id": "gen_li_203",
-        "question": "What was the scheduled topic of the meeting that the Social Democrats had called?",
-        "ground_truth": "The Social Democrats had called a meeting where Abg. Seliger should speak against Abg. Heine."
-    },
-    {
-        "question_id": "gen_li_204",
-        "question": "When will the first drawing take place?",
-        "ground_truth": "The first drawing will take place on June 25, 1898, as stated in the context."
-    },
-    {
-        "question_id": "gen_li_205",
-        "question": "How many 12-year-old individuals were included?",
-        "ground_truth": "According to the provided data, there were sixteen 12-year-old individuals included."
-    },
-    {
-        "question_id": "gen_li_206",
-        "question": "Which locations appear multiple times in the list?",
-        "ground_truth": "Praha, Jaroměřice, Prostějov, Luhačovice, and Sněžka appear multiple times in the list of locations."
-    },
-    {
-        "question_id": "gen_li_207",
-        "question": "How many school reports were received during the 1906-7 school year?",
-        "ground_truth": "According to the text, 136 school reports were received during the 1906-7 school year."
-    },
-    {
         "question_id": "gen_li_208",
         "question": "What are the prices for receiving a list of Paris hygiene rubber goods?",
         "ground_truth": "You can receive a list of Paris hygiene rubber goods by sending 1 Krone in stamps and you will receive it completely free of charge and discreetly."
-    },
-    {
-        "question_id": "gen_li_209",
-        "question": "Could people potentially fill empty movie theaters if they were offered tickets at a price that matched their ability to pay?",
-        "ground_truth": "Yes, people could potentially fill empty movie theaters if they were offered tickets at a price that matched their ability to pay."
     },
     {
         "question_id": "gen_li_210",
@@ -810,12 +505,7 @@
         "ground_truth": "Lord Methuen received the supreme command over a division in the Boer War in South Africa and formed the outermost left (western) wing of the English deployment, with the task of relieving Kimberley."
     },
     {
-        "question_id": "gen_li_212",
-        "question": "Where is the factory that manufactures this product located?",
-        "ground_truth": "The factory that manufactures this product is located in Pregrada bel Rohltsch-Sauerbrunn."
-    },
-    {
-        "question_id": "gen_li_213",
+        "question_id": "gen_li_213_TODO",
         "question": "How much money has the city of Prague donated to the industrial school?",
         "ground_truth": "The city of Prague has donated 3200 zl. to the industrial school."
     },
@@ -830,64 +520,19 @@
         "ground_truth": "Antonio Salieri began to have close connections with the institution in the year 1778, when he, Glucks Lieblings-schüler, began his relationship with the Scala."
     },
     {
-        "question_id": "gen_li_216",
+        "question_id": "gen_li_216_TODO",
         "question": "How long was Dr. Strejac's time away from the city’s health office?",
         "ground_truth": "Dr. Strejac was away from the city’s health office for a 40-day study leave."
     },
     {
-        "question_id": "gen_li_217",
-        "question": "Where was the body of the 63-year-old man found?",
-        "ground_truth": "The body of the 63-year-old Maurerpolier Johann Krivn was found in the Schimitzer Feldern, specifically on a tree."
-    },
-    {
-        "question_id": "gen_li_218",
-        "question": "Where were the Japanese attacks primarily focused?",
-        "ground_truth": "The Japanese attacks were primarily focused on the airbases in the area between Kanton and Hankau, as well as on the capital of the Kwangsi province, Kweilin."
-    },
-    {
-        "question_id": "gen_li_219",
-        "question": "What was the opening exchange rate for Austrian currency?",
-        "ground_truth": "The opening exchange rate for Austrian currency was 0.008172."
-    },
-    {
-        "question_id": "gen_li_220",
-        "question": "Where did the three injured people go initially after the accident?",
-        "ground_truth": "The three injured people were initially taken to Hullein by a passing vehicle."
-    },
-    {
-        "question_id": "gen_li_221",
-        "question": "What is someone called if they are considered very stingy?",
+        "question_id": "gen_li_221_TODO",
+        "question": "What is someone called if they are considered very stingy in German?",
         "ground_truth": "If someone is considered very stingy, they are said to be \"Der ist nicht von Giebs (Gyps), der ist von Niemes (Nimm es).\""
     },
     {
-        "question_id": "gen_li_222",
-        "question": "How long are people required to stay in a resort if they forget their clothing card?",
-        "ground_truth": "People are required to leave after exactly three days if they arrive at a resort and have forgotten their clothing card."
-    },
-    {
-        "question_id": "gen_li_223",
-        "question": "How many girls are listed as attending?",
-        "ground_truth": "There are a total of 46 girls listed as attending."
-    },
-    {
-        "question_id": "gen_li_224",
-        "question": "When was this document written?",
-        "ground_truth": "This document was written on Donerstags ascensionis Dominj Anno pp xx° 1520, den 9. Juni Görlitz."
-    },
-    {
-        "question_id": "gen_li_225",
+        "question_id": "gen_li_225_TODO",
         "question": "When was the document dated that recorded the transfer of rights to the Gut Tetschen?",
         "ground_truth": "The document that recorded the transfer of rights to the Gut Tetschen was dated April 24, 1534."
-    },
-    {
-        "question_id": "gen_li_226",
-        "question": "What types of people are considered most suitable for contributing to the described work?",
-        "ground_truth": "The author names teachers as people they consider most suitable for contributing to the work, because they can be found even in the smallest, most forgotten places and can be inspired by the necessary ideals."
-    },
-    {
-        "question_id": "gen_li_227",
-        "question": "What were some of the closing values for stocks like Ung. Nationalbank and Bauxit?",
-        "ground_truth": "According to the closing values listed, Ung. Nationalbank closed at 135, and Bauxit closed at 23."
     },
     {
         "question_id": "gen_li_228",
@@ -895,7 +540,7 @@
         "ground_truth": "The second volume of Franz Karollus’s “Physik” contains the wave theory, acoustics, magnetism, electrical science, optics, as well as an expanded and supplemented section on Einstein's theory of relativity, an in-depth treatment of radio, telephotography, picture broadcasting, sound film, and finally the quantum theory of light."
     },
     {
-        "question_id": "gen_li_229",
+        "question_id": "gen_li_229_TODO",
         "question": "What is the phone number for E. Meininger?",
         "ground_truth": "The phone number for E. Meininger is 327."
     },
@@ -910,24 +555,9 @@
         "ground_truth": "The defining characteristic of an \"Eremit\" is that they do not create, and they do not value the earthly as something transient."
     },
     {
-        "question_id": "gen_li_232",
-        "question": "If all three factors in the product — 8uvw are negative, what is the sign of the result?",
-        "ground_truth": "If all three factors in the product — 8uvw are negative, the result is positive because the context states that if b is positive, then two factors are positive and one is negative, or all three are negative, resulting in + b."
-    },
-    {
-        "question_id": "gen_li_233",
-        "question": "What happened to the barrel of the gun?",
-        "ground_truth": "The barrel of the gun was completely torn apart and disappeared except for a very small remainder."
-    },
-    {
-        "question_id": "gen_li_234",
+        "question_id": "gen_li_234_TODO",
         "question": "What is the price of a genuine silver chain?",
         "ground_truth": "A genuine silver chain costs 1 forint 20 kr."
-    },
-    {
-        "question_id": "gen_li_235",
-        "question": "What could the extra power generated by the water be converted into?",
-        "ground_truth": "The extra power generated by the water could be converted into warmth and light, which would certainly serve the best purposes for heating and lighting work and living spaces."
     },
     {
         "question_id": "gen_li_236",
@@ -935,39 +565,9 @@
         "ground_truth": "You can purchase Bergmann's Lilienmilch-Seife at F. Herschel's Stadtapotheke in Krummau."
     },
     {
-        "question_id": "gen_li_237",
-        "question": "What reason does Adam give for needing to leave?",
-        "ground_truth": "Adam says he must leave to get the machine and go to work."
-    },
-    {
-        "question_id": "gen_li_238",
+        "question_id": "gen_li_238_TODO",
         "question": "Where will the wanderversammlungen take place?",
         "ground_truth": "The wanderversammlungen will take place in the Gasthause des Herrn Franz Kunert in Merzdorf bei Wartenberg and in the Gasthause des Herrn Karl Eichler in Schwabitz."
-    },
-    {
-        "question_id": "gen_li_239",
-        "question": "Where was the printing done?",
-        "ground_truth": "The printing was done in Kassár at VITÉZ A.'s book, image, and printing shop."
-    },
-    {
-        "question_id": "gen_li_240",
-        "question": "Was ist ein auffallendes Merkmal der Kämpfe bei El Alamein?",
-        "ground_truth": "Ein auffallendes Merkmal der Kämpfe bei El Alamein ist die völlige Abwesenheit der britischen Flotte."
-    },
-    {
-        "question_id": "gen_li_241",
-        "question": "What is the minimum amount someone needs to wager to potentially win 250,000 zl?",
-        "ground_truth": "The context states that \"každý má příležitost s malou sázkou 250 000 zl. vyhráti,\" meaning everyone has the opportunity to win 250,000 zl with a small wager of 250,000 zl."
-    },
-    {
-        "question_id": "gen_li_242",
-        "question": "Who scored the goals for Preßburg?",
-        "ground_truth": "Armin Weiß scored both goals for Preßburg, and he scored them both from free kicks from a distance of 25 and 40 meters."
-    },
-    {
-        "question_id": "gen_li_243",
-        "question": "Who was Rudolf?",
-        "ground_truth": "Rudolf was the Kirchenpatron of Burkhardswalde."
     },
     {
         "question_id": "gen_li_244",
@@ -975,12 +575,12 @@
         "ground_truth": "The Russian theater in Lviv was permitted to receive an annual sum of 3000 zl."
     },
     {
-        "question_id": "gen_li_245",
+        "question_id": "gen_li_245_TODO",
         "question": "Who is required to be explicitly approved by the exchange council in order to engage in wood trading at the Prague Commodity Exchange?",
         "ground_truth": "The context states that only those persons who are explicitly approved by the exchange council will be able to engage in wood trading at the Prague Commodity Exchange."
     },
     {
-        "question_id": "gen_li_246",
+        "question_id": "gen_li_246_TODO",
         "question": "How much money was distributed as interest from the Frau Ludowica Halbmayr foundation?",
         "ground_truth": "Five hundred florins are distributed as interest from the Frau Ludowica Halbmayr foundation."
     },
@@ -990,64 +590,14 @@
         "ground_truth": "A full-year subscription to “Der Praktische Landwirth” costs fl. 4."
     },
     {
-        "question_id": "gen_li_248",
-        "question": "Where should the young man reside and learn?",
-        "ground_truth": "The young man should reside and learn on the grounds and soil of the lordship Libeschitz."
-    },
-    {
-        "question_id": "gen_li_249",
-        "question": "When are the final exams held each year?",
-        "ground_truth": "The final exams, also known as Jahresabschlußprüfungen, are held from the 15th to the 20th of June each year."
-    },
-    {
-        "question_id": "gen_li_250",
-        "question": "Where did he place the bomb?",
-        "ground_truth": "He placed the bomb before the Landratsamt."
-    },
-    {
-        "question_id": "gen_li_251",
-        "question": "When did the first half of the school year end?",
-        "ground_truth": "The first half of the school year was ended on the 9th of February."
-    },
-    {
-        "question_id": "gen_li_252",
-        "question": "From what date were the requirements for furniture production significantly tightened?",
-        "ground_truth": "The requirements for furniture production were significantly tightened from 1 July 1942."
-    },
-    {
-        "question_id": "gen_li_253",
-        "question": "What was the temperature reading in Berlin?",
-        "ground_truth": "The temperature reading in Berlin was 840 m."
-    },
-    {
-        "question_id": "gen_li_254",
+        "question_id": "gen_li_254_TODO",
         "question": "Is there a place where pregnant women can receive advice about how their work impacts their physical health?",
         "ground_truth": "Yes, pregnant women can go to the existing pregnancy counseling centers, which often work with mother-consulting centers, to find out how far their professional work can be reconciled with their physical condition."
-    },
-    {
-        "question_id": "gen_li_255",
-        "question": "What kind of display or performance do people unknowingly create when they live their own lives?",
-        "ground_truth": "When they live their own lives, they unknowingly create a performance with a special charm that lies in the unvarnished naturalness."
-    },
-    {
-        "question_id": "gen_li_256",
-        "question": "How many members are on the committee?",
-        "ground_truth": "The committee consists of 9 members."
     },
     {
         "question_id": "gen_li_257",
         "question": "What was the value of Staatsbahn?",
         "ground_truth": "The value of Staatsbahn was 676.50."
-    },
-    {
-        "question_id": "gen_li_258",
-        "question": "How many seconds remained until the final whistle?",
-        "ground_truth": "The listener counted with Professor Schmieger the seconds that remained until the final whistle of the referee."
-    },
-    {
-        "question_id": "gen_li_259",
-        "question": "What value should be assigned to 'h' to eliminate the quadratic term in the cubic equation?",
-        "ground_truth": "To eliminate the quadratic term, the value of 'h' should be assigned as — a1."
     },
     {
         "question_id": "gen_li_260",
@@ -1070,7 +620,7 @@
         "ground_truth": "Počínaje, vyjdi vždy od toho, co již známo jest, odtud pak pokračuj snadným a přirozeným postupem k méně známému, šetře při tom pravidla, že látka každého stupně má býti náležitě probrána, dříve než se pokročí k novému."
     },
     {
-        "question_id": "gen_li_264",
+        "question_id": "gen_li_264_TODO",
         "question": "When is the most suitable time to swim in the sea?",
         "ground_truth": "According to an English doctor, the most suitable time to swim in the sea is two hours after breakfast, as the organism is then resistant enough to withstand the effect of the cold seawater."
     },
@@ -1078,11 +628,6 @@
         "question_id": "gen_li_265",
         "question": "What percentage interest rate is associated with the Böhm. Industrialbank's 501?",
         "ground_truth": "The Böhm. Industrialbank's 501 has a 412% interest rate, as stated in the given context."
-    },
-    {
-        "question_id": "gen_li_266",
-        "question": "How old is Liberia?",
-        "ground_truth": "Liberia is bald ein Jahrhundert alt."
     },
     {
         "question_id": "gen_li_267",
@@ -1095,49 +640,9 @@
         "ground_truth": "The price of the house number 28 with a field in Unter.Donaslowitz was 319.000 Kč and 212.666 Kč."
     },
     {
-        "question_id": "gen_li_269",
-        "question": "For how long did he admit to wearing the decorations?",
-        "ground_truth": "He admitted to wearing the four decorations for twenty years."
-    },
-    {
         "question_id": "gen_li_270",
         "question": "Who is kaszál Lantos Pista?",
         "ground_truth": "Lantos Pista is kaszál on the other end of the meadow, and it is visible that he bends his back as if commanding."
-    },
-    {
-        "question_id": "gen_li_271",
-        "question": "How were the racing vehicles organized into categories?",
-        "ground_truth": "The racing vehicles started in three categories based on their strength: 1. Tourenwagen, 2. Sportwagen, and 3. Rennwagen."
-    },
-    {
-        "question_id": "gen_li_272",
-        "question": "Where should offers be sent?",
-        "ground_truth": "Offers should be sent to the administration of this newspaper under O. L. M."
-    },
-    {
-        "question_id": "gen_li_273",
-        "question": "Who harmonized the music and melodies for the dances?",
-        "ground_truth": "The music and melodies for the dances were harmonized by the bandleader p. J. Schuster."
-    },
-    {
-        "question_id": "gen_li_274",
-        "question": "When is the deadline for parents to receive information regarding boarding arrangements?",
-        "ground_truth": "The deadline for parents to receive information regarding boarding arrangements is from 12th to 15th September, as the directorate recommends suitable and inexpensive private boarding arrangements before this time."
-    },
-    {
-        "question_id": "gen_li_275",
-        "question": "How much money was Nickels reportedly allowed to keep each month?",
-        "ground_truth": "Nickels declared during his interrogation that he had been authorized to keep 1000 Mark from the collected funds each month."
-    },
-    {
-        "question_id": "gen_li_276",
-        "question": "What was the largest prize amount won in the drawing held on the 1st of the month?",
-        "ground_truth": "The largest prize amount won in the drawing held on the 1st of the month was 20,000 Lire, which was won by the series 11.288 number 41."
-    },
-    {
-        "question_id": "gen_li_277",
-        "question": "How was the parliamentary guard member injured?",
-        "ground_truth": "A parliamentary guard member was injured by a cut to his hand caused by a sharp-edged tool, which doctors determined could only have been caused by a sharp instrument."
     },
     {
         "question_id": "gen_li_278",
@@ -1145,29 +650,9 @@
         "ground_truth": "P. Frant. Špalek, učitel v Dobrčicích 16 K."
     },
     {
-        "question_id": "gen_li_279",
+        "question_id": "gen_li_279_TODO",
         "question": "What is the date that Friedrich Raszlag's appointment was opened?",
         "ground_truth": "Friedrich Raszlag's appointment was opened on February 28th, as stated in the text, \"Eröffnet am 28. Februar vom kön. Gerichte Groß=Kanisza.\""
-    },
-    {
-        "question_id": "gen_li_280",
-        "question": "Where were the rehearsals for the symphony concert held?",
-        "ground_truth": "The rehearsals for the symphony concert were held in the Lohsaal."
-    },
-    {
-        "question_id": "gen_li_281",
-        "question": "On what date was this published?",
-        "ground_truth": "This was published on 29. November. 1904, as stated directly in the text."
-    },
-    {
-        "question_id": "gen_li_282",
-        "question": "What was the proposed solution Anna initially resisted?",
-        "ground_truth": "Anna initially resisted a radical solution, which was a departure, as she explained that her husband initially didn't want a solution of that kind."
-    },
-    {
-        "question_id": "gen_li_283",
-        "question": "When was Rudolf (5) born?",
-        "ground_truth": "According to the provided text, Rudolf (5) was born in a year that would make him 82 years old upon his death on November 4, 1627."
     },
     {
         "question_id": "gen_li_284",
@@ -1175,34 +660,14 @@
         "ground_truth": "According to the Vorwärts report from Münster, a central meeting of the supporters of the Rhineland Republic took place in Cologne."
     },
     {
-        "question_id": "gen_li_285",
-        "question": "When will the oral exams take place?",
-        "ground_truth": "The oral exams will take place from June 21st to June 28th."
-    },
-    {
         "question_id": "gen_li_286",
         "question": "When was the new copper work completed for the church fathers in Leipa?",
         "ground_truth": "The Kirchväter zu Leipa had new copper work completed by Andreas Elfmark, and the money for it was still owed."
     },
     {
-        "question_id": "gen_li_287",
-        "question": "For how long did he serve as a Reichsratsabgeordneter?",
-        "ground_truth": "He served as a Reichsratsabgeordneter from 1871 to 1897."
-    },
-    {
-        "question_id": "gen_li_288",
+        "question_id": "gen_li_288_TODO",
         "question": "What date was the Sudetendeutsche Heimatfront assembly scheduled to take place?",
         "ground_truth": "The Sudetendeutsche Heimatfront assembly was scheduled to take place on Friday, December 1."
-    },
-    {
-        "question_id": "gen_li_289",
-        "question": "According to someone, what specific aspect of Dr. Frank’s actions is considered unconstitutional?",
-        "ground_truth": "According to someone, Dr. Frauk’s denial of indemnity is unconstitutional, which contradicts the constitution upon which he was elected."
-    },
-    {
-        "question_id": "gen_li_290",
-        "question": "Where can people see the film showings?",
-        "ground_truth": "People can see the film showings at the \"Metropolkino\"."
     },
     {
         "question_id": "gen_li_291",
@@ -1210,24 +675,9 @@
         "ground_truth": "Julius Hannauer lived in Leitmeritz, at Domgasse Nr. 6."
     },
     {
-        "question_id": "gen_li_292",
+        "question_id": "gen_li_292_TODO",
         "question": "What was the closing price of New York Kabel?",
         "ground_truth": "The closing price of New York Kabel was 330. 823."
-    },
-    {
-        "question_id": "gen_li_293",
-        "question": "How many people have left the Szikszói járás with travel documents?",
-        "ground_truth": "According to the text, half a thousand people have left the Szikszói járás with travel documents."
-    },
-    {
-        "question_id": "gen_li_294",
-        "question": "How much will the state administration (Finance Ministry) pay for the new exhibition grounds?",
-        "ground_truth": "The state administration (Finance Ministry) will pay 30 million Kč for the new exhibition grounds."
-    },
-    {
-        "question_id": "gen_li_295",
-        "question": "What is the title of the work by M. Lay?",
-        "ground_truth": "The title of the work by M. Lay is Auf dem Ulmerhof."
     },
     {
         "question_id": "gen_li_296",
@@ -1240,12 +690,7 @@
         "ground_truth": "Vigl Franz’s business was opened on 16. Dec. according to the provided text."
     },
     {
-        "question_id": "gen_li_298",
-        "question": "According to someone, what distinguishes a German person’s appreciation of Homer compared to their understanding of local myths?",
-        "ground_truth": "According to someone, a German person may enjoy Homer's simplicity and groundedness, but they often lack understanding for the deep meaning of local myths."
-    },
-    {
-        "question_id": "gen_li_299",
+        "question_id": "gen_li_299_TODO",
         "question": "When was the approval obtained from the Kamnitz community?",
         "ground_truth": "The approval was obtained from the Kamnitz community in a session held on February 19, 1887."
     },
