@@ -57,7 +57,10 @@ warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed tr
 warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed <socket*")
 #ignore ragas warnings
 warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed file.*")
-
+warnings.filterwarnings
+import logging
+#openai api is returning just one out of three results to ragas, but it should works just fine fith temperature 0 --> ignoring warning 
+logging.getLogger("ragas.prompt.pydantic_prompt").setLevel(logging.ERROR)
 #colors for better logs in terminal
 class Colors:
     GREEN = '\033[92m'
@@ -241,7 +244,7 @@ async def main():
         elif(eval_model == "OLLAMA"):
             eval_model_name = os.getenv("OLLAMA_EVAL_MODEL")
             ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
-            llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=300.0 )  #new version can be used if not using context relevancy with NOGT
+            llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=30000.0 )  #new version can be used if not using context relevancy with NOGT
         else:
             print(f"\n Invalid model: {eval_model}. Possible models: [OPENAI, OLLAMA].")
             return
