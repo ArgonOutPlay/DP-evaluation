@@ -1,5 +1,8 @@
 #env
 import os
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
 from dotenv import load_dotenv
 #load config (.env)
 load_dotenv() #have to be called before config import
@@ -7,7 +10,7 @@ load_dotenv() #have to be called before config import
 from semant_demo.config import config
 from semant_demo.weaviate_search import WeaviateSearch
 from semant_demo.rag.rag_generator import RagGenerator
-from semant_demo.schemas import RagConfig, RagSearch, SearchType
+from semant_demo.schemas import RagConfig, RagSearch
 #ragas openai
 import openai
 #ragas ollama
@@ -198,6 +201,7 @@ async def main():
             and context relevancy: {args.context_relevancy}.
             {Colors.RESET} """)
 
+    os.environ["DEEPEVAL_PER_ATTEMPT_TIMEOUT_OVERRIDE"] = "300"
     eval_model = args.eval_model
     rag_model = args.rag_model
     mode = args.mode
