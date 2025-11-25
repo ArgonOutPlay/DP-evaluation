@@ -4,6 +4,8 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8")
 sys.stderr.reconfigure(encoding="utf-8")
 from dotenv import load_dotenv
+# wrappers
+from deepeval_custom_model import CustomOpenAI
 #load config (.env)
 load_dotenv() #have to be called before config import
 #semant app - RAG
@@ -46,7 +48,6 @@ from deepeval.metrics import (
     FaithfulnessMetric
 )
 from deepeval.evaluate import AsyncConfig
-from deepeval_custom_model import CustomOpenAI
 #backend 
 import json
 import asyncio
@@ -208,6 +209,10 @@ async def main():
     precission_mode = True if args.context_precission == "ON" else False
     relevancy_mode = True if args.context_relevancy == "ON" else False
 
+    if (relevancy_mode == True and eval_model == "OLLAMA"):
+        print(f"{Colors.RED} Context relevancy does not work with OLLAMA evaluator (Is not supported in ragas.). {Colors.RESET}")
+        return
+
     #--- get path ---
     if(args.path == "PATH_MISSING"):
         if(mode == "NOGT"):
@@ -217,8 +222,8 @@ async def main():
     else:
         path = args.path
  
-    if (eval_model == "OLLAMA" and relevancy_mode):
-        print(f"{Colors.YELLOW} In this version of Ragas context relevancy is not supported for Ollama. We recommend you to use context precission instead or use OPENAI for evaluation. {Colors.RESET}")
+    if (eval_model == "OLLAMA" and (relevancy_mode or precission_mode)):
+        print(f"{Colors.YELLOW} In this version of Ragas context relevancy and precission are not supported for Ollama. We recommend you to use context precission instead or use OPENAI for evaluation. {Colors.RESET}")
         relevancy_mode = False
 
     #--- load data ---
