@@ -2,5 +2,7 @@
 python-dotenv
 ragas
 deepeval
+langchain-huggingface 
+sentence-transformers
 # rag from semant_demo
 -e ../../RAG-projekt/semant-demo/semant_demo_backend

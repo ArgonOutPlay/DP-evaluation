@@ -15,6 +15,8 @@ from semant_demo.schemas import RagConfig, RagSearch
 import openai
 #ragas ollama
 from langchain_ollama import OllamaLLM
+from langchain_huggingface import HuggingFaceEmbeddings
+from ragas.embeddings import LangchainEmbeddingsWrapper
 #ragas
 from ragas import EvaluationDataset
 from ragas import evaluate
@@ -203,8 +205,8 @@ async def main():
     eval_model = args.eval_model
     rag_model = args.rag_model
     mode = args.mode
-    precission_mode = False if args.context_precission == "ON" else False
-    relevancy_mode = False if args.context_relevancy == "ON" else False
+    precission_mode = True if args.context_precission == "ON" else False
+    relevancy_mode = True if args.context_relevancy == "ON" else False
 
     #--- get path ---
     if(args.path == "PATH_MISSING"):
@@ -247,6 +249,8 @@ async def main():
             eval_model_name = os.getenv("OLLAMA_EVAL_MODEL")
             ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
             llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=30000.0 )  #new version can be used if not using context relevancy with NOGT
+            ollama_emb = HuggingFaceEmbeddings(model_name="BAAI/bge-m3")
+            ollama_ragas_emb = LangchainEmbeddingsWrapper(ollama_emb)
         else:
             print(f"\n Invalid model: {eval_model}. Possible models: [OPENAI, OLLAMA].")
             return
@@ -330,8 +334,11 @@ async def main():
             else:
                 metrics=[faithfulness, answer_relevancy, context_recall, context_precision, answer_correctness]
             evaluation_dataset = EvaluationDataset.from_list(dataset)
-            result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm)
-        else:
+            if (eval_model == "OLLAMA"):
+                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=ollama_ragas_emb)
+            else: #openai
+                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm)
+        else:   #deepeval have to be setuped like this to avoid token overflow - this allow to create own llm instance with token limit
             #NOGT
             metrics = [ContextualRelevancyMetric(model=llm, threshold=0.5), AnswerRelevancyMetric(model=llm, threshold=0.5), FaithfulnessMetric(model=llm, threshold=0.5)]
             if (mode == "GT"):
