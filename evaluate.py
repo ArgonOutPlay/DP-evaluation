@@ -43,11 +43,8 @@ from deepeval.metrics import (
     AnswerRelevancyMetric, 
     FaithfulnessMetric
 )
-deepeval_answer_relevancy = AnswerRelevancyMetric()
-deepeval_faithfulness = FaithfulnessMetric()
-contextual_precision = ContextualPrecisionMetric()
-contextual_recall = ContextualRecallMetric()
-contextual_relevancy = ContextualRelevancyMetric()
+from deepeval.evaluate import AsyncConfig
+from deepeval_custom_model import CustomOpenAI
 #backend 
 import json
 import asyncio
@@ -201,7 +198,8 @@ async def main():
             and context relevancy: {args.context_relevancy}.
             {Colors.RESET} """)
 
-    os.environ["DEEPEVAL_PER_ATTEMPT_TIMEOUT_OVERRIDE"] = "300"
+    #so deepeval will not timeout
+    os.environ["DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE"] = "6000"
     eval_model = args.eval_model
     rag_model = args.rag_model
     mode = args.mode
@@ -251,6 +249,13 @@ async def main():
             llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=30000.0 )  #new version can be used if not using context relevancy with NOGT
         else:
             print(f"\n Invalid model: {eval_model}. Possible models: [OPENAI, OLLAMA].")
+            return
+    else:   #deepeval
+        if (eval_model == "OPENAI"):
+            eval_model_name = os.getenv("OPENAI_EVAL_MODEL")
+            llm = CustomOpenAI(model_name=eval_model_name, max_tokens=4000)
+        else:
+            print(f"{Colors.RED} OLLAMA is not supported with deepeval core. {Colors.RESET}")
             return
     
     #--- evaluation ---
@@ -306,7 +311,7 @@ async def main():
                         #add precision of sample to list
                         relevancies.append(await single_context_relevancy_evaluator.single_turn_ascore(sample))
                 else:
-                    dataset.append(LLMTestCase(input=query, actual_output=ragResult["answer"], retrieval_context=retrieved_contexts_text ))
+                    dataset.append(LLMTestCase(input=query, actual_output=ragResult["answer"], retrieval_context=retrieved_contexts_text))
             #GT
             else:
                 #ragas
@@ -327,11 +332,14 @@ async def main():
             evaluation_dataset = EvaluationDataset.from_list(dataset)
             result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm)
         else:
-            if (mode == "NOGT"):
-                metrics = [contextual_relevancy, deepeval_answer_relevancy, deepeval_faithfulness]
-            else:
-                metrics = [contextual_precision, contextual_recall, contextual_relevancy, deepeval_answer_relevancy, deepeval_faithfulness]
-            result = deepEvaluate(dataset, metrics=metrics)
+            #NOGT
+            metrics = [ContextualRelevancyMetric(model=llm, threshold=0.5), AnswerRelevancyMetric(model=llm, threshold=0.5), FaithfulnessMetric(model=llm, threshold=0.5)]
+            if (mode == "GT"):
+                metrics.append(ContextualPrecisionMetric(model=llm, threshold=0.5))
+                metrics.append(ContextualRecallMetric(model=llm, threshold=0.5))
+            async_config_deepeval = AsyncConfig(max_concurrent=5)
+            result = deepEvaluate(dataset, metrics=metrics, async_config=async_config_deepeval)
+
 
         #--- write results ---
         print(f"{Colors.GREEN}---Evaluation finished ---{Colors.RESET}")
