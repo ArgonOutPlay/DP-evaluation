@@ -14,7 +14,9 @@ from semant_demo.weaviate_search import WeaviateSearch
 from semant_demo.rag.rag_generator import RagGenerator
 from semant_demo.schemas import RagConfig, RagSearch
 #ragas openai
-import openai
+from langchain_openai import OpenAIEmbeddings
+from ragas.llms import LangchainLLMWrapper
+from langchain_openai import ChatOpenAI
 #ragas ollama
 from langchain_ollama import OllamaLLM
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -60,7 +62,10 @@ warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed tr
 warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed <socket*")
 #ignore ragas warnings
 warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed file.*")
-warnings.filterwarnings
+warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed <ssl.SSLSocket*")
+#have to ignote those two warnings, because recommended implementations dont work
+warnings.filterwarnings("ignore", category=DeprecationWarning, message="LangchainLLMWrapper*")
+warnings.filterwarnings("ignore", category=DeprecationWarning, message="LangchainEmbeddingsWrapper*")
 import logging
 #openai api is returning just one out of three results to ragas, but it should works just fine fith temperature 0 --> ignoring warning 
 logging.getLogger("ragas.prompt.pydantic_prompt").setLevel(logging.ERROR)
@@ -249,11 +254,17 @@ async def main():
         if (eval_model == "OPENAI"):
             eval_model_name = os.getenv("OPENAI_EVAL_MODEL")
             #API key is taken automaticly from env ( os.getenv("OPENAI_API_KEY") )
-            llm = llm_factory(eval_model_name)
+            #have to use old version, because with ragas recommended version (llm_factory), code will fall because of max token limit
+            base_llm = ChatOpenAI(model = eval_model_name, temperature=0, timeout=3000.0)
+            llm = LangchainLLMWrapper(base_llm)
+
+            # doesnt work with ragas embeddings, ignore warnings
+            openai_emb = OpenAIEmbeddings(model="text-embedding-3-small")
+            openai_ragas_emb = LangchainEmbeddingsWrapper(openai_emb)
         elif(eval_model == "OLLAMA"):
             eval_model_name = os.getenv("OLLAMA_EVAL_MODEL")
             ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
-            llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=30000.0 )  #new version can be used if not using context relevancy with NOGT
+            llm = OllamaLLM(model=eval_model_name, base_url = ollama_url, request_timeout=3000.0 )  #new version can be used if not using context relevancy with NOGT
             ollama_emb = HuggingFaceEmbeddings(model_name="BAAI/bge-m3")
             ollama_ragas_emb = LangchainEmbeddingsWrapper(ollama_emb)
         else:
@@ -262,9 +273,10 @@ async def main():
     else:   #deepeval
         if (eval_model == "OPENAI"):
             eval_model_name = os.getenv("OPENAI_EVAL_MODEL")
-            llm = CustomOpenAI(model_name=eval_model_name, max_tokens=4000)
+            llm = CustomOpenAI(model_name=eval_model_name, max_tokens=4000, timeout=3000.0)
+
         else:
-            print(f"{Colors.RED} OLLAMA is not supported with deepeval core. {Colors.RESET}")
+            print(f"{Colors.RED} OLLAMA is not supported as an evaluator with deepeval core. {Colors.RESET}")
             return
     
     #--- evaluation ---
@@ -342,7 +354,7 @@ async def main():
             if (eval_model == "OLLAMA"):
                 result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=ollama_ragas_emb)
             else: #openai
-                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm)
+                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=openai_ragas_emb)
         else:   #deepeval have to be setuped like this to avoid token overflow - this allow to create own llm instance with token limit
             #NOGT
             metrics = [ContextualRelevancyMetric(model=llm, threshold=0.5), AnswerRelevancyMetric(model=llm, threshold=0.5), FaithfulnessMetric(model=llm, threshold=0.5)]

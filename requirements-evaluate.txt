@@ -4,5 +4,6 @@ ragas
 deepeval
 langchain-huggingface 
 sentence-transformers
+langchain_openai
 # rag from semant_demo
 -e ../../RAG-projekt/semant-demo/semant_demo_backend
