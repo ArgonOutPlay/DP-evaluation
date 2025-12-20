@@ -46,7 +46,7 @@ async def loadDataFromWeaviate(limit):
     #load data
     chunks = client.collections.get("Chunks")
     #this is to randomize data
-    fetch_limit = limit * 4 if limit < 500 else limit
+    fetch_limit = limit * 20 if limit < 50000 else limit
     response = await chunks.query.fetch_objects(
         limit=fetch_limit,
         return_properties=["text"]
