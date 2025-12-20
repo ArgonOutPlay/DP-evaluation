@@ -1,0 +1,3 @@
+- zkusit deepeval s openai
+
+- zkusit deepeval s malým počtem vrácených chunků

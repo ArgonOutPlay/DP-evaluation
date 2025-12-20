@@ -1,0 +1,32 @@
+[
+    {
+        "question_id": "gen_li_1",
+        "source_chunk_id": "0000270c-06ec-401a-bcf1-530d51d880d2",
+        "question": "What did Milan Hodža declare in a radio broadcast on March 28, 1938?",
+        "ground_truth": "Milan Hodža declared in a radio broadcast on March 28, 1938, that the government would continue to implement started reforms, without allowing any pressure from within or outside, and would prepare a national statute in which provisions of the republic's constitution relating to minority matters, provisions for the protection of minorities scattered in the state's legislation, and various administrative measures undertaken in the field of state nationality policy would be combined."
+    },
+    {
+        "question_id": "gen_li_2",
+        "source_chunk_id": "00004bd0-1a85-4f90-a468-06dcfa65e201",
+        "question": "How has the number of houses in Spitzenberg changed over the past ten years?",
+        "ground_truth": "The city's Vorort Spitzenberg could since ten years its number of houses double."
+    },
+    {
+        "question_id": "gen_li_3",
+        "source_chunk_id": "00000093-d7f3-4444-8bc9-9e23e5c8b887",
+        "question": "When will a new law take effect?",
+        "ground_truth": "The new law will take effect from the spring of next year."
+    },
+    {
+        "question_id": "gen_li_4",
+        "source_chunk_id": "00000f26-904c-44fe-a51d-a5528c38f95e",
+        "question": "Where was Eugen Petry's work on subcutaneous ruptures and contusions of the digestive tract published?",
+        "ground_truth": "Eugen Petry's work on subcutaneous ruptures and contusions of the digestive tract was published in Tübingen in 1896 by Laupp'sche Buchhandlung as part of Beiträge zur klinischen Chirurgie von Dr. Bruns."
+    },
+    {
+        "question_id": "gen_li_5",
+        "source_chunk_id": "00004df4-8d3e-47f1-a16c-ea42acb1a443",
+        "question": "What was the total amount of revenue from insurance contributions, interest, and fines for the Arbeiter-Unfallversicherungs-Anstalten in 1905?",
+        "ground_truth": "The total amount of revenue from insurance contributions was 47,669,141 K, from interest was 5,340,958 K, and from fines was 40,136 K."
+    }
+]
