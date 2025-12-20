@@ -1,0 +1,602 @@
+[
+    {
+        "question_id": "gen_li_1",
+        "source_chunk_id": "000711eb-bd76-4ae7-a35d-bcf20f608827",
+        "question": "How many people died as a result of the Krakatau eruption in August 1883?",
+        "ground_truth": "Forty thousand people found death as a result of the huge eruption of Krakatau in August 1883."
+    },
+    {
+        "question_id": "gen_li_2",
+        "source_chunk_id": "00016c38-dcb1-4928-91a7-47ba84881da6",
+        "question": "What did Pavla think about the relationship between an artist and art?",
+        "ground_truth": "Pavla saw the relationship between an artist and art as a mysterious connection, like a man loving a woman, with the artist dedicating themselves to the art."
+    },
+    {
+        "question_id": "gen_li_3",
+        "source_chunk_id": "00089891-53c3-4d3c-b919-a74cba996f17",
+        "question": "What did Frühling say regarding a potential conflict with the Deutsche Reich?",
+        "ground_truth": "Frühling said that a potential conflict with the Deutsche Reich would be \"schlimm für beide Teile.\""
+    },
+    {
+        "question_id": "gen_li_4",
+        "source_chunk_id": "0008a21f-81f4-4fe3-b33c-cb35744d1b88",
+        "question": "What is the annual salary associated with the Polizei-Wahtmeisterstelle in the Stadt-gemeinde Trebitsch?",
+        "ground_truth": "The annual salary associated with the Polizei-Wahtmeisterstelle in the Stadt-gemeinde Trebitsch is 400 fl."
+    },
+    {
+        "question_id": "gen_li_5",
+        "source_chunk_id": "000195f0-fa17-4266-8e79-49a604f66005",
+        "question": "What is the value associated with Berg. u. Hütten?",
+        "ground_truth": "The value associated with Berg. u. Hütten is 765.—."
+    },
+    {
+        "question_id": "gen_li_6",
+        "source_chunk_id": "000b064a-ce0f-405a-9cf6-0f3203f8a9da",
+        "question": "Since 1890, what year did Vinzenz Kraus establish a tannery in Deutsch-Gabel?",
+        "ground_truth": "Since 1890, Vinzenz Kraus established a tannery in Deutsch-Gabel."
+    },
+    {
+        "question_id": "gen_li_7",
+        "source_chunk_id": "0003d5fb-6dc8-42ba-8e8d-80994ae0c10a",
+        "question": "When will a monument dedicated to J. V. Kamaryt be unveiled?",
+        "ground_truth": "A monument dedicated to J. V. Kamaryt will be unveiled on the 31st of this month and 1st of September in Táboře."
+    },
+    {
+        "question_id": "gen_li_8",
+        "source_chunk_id": "00029d6e-6016-4227-abf9-d00a9edbd90e",
+        "question": "What did the Queen write about Friedländer's craftsmanship?",
+        "ground_truth": "The Queen wrote that she had learned Friedländer possessed a similar craftsmanship, and her husband and consort should not go into battle with less protection."
+    },
+    {
+        "question_id": "gen_li_9",
+        "source_chunk_id": "000cec23-e7c8-4546-93c0-9c7af3af36b2",
+        "question": "What did Lizzie say surprised her about the person she saw?",
+        "ground_truth": "Lizzie said she was very surprised, almost affected, when she saw the person because she had not imagined them to be so beautiful."
+    },
+    {
+        "question_id": "gen_li_10",
+        "source_chunk_id": "00012351-3cf5-477d-9f79-fea064518446",
+        "question": "Why did the editors of the mentioned papers not publish a petition from Catholics?",
+        "ground_truth": "The editors of the mentioned papers did not publish a petition from Catholics because the regional governor was not in Brno."
+    },
+    {
+        "question_id": "gen_li_11",
+        "source_chunk_id": "000baecb-4909-4001-8f38-10e203d0df27",
+        "question": "Who has been proposed as Virchow's successor at the medical faculty of the University of Würzburg?",
+        "ground_truth": "Dr. Lambl, who is an assistant at the pathological-anatomical institute of the University of Prague, has been proposed as Virchow's successor at the medical faculty of the University of Würzburg."
+    },
+    {
+        "question_id": "gen_li_12",
+        "source_chunk_id": "000044ad-33b0-4278-a9ff-306445db36a2",
+        "question": "What title and character was Anton Dubowy granted?",
+        "ground_truth": "Anton Dubowy was granted the title and character of a Herzogin Margarethe von Württemberg."
+    },
+    {
+        "question_id": "gen_li_13",
+        "source_chunk_id": "000cba91-21ac-4889-a8f6-86b58ae5ca61",
+        "question": "Where is Karl Hübner located?",
+        "ground_truth": "Karl Hübner is located at Schlag, Endstation der elektrischen Straßenbahn."
+    },
+    {
+        "question_id": "gen_li_14",
+        "source_chunk_id": "000aa68f-f67b-47c4-8a11-e205fd85f5f0",
+        "question": "Where was David JELLINEK located?",
+        "ground_truth": "David JELLINEK was located in Přerov."
+    },
+    {
+        "question_id": "gen_li_15",
+        "source_chunk_id": "00046511-c13f-4a2d-aa78-4c62ee3fda24",
+        "question": "When will Soviet football players play against the combined Lodž-Poznaň team?",
+        "ground_truth": "Soviet football players will play against the combined Lodž-Poznaň team on October 9."
+    },
+    {
+        "question_id": "gen_li_16",
+        "source_chunk_id": "000c8209-b4ed-45a2-b547-8c4ad695b089",
+        "question": "Where did Joseph see an angel?",
+        "ground_truth": "Joseph saw an angel when it appeared to him."
+    },
+    {
+        "question_id": "gen_li_17",
+        "source_chunk_id": "0005a3f8-e15f-4689-9136-24cd3ebe4c41",
+        "question": "Why was Pešek afraid to tell Lenorka's mother the truth?",
+        "ground_truth": "Pešek was afraid to tell Lenorka's mother the truth because he loved her and feared her reaction."
+    },
+    {
+        "question_id": "gen_li_18",
+        "source_chunk_id": "000c03a7-4032-4f11-937f-3c8959fa751f",
+        "question": "When did Alexander Vuia become Director?",
+        "ground_truth": "Alexander Vuia became Director after the person mentioned in the text became Subdirektor in Temesvar."
+    },
+    {
+        "question_id": "gen_li_19",
+        "source_chunk_id": "0007744f-a430-4a59-8fc8-105d5150bd0b",
+        "question": "According to the Romanian newspaper „Viatza“, what has Moscow never done?",
+        "ground_truth": "Moscow has never fulfilled a single one of its commitments."
+    },
+    {
+        "question_id": "gen_li_20",
+        "source_chunk_id": "00045fa3-67b6-419f-96e2-4e7a451e2335",
+        "question": "By how much did the live weight of the cows increase when fed dried yeast compared to when fed ground sunflower seeds, based on the comparison of period II?",
+        "ground_truth": "The live weight of the cows increased by 0.07 kg when fed dried yeast compared to when fed ground sunflower seeds, based on the comparison of period II."
+    },
+    {
+        "question_id": "gen_li_21",
+        "source_chunk_id": "0002ab8a-9c89-4284-bf87-4bd2bf7488e3",
+        "question": "What is the government's role in eliminating the practice of term trading at the Budapest Stock Exchange?",
+        "ground_truth": "The government's role in eliminating the practice of term trading at the Budapest Stock Exchange is limited to the extent that it can engage in negotiations with the Hungarian government regarding the matter."
+    },
+    {
+        "question_id": "gen_li_22",
+        "source_chunk_id": "000c61f5-6435-4496-8e90-3ebf83022b19",
+        "question": "When will the annual general meeting of Christlicher Verein junger Männer take place?",
+        "ground_truth": "The annual general meeting of Christlicher Verein junger Männer will take place on Wednesday, March 28th, in the evening at 8 o'clock in the Vereinsheim Mühlfeldgasse 29."
+    },
+    {
+        "question_id": "gen_li_23",
+        "source_chunk_id": "00086557-0aa2-4911-838b-2f3e7c4575e4",
+        "question": "Why did posl. Zallinger relinquish the investigative work related to the law concerning trades?",
+        "ground_truth": "Posl. Zallinger relinquished the investigative work because his proposal, which would have required builders to use specific tradespeople for carpentry, stonework, and well-digging, was rejected."
+    },
+    {
+        "question_id": "gen_li_24",
+        "source_chunk_id": "0008f973-6591-4e38-8f4f-ab90c84ccda2",
+        "question": "What amount did Wolf pay to Hengelmüller?",
+        "ground_truth": "Wolf paid Hengelmüller 3000 K."
+    },
+    {
+        "question_id": "gen_li_25",
+        "source_chunk_id": "000448c8-37ef-4baf-8536-01d560592e02",
+        "question": "What is the value of K. Raud=Dukaten?",
+        "ground_truth": "The value of K. Raud=Dukaten is 94."
+    },
+    {
+        "question_id": "gen_li_26",
+        "source_chunk_id": "00042ebc-934b-40ac-b93c-352cbcb40849",
+        "question": "According to the text, what does Bed need to do when damaging another person's reputation?",
+        "ground_truth": "Bed needs to restore the reputation by falsely accusing someone."
+    },
+    {
+        "question_id": "gen_li_27",
+        "source_chunk_id": "00074234-5352-4283-be42-55b7c692be3c",
+        "question": "What number of Herren participated in the excursion to Manchester?",
+        "ground_truth": "Twenty-eight Herren participated in the excursion to Manchester."
+    },
+    {
+        "question_id": "gen_li_28",
+        "source_chunk_id": "000bc88c-a04d-4be6-8bab-d81efa737668",
+        "question": "When will the livestock exhibition take place in Pardubice?",
+        "ground_truth": "The livestock exhibition will take place on July 14, 18-9 in Pardubice on Volšinky and in the summer gymnasium."
+    },
+    {
+        "question_id": "gen_li_29",
+        "source_chunk_id": "000853b8-6f86-4488-ad93-833f5e6ffdc8",
+        "question": "How many children died from being struck by vehicles?",
+        "ground_truth": "Four hundred eighteen children died from being struck by vehicles."
+    },
+    {
+        "question_id": "gen_li_30",
+        "source_chunk_id": "00001be8-4717-4a2a-b5ad-e92635b8214f",
+        "question": "What effect would a 2 or 3 Lei decrease in the price of Mazzoth have on Czernowitzer citizens who are not impoverished?",
+        "ground_truth": "A 2 or 3 Lei decrease in the price of Mazzoth would mean an economy of 30 Lei for every half-respectable Jewish citizen when buying 10 kg of Mazzoth."
+    },
+    {
+        "question_id": "gen_li_31",
+        "source_chunk_id": "0003f330-5540-4e7f-83e6-f19e4514e349",
+        "question": "What material can be used between a negative and copying paper to achieve a softening of contours?",
+        "ground_truth": "A Gelatine film (a thoroughly washed film is sufficient) can be used between the negative and copying paper to achieve a softening of contours, or alternatively, a clean glass plate, free of air bubbles, can be used."
+    },
+    {
+        "question_id": "gen_li_32",
+        "source_chunk_id": "0001bb3a-cb12-4edc-90e2-085859ba1f48",
+        "question": "When will 5% interest be paid pro rata temporis?",
+        "ground_truth": "5% interest pro rata temporis will be paid starting January 1, 1908, simultaneously with the last rate."
+    },
+    {
+        "question_id": "gen_li_33",
+        "source_chunk_id": "00002413-f143-478f-90a0-b840eb5cb105",
+        "question": "What was Johann's occupation?",
+        "ground_truth": "Johann was a taglöhners, which translates to a day laborer."
+    },
+    {
+        "question_id": "gen_li_34",
+        "source_chunk_id": "000a5498-2079-48b3-a9ec-cedbb7b17685",
+        "question": "What position was Starocesky posl. Žáček elected to on June 15, 1907?",
+        "ground_truth": "Starocesky posl. Žáček was elected místopředsedou sněmovny on June 15, 1907."
+    },
+    {
+        "question_id": "gen_li_35",
+        "source_chunk_id": "00056cad-e55c-4a38-afbb-720f41b341c6",
+        "question": "When did the knightly picnic organized by Denhoff end?",
+        "ground_truth": "The knightly picnic organized by Denhoff was ended at four in the morning, already on Ash Wednesday."
+    },
+    {
+        "question_id": "gen_li_36",
+        "source_chunk_id": "00078abb-ed7e-4318-8f07-120dfde4d469",
+        "question": "Why did current communists avoid mentioning names like Zinoviev, Kamenev, Bucharin, and Pokrovskij?",
+        "ground_truth": "In the publications of the communists, there reigns a comic fear of names like Zinoviev, Kamenev, Bucharin, and Pokrovskij, and they do not even dare to pronounce them."
+    },
+    {
+        "question_id": "gen_li_37",
+        "source_chunk_id": "000c6003-5f3f-4869-956b-85af781d602b",
+        "question": "What caused the grass to bend towards the ground?",
+        "ground_truth": "The grass was bending towards the ground because it was trembling and swaying in the wind."
+    },
+    {
+        "question_id": "gen_li_38",
+        "source_chunk_id": "0001aeec-7300-45f2-9ef3-ff61b60aa4ed",
+        "question": "When was the concert directed by Karel Kovařovic held?",
+        "ground_truth": "The concert directed by Karel Kovařovic was held on a date that prompted the presentation of wreaths by the Warsaw music society and the Singing Puppet society."
+    },
+    {
+        "question_id": "gen_li_39",
+        "source_chunk_id": "0007be35-f098-4df2-9149-35a4ebf5924a",
+        "question": "What problem did Kant identify as the greatest problem of the human race?",
+        "ground_truth": "Kant identified the upbuilding of an organization of human society that administers the law as the greatest problem of the human race."
+    },
+    {
+        "question_id": "gen_li_40",
+        "source_chunk_id": "0001da70-5e90-46f1-9dfa-66e77233ee80",
+        "question": "Who is Pan Baccelli?",
+        "ground_truth": "Pan Baccelli is someone who currently manages public education in Italy and is a guarantee that reactionary ideas will not triumph."
+    },
+    {
+        "question_id": "gen_li_41",
+        "source_chunk_id": "000a61d1-9bed-4308-a3ae-7fbae401d811",
+        "question": "What is the name of the newspaper whose employees are being addressed in the text?",
+        "ground_truth": "The text mentions a \"politikai napilappal,\" which translates to a political daily newspaper, whose employees are being addressed."
+    },
+    {
+        "question_id": "gen_li_42",
+        "source_chunk_id": "00099c27-cf88-4bf4-9a68-f6a1b7f356bb",
+        "question": "What is the name of the softening and extract ointment that has been known for 40 years?",
+        "ground_truth": "The softening and extract ointment that has been known for 40 years is called Pražská domácí masť."
+    },
+    {
+        "question_id": "gen_li_43",
+        "source_chunk_id": "000aef70-566e-4048-8f8f-ad8d78b570bc",
+        "question": "What was the nominal value of each share offered for public subscription?",
+        "ground_truth": "The nominal value of each share offered for public subscription was K 200."
+    },
+    {
+        "question_id": "gen_li_44",
+        "source_chunk_id": "000775e4-95be-4f24-a2e7-ce827b8f2a95",
+        "question": "According to the V. H. G. E. from 18 September 1903, what qualities were expected of the trust men involved in local investigations?",
+        "ground_truth": "According to the V. H. G. E. from 18 September 1903, the trust men involved in local investigations were expected to be homeowners and \"legally and modest individuals.\""
+    },
+    {
+        "question_id": "gen_li_45",
+        "source_chunk_id": "0002b7bf-eb45-4d04-9f91-50d704253087",
+        "question": "What are the contact details for Ing. Brázdil at Dr. Ješ in Prague XII?",
+        "ground_truth": "Ing. Brázdil at Dr. Ješ in Prague XII is located at Americká čís. 5."
+    },
+    {
+        "question_id": "gen_li_46",
+        "source_chunk_id": "00082e7a-a607-413d-b094-1e7ce5f0f809",
+        "question": "What is the lowest acceptable bid for the house?",
+        "ground_truth": "The lowest acceptable bid for the house is 12104 K 64 h."
+    },
+    {
+        "question_id": "gen_li_47",
+        "source_chunk_id": "00020d34-12cc-4667-97bf-b8b90da32275",
+        "question": "In what year was Mathesis audax rationalem, naturalem, supra-naturalem divinamque sapientiam arithmeticis published?",
+        "ground_truth": "Mathesis audax rationalem, naturalem, supra-naturalem divinamque sapientiam arithmeticis was published in 1644."
+    },
+    {
+        "question_id": "gen_li_48",
+        "source_chunk_id": "000ba548-56f8-4868-9535-2e31219c9604",
+        "question": "What sum of money did a tovaryš have to pay into the cechovní pokladna to become a mistr?",
+        "ground_truth": "A tovaryš had to pay a significant fee into the cechovní pokladna to become a mistr."
+    },
+    {
+        "question_id": "gen_li_49",
+        "source_chunk_id": "0005df34-651f-46e5-8577-0cbc185c3cb7",
+        "question": "What address should inquiries be sent to for the applicant who is a saleswoman and beginner?",
+        "ground_truth": "Inquiries for the saleswoman and beginner should be sent to D. 12' zum Tagesboten."
+    },
+    {
+        "question_id": "gen_li_50",
+        "source_chunk_id": "0006fd2e-6977-4ce0-b082-d5d0fe6c13be",
+        "question": "Where should applicants submit applications to be considered for a position as a dancer?",
+        "ground_truth": "Applicants should submit applications to be considered for a position as a dancer at II. Vladislavova ul. 20 in Prague."
+    },
+    {
+        "question_id": "gen_li_51",
+        "source_chunk_id": "0007035d-b944-4ec4-8ca6-33a0e6da67ff",
+        "question": "Where can someone purchase a “Kranß” washing machine system?",
+        "ground_truth": "One can purchase a “Kranß” washing machine system at Bernh. Hähner in Chemnitz i. S., Anton Stossimel in Reichenberg, C.Förster in Gablonz, and Hoh. Seidel in Hohenelbe."
+    },
+    {
+        "question_id": "gen_li_52",
+        "source_chunk_id": "0002ea2c-6be3-4980-8236-ae428bcd76ea",
+        "question": "What was G. like?",
+        "ground_truth": "He was a man, like from a single mold; a forceful and characterful personality, like we find such people increasingly rarely among us. He could be awkward, rough and angular, harsh and rejecting, often stubborn and appear almost harsh in his judgment."
+    },
+    {
+        "question_id": "gen_li_53",
+        "source_chunk_id": "0004f343-be11-4872-9111-9194ae0fcb05",
+        "question": "What was the approximate ratio of slaves to free residents in Rome during the reign of Emperor Augustus?",
+        "ground_truth": "There were approximately half a million slaves out of a million residents in Rome during the reign of Emperor Augustus."
+    },
+    {
+        "question_id": "gen_li_54",
+        "source_chunk_id": "0008162e-8cb8-4646-9647-35a5a205eb98",
+        "question": "Who opened the doors of the synagogue?",
+        "ground_truth": "The Oberstuhlrichter opened the doors of the synagogue in the company of a beautiful speech."
+    },
+    {
+        "question_id": "gen_li_55",
+        "source_chunk_id": "0009f351-3d75-439e-a0d5-5e0be766a1fb",
+        "question": "What is the reason the Ortsgruppe Hohenelbe of the B. d. D. i. B. is criticized?",
+        "ground_truth": "The Ortsgruppe Hohenelbe of the B. d. D. i. B. is criticized because it conducts the collection in a way that draws a remark about a \"Massenandrang von Sammelbüchsen,\" which is presented as a pointed criticism against the group."
+    },
+    {
+        "question_id": "gen_li_56",
+        "source_chunk_id": "00005388-95b3-416f-9f1e-a34eb00f41d5",
+        "question": "Who was appointed as the rapporteur for the draft law concerning state support for the elderly?",
+        "ground_truth": "The Czech clerical Roudnicky was appointed as the rapporteur for the draft law concerning state support for the elderly."
+    },
+    {
+        "question_id": "gen_li_57",
+        "source_chunk_id": "000c48f2-2656-4a83-b73a-25ecccaa5140",
+        "question": "What is Kam. Hollube’s topic of discussion at the public assembly in Bad Liebwerda on March 21st?",
+        "ground_truth": "Kam. Hollube will speak about “Volksfront oder Volksgemeinschaft” at the public assembly in Bad Liebwerda on March 21st."
+    },
+    {
+        "question_id": "gen_li_58",
+        "source_chunk_id": "00077c5d-0f0c-4217-af60-f658b3bde9da",
+        "question": "What words did Macdonald use to begin the letter sent to the French Republic's minister-president?",
+        "ground_truth": "Macdonald used the words \"Můj milý ministerský předsedo\" to begin the letter sent to the French Republic's minister-president."
+    },
+    {
+        "question_id": "gen_li_59",
+        "source_chunk_id": "000c0714-619d-47c2-b613-8888b73503fb",
+        "question": "Why does planting in a regular pattern diminish the natural beauty and character of a forest?",
+        "ground_truth": "Pravidelným sponem mizí pravý ráz a krása lesa z důvodů estetických."
+    },
+    {
+        "question_id": "gen_li_60",
+        "source_chunk_id": "0006d8e0-278d-4e28-a288-2677a9e8241a",
+        "question": "How long is the expedition of the ten-person crew of the »René-Moreux« planned to last?",
+        "ground_truth": "The expedition of the ten-person crew of the »René-Moreux« has planned to stay there for three years."
+    },
+    {
+        "question_id": "gen_li_61",
+        "source_chunk_id": "000d25bf-5057-4a8e-b427-2d5d449b1a1b",
+        "question": "What is the address to which correspondence regarding a property purchase should be sent?",
+        "ground_truth": "Correspondence regarding a property purchase should be sent to Ratzelsberger at Lilienbrunngasse 6/5, Wien II."
+    },
+    {
+        "question_id": "gen_li_62",
+        "source_chunk_id": "000892ad-4628-4a55-9207-7b373f3f8f7b",
+        "question": "For what reason was a referral issued to Arbes regarding the manuscript about the camp at Chousník?",
+        "ground_truth": "Arbes was summoned to court to issue the manuscript of the report about the camp at Chousník, which was published in last year's edition of \"Nár. L.\"."
+    },
+    {
+        "question_id": "gen_li_63",
+        "source_chunk_id": "0006ce6e-2958-47a0-b0d1-07b6a2599b90",
+        "question": "Who was chosen as a substitute during the election?",
+        "ground_truth": "Rud. Kroupa, Jan Huda, Leopold Borovec, and všichni v M. Kunčicích were chosen as substitutes during the election."
+    },
+    {
+        "question_id": "gen_li_64",
+        "source_chunk_id": "00019c3c-6e0f-4b3c-9fc8-61a975b7d472",
+        "question": "What type of structure will be used to transport vehicles across the Drau River during the bridge reconstruction?",
+        "ground_truth": "During the bridge reconstruction, a ferry à la Miholjac will be used to transport vehicles across the Drau River."
+    },
+    {
+        "question_id": "gen_li_65",
+        "source_chunk_id": "0001ac82-48c3-43d8-9531-bee52b87fba7",
+        "question": "What does Austria-Hungary seem to have against the status quo on the Balkan?",
+        "ground_truth": "Austria-Hungary does not share the expressed concerns about the status quo on the Balkan, but is of the opinion that Austria-Hungary has nothing against the status quo on the Balkan."
+    },
+    {
+        "question_id": "gen_li_66",
+        "source_chunk_id": "00034819-cb87-44f7-b3b2-4e7f2f08d36f",
+        "question": "How is P. Wurm paid?",
+        "ground_truth": "P. Wurm is paid from the revenues of the goods of the dead hand, which are also national property."
+    },
+    {
+        "question_id": "gen_li_67",
+        "source_chunk_id": "000ba3da-1bfe-4af2-a95b-c0fcbb471ef5",
+        "question": "What was the lowest temperature recorded in Vienna?",
+        "ground_truth": "The temperature in Vienna fell to 19°C below zero."
+    },
+    {
+        "question_id": "gen_li_68",
+        "source_chunk_id": "00077d41-7367-4f07-8fb3-d5dd1f9dfa73",
+        "question": "Where is F. Czermak and spol. located?",
+        "ground_truth": "F. Czermak and spol. is located in Příkopní ulice in Brno."
+    },
+    {
+        "question_id": "gen_li_69",
+        "source_chunk_id": "0005791a-bc85-4c82-93ae-36ad32dc3305",
+        "question": "Where did a \"ďábelský zištný\" monopoly look to find more workers after being forbidden to import Chinese laborers?",
+        "ground_truth": "The \"ďábelský zištný\" monopoly looked to Europe to find more workers after being forbidden to import Chinese laborers."
+    },
+    {
+        "question_id": "gen_li_70",
+        "source_chunk_id": "0005230c-f6ed-446e-9a68-04ced6d80f58",
+        "question": "On what date was Jan Nepomuk Vinař born?",
+        "ground_truth": "Jan Nepomuk Vinař was born on the date of 29. května 1803."
+    },
+    {
+        "question_id": "gen_li_71",
+        "source_chunk_id": "00059e7e-a531-44d1-94de-5660b8baefc4",
+        "question": "How many people were wounded when police used firearms?",
+        "ground_truth": "Several people were wounded when police used firearms."
+    },
+    {
+        "question_id": "gen_li_72",
+        "source_chunk_id": "00036cb5-3877-4420-9771-a2b90c07707b",
+        "question": "What is the address of KNIHKUPECTVÍ V. KOTRBA?",
+        "ground_truth": "The address of KNIHKUPECTVÍ V. KOTRBA is Myslikova ul. 284 in PRAZE-II, which is located near Spálené ul."
+    },
+    {
+        "question_id": "gen_li_73",
+        "source_chunk_id": "000941ca-4e01-4d37-9bd6-2911a452c791",
+        "question": "Why was a message from the Bulgarian government to Petersburg halted and rejected at the Russian border?",
+        "ground_truth": "A message from the Bulgarian government to Petersburg was halted and rejected at the Russian border because it was not sent by the Bulgarian government."
+    },
+    {
+        "question_id": "gen_li_74",
+        "source_chunk_id": "00075de0-a988-455f-948a-c7e6da82aca6",
+        "question": "What amount did J. Šmída’s brickworkers receive?",
+        "ground_truth": "J. Šmída’s brickworkers received 3.50."
+    },
+    {
+        "question_id": "gen_li_75",
+        "source_chunk_id": "000cee7e-7a48-494e-bea9-d4d3381da7ec",
+        "question": "Why did Alderan say Maria could not flee?",
+        "ground_truth": "Alderan said Maria could not flee because her family had placed the marriage yoke upon her, and she stated that she will, and wants to, endure it."
+    },
+    {
+        "question_id": "gen_li_76",
+        "source_chunk_id": "0004071d-4d86-4483-bf88-152f3e39da64",
+        "question": "When will S. K. Zam. Státní tiskárny play a friendly match with S. K. Letná záj. XI?",
+        "ground_truth": "S. K. Zam. Státní tiskárny will play a friendly match with S. K. Letná záj. XI on Sunday, 11. května, with kick-off at half past 9 in the morning."
+    },
+    {
+        "question_id": "gen_li_77",
+        "source_chunk_id": "000a4629-f703-47e6-8adb-9cc9e4386d44",
+        "question": "According to the text, why did Cohen reject the philosophy of Spinoza?",
+        "ground_truth": "Cohen rejected the philosophy of Spinoza because he contested Spinoza’s right to equate the ethics of nature rather than placing them above one another."
+    },
+    {
+        "question_id": "gen_li_78",
+        "source_chunk_id": "0000a60c-80bd-4637-9d69-47816edf976d",
+        "question": "When will the construction of the two large halls for locomotive and wagon repairs be completed?",
+        "ground_truth": "The construction of the two large halls for locomotive and wagon repairs will be completed this year."
+    },
+    {
+        "question_id": "gen_li_79",
+        "source_chunk_id": "000886b5-d710-4183-8a17-bcd7aa120170",
+        "question": "In what year did Graf Albert von Eberstein confirm the donation of the Parrochie Plauen?",
+        "ground_truth": "Graf Albert von Eberstein confirmed the donation of the Parrochie Plauen in the year 1267."
+    },
+    {
+        "question_id": "gen_li_80",
+        "source_chunk_id": "000bb1cd-1edb-4c33-8097-b223bf925709",
+        "question": "For what purpose did Hejda obtain the confidential documents?",
+        "ground_truth": "Hejda obtained the confidential documents for his espionage activities."
+    },
+    {
+        "question_id": "gen_li_81",
+        "source_chunk_id": "00013f38-8728-4bb9-85c3-cfbfa140f118",
+        "question": "Who was the district administrator named Galusek?",
+        "ground_truth": "The district administrator named Galusek was the person who handled the municipal election rules in an unauthorized way."
+    },
+    {
+        "question_id": "gen_li_82",
+        "source_chunk_id": "000941e8-024f-455c-be65-39cb47a534a9",
+        "question": "What is the maximum amount the assets of the new joint-stock company can be increased to?",
+        "ground_truth": "The assets of the new joint-stock company can be increased to a maximum of 12 million."
+    },
+    {
+        "question_id": "gen_li_83",
+        "source_chunk_id": "0000f58b-47c7-4520-897c-6ebce4b7dd05",
+        "question": "According to the text, what did Amor say to encourage young men to follow instructions?",
+        "ground_truth": "Amor said, \"Ad mea, decepti Juvenes, praecepta venite; Quos ſuus ex omni parte fefellit amor,\" which means \"Come to my instructions, young men, whom his [Love's] deceived on every side.\""
+    },
+    {
+        "question_id": "gen_li_84",
+        "source_chunk_id": "000bda8c-436c-4ccb-b939-d93d2d90087b",
+        "question": "Who was sent to Petrohrad, okres Podbořany?",
+        "ground_truth": "A 60-member agricultural work brigade of the Prague fire police was sent to Petrohrad, okres Podbořany."
+    },
+    {
+        "question_id": "gen_li_85",
+        "source_chunk_id": "0004897e-c601-4a98-93a8-cb15c3ee7e06",
+        "question": "Which city is Javorový from?",
+        "ground_truth": "The text states that soubor Javorový is from Třince."
+    },
+    {
+        "question_id": "gen_li_86",
+        "source_chunk_id": "000a4c68-da23-48f2-b9a5-cbd31629ab71",
+        "question": "What is a purpose of using rough paper when children touch letters?",
+        "ground_truth": "Children use a skill they achieved by cultivating their tactile sense when they touch letters on rough paper, utilizing it for a new purpose."
+    },
+    {
+        "question_id": "gen_li_87",
+        "source_chunk_id": "0006cf91-b536-4bb3-9a4a-c630a21a3853",
+        "question": "When will the drawing occur in Budapest?",
+        "ground_truth": "The drawing will occur on December 29th in Budapest."
+    },
+    {
+        "question_id": "gen_li_88",
+        "source_chunk_id": "000b57c0-b65c-4b8f-ae18-63ddfec65cac",
+        "question": "Why did officers of the Honvéd have restrictions on attending performances of Zachovej nám, Hospodine!?",
+        "ground_truth": "Officers of the Honvéd had restrictions on attending performances of Zachovej nám, Hospodine! because the play had political tendencies."
+    },
+    {
+        "question_id": "gen_li_89",
+        "source_chunk_id": "0007c5ec-c0f1-427e-91ee-3f79201cb65b",
+        "question": "Why did the directorate of the higher secondary school request the introduction of Latin as a mandatory subject?",
+        "ground_truth": "The directorate of the higher secondary school requested the introduction of Latin as a mandatory subject, but the text states that the reasons for their action are incomprehensible."
+    },
+    {
+        "question_id": "gen_li_90",
+        "source_chunk_id": "0002a8b0-c402-4a35-b261-dacf77a3b9ef",
+        "question": "On what date does the Sun enter the sign of Scorpio?",
+        "ground_truth": "The Sun enters the sign of Scorpio on the 23rd."
+    },
+    {
+        "question_id": "gen_li_91",
+        "source_chunk_id": "0004c839-0c09-4344-b712-8cd414ad9b81",
+        "question": "What is the account number for Česká jednota ovocecká in Prague?",
+        "ground_truth": "The account number for Česká jednota ovocecká in Prague is 84.300."
+    },
+    {
+        "question_id": "gen_li_92",
+        "source_chunk_id": "000a2739-9d2a-40d5-9324-0b2296f4d7da",
+        "question": "According to the text, why might the Sacred Heart of Jesus reject souls that are particularly consecrated?",
+        "ground_truth": "The Sacred Heart of Jesus might reject souls that are particularly consecrated because they do not want to correspond to its cares, nor correct their faults, and they do not think about their duty."
+    },
+    {
+        "question_id": "gen_li_93",
+        "source_chunk_id": "0009dfd4-d815-415f-9bd9-8abb0bf3a026",
+        "question": "When will the extraordinary general meeting of Banca Generala s. p. a. din Sannicolaul mare in lichidare take place?",
+        "ground_truth": "The extraordinary general meeting of Banca Generala s. p. a. din Sannicolaul mare in lichidare will take place on 22nd of July 1945 at 10 o'clock in the morning, and if not enough shareholders are present, it will take place on 23rd of July 1945 at 10 o'clock."
+    },
+    {
+        "question_id": "gen_li_94",
+        "source_chunk_id": "000cf524-14d1-408e-8eb1-4cb8dfa9e191",
+        "question": "What reason caused British Colonel Nikock to be arrested by Russian soldiers in Petersburg?",
+        "ground_truth": "British Colonel Nikock was arrested by Russian soldiers in Petersburg because he had made himself unpopular through arrogance while working as an instructor of Russian marching columns."
+    },
+    {
+        "question_id": "gen_li_95",
+        "source_chunk_id": "0005de86-669f-4307-8b8e-4452f1579503",
+        "question": "Where are Křemité řasy commonly found?",
+        "ground_truth": "Křemité řasy jsou hojné v pramenech, horských potůčcích, v potocích a řekách roviny, v slatinnách sudetských i tůních Hané."
+    },
+    {
+        "question_id": "gen_li_96",
+        "source_chunk_id": "0002412f-3071-4796-9849-03235dc23931",
+        "question": "What did the government do immediately after occupying Bukovina, according to Jirákovy’s report in Časopis Obce I?",
+        "ground_truth": "According to Jirákovy’s report in Časopis Obce I, the government immediately after occupying Bukovina, zrušila (canceled) all Ukrainian schools in a number of districts and established Romanian schools in their place."
+    },
+    {
+        "question_id": "gen_li_97",
+        "source_chunk_id": "00099cca-fb26-4957-aec4-9eb7b4fb4837",
+        "question": "What amount of Kronen was allocated for \"Auslagen für Zwecke der öffentlichen Sicherheit\"?",
+        "ground_truth": "The amount of 371.069 Kronen was allocated for \"Auslagen für Zwecke der öffentlichen Sicherheit\"."
+    },
+    {
+        "question_id": "gen_li_98",
+        "source_chunk_id": "000b7a11-331f-450f-9907-7bd688c7aa44",
+        "question": "Where was Primarius Dr. Gustav Heinz found dead?",
+        "ground_truth": "Primarius Dr. Gustav Heinz was found dead in the woods near Freudenthal."
+    },
+    {
+        "question_id": "gen_li_99",
+        "source_chunk_id": "00018567-d2c3-4dc8-8918-1ecc9b44a393",
+        "question": "What is the subject of Seydler A.’s work?",
+        "ground_truth": "Seydler A.’s work is about Izák Newton and his principia."
+    },
+    {
+        "question_id": "gen_li_100",
+        "source_chunk_id": "0003da6b-e98c-4bd4-b0b9-50e54b2611e3",
+        "question": "What is the date and time of the opening of the box office for the performance of Der Freischütz at Stadt-Theater in Brünn?",
+        "ground_truth": "The box office opens at 6 1/2 o'clock."
+    }
+]
