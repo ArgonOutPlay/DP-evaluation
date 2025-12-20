@@ -1,0 +1,32 @@
+[
+    {
+        "question_id": "gen_li_1",
+        "source_chunk_id": "00002fc0-ac14-4d62-b474-c75abe4d610d",
+        "question": "When was Order 18 of the Reichseierkarte valid?",
+        "ground_truth": "Order 18 of the Reichseierkarte was valid from December 16, 1940, until January 12, 1941."
+    },
+    {
+        "question_id": "gen_li_2",
+        "source_chunk_id": "00000093-d7f3-4444-8bc9-9e23e5c8b887",
+        "question": "What is the date by which the ban on accepting coal for the Nové Komárno transshipment point is extended?",
+        "ground_truth": "The ban on accepting coal for the Nové Komárno transshipment point is extended to November 11th."
+    },
+    {
+        "question_id": "gen_li_3",
+        "source_chunk_id": "00005e12-9f2d-40c9-bd9e-9aea9f5fe169",
+        "question": "What was the amount of deposits at Friedländer Sparcasse at the end of 1898?",
+        "ground_truth": "The amount of deposits at Friedländer Sparcasse at the end of 1898 was 5,185,409 fl. 59 kr."
+    },
+    {
+        "question_id": "gen_li_4",
+        "source_chunk_id": "000020af-4cdb-4969-9b6c-927aa1735214",
+        "question": "What is the telephone number for Prof. Dr. Karl Walko?",
+        "ground_truth": "The telephone number for Prof. Dr. Karl Walko is 2759."
+    },
+    {
+        "question_id": "gen_li_5",
+        "source_chunk_id": "000044ad-33b0-4278-a9ff-306445db36a2",
+        "question": "What title and character was Anton Dubowy granted?",
+        "ground_truth": "Anton Dubowy was granted the title and character of a Herzogs."
+    }
+]

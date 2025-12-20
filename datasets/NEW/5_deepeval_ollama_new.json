@@ -1,0 +1,32 @@
+[
+    {
+        "question_id": "gen_de_1",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "List the diverse activities mentioned, noting their associated numerical ranges.",
+        "ground_truth": "The activities mentioned include: baníctve a hutníctve, priemysle a remesloch, obchodoch a peňažnictve, živnostiach hostinských a výčapníckych, slobodných povolaniach, and inom pracovnom obore. Their associated numerical ranges are 0.1 to 20, 20 to 30, 30 to 50, 50 to 100, 100 to 200, and 200 to 500, and vyše 500."
+    },
+    {
+        "question_id": "gen_de_2",
+        "source_chunk_id": "00002413-f143-478f-90a0-b840eb5cb105",
+        "question": "If the dog's rabies was confirmed, how would treatment protocols protect bitten children?",
+        "ground_truth": "If the dog's rabies was confirmed, the bitten children were treated and vaccinated for 30 days at the Pasteur Institute in Cluj."
+    },
+    {
+        "question_id": "gen_de_3",
+        "source_chunk_id": "00000e7b-6cc9-4104-87eb-72bd37ef3a07",
+        "question": "Imagine a dragon's flight is failing. What playful taunts might friends exchange about its abilities?",
+        "ground_truth": "Friends might taunt, \"Does your dragon even fly? I'll throw it in the air to give it some momentum!\" and \"A cripple like that will never fly!\""
+    },
+    {
+        "question_id": "gen_de_4",
+        "source_chunk_id": "00005388-95b3-416f-9f1e-a34eb00f41d5",
+        "question": "If the sterpräsident's explanation faced legal challenge, where would he also present it?",
+        "ground_truth": "The sterpräsident would also present his explanation in the Senate."
+    },
+    {
+        "question_id": "gen_de_5",
+        "source_chunk_id": "0000270c-06ec-401a-bcf1-530d51d880d2",
+        "question": "How did the government's March 28, 1938 announcement relate to ongoing reforms & minority rights?",
+        "ground_truth": "On March 28, 1938, Prime Minister Milan Hodža announced in a radio broadcast that the government would continue implementing reforms without internal or external pressure and would prepare a national statute merging constitutional provisions for minorities with existing laws and administrative measures."
+    }
+]
