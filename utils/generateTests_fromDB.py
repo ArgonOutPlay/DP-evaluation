@@ -200,6 +200,8 @@ def main():
                         "ground_truth": pair[1]
                     })
 
+                if (len(final_data) == num_of_generated_tests):
+                    break
 
             except Exception as e:
                 print("\nError occured while generating data with LlamaIndex, error detail:", e)
@@ -238,6 +240,9 @@ def main():
                         "question": golden.input,
                         "ground_truth": golden.expected_output
                     })
+                
+                if (len(final_data) == num_of_generated_tests):
+                    break
             
             except Exception as e:
                 print("\nError occured while generating data with Deepeval, error detail:", e)
