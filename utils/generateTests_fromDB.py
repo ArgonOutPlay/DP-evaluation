@@ -1,10 +1,14 @@
 import os
 from dotenv import load_dotenv
 import random
+
 import json
 import argparse
 import weaviate
 import asyncio
+import tqdm #progress bar
+import nest_asyncio
+nest_asyncio.apply()    # to be sure there were problems with llama generative function
 
 #llama
 from llama_index.core import Document
@@ -34,8 +38,8 @@ load_dotenv()
 #load data from weaviate db
 async def loadDataFromWeaviate(limit):
     client =  weaviate.use_async_with_custom(
-            http_host=os.getenv("WEAVIATE_HOST"), http_port=os.getenv("WEAVIATE_REST_PORT"), http_secure=False,
-            grpc_host=os.getenv("WEAVIATE_HOST"), grpc_port=os.getenv("WEAVIATE_GRPC_PORT"), grpc_secure=False,
+            http_host=os.getenv("WEAVIATE_HOST"), http_port=int(os.getenv("WEAVIATE_REST_PORT")), http_secure=False,
+            grpc_host=os.getenv("WEAVIATE_HOST"), grpc_port=int(os.getenv("WEAVIATE_GRPC_PORT")), grpc_secure=False,
         )
     
     await client.connect()
@@ -51,7 +55,7 @@ async def loadDataFromWeaviate(limit):
     data = []
     for item in response.objects:
         if "text" in item.properties:
-            data.append(item.properties["text"])
+            data.append({"text" : item.properties["text"], "id" : str(item.uuid)})
 
     await client.close()
 
@@ -93,8 +97,7 @@ generate_gt_prompt_template = (
     4) Respond ONLY with the answer.
     """
 )
-
-async def main():
+def main():
     parser = argparse.ArgumentParser(description="Genereting questions for RAG.")
     parser.add_argument("--generator",
                     type=str,
@@ -144,9 +147,9 @@ async def main():
     #--- load data ---
     try:
 
-        data = await loadDataFromWeaviate(limit=num_of_generated_tests)
+        data_with_id = asyncio.run(loadDataFromWeaviate(limit=num_of_generated_tests))
         #if db have least data then desired
-        data_reduced = random.sample(data, min(num_of_generated_tests, len(data)))
+        data_reduced = random.sample(data_with_id, min(num_of_generated_tests * 2, len(data_with_id)))
 
         print("----- Data loaded -----")
     except Exception as e:
@@ -156,8 +159,6 @@ async def main():
     final_data = []
     #LlamaIndex
     if (args.generator == "llama"):
-        #convert to desired format
-        documents = [Document(text=t) for t in data_reduced]
         # custom prompts
         question_template = PromptTemplate(generate_question_prompt_template)
         answer_template = PromptTemplate(generate_gt_prompt_template)
@@ -171,30 +172,37 @@ async def main():
         except Exception as e:
             print("\nError occured while creating model instances, error detail:", e)
 
-        try:
-            generator = DatasetGenerator.from_documents(
-                documents=documents,
-                llm=generator_llm,
-                num_questions_per_chunk=1,
-                show_progress=show_progress,
-                # rewrite prompts
-                text_question_template=question_template,
-                text_qa_template=answer_template
-            )
+        i = 0
+        for data in tqdm.tqdm(data_reduced, desc="Gnerating questions"):
+            i = i + 1
+            #convert to desired format
+            single_document = [Document(text=data["text"])]
 
-            #generate questions and gt
-            gen_out = generator.generate_dataset_from_nodes()
+            try:
+                generator = DatasetGenerator.from_documents(
+                    documents=single_document,
+                    llm=generator_llm,
+                    num_questions_per_chunk=1,
+                    show_progress=show_progress,
+                    # rewrite prompts
+                    text_question_template=question_template,
+                    text_qa_template=answer_template
+                )
 
-            for i, pair in enumerate(gen_out.qr_pairs):
-                final_data.append({
-                    "question_id": f"gen_li_{i + 1}",
-                    "question": pair[0],
-                    "ground_truth": pair[1]
-                })
+                #generate questions and gt
+                gen_out = generator.generate_dataset_from_nodes()
+
+                for pair in gen_out.qr_pairs:
+                    final_data.append({
+                        "question_id": f"gen_li_{i}",
+                        "source_chunk_id" : data["id"], 
+                        "question": pair[0],
+                        "ground_truth": pair[1]
+                    })
 
 
-        except Exception as e:
-            print("\nError occured while generating data with LlamaIndex, error detail:", e)
+            except Exception as e:
+                print("\nError occured while generating data with LlamaIndex, error detail:", e)
 
     #Deepeval
     else:
@@ -207,37 +215,46 @@ async def main():
             generator = Synthesizer(
                 model=generator_llm
             )
-
-            final_contexts = [[c] for c in data_reduced]
-            generator.generate_goldens_from_contexts(
-                    contexts=final_contexts,
-                    max_goldens_per_context=1,
-                    include_expected_output=True
-            )
-
-            for i, golden in enumerate(generator.synthetic_goldens):
-                final_data.append({
-                    "question_id": f"gen_de_{i + 1}",
-                    "question": golden.input,
-                    "ground_truth": golden.expected_output
-                })
-            
         except Exception as e:
             print("\nError occured while generating data with Deepeval, error detail:", e)
+
+        i = 0
+        for data in tqdm.tqdm(data_reduced, desc="Generating questions"):
+            i = i + 1
+        
+            try:
+                final_context = [[data["text"]]]
+                generator.generate_goldens_from_contexts(
+                        contexts=final_context,
+                        max_goldens_per_context=1,
+                        include_expected_output=True
+                )
+
+                if (generator.synthetic_goldens):
+                    golden = generator.synthetic_goldens[-1]
+                    final_data.append({
+                        "question_id": f"gen_de_{i}",
+                        "source_chunk_id" : data["id"], 
+                        "question": golden.input,
+                        "ground_truth": golden.expected_output
+                    })
+            
+            except Exception as e:
+                print("\nError occured while generating data with Deepeval, error detail:", e)
     
     #give desired number of data/samples
     if (len(final_data) > num_of_generated_tests):
         final_data = final_data[:num_of_generated_tests]
     #---save data---
     try:
-        output_name = f"{str(len(final_data))}_{num_of_generated_tests}_{args.generator}_{args.model}_{out_dir_path}"
+        output_name = out_dir_path
         with open(output_name, 'w', encoding='utf-8') as f:
             json.dump(final_data, f, ensure_ascii=False, indent=4)
 
-        print(f"{Colors.GREEN} ----- Generating completed, saved to file: {output_name} ----- {Colors.RESET}")
+        print(f"{Colors.GREEN} ----- Generating completed, saved to: {output_name} ----- {Colors.RESET}")
 
     except Exception as e:
         print("\nError occured while saving data, error detail:", e)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
