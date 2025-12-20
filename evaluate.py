@@ -11,8 +11,8 @@ load_dotenv() #have to be called before config import
 #semant app - RAG
 from semant_demo.config import config
 from semant_demo.weaviate_search import WeaviateSearch
-from semant_demo.rag.rag_generator import RagGenerator
-from semant_demo.schemas import RagConfig, RagSearch
+from semant_demo.rag.rag_factory import rag_load_single_config
+from semant_demo.schemas import RagRequest, RagSearch
 #ragas openai
 from langchain_openai import OpenAIEmbeddings
 from ragas.llms import LangchainLLMWrapper
@@ -77,28 +77,18 @@ class Colors:
     RESET = '\033[0m'
 
 # function that return parameters in required schemes
-def createRagSupportParameters(model_name: str, question: str, search_type: str, alpha: float, limit: int, temperature: float = 0.0):
-    #configuration of the model - api, model, temperature
-        model_config = RagConfig(
-            model_name=model_name,
-            temperature=temperature
-        )
-        # create search query, will by used to create weaviate search query
+def createRagSupportParameters(question: str):
+        #create search
         rag_search = RagSearch(
-            search_query = question,
-            limit= limit,
-            search_type = search_type, #'hybrid', #vector: alpha=1, text: alpha=0
-            alpha= alpha,
-            min_year= None,
-            max_year= None,
-            min_date= None,
-            max_date=None,
-            language= None
+            search_query=question   #with history its rephrased
         )
-        return {
-            "ragConfig": model_config,
-            "ragSearch": rag_search
-        }
+        #create request
+        rag_request = RagRequest(
+                question =  question,
+                history = [],
+                rag_search = rag_search
+        )
+        return rag_request
         
 
 #load questions/queries and ground truths from json file given path
@@ -155,28 +145,6 @@ async def main():
                         default="ragas",
                         choices=["ragas", "deepeval"],
                         help="Library used for evaluation.")
-    parser.add_argument("--rag_model",
-                        type=str,
-                        default="OLLAMA",
-                        choices=["OLLAMA","GOOGLE", "OPENAI"],
-                        help="Model used by RAG: 'OLLAMA', 'GOOGLE' or 'OPENAI' ")
-    parser.add_argument("--temperature",
-                    type=float,
-                    default=0.0,
-                    help="RAG model temperature.")
-    parser.add_argument("--search_type",
-                    type=str,
-                    default="hybrid",
-                    choices=["hybrid","vector", "text"],
-                    help="Search type used for searching in DB.")
-    parser.add_argument("--alpha",
-                    type=float,
-                    default=0.5,
-                    help="Hybrid search alpha parametr.")
-    parser.add_argument("--limit",
-                    type=int,
-                    default=5,
-                    help="Limit of chunks that will be retrieved during db search.")
     parser.add_argument("--eval_model",
                     type=str,
                     default="OLLAMA",
@@ -192,16 +160,19 @@ async def main():
                     default="OFF",
                     choices=["ON", "OFF"],
                     help="Does not work with OLLAMA evaluation model. Only relevant in 'NOGT' mode. Relevancy choices: 'ON' or 'OFF' ")
-    parser.add_argument("--path",
+    parser.add_argument("--path_to_dataset",
                     type=str,
                     default="PATH_MISSING",
                     help="Path to question file (.json with GT mode or .txt with NOGT mode)")
+    parser.add_argument("--rag_config_path",
+                    type=str,
+                    default="PATH_MISSING",
+                    help="Path to rag configuration file (.yaml)")
+    
 
     args = parser.parse_args()
     print(f"""{Colors.GREEN} 
-            Starting evaluation in mode: {args.mode} and core: {args.core} with RAG model: {args.rag_model}
-            and temperature: {args.temperature} and limit: {args.limit}
-            and search type: {args.search_type} and alpha parametr: {args.alpha} 
+            Starting evaluation in mode: {args.mode} and core: {args.core}
             and evaluation model: {args.eval_model} and context precission: {args.context_precission} 
             and context relevancy: {args.context_relevancy}.
             {Colors.RESET} """)
@@ -209,7 +180,7 @@ async def main():
     #so deepeval will not timeout
     os.environ["DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE"] = "6000"
     eval_model = args.eval_model
-    rag_model = args.rag_model
+    rag_config_path = args.rag_config_path
     mode = args.mode
     precission_mode = True if args.context_precission == "ON" else False
     relevancy_mode = True if args.context_relevancy == "ON" else False
@@ -219,13 +190,13 @@ async def main():
         return
 
     #--- get path ---
-    if(args.path == "PATH_MISSING"):
+    if(args.path_to_dataset == "PATH_MISSING"):
         if(mode == "NOGT"):
             path = os.getenv("PATH_WITHOUT_GT")
         else:
             path = os.getenv("PATH_GT")
     else:
-        path = args.path
+        path = args.path_to_dataset
  
     if (eval_model == "OLLAMA" and (relevancy_mode or precission_mode)):
         print(f"{Colors.YELLOW} In this version of Ragas context relevancy and precission are not supported for Ollama. We recommend you to use context precission instead or use OPENAI for evaluation. {Colors.RESET}")
@@ -280,8 +251,10 @@ async def main():
             return
     
     #--- evaluation ---
-    search = await WeaviateSearch.create(config=config)
-    rag_generator = RagGenerator(config=config, search=search)
+    searcher = await WeaviateSearch.create(config=config)
+    #create rag instance
+    results = rag_load_single_config(config, rag_config_path)
+    _, _, rag_generator = results
     try:
         dataset = []
         precisions = []
@@ -291,33 +264,18 @@ async def main():
             single_context_relevancy_evaluator = ContextRelevance(llm=llm)
         #call rag --> get query and context
         for i, query in enumerate(queries):
-            ragSP = createRagSupportParameters(
-                model_name=rag_model,
-                question=query,
-                search_type=args.search_type,
-                alpha=args.alpha,
-                limit=args.limit,
-                temperature=args.temperature
-                
-            )
-            ragResult = await rag_generator.generate_answer(
-                question_string = query,
-                history= [],
-                #rag configuration parameters
-                rag_config = ragSP["ragConfig"],
-                #search parameters
-                rag_search = ragSP["ragSearch"]
-            )
-            retrieved_contexts_text = [ctx.text for ctx in ragResult["sources"]]
+            ragSP = createRagSupportParameters(question=query)
+            ragResult = await rag_generator.rag_request(ragSP, searcher)
+            retrieved_contexts_text = [ctx.text for ctx in ragResult.sources]
             if (mode == "NOGT"):
                 #ragas
                 if (args.core == "ragas"):
-                    dataset.append({"user_input" : query, "retrieved_contexts" : retrieved_contexts_text, "response" : ragResult["answer"]})
+                    dataset.append({"user_input" : query, "retrieved_contexts" : retrieved_contexts_text, "response" : ragResult.rag_answer})
                     #calculating precission (current eval require GT to be able to calculate precission)
                     if(precission_mode == True):
                         sample = SingleTurnSample(
                             user_input=query,
-                            response=ragResult["answer"],
+                            response=ragResult.rag_answer,
                             retrieved_contexts=retrieved_contexts_text
                         )
                         #add precision of sample to list
@@ -332,15 +290,15 @@ async def main():
                         #add precision of sample to list
                         relevancies.append(await single_context_relevancy_evaluator.single_turn_ascore(sample))
                 else:
-                    dataset.append(LLMTestCase(input=query, actual_output=ragResult["answer"], retrieval_context=retrieved_contexts_text))
+                    dataset.append(LLMTestCase(input=query, actual_output=ragResult.rag_answer, retrieval_context=retrieved_contexts_text))
             #GT
             else:
                 #ragas
                 if (args.core == "ragas"):
-                    dataset.append({"user_input":query, "retrieved_contexts":retrieved_contexts_text, "response":ragResult["answer"], "reference": ground_truths[i]})
+                    dataset.append({"user_input":query, "retrieved_contexts":retrieved_contexts_text, "response":ragResult.rag_answer, "reference": ground_truths[i]})
                 #deepeval
                 else:
-                    dataset.append(LLMTestCase(input=query, actual_output=ragResult["answer"], retrieval_context=retrieved_contexts_text, expected_output=ground_truths[i]))
+                    dataset.append(LLMTestCase(input=query, actual_output=ragResult.rag_answer, retrieval_context=retrieved_contexts_text, expected_output=ground_truths[i]))
         #---eval setup---
         print(f"{Colors.YELLOW} ---Starting evaluation --- {Colors.RESET}")
         result = []
@@ -388,8 +346,7 @@ async def main():
         print(f"{Colors.RED} Error detail: {e} {Colors.RESET}\n")
     finally:
         if 'search' in locals():
-            await search.close()
-
+            await searcher.close()
 
 if __name__ == "__main__":
     asyncio.run(main())
