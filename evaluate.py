@@ -208,9 +208,15 @@ async def main():
         ground_truths = []
         # load from txt
         if (mode == "NOGT" ):
+            if (path.endswith(".txt") == False):
+                print(f"{Colors.RED} Error: In NOGT mode, input file has to be .txt {Colors.RESET}")
+                return
             queries = loadDataFromTXT(path)
         # load from json
         elif (mode == "GT"):
+            if (path.endswith(".json") == False):
+                print(f"{Colors.RED} Error: In GT mode, input file has to be .json {Colors.RESET}")
+                return
             queries, ground_truths = loadDataFromJson(path)
     except FileNotFoundError as e:
         print(f"{Colors.RED} Invalid path, error detail: {e} {Colors.RESET}")
