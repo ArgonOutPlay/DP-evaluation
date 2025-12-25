@@ -351,7 +351,7 @@ async def main():
     except Exception as e:
         print(f"{Colors.RED} Error detail: {e} {Colors.RESET}\n")
     finally:
-        if 'search' in locals():
+        if 'searcher' in locals():
             await searcher.close()
 
 if __name__ == "__main__":
