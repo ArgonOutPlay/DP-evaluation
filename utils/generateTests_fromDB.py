@@ -172,6 +172,7 @@ def main():
         except Exception as e:
             print("\nError occured while creating model instances, error detail:", e)
 
+        #generate tests one by one because we need to connect it with their chunk id
         i = 0
         for data in tqdm.tqdm(data_reduced, desc="Gnerating questions"):
             i = i + 1
@@ -200,6 +201,7 @@ def main():
                         "ground_truth": pair[1]
                     })
 
+                #end generation if enaught tests were generated
                 if (len(final_data) == num_of_generated_tests):
                     break
 
@@ -220,6 +222,7 @@ def main():
         except Exception as e:
             print("\nError occured while generating data with Deepeval, error detail:", e)
 
+        #generate tests one by one because we need to connect it with their chunk id
         i = 0
         for data in tqdm.tqdm(data_reduced, desc="Generating questions"):
             i = i + 1
@@ -232,6 +235,7 @@ def main():
                         include_expected_output=True
                 )
 
+                #generate questions and gt
                 if (generator.synthetic_goldens):
                     golden = generator.synthetic_goldens[-1]
                     final_data.append({
@@ -240,14 +244,14 @@ def main():
                         "question": golden.input,
                         "ground_truth": golden.expected_output
                     })
-                
+                #end generation if enaught tests were generated
                 if (len(final_data) == num_of_generated_tests):
                     break
             
             except Exception as e:
                 print("\nError occured while generating data with Deepeval, error detail:", e)
     
-    #give desired number of data/samples
+    #return desired number of data/samples
     if (len(final_data) > num_of_generated_tests):
         final_data = final_data[:num_of_generated_tests]
     #---save data---
