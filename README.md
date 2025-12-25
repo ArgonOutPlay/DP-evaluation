@@ -3,7 +3,7 @@
 
 ### Evaluation
 - evaluate.py
-- set env variables - env.example
+    - set env variables - env.example
     - How to run? Example: ```python evaluate.py --mode GT --core deepeval --eval_model OPENAI --rag_config_path rag_configurations\01_ollama_default_config.yaml --path_to_dataset datasets\NEW\200_llama_ollama_syn.json > eval_results\new\GT_200_llama_index_ollama_syn_deepeval_eval_ollama_gpt4o_config_01.txt```
 
 ### Generate synthetick dataset
