@@ -62,8 +62,8 @@ async def loadDataFromWeaviate(limit):
     return data
 
 #Used models
-GPTmodel = "gpt-4o"
-OLLAMAmodel = "gemma3:12b"
+GPTmodel =  os.getenv("OPENAI_MODEL", "gpt-4o") 
+OLLAMAmodel = os.getenv("OLLAMA_MODEL", "gemma3:12b")  
 #custom prompts used for generating questions and answers with LlamaIndex
 generate_question_prompt_template = (
     """
