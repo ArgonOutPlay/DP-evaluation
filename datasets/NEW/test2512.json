@@ -1,0 +1,8 @@
+[
+    {
+        "question_id": "gen_li_1",
+        "source_chunk_id": "00004907-660a-4972-9bf3-e2d93579bb85",
+        "question": "What laws were being prepared for discussion by the Federal Assembly?",
+        "ground_truth": "The laws being prepared for discussion by the Federal Assembly were a law about central registration and a law about hospital financing."
+    }
+]
