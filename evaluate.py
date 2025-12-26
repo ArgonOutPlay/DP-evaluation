@@ -321,7 +321,7 @@ async def main():
                 result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=openai_ragas_emb)
         else:   #deepeval have to be setuped like this to avoid token overflow - this allow to create own llm instance with token limit
             #NOGT
-            metrics = [ContextualRelevancyMetric(model=llm, threshold=0.5), AnswerRelevancyMetric(model=llm, threshold=0.5), FaithfulnessMetric(model=llm, threshold=0.5)]
+            metrics = [AnswerRelevancyMetric(model=llm, threshold=0.5), FaithfulnessMetric(model=llm, threshold=0.5)]
             if (mode == "GT"):
                 metrics.append(ContextualPrecisionMetric(model=llm, threshold=0.5))
                 metrics.append(ContextualRecallMetric(model=llm, threshold=0.5))
