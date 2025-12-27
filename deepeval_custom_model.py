@@ -17,7 +17,6 @@ class CustomOpenAI(DeepEvalBaseLLM):
 
     #function is necessary because deepeval otherwise just end because of json in input
     def _clean_json(self, text):
-        og_text = text
         text = text.strip()
 
         match = re.search(r"\{.*\}", text, re.DOTALL)
