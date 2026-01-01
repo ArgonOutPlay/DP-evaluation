@@ -236,7 +236,7 @@ async def main():
             llm = LangchainLLMWrapper(base_llm)
 
             # doesnt work with ragas embeddings, ignore warnings
-            openai_emb = OpenAIEmbeddings(model="text-embedding-3-small")
+            openai_emb = OpenAIEmbeddings(model="text-embedding-3-small", timeout=3000.0)
             openai_ragas_emb = LangchainEmbeddingsWrapper(openai_emb)
         elif(eval_model == "OLLAMA"):
             eval_model_name = os.getenv("OLLAMA_EVAL_MODEL")
