@@ -111,7 +111,7 @@ def main():
                         help="Evaluation models: 'OLLAMA' (server/local) or 'OPENAI' (API) ")
     parser.add_argument("--output_name",
                     type=str,
-                    default="dataset_synthetick_gt.json",
+                    default="dataset_synthetic_gt.json",
                     help="Output path.")
     parser.add_argument("--num_of_generated_tests",
                     type=int,
@@ -174,7 +174,7 @@ def main():
 
         #generate tests one by one because we need to connect it with their chunk id
         i = 0
-        for data in tqdm.tqdm(data_reduced, desc="Gnerating questions"):
+        for data in tqdm.tqdm(data_reduced, desc="Generating questions"):
             i = i + 1
             #convert to desired format
             single_document = [Document(text=data["text"])]
@@ -206,7 +206,7 @@ def main():
                     break
 
             except Exception as e:
-                print("\nError occured while generating data with LlamaIndex, error detail:", e)
+                print("\nError occurred while generating data with LlamaIndex, error detail:", e)
 
     #Deepeval
     else:
@@ -220,7 +220,7 @@ def main():
                 model=generator_llm
             )
         except Exception as e:
-            print("\nError occured while generating data with Deepeval, error detail:", e)
+            print("\nError occurred while generating data with Deepeval, error detail:", e)
 
         #generate tests one by one because we need to connect it with their chunk id
         i = 0

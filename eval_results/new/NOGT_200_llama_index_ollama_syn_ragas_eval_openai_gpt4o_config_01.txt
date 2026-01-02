@@ -1,6 +1,6 @@
 [92m 
             Starting evaluation in mode: NOGT and core: ragas
-            and evaluation model: OPENAI and context precission: OFF 
+            and evaluation model: OPENAI and context precision: OFF 
             and context relevancy: OFF.
             [0m 
 Loaded 200 questions.

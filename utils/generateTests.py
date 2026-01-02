@@ -97,7 +97,7 @@ def main():
                     help="Input path.")
     parser.add_argument("--output",
                     type=str,
-                    default="dataset_synthetick_gt.json",
+                    default="dataset_synthetic_gt.json",
                     help="Output path.")
     parser.add_argument("--num_chunks_to_proc",
                     type=int,

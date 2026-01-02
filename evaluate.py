@@ -25,7 +25,7 @@ from ragas.embeddings import LangchainEmbeddingsWrapper
 from ragas import EvaluationDataset
 from ragas import evaluate
 from ragas.llms.base import llm_factory
-#context precission (basicly context relevancy but harsher (very simplified))
+#context precision (essentially performs preprocessing (very simplified))
 from ragas import SingleTurnSample
 from ragas.metrics import LLMContextPrecisionWithoutReference
 #context relevancy
@@ -63,11 +63,11 @@ warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed <s
 #ignore ragas warnings
 warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed file.*")
 warnings.filterwarnings("ignore", category=ResourceWarning, message="unclosed <ssl.SSLSocket*")
-#have to ignote those two warnings, because recommended implementations dont work
+#have to ignore those two warnings, because recommended implementations dont work
 warnings.filterwarnings("ignore", category=DeprecationWarning, message="LangchainLLMWrapper*")
 warnings.filterwarnings("ignore", category=DeprecationWarning, message="LangchainEmbeddingsWrapper*")
 import logging
-#openai api is returning just one out of three results to ragas, but it should works just fine fith temperature 0 --> ignoring warning 
+#openai api is returning just one out of three results to ragas, but it should works just fine with temperature 0 --> ignoring warning 
 logging.getLogger("ragas.prompt.pydantic_prompt").setLevel(logging.ERROR)
 #colors for better logs in terminal
 class Colors:
@@ -150,11 +150,11 @@ async def main():
                     default="OLLAMA",
                     choices=["OLLAMA", "OPENAI"],
                     help="Model used for evaluation: 'OLLAMA' or 'OPENAI' ")
-    parser.add_argument("--context_precission",
+    parser.add_argument("--context_precision",
                     type=str,
                     default="OFF",
                     choices=["ON", "OFF"],
-                    help="Only relevant in 'NOGT' mode. Precission choices: 'ON' or 'OFF' ")
+                    help="Only relevant in 'NOGT' mode. precision choices: 'ON' or 'OFF' ")
     parser.add_argument("--context_relevancy",
                     type=str,
                     default="OFF",
@@ -173,7 +173,7 @@ async def main():
     args = parser.parse_args()
     print(f"""{Colors.GREEN} 
             Starting evaluation in mode: {args.mode} and core: {args.core}
-            and evaluation model: {args.eval_model} and context precission: {args.context_precission} 
+            and evaluation model: {args.eval_model} and context precision: {args.context_precision} 
             and context relevancy: {args.context_relevancy}.
             {Colors.RESET} """)
 
@@ -182,7 +182,7 @@ async def main():
     eval_model = args.eval_model
     rag_config_path = args.rag_config_path
     mode = args.mode
-    precission_mode = True if args.context_precission == "ON" else False
+    precision_mode = True if args.context_precision == "ON" else False
     relevancy_mode = True if args.context_relevancy == "ON" else False
 
     if (relevancy_mode == True and eval_model == "OLLAMA"):
@@ -198,8 +198,8 @@ async def main():
     else:
         path = args.path_to_dataset
  
-    if (eval_model == "OLLAMA" and (relevancy_mode or precission_mode)):
-        print(f"{Colors.YELLOW} In this version of Ragas context relevancy and precission are not supported for Ollama. We recommend you to use context precission instead or use OPENAI for evaluation. {Colors.RESET}")
+    if (eval_model == "OLLAMA" and (relevancy_mode or precision_mode)):
+        print(f"{Colors.YELLOW} In this version of Ragas context relevancy and precision are not supported for Ollama. We recommend you to use context precision instead or use OPENAI for evaluation. {Colors.RESET}")
         relevancy_mode = False
 
     #--- load data ---
@@ -226,7 +226,7 @@ async def main():
         return
 
     #--- get desired evaluation model ---
-    #deepeval have it implemented in itself, need to run with this command: deepeval set-ollama model-name
+    #deepeval has it implemented in itself, need to run with this command: deepeval set-ollama model-name
     if (args.core == "ragas"):
         if (eval_model == "OPENAI"):
             eval_model_name = os.getenv("OPENAI_EVAL_MODEL")
@@ -277,8 +277,8 @@ async def main():
                 #ragas
                 if (args.core == "ragas"):
                     dataset.append({"user_input" : query, "retrieved_contexts" : retrieved_contexts_text, "response" : ragResult.rag_answer})
-                    #calculating precission (current eval require GT to be able to calculate precission)
-                    if(precission_mode == True):
+                    #calculating precision (current eval require GT to be able to calculate precision)
+                    if(precision_mode == True):
                         sample = SingleTurnSample(
                             user_input=query,
                             response=ragResult.rag_answer,
@@ -340,9 +340,9 @@ async def main():
             
         #only used in ragas with nogt module because newer version of ragas doesnt support it in evaluate without gt -->have to be done like this
         if (args.core == "ragas" and mode == "NOGT"):
-            if(precission_mode == True):
+            if(precision_mode == True):
                 average_precision = sum(precisions) / len(precisions)
-                print(f"{Colors.GREEN} average_precission: {average_precision} {Colors.RESET}")
+                print(f"{Colors.GREEN} average_precision: {average_precision} {Colors.RESET}")
             
             if(relevancy_mode == True):
                 average_relevancy = sum(relevancies) / len(relevancies)

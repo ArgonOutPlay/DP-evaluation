@@ -1,0 +1,62 @@
+[92m 
+            Starting evaluation in mode: GT and core: deepeval
+            and evaluation model: OPENAI and context precision: OFF 
+            and context relevancy: OFF.
+            [0m 
+Loaded 1 questions.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='What laws were being prepared for discussion by the Federal Assembly?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False
+Embedding...
+rag_config: {'model_type': 'OLLAMA', 'model_name': 'gemma3:12b', 'temperature': 0.0, 'search_type': 'hybrid', 'alpha': 0.5, 'chunk_limit': 5}, rag_search: search_type=<SearchType.hybrid: 'hybrid'> alpha=0.5 limit=10 search_query='What laws were being prepared for discussion by the Federal Assembly?' min_year=None max_year=None min_date=None max_date=None language=None 
+[93m ---Starting evaluation --- [0m
+✨ You're running DeepEval's latest Answer Relevancy Metric! (using gpt-4o-mini, strict=False, async_mode=True)...
+✨ You're running DeepEval's latest Faithfulness Metric! (using gpt-4o-mini, strict=False, async_mode=True)...
+✨ You're running DeepEval's latest Contextual Precision Metric! (using gpt-4o-mini, strict=False, async_mode=True)...
+✨ You're running DeepEval's latest Contextual Recall Metric! (using gpt-4o-mini, strict=False, async_mode=True)...
+
+
+======================================================================
+
+Metrics Summary
+
+  - ✅ Answer Relevancy (score: 1.0, threshold: 0.5, strict: False, evaluation model: gpt-4o-mini, reason: The score is 1.00 because the response directly addressed the question about the laws being prepared for discussion by the Federal Assembly without any irrelevant statements., error: None)
+  - ❌ Faithfulness (score: 0.3333333333333333, threshold: 0.5, strict: False, evaluation model: gpt-4o-mini, reason: The score is 0.33 because the actual output inaccurately specifies that the legislative proposals are for the Autumn session, which is not mentioned in the context, and it introduces additional topics like construction tourism and construction concessions that are not present in the context., error: None)
+  - ✅ Contextual Precision (score: 0.5833333333333333, threshold: 0.5, strict: False, evaluation model: gpt-4o-mini, reason: The score is 0.58 because while there are relevant nodes that provide direct answers to the question about laws being prepared for discussion by the Federal Assembly, there are also several irrelevant nodes ranked higher. Specifically, the first node (rank 1) is unrelated to laws or the Federal Assembly, stating 'The first document is unrelated to laws or the Federal Assembly, discussing a narrative about a character's experience.' This lowers the score as it distracts from the relevant information found in the second and third nodes., error: None)
+  - ✅ Contextual Recall (score: 1.0, threshold: 0.5, strict: False, evaluation model: gpt-4o-mini, reason: The score is 1.00 because the sentence directly aligns with the information in node 2 regarding laws being prepared for discussion by the Federal Assembly., error: None)
+
+For test case:
+
+  - input: What laws were being prepared for discussion by the Federal Assembly?
+  - actual output: The government is preparing a number of draft laws for the Autumn session of the Federal Assembly that are related to economic and business policy. These include: a sugar tax, support for construction tourism, laws concerning construction concessions, paid vacation for employees, and most importantly, a law on the reform of direct taxes [doc 2], [doc 3]. Also, a draft law on unfair competition needs to become a law [doc 2], [doc 3].
+  - expected output: The laws being prepared for discussion by the Federal Assembly were a law about central registration and a law about hospital financing.
+  - context: None
+  - retrieval context: ['his work into the assembly, his whole forehead was gray with dust and clay. His companions asked him: “What makes thy forehead gray?" “Constant praying, during which I touch the earth as is prescribed." One day the guards who had been posted on the boundary came running up, shouting: “The Arabs are approaching with dogs and weapons." Abu hamad and his family at once hid themselves in the dens which had been prepared, so that none of them perished. The Rwala divide serpents into hajje and dâbb, the former being any short snake and the latter any long serpent, irrespective of whether it is venomous or not. In poetry the latter appellation is always used for venomous serpents. Of the short serpents they are afraid of the viper, efâ\'i, which is found in the rocky desert, as well as of the batra and the', 'Pro podzimní zasedání Nár. shromáždění připravuje vláda celou řadu předloh zákonů, jež mají určitou souvislost s hospodářskou a živnostenskou politikou. Jsou to: daň z cukru, podpora stavebního ruchu, jejichž trvání je skončeno. Celá řada obchodních smluv a celních otázek musí býti vyřízena. Dále zákon o koncesovaných živnostech stavebních, placené dovolené pro zaměstnance a jako nejdůležitější, zákon o reformě daní přímých. Všechny chystané zákony měly by býti projednávány na schůzkách zájemníků, osnovy přetřeseny a eventuelní názory příslušným kruhům sděleny.  „Naše Hory.“  25. října 1924.  Je také nutno, aby osnova o nezřízené soutěži zákonem se stala. Tento zákon byl již v r. 1912 ve starém Rakousku připravován, ale dosud po celé řadě oprav neprojednán zákonnými sbory. Rovněž tak těžce se projednává reforma daňová a lze s největší pravděpodobností čekati, že interesované kruhy, najmě živnostnictvo pro věc patřičný zájem neprojeví.', 'Pro podzimní zasedání Nár. shromáždění připravuje vláda celou řadu předloh zákonů, jež mají určitou souvislost s hospodářskou a živnostenskou politikou. Jsou to: daň z cukru, podpora stavebního ruchu, jejichž trvání je skončeno. Celá řada obchodních smluv a celních otázek musí býti vyřízena. Dále zákon o koncesovaných živnostech stavebních, placené dovolené pro zaměstnance a jako nejdůležitější, zákon o reformě daní přímých. Všechny chystané zákony měly by býti projednávány na schůzkách zájemníků, osnovy přetřeseny a eventuelní názory příslušným kruhům sděleny.  „Naše Hory.“  25. října 1924.  Je také nutno, aby osnova o nezřízené soutěži zákonem se stala. Tento zákon byl již v r. 1912 ve starém Rakousku připravován, ale dosud po celé řadě oprav neprojednán zákonnými sbory. Rovněž tak těžce se projednává reforma daňová a lze s největší pravděpodobností čekati, že interesované kruhy, najmě živnostnictvo pro věc patřičný zájem neprojeví.', '80 % in the majority. In 1992, 800 cases of abusing copyrights were investigated in the Czech Republic, with 70 in Prague alone. A more powerful answer to such criminal and illegal activities can be given by the laws including hard sanctions that are being prepared. It is also important that among conditions for assigning mostfavored-nation status from the USA are included guarantees for obeying copyrights. A more legislatively demanding problem is the copyrights of Czech and Slovak films. Since July 31, 1992 no interested party can rent any domestic feature-length film made after 1964 until the question of copyrights, or rights to distribution, is solved. Negotiations between producers, authors, protection unions and legislators only prolong the situation and have many negative effects. And among those who', 'ereigns to act, was not long in being put in motion: it had been secretly prepared in part for such a step by Talleyrand, and the declaration of the allies at once brought matters to a crisis. Already the municipal council of Paris had, from the Hôtel de Ville, issued a vehement invective against Napoleon, and in favour of Louis XVIII.; but the senators were in great part uninitiated in the secret of the approaching change, and it was with pale visages and trembling steps that they obeyed the summons which, early in the morning of the 1st of April, Tal- April 1 leyrand, in his capacity of Arch-chancellor of the Empire, sent them, to assemble to deliberate in their usual hall of assembly. Only sixty-four out of one hundred and forty attended; but they composed several men of distinction, whose']
+
+======================================================================
+
+Overall Metric Pass Rates
+
+Answer Relevancy: 100.00% pass rate
+Faithfulness: 0.00% pass rate
+Contextual Precision: 100.00% pass rate
+Contextual Recall: 100.00% pass rate
+
+======================================================================
+
+
+⚠ WARNING: No hyperparameters logged.
+» Log hyperparameters to attribute prompts and models to your test runs.
+
+================================================================================
+
+
+✓ Evaluation completed 🎉! (time taken: 12.31s | token cost: None USD)
+» Test Results (1 total tests):
+   » Pass Rate: 0.0% | Passed: 0 | Failed: 1
+
+ ================================================================================ 
+
+» Want to share evals with your team, or a place for your test cases to live? ❤️ 🏡
+  » Run 'deepeval view' to analyze and save testing results on Confident AI.
+
+
+[92m---Evaluation finished ---[0m

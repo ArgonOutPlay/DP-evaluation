@@ -1,9 +1,9 @@
-(.venv) E:\RAG-eval\DP-evaluation>python evaluate.py --mode NOGT --core ragas --rag_model OLLAMA --eval_model OLLAMA --path datasets\100_OLLAMA_dataset_synthetick_gt.txt
+(.venv) E:\RAG-eval\DP-evaluation>python evaluate.py --mode NOGT --core ragas --rag_model OLLAMA --eval_model OLLAMA --path datasets\100_OLLAMA_dataset_synthetic_gt.txt
 
             Starting evaluation in mode: NOGT and core: ragas with RAG model: OLLAMA
             and temperature: 0.0 and limit: 5
             and search type: hybrid and alpha parametr: 0.5
-            and evaluation model: OLLAMA and context precission: OFF
+            and evaluation model: OLLAMA and context precision: OFF
             and context relevancy: OFF.
 
 Loaded 100 questions.
