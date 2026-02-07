@@ -5,6 +5,7 @@ import random
 import json
 import argparse
 import weaviate
+from weaviate.classes.query import Filter
 import asyncio
 import tqdm #progress bar
 import nest_asyncio
@@ -45,10 +46,14 @@ async def loadDataFromWeaviate(limit):
     await client.connect()
     #load data
     chunks = client.collections.get("Chunks")
+
+    lang_filter = Filter.by_property("language").equal("ces")
+
     #this is to randomize data
     fetch_limit = limit * 20 if limit < 50000 else limit
     response = await chunks.query.fetch_objects(
         limit=fetch_limit,
+        filters=lang_filter,
         return_properties=["text"]
     )
 
@@ -80,7 +85,8 @@ generate_question_prompt_template = (
     4) If the text does not contain specific names to identify the subject, do not generate a question.
     5) Do NOT mention the text, context, document. For example, do not ask things such as: "Based on the context..." or "Given a text" or "What does text say about..." 
     6) Question should be something a real person would ask to learn specific information.
-    7) Respond ONLY with generated question and nothing else.
+    7) **LANGUAGE:** The question MUST be written in the SAME LANGUAGE as the provided text ({context_str}). If the text is in Czech, ask in Czech. If in German, ask in German.
+    8) Respond ONLY with generated question and nothing else.
     """
 )
 
@@ -94,7 +100,8 @@ generate_gt_prompt_template = (
     1) Answer the question using ONLY the given context. Do not generate any other text.
     2) Do NOT just extract name or a date. Explain the answer based on the context.
     3) Do NOT write things such as "According to text..." or "Based on the context..."
-    4) Respond ONLY with the answer.
+    4) **LANGUAGE:** The answer MUST be written in the SAME LANGUAGE as the provided context ({context_str})
+    5) Respond ONLY with the answer.
     """
 )
 def main():
@@ -173,8 +180,9 @@ def main():
             print("\nError occured while creating model instances, error detail:", e)
 
         #generate tests one by one because we need to connect it with their chunk id
+        pbar = tqdm.tqdm(total=num_of_generated_tests, desc="Generating questions")
         i = 0
-        for data in tqdm.tqdm(data_reduced, desc="Generating questions"):
+        for data in data_reduced:
             i = i + 1
             #convert to desired format
             single_document = [Document(text=data["text"])]
@@ -193,6 +201,8 @@ def main():
                 #generate questions and gt
                 gen_out = generator.generate_dataset_from_nodes()
 
+                pbar.update(1)
+
                 for pair in gen_out.qr_pairs:
                     final_data.append({
                         "question_id": f"gen_li_{i}",
@@ -207,6 +217,7 @@ def main():
 
             except Exception as e:
                 print("\nError occurred while generating data with LlamaIndex, error detail:", e)
+        pbar.close()
 
     #Deepeval
     else:
@@ -223,8 +234,9 @@ def main():
             print("\nError occurred while generating data with Deepeval, error detail:", e)
 
         #generate tests one by one because we need to connect it with their chunk id
+        pbar = tqdm.tqdm(total=num_of_generated_tests, desc="Generating questions")
         i = 0
-        for data in tqdm.tqdm(data_reduced, desc="Generating questions"):
+        for data in data_reduced:
             i = i + 1
         
             try:
@@ -234,6 +246,8 @@ def main():
                         max_goldens_per_context=1,
                         include_expected_output=True
                 )
+
+                pbar.update(1)
 
                 #generate questions and gt
                 if (generator.synthetic_goldens):
@@ -250,6 +264,7 @@ def main():
             
             except Exception as e:
                 print("\nError occured while generating data with Deepeval, error detail:", e)
+        pbar.close()
     
     #return desired number of data/samples
     if (len(final_data) > num_of_generated_tests):
