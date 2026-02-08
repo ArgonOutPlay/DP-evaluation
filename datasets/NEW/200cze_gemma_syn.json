@@ -1,0 +1,1202 @@
+[
+    {
+        "question_id": "gen_li_1",
+        "source_chunk_id": "cc1b1906-366e-4971-bab5-729d4b07bebb",
+        "question": "Kdo je režisér dramatu »Verkmistr«?",
+        "ground_truth": "Režisér dramatu »Verkmistr« je F. Šípek."
+    },
+    {
+        "question_id": "gen_li_2",
+        "source_chunk_id": "ee1781df-69e1-4a4d-8ad0-bd1630d7cc32",
+        "question": "Kdo předsedal sjezdu?",
+        "ground_truth": "Sjezdu předsedal ryt. Pro-skowetz."
+    },
+    {
+        "question_id": "gen_li_3",
+        "source_chunk_id": "55163072-6b93-41f0-905c-8d14a2409b40",
+        "question": "Proč farář přesvědčil pět sirotků, že se dnes již nedějí takové zázraky jako dříve?",
+        "ground_truth": "Farář je přesvědčil, že dnes již se nedějí takové zázraky jako dříve, protože prý jest na světě mnoho neznabohů, kteří Pána Boha a Krista urážejí."
+    },
+    {
+        "question_id": "gen_li_4",
+        "source_chunk_id": "3efb1ad1-231f-4087-9f98-3e4f63a2d61a",
+        "question": "Dle koho jest nejvhodnějším objektem pozorovacím tukové těleso žab?",
+        "ground_truth": "Dle Lukjanowa (l. c.) jest nejvhodnějším objektem pozorovacím tukové těleso žab."
+    },
+    {
+        "question_id": "gen_li_5",
+        "source_chunk_id": "a8dbf180-59c5-4ef1-9621-95ff999748a0",
+        "question": "Na co se zaměřuje studie Emanuela Janouška?",
+        "ground_truth": "V ní podrobně sleduje všechny velmi časté změny a převraty v poměru centrálních mocností k polské otázce."
+    },
+    {
+        "question_id": "gen_li_6",
+        "source_chunk_id": "47979eb6-8ad7-4781-a296-c4b70f0233eb",
+        "question": "Kdo dohlíží v odboru šití šatů?",
+        "ground_truth": "Paní Johana Patočková dohlíží v odboru šití šatů.\n"
+    },
+    {
+        "question_id": "gen_li_7",
+        "source_chunk_id": "d221a509-20b5-4d19-aa4b-a43fd3cdad42",
+        "question": "Kolik kilogramů salámu poslala firma »Velkořeznictví a udírna v Dejvicích »u Březiny«, spol. s r. o. do České Kamenice 22. prosince m. r.?",
+        "ground_truth": "Firma »Velkořeznictví a udírna v Dejvicích »u Březiny«, spol. s r. o. zaslala staro-stenskému úřadu v České Kamenici dne 22. prosince m. r. 100 kg. salámu."
+    },
+    {
+        "question_id": "gen_li_8",
+        "source_chunk_id": "9c779a71-16ca-4e5e-9c73-c003a7c937da",
+        "question": "Na Ostravsku a Slezsku platí pravidlo o výměně jazyka mezi českým a německým školstvím i pro polské?",
+        "ground_truth": "Pravidlo o výměně jazyka mezi českým a německým školstvím platí na Ostravsku a Slezsku také pro polské."
+    },
+    {
+        "question_id": "gen_li_9",
+        "source_chunk_id": "0461c034-4d51-4aed-8263-c034c1f13dec",
+        "question": "Jak dlouhý byl nástroj vyrobený ze špice jeleního parohu?",
+        "ground_truth": "Nástroj vyrobený ze špice jeleního parohu byl 13.5 dlouhé.\n"
+    },
+    {
+        "question_id": "gen_li_10",
+        "source_chunk_id": "2468ce33-915f-4de2-a5fd-8f501e63dfc0",
+        "question": "Jaká je cena za dva snubní prsteny z 14karatového zlata?",
+        "ground_truth": "Cena za dva snubní prsteny z 14karatového zlata je od K 17.—"
+    },
+    {
+        "question_id": "gen_li_11",
+        "source_chunk_id": "3f1e0607-72f0-4e84-a6ed-0179908f86ab",
+        "question": "Dosáhli Němci samostatnosti díky čemu?",
+        "ground_truth": "Dosáhli samostatnosti vzdělaností národní."
+    },
+    {
+        "question_id": "gen_li_12",
+        "source_chunk_id": "59461c99-eddf-4fcc-8d05-8f21a682a493",
+        "question": "Kdo bude mluviti z Hohenwartova klubu?",
+        "ground_truth": "Z Hohenwartova klubu bude mluviti tyrolský poslanec Kathrein."
+    },
+    {
+        "question_id": "gen_li_13",
+        "source_chunk_id": "63f45d75-683f-4a7f-a248-e6f2d4999192",
+        "question": "Co soudruh Sýkora řekl Popovovi o postoji československé vojenské jednotky ke komunistické akci?",
+        "ground_truth": "Sýkora mu prý řekl, že čsl. vojsko jako celek se za komunistickou akci nepostaví, ale že nepůjde také proti ní, jestliže ovšem povstalci sami nevystoupí proti Čechům."
+    },
+    {
+        "question_id": "gen_li_14",
+        "source_chunk_id": "e4562f18-df91-42b0-8b8c-ba57cf02e78f",
+        "question": "Kdo je E. Kolosov?",
+        "ground_truth": "E. Kolosov je sovatele a známého přítele našich legií, jehož dílo líčí podle jednotlivých krajů průběh partisánského hnutí sibiřského venkova proti Kolčakovi."
+    },
+    {
+        "question_id": "gen_li_15",
+        "source_chunk_id": "8410f525-3c10-4dc3-afb3-a0e11c79289f",
+        "question": "Kdo vyvolal revoluci ve zdech klidného města?",
+        "ground_truth": "Gautsch vyvolal revoluci ve zdech klidného města."
+    },
+    {
+        "question_id": "gen_li_16",
+        "source_chunk_id": "0e8278de-363f-42d9-8a80-2a95e9a912df",
+        "question": "Komu soudruh F. Binder předal státní vyznamenání Za obětavou práci pro socialismus?",
+        "ground_truth": "Soudruh F. Binder předal státní vyznamenání Za obětavou práci pro socialismus jubilantovi, soudruhu Josefu Hlávačovi.\n"
+    },
+    {
+        "question_id": "gen_li_17",
+        "source_chunk_id": "f48d1d63-78fa-4db6-8443-239bac7659db",
+        "question": "Jak často vychází AŠIN S.?",
+        "ground_truth": "Vychází třikrát za týden: v úterý, ve čtvrtek a v sobotu večer."
+    },
+    {
+        "question_id": "gen_li_18",
+        "source_chunk_id": "1935405b-52fb-47d8-a1f5-565cc6f15b12",
+        "question": "Kolik korun ročně má prezident republiky?",
+        "ground_truth": "President má ročně 500.000 korun."
+    },
+    {
+        "question_id": "gen_li_19",
+        "source_chunk_id": "c0056e57-09a4-4e2f-8b02-e38075557d94",
+        "question": "Kdo do knihy napsal dva nejcennější příspěvky?",
+        "ground_truth": "Giovanni Amendola do knihy napsal dva nejcennější příspěvky."
+    },
+    {
+        "question_id": "gen_li_20",
+        "source_chunk_id": "f6b632a3-ac9f-42b0-b665-a7f80dfd4a10",
+        "question": "Kde působí Dr. Augustin Frid.?",
+        "ground_truth": "Dr. Augustin Frid. působí jako Cat. Pragae."
+    },
+    {
+        "question_id": "gen_li_21",
+        "source_chunk_id": "e76161bd-2cad-4b88-b6a0-18b1eff4e123",
+        "question": "Kde vyšel italský spis Eduarda Beneše, La Boemia contro l'Austria-Ungheria?",
+        "ground_truth": "Italský spis Eduarda Beneše, La Boemia contro l'Austria-Ungheria, vyšel v Římě u nakladatelství Ausonia v roce 1917."
+    },
+    {
+        "question_id": "gen_li_22",
+        "source_chunk_id": "f57f3215-30d3-481b-922d-afbde4cffaee",
+        "question": "Kdo napsal Vítací báseň pro „Našemu Kalendáři“?",
+        "ground_truth": "Jan Rada-Radotínský napsal Vítací báseň pro „Našemu Kalendáři“."
+    },
+    {
+        "question_id": "gen_li_23",
+        "source_chunk_id": "4922ecd9-cd2f-41f9-b05f-1e2a0c70956d",
+        "question": "Komu je zasvěcen rebus, číslo 55?",
+        "ground_truth": "Rebus, číslo 55, je zasvěcen památce miláčka národa Třebízského — Jan Vl. Rada-Radotínský.\n"
+    },
+    {
+        "question_id": "gen_li_24",
+        "source_chunk_id": "d268673c-9c42-450a-b66b-4900a9f3c08f",
+        "question": "Jaké dělnictvo se vzmužilo v Londýně?",
+        "ground_truth": "Nezaměstnané dělnictvo londýnské konečně se vzmužilo."
+    },
+    {
+        "question_id": "gen_li_25",
+        "source_chunk_id": "1cd66583-dfaf-4a0f-88bd-dfb74229c5d8",
+        "question": "Kdy se Králevic na něco slyší?",
+        "ground_truth": "Králevic jen na půl ucha slyší."
+    },
+    {
+        "question_id": "gen_li_26",
+        "source_chunk_id": "67bd5894-19eb-4cbb-8a6a-0cf21b8c46f5",
+        "question": "Kolik jiter orné půdy mají Čechy?",
+        "ground_truth": "Čechy mají 4 miliony jiter orné půdy."
+    },
+    {
+        "question_id": "gen_li_27",
+        "source_chunk_id": "3c49b80e-c2c0-4300-9b96-2a1fb2464910",
+        "question": "Kolik kusů smetanového sýra »Romadour« se zasílá ve stanicích?",
+        "ground_truth": "Sto kusů smetanového sýra »Romadour« se zasílá ve stanicích."
+    },
+    {
+        "question_id": "gen_li_28",
+        "source_chunk_id": "f5bb0700-0e06-4e2f-8017-ce5a5b9335e3",
+        "question": "Rosenbusch jakým způsobem dělí masivní horniny?",
+        "ground_truth": "Rosenbusch délí masivní horniny nejprve dle způsobu, jak objevují se geologicky: na horniny hlubinné, na žilnaté a na roz-."
+    },
+    {
+        "question_id": "gen_li_29",
+        "source_chunk_id": "6ef88795-ec17-4c99-a203-87f39e64fc5e",
+        "question": "Kde bydlí vdova Amalie Sloviková?",
+        "ground_truth": "V č. 37 jmenované obce bydlí vdova Amalie Sloviková."
+    },
+    {
+        "question_id": "gen_li_30",
+        "source_chunk_id": "cadfd569-aced-4944-988b-36ed6ea4d5dd",
+        "question": "Kdo by měl nejintensivněji poháněti vládu ke svolání zemského sněmu?",
+        "ground_truth": "Činitely těmi jsou zemský výbor a zemští poslanci."
+    },
+    {
+        "question_id": "gen_li_31",
+        "source_chunk_id": "0a9569f2-3782-4f9d-b961-d0d5ac89baeb",
+        "question": "Kde byl konán pohřeb J. S. Skrejšovského?",
+        "ground_truth": "Pohřeb J. S. Skrejšovského konán ve Vídni."
+    },
+    {
+        "question_id": "gen_li_32",
+        "source_chunk_id": "945d5129-c528-4d1c-a139-0579a36916c8",
+        "question": "Kolik žadatelek mohlo býti přijato kvůli značné výši nákladu a omezenému místu?",
+        "ground_truth": "Pro značnou výši nákladu a omezené místo nemohlo býti přijato více než 25 žadatelek."
+    },
+    {
+        "question_id": "gen_li_33",
+        "source_chunk_id": "664e3dfe-b4ff-409e-a57d-5897dffee000",
+        "question": "Jaký trest Chlestakov nepoužívá, protože je to zakázáno zákonem?",
+        "ground_truth": "Chlestakov nebudu trestat tělesným trestem nebo mučit, protože to je zakázáno zákonem."
+    },
+    {
+        "question_id": "gen_li_34",
+        "source_chunk_id": "bd8675fe-7111-4610-9b22-b2195ee21fa9",
+        "question": "Kolik korun stojí předplatné „Besedy lidu“ s poštovním zasláním na půl roku?",
+        "ground_truth": "Předplatné „Besedy lidu“ s poštovním zasláním na půl roku se předplácí pouze 90 kr."
+    },
+    {
+        "question_id": "gen_li_35",
+        "source_chunk_id": "ace3d377-757a-43d6-9146-3f606bc4de57",
+        "question": "Proč se Ceko Nakov, místopředseda hospodářské rady, často zastavuje u Baničenů?",
+        "ground_truth": "Dovtípil se, proč Ceko Nakov, místopředseda hospodářské rady, se často zastavuje u Baničenů, protože něco se nahodí a pak budou do Ceky.\n"
+    },
+    {
+        "question_id": "gen_li_36",
+        "source_chunk_id": "2187dd30-482f-442c-9503-30298025c279",
+        "question": "Kolik kusů plátna poslala Pantelejová ženě hejtmanově?",
+        "ground_truth": "Pantelejová též poslala ženě hejtmanově tři kusy plátna."
+    },
+    {
+        "question_id": "gen_li_37",
+        "source_chunk_id": "2c04954e-e5d6-45e9-90dc-3c60231215de",
+        "question": "Jaká je základní barva kolků při korunových kolcích?",
+        "ground_truth": "Při korunových kolcích je základní barva červená."
+    },
+    {
+        "question_id": "gen_li_38",
+        "source_chunk_id": "6da8f118-47a4-4279-b33b-6415a1d6f9ff",
+        "question": "Kolik korun a haléřů bylo složeno na členských příspěvcích?",
+        "ground_truth": "Na členských příspěvcích složeno 37 zl. 5 kr."
+    },
+    {
+        "question_id": "gen_li_39",
+        "source_chunk_id": "5c279635-5a35-4f5c-8215-7cd0bd351141",
+        "question": "Komu má Míško odevzdat lístek?",
+        "ground_truth": "Míško má odevzdat lístek kočímu Sidoru, aby s ním běžel ke kupci Abdulinu."
+    },
+    {
+        "question_id": "gen_li_40",
+        "source_chunk_id": "707eadc8-c907-4a46-95d2-7799646659b2",
+        "question": "Za jakou cenu jsou vstupenky pro děti a vojáky?",
+        "ground_truth": "Vstupné pro děti a vojáky je polovinu, tedy polovina z 30 kr."
+    },
+    {
+        "question_id": "gen_li_41",
+        "source_chunk_id": "61324fcb-c0b9-41de-aba8-b4d1c2536407",
+        "question": "Jakou cenu má 50 kg kolonaz?",
+        "ground_truth": "50 kg za 9 zl."
+    },
+    {
+        "question_id": "gen_li_42",
+        "source_chunk_id": "e9cae6f9-488a-43c4-a017-211cd1fc6c34",
+        "question": "Kdy byla tato relace podána vzhledem k bitvě u Caporetta?",
+        "ground_truth": "Tato relace byla podána dva měsíce před Caporettem.\n"
+    },
+    {
+        "question_id": "gen_li_43",
+        "source_chunk_id": "b2f81e45-c6ea-4e9b-bd3c-9dd04ecb0856",
+        "question": "Kdo je majitelem mlýna na Zámku u Borotína?",
+        "ground_truth": "Majitelem mlýna na Zámku je pan Václav Zelenka."
+    },
+    {
+        "question_id": "gen_li_44",
+        "source_chunk_id": "5f83ed09-f191-4cc2-b578-ef60964ab19f",
+        "question": "S čím je náš voják prostě štasten?",
+        "ground_truth": "Náš voják je prostě štasten vědomím"
+    },
+    {
+        "question_id": "gen_li_45",
+        "source_chunk_id": "5f6d38e0-02fa-4c2f-a00f-1428552a7877",
+        "question": "Kdy zemřela Weiskornová Marie?",
+        "ground_truth": "Weiskornová Marie zemřela v měsíci březnu 1911."
+    },
+    {
+        "question_id": "gen_li_46",
+        "source_chunk_id": "27c21826-4a55-4437-96ac-cd308f448bc4",
+        "question": "Jak získal pan starosta koncesi pro Hazukovou po smrti jejího manžela?",
+        "ground_truth": "Pan starosta vymohl koncesi pro Hazukovou po smrti jejího manžela."
+    },
+    {
+        "question_id": "gen_li_47",
+        "source_chunk_id": "9688bf48-e454-4c1f-b480-850dd6f91dc9",
+        "question": "Kdo byl členem zvláštní vistové společnosti?",
+        "ground_truth": "Ministr zahraničných věcí, francouzský vyslanec, anglický vyslanec, německý vyslanec a já byli členy zvláštní vistové společnosti."
+    },
+    {
+        "question_id": "gen_li_48",
+        "source_chunk_id": "0d303978-52dc-4dc1-8aea-3af4d17ac457",
+        "question": "Jaké povinnosti plní městský hejtman?",
+        "ground_truth": "Dělají člověku povinnosti městského hejtmana, pouze co se týká čistoty, správek, oprav, s trestanci dobře se nakládá a když opilců je málo.\n"
+    },
+    {
+        "question_id": "gen_li_49",
+        "source_chunk_id": "2bb87d90-38ba-4e2f-9861-806fb36efac5",
+        "question": "Jaké veršíky si Marie Antonovna přála, aby jí Chlestakov napsal?",
+        "ground_truth": "Poprosila bych vás, abyste mi raději napsal na památku nějaké veršíky do alba."
+    },
+    {
+        "question_id": "gen_li_50",
+        "source_chunk_id": "b2999c86-5851-40a2-8640-c75b554ce03f",
+        "question": "Co „Hlas Lidu“ má za cíl hájit?",
+        "ground_truth": "„Hlas Lidu“ má za cíl hájit zájmy pracujícího lidu."
+    },
+    {
+        "question_id": "gen_li_51",
+        "source_chunk_id": "716f8f00-851d-4783-a0c2-fd57b384d698",
+        "question": "Kolik korun darovala paní Aloisie Teigeová spolku?",
+        "ground_truth": "Paní Aloisie Teigeová darovala spolku 600 K."
+    },
+    {
+        "question_id": "gen_li_52",
+        "source_chunk_id": "af8d2f92-0c00-438f-8178-358ccde1887d",
+        "question": "Proč byla choť profesora Josefina Kirchmayerová propuštěna ze svobody?",
+        "ground_truth": "Na základě usnesení poradní komory brněnského zemského soudu byla včera choť profesora Josefina Kirchmayerová, která se dopustila vražedného útoku na vdovu Kleinovu, z vazby na svobodu propuštěna."
+    },
+    {
+        "question_id": "gen_li_53",
+        "source_chunk_id": "092a396c-6676-4ef4-8148-e9227f7ab7a8",
+        "question": "Kdo má nalít skleničku piva?",
+        "ground_truth": "Máš-li, bratře, co ve džbáně, nalej mi piva skleničku."
+    },
+    {
+        "question_id": "gen_li_54",
+        "source_chunk_id": "0d695f59-546d-4f8e-9083-0e73fa625186",
+        "question": "Kde působí Vojtěch Zemek?",
+        "ground_truth": "Vojtěch Zemek působí v Nechanicích jako mistr zámečnický."
+    },
+    {
+        "question_id": "gen_li_55",
+        "source_chunk_id": "46e4ecde-fc6c-479f-9555-3be285ea501c",
+        "question": "Kolik členů má ústav nyní?",
+        "ground_truth": "Ústav čítá nyní 327 členů."
+    },
+    {
+        "question_id": "gen_li_56",
+        "source_chunk_id": "0fb88ae2-210b-47ad-9a00-02e190710e30",
+        "question": "Kdy se Angelo Salmoiraghi stal senátorem?",
+        "ground_truth": "Angelo Salmoiraghi se stal senátorem od roku 1912."
+    },
+    {
+        "question_id": "gen_li_57",
+        "source_chunk_id": "5e545c19-186b-4f91-8499-0dcdde28640a",
+        "question": "Kolik mrtvých hlásí Itálie podle italské úřední zprávy?",
+        "ground_truth": "Italská úřední zpráva oznamuje, že italské válečné ztráty jsou 460.000.\n"
+    },
+    {
+        "question_id": "gen_li_58",
+        "source_chunk_id": "baaf04a6-ab1a-4271-9c79-e866c0496bdf",
+        "question": "Kolik let měla Františka Šulcová?",
+        "ground_truth": "Františka Šulcová měla dvacet let."
+    },
+    {
+        "question_id": "gen_li_59",
+        "source_chunk_id": "7dfeab0b-dc9d-456d-9865-9403e5aca25a",
+        "question": "Jakým táborem byl autor předválečný stoupenec politiky?",
+        "ground_truth": "Autor byl předválečný stoupenec politiky opačné, politiky státoprávní."
+    },
+    {
+        "question_id": "gen_li_60",
+        "source_chunk_id": "6e9a54e3-74fe-45bf-a763-56f2f47f749d",
+        "question": "Kolik korun odkazala zemřelá pí Snášelová bývalým kaplanům Kupkovi, Berákovn a Františku „Usměvavému“?",
+        "ground_truth": "Zemřelá pí Snášelová odkazala prý bývalým kaplanům Kupkovi, Berákovn a Františku „Usměvavému“, každému 400 korun.\n"
+    },
+    {
+        "question_id": "gen_li_61",
+        "source_chunk_id": "86dac987-01ac-4b71-883d-4654112cf84a",
+        "question": "Kdy Udržal odjel do Vídně?",
+        "ground_truth": "Udržal odjel do Vídně večer 22. ledna."
+    },
+    {
+        "question_id": "gen_li_62",
+        "source_chunk_id": "b4e8ca8e-7915-4791-a2a7-591932765af7",
+        "question": "Jaká je cena starého červeného semen dle jakosti?",
+        "ground_truth": "Staré červené semeno dle jakosti 20—24 zl."
+    },
+    {
+        "question_id": "gen_li_63",
+        "source_chunk_id": "20e6a745-276e-4fab-9f42-3891b99aa465",
+        "question": "Kdo napsal o opravě soudního řízení občanského?",
+        "ground_truth": "Napsal dr Ant. Skácel, advokát."
+    },
+    {
+        "question_id": "gen_li_64",
+        "source_chunk_id": "f3d54c13-65cd-4f61-806c-07e757abaee9",
+        "question": "Kolik partií sehrál J. R. Capablanca 9. října 1911?",
+        "ground_truth": "J. R. Capablanca sehrál 9. října 1911 za 5 1/2 hod. 36 partií."
+    },
+    {
+        "question_id": "gen_li_65",
+        "source_chunk_id": "e1f9f6b3-4939-4f6e-9243-4e951baf9801",
+        "question": "Kde měl být reservní fond uložen, jak řekl Winkler?",
+        "ground_truth": "Winkler řekl, že prý je ten fond uložen v zlatých rentách."
+    },
+    {
+        "question_id": "gen_li_66",
+        "source_chunk_id": "74a10548-fadb-4fe7-a903-6ffa3b482dfa",
+        "question": "Jak by mělo vypadat složení správních orgánů, aby odpovídalo demokratickému duchu doby?",
+        "ground_truth": "Složení správních orgánů mělo by však odpovídati demokratickému duchu doby."
+    },
+    {
+        "question_id": "gen_li_67",
+        "source_chunk_id": "a1b3a0d8-f1e2-45a0-b3ed-fdcc95014449",
+        "question": "Jak dlouho ročně pracovali ručně ti poddaní, kteří platili daň až do 57 kr.?",
+        "ground_truth": "Ročně plašící daň až do 57 kr. pracoval ročně 26 dní ruční práce s 1 osobou."
+    },
+    {
+        "question_id": "gen_li_68",
+        "source_chunk_id": "384c1d2e-a892-45df-a8a8-2fc243100d42",
+        "question": "Kde budou prodávány vstupenky na představení uspořádané soudruhy kralupskými?",
+        "ground_truth": "Vstupenky v předprodeji u soudr. J. Pavláta, holiče a v konsumním družstvu »Svénomoce, jakož i jiných důvěrníků."
+    },
+    {
+        "question_id": "gen_li_69",
+        "source_chunk_id": "9b4adaa2-9555-444a-87e1-57160348511b",
+        "question": "V Kněžpoli bylo povoleno otevřít co?",
+        "ground_truth": "V Kněžpoli bylo povoleno otevřít 2. třídu školy obecné."
+    },
+    {
+        "question_id": "gen_li_70",
+        "source_chunk_id": "7f4a09ca-81e4-477a-868b-23915bb8f084",
+        "question": "Co je nově zřízený ústav „Zlaté knihy dívek českých“?",
+        "ground_truth": "Jeden z nejmocnějších prostředků k vzdělanosti rodin, který skromně začíná a rozvine se v ústav mocný, v ústav národní."
+    },
+    {
+        "question_id": "gen_li_71",
+        "source_chunk_id": "5829c1df-adf4-441d-8a54-be8b80591a9f",
+        "question": "Kdo byl zatčen v Olomouci v souvislosti s obchodem s cukrem?",
+        "ground_truth": "V Olomouci byli zatčeni haličský uprchlík, židovský obchodník s obuví Eisenberg a internovaný italský poddaný Carussi."
+    },
+    {
+        "question_id": "gen_li_72",
+        "source_chunk_id": "bc26eb08-61ba-425e-b41e-5899035a516d",
+        "question": "Měla býti Kateřina z Bory z kláštera odvedena?",
+        "ground_truth": "„Ovšem — chcete si ji snad zde ještě ponechati?“"
+    },
+    {
+        "question_id": "gen_li_73",
+        "source_chunk_id": "756c2ca2-3eb7-4c04-b18c-1374ceb7a65a",
+        "question": "Co je ve skřínce, pokud by se tato skřínka byla odemknuta?",
+        "ground_truth": "Ve skřínce leží věc, která je jedněm starým grošem vyšlým z oběhu, a druhým lesklým dukátem, jenž věčně je v ceně, jakkoli se mění na něm obraz a nápis."
+    },
+    {
+        "question_id": "gen_li_74",
+        "source_chunk_id": "de80445a-c524-4409-b152-e349f7edfae5",
+        "question": "Kdo žádá, aby poslanec Šerý v zemském sněmu urgiroval záležitost městského lékaře?",
+        "ground_truth": "Pan Petřivalský žádá, aby poslanec Šerý v zemském sněmu urgiroval záležitost městského lékaře."
+    },
+    {
+        "question_id": "gen_li_75",
+        "source_chunk_id": "9a7950ef-3258-4473-ab55-6f6e6dedfddf",
+        "question": "Od kdy vstupovali synové tohoto národa na popraviště?",
+        "ground_truth": "Synové tohoto národa vstupovali na popraviště od roku 1620 až podnes."
+    },
+    {
+        "question_id": "gen_li_76",
+        "source_chunk_id": "738a7696-3e70-43f2-8dca-d82021ef335b",
+        "question": "Kolik gramů léku doporučuje text?",
+        "ground_truth": "Doporučuje dávku 10—30 g. v pilulkách.\n"
+    },
+    {
+        "question_id": "gen_li_77",
+        "source_chunk_id": "5e68efb6-d72d-48b8-a90b-f2c94e82e2a6",
+        "question": "Jaký byl důvod, proč Mussolini mohl dnes z paláce Chogo přihlížet ke slavnostnímu pochodu fašistů?",
+        "ground_truth": "Zlepšil se zdravotní stav italského min. předsedy Mussoliniho tak, že mohl dnes z paláce Chogo přihlížeti ke slavnostnímu pochodu fašistů."
+    },
+    {
+        "question_id": "gen_li_78",
+        "source_chunk_id": "44e330bd-871a-4bc9-9ad8-254cda680b6e",
+        "question": "Kolik bytových jednotek měli stavbaři dokončit během čtyř let pětiletky?",
+        "ground_truth": "Stavbaři měli dokončit 11.948 bytů během čtyř let pětiletky."
+    },
+    {
+        "question_id": "gen_li_79",
+        "source_chunk_id": "adc29575-cbe6-4110-b838-c06057a2d66c",
+        "question": "Jak se jmenoval ten, kdo se přemohl a přistoupil blíž k Hodkovi?",
+        "ground_truth": "Mégr se přemohl a přistoupil sám blíže."
+    },
+    {
+        "question_id": "gen_li_80",
+        "source_chunk_id": "a67c2f98-0f0a-4f23-a592-1b73fd642853",
+        "question": "Kdo je ředitelem musea?",
+        "ground_truth": "Ladislav Haněl je ředitelem musea."
+    },
+    {
+        "question_id": "gen_li_81",
+        "source_chunk_id": "4c3c5614-ce39-4350-a6be-a7c413a39df7",
+        "question": "Jak dlouho trvala ta těžká období, o kterých se zmiňuje text?",
+        "ground_truth": "Těžká období trvala čtyři léta."
+    },
+    {
+        "question_id": "gen_li_82",
+        "source_chunk_id": "38f75516-b8a8-444f-8690-2a01ae37b611",
+        "question": "Kdo slíbil podporu pro nutné zásobování v přechodné době?",
+        "ground_truth": "Spojené státy, sám president Wilson, slíbili podporu pro nutné zásobování v přechodné době.\n"
+    },
+    {
+        "question_id": "gen_li_83",
+        "source_chunk_id": "d742f0f7-b174-4db6-a3d8-cf77c2352ad8",
+        "question": "Kdo zavedl krutější boj roku 1874?",
+        "ground_truth": "Roku 1874 krutější boj zavedl Tisza, člověk bez."
+    },
+    {
+        "question_id": "gen_li_84",
+        "source_chunk_id": "42077ec8-ee7b-450f-8efb-c2af96b5a767",
+        "question": "Kolik korun je školné za měsíc?",
+        "ground_truth": "Školné je 5 K za měsíc."
+    },
+    {
+        "question_id": "gen_li_85",
+        "source_chunk_id": "a2be0f1b-2f61-42cd-8248-fe73bd6dd4a4",
+        "question": "Kdo přeložil Starýho zvoníka?",
+        "ground_truth": "Přeložil Starýho zvoníka Josef Metelka."
+    },
+    {
+        "question_id": "gen_li_86",
+        "source_chunk_id": "18e4a8f1-de9f-49bb-b26e-15c1d9d0d016",
+        "question": "Kdy se továrník poprvé začal přesvědčovat o správnosti výpočtů Pilíka?",
+        "ground_truth": "Továrník se poprvé začal přesvědčovat o správnosti výpočtů Pilíka, když tento začal sestavovat týdenní listiny výplatní a továrník ho zpočátku kontroloval ve směru tom."
+    },
+    {
+        "question_id": "gen_li_87",
+        "source_chunk_id": "6ee1b85b-cbdb-48a3-a173-ef7c59520042",
+        "question": "Kolik básní Vrchlického bylo zhudebněno v Novákově opusu?",
+        "ground_truth": "Zhudebněny jsou tu dvě básně Vrchlického."
+    },
+    {
+        "question_id": "gen_li_88",
+        "source_chunk_id": "9906885a-d4ca-4a9d-81e3-9510aee7fff7",
+        "question": "Kdy byl pluk. Barreca velitelem 33. pluku italské legie?",
+        "ground_truth": "Barreca byl velitelem 33. pluku italské legie od jeho utvoření až do února 1919."
+    },
+    {
+        "question_id": "gen_li_89",
+        "source_chunk_id": "8f19e2fc-a848-43a9-a2b3-dab605f13b20",
+        "question": "Kdy Poradní sbor pro otázky hospodářské začne projednávati osnovu občanského zákona?",
+        "ground_truth": "Poradní sbor pro otázky hospodářské bude hned po Novém roce projednávati na širším základě osnovu občanského zákona."
+    },
+    {
+        "question_id": "gen_li_90",
+        "source_chunk_id": "06a9e70a-c65e-48f0-b242-1784b4f273cc",
+        "question": "Kdo byl před kterým vysvětlil panu faráři, že má moc vyprositi v nebi vzkříšení matičky?",
+        "ground_truth": "Nás pět sirotků vysvětlili panu faráři, že má moc vyprositi v nebi vzkříšení naší matičky."
+    },
+    {
+        "question_id": "gen_li_91",
+        "source_chunk_id": "0ab5e98a-8522-4706-98ac-7e02b40e8f2f",
+        "question": "Jaký základní kapitál měla nadace, která byla založena na počest Hanuše Karlíka?",
+        "ground_truth": "Nadace, která byla založena na počest Hanuše Karlíka, měla základní kapitál 1,030.000 Kč."
+    },
+    {
+        "question_id": "gen_li_92",
+        "source_chunk_id": "84f03ca8-7e83-4d08-9fcf-3610b465aa3f",
+        "question": "Kolik osobám bylo knih a předložených děl zapůjčeno v červenci?",
+        "ground_truth": "V červenci bylo knih a předložených děl zapůjčeno 35 osobám."
+    },
+    {
+        "question_id": "gen_li_93",
+        "source_chunk_id": "e6b14450-363f-4308-b726-7e5d4abe3b23",
+        "question": "Kdo byl A. Hucker?",
+        "ground_truth": "A. Hucker byl tvůrce stolní lampy na elektrické světlo (mušle montovaná na cínovém podstavci)."
+    },
+    {
+        "question_id": "gen_li_94",
+        "source_chunk_id": "0988fb29-818c-4857-9521-e592b817fbc6",
+        "question": "Kolik delegátů se zúčastnilo debaty?",
+        "ground_truth": "Jíž zúčastnilo se 21 delegátů."
+    },
+    {
+        "question_id": "gen_li_95",
+        "source_chunk_id": "b49bafb7-ada6-436d-99e2-0f82c09588ab",
+        "question": "Kdy bude jarní pražský veletrh pořízen?",
+        "ground_truth": "Jarní pražský veletrh bude pořízen ve dnech 18. až 25. března 1928."
+    },
+    {
+        "question_id": "gen_li_96",
+        "source_chunk_id": "961bb547-d910-4b2a-b49d-95f729a5a3ba",
+        "question": "Kdo vyřizuje zakázky Cyrillo-Methodějské knihkupectví?",
+        "ground_truth": "Zakázky vyřizuje Cyrillo-Methodějské knihkupectví."
+    },
+    {
+        "question_id": "gen_li_97",
+        "source_chunk_id": "3d76d409-36b8-4e73-a8f9-10f91a559bec",
+        "question": "Kolik let měla Marie Grunaner-ová?",
+        "ground_truth": "Marie Grunaner-ová měla 65 let."
+    },
+    {
+        "question_id": "gen_li_98",
+        "source_chunk_id": "d0d2864a-3cbd-4bb1-9416-56bb21bd058d",
+        "question": "Která osoba uvedla, že naleziště se shoduje s nálezy u Hrádku nedaleko Čáslavě v Čechách?",
+        "ground_truth": "Profesor Woldřich se vyjádřil, že naleziště toto, hledíc k jámě i k nálezům ostatním, shoduje se úplně s nálezy u Hrádku nedaleko Čáslavě v Čechách."
+    },
+    {
+        "question_id": "gen_li_99",
+        "source_chunk_id": "02d9314d-41de-4c9f-9c5f-107f15d0c88c",
+        "question": "Kdy zemřela Františka Gerlická?",
+        "ground_truth": "Františka Gerlická zemřela dne 20/10."
+    },
+    {
+        "question_id": "gen_li_100",
+        "source_chunk_id": "1410680d-9ecc-4430-8a59-5dbeb68a00b1",
+        "question": "Kam odjel Deržimorda?",
+        "ground_truth": "Deržimorda odjel se stříkačkou."
+    },
+    {
+        "question_id": "gen_li_101",
+        "source_chunk_id": "7b937bad-7a72-4f0b-9b84-b093d9e4fbf5",
+        "question": "Kolik diváků shlédlo divadelní představení Maryša bratří Mrštíků?",
+        "ground_truth": "Divadelní představení bratří Mrštíků Maryša shlédlo 800 diváků."
+    },
+    {
+        "question_id": "gen_li_102",
+        "source_chunk_id": "3e5787df-2bca-4bb3-b887-21951d185166",
+        "question": "Kam jede Chlestakov?",
+        "ground_truth": "Jedu do Saratovské gubernie, na svůj statek."
+    },
+    {
+        "question_id": "gen_li_103",
+        "source_chunk_id": "ae218770-4fa6-49fc-ad5c-f45b368bba0b",
+        "question": "Co říkal hostinský, když polévku nechce někdo jíst?",
+        "ground_truth": "Hostinský říkal: když nebude chtít, ať nejí."
+    },
+    {
+        "question_id": "gen_li_104",
+        "source_chunk_id": "f579c4ee-b3cf-4a39-9d46-eb620dd5f545",
+        "question": "Proč Davidovič prosazuje dorozumění Srbů, Chorvatů a Slovinů?",
+        "ground_truth": "Davidovič prosazuje dorozumění Srbů, Chorvatů a Slovinů, protože skupština projednávala bouřlivou schůzi a probíhala pohnutlivá debata o jednotě Srbů a Chorvatů."
+    },
+    {
+        "question_id": "gen_li_105",
+        "source_chunk_id": "aa765652-3e10-48b2-8754-e69c32f6534d",
+        "question": "Jaká byla roční částka, kterou bylo třeba platit Slavné České Spořitelně na úroky a kapitál?",
+        "ground_truth": "Slavné České Spořitelně v Praze úhrnkové splátky roční na úroky a kapitál činily 8.305 korun."
+    },
+    {
+        "question_id": "gen_li_106",
+        "source_chunk_id": "338f0b62-fc26-4d0d-af9d-d3b48dd0e0ad",
+        "question": "Kdy se konal sjezd německých učitelů z Moravy?",
+        "ground_truth": "Němečtí učitelé z Moravy konali svůj sjezd 3. a 4. srpna v Unčově."
+    },
+    {
+        "question_id": "gen_li_107",
+        "source_chunk_id": "a219b56f-aefc-45b3-aa77-71999db612f2",
+        "question": "Kde studoval Dr. Wilh. Meinardus?",
+        "ground_truth": "Dr. Wilh. Meinardus studoval na „Deutsche Seewarte“ v Hamburku."
+    },
+    {
+        "question_id": "gen_li_108",
+        "source_chunk_id": "2c02fbf1-2a57-4694-98ed-dd5f48ed209b",
+        "question": "V jaké farnosti působí Scheitz Jos.?",
+        "ground_truth": "Scheitz Jos. působí v farnosti Par. Kronstadt."
+    },
+    {
+        "question_id": "gen_li_109",
+        "source_chunk_id": "cfb248d5-6e6d-46ff-a61a-20fd29b48f0e",
+        "question": "Kdo ošacuje mládež?",
+        "ground_truth": "Mládež ošacují páni hosté Černého pivovaru."
+    },
+    {
+        "question_id": "gen_li_110",
+        "source_chunk_id": "3708fa14-8cdc-4aee-b27a-a9820a0b57c6",
+        "question": "Jaký je rozdíl v teplotě mezi Vltavou a vzduchem v zimě?",
+        "ground_truth": "Rozdíl vzhledem k teplotě vzduchu u Vltavy v Praze je v zimě 19.2."
+    },
+    {
+        "question_id": "gen_li_111",
+        "source_chunk_id": "e2206ecd-c87c-44b7-8e3b-c91a374c318a",
+        "question": "Proč Vitold nebyl přítelem tehdejších velkoknížat moskevských?",
+        "ground_truth": "Vitold nebyl přítelem tehdejších velkoknížat moskevských, s kterými často vedl válku vítěznou."
+    },
+    {
+        "question_id": "gen_li_112",
+        "source_chunk_id": "14efded8-7215-43be-ab87-5766bf4b5141",
+        "question": "Mohl by továrník Kokora ve své továrně zavésti lepší pořádek?",
+        "ground_truth": "Obecní starší továrník Kokora mohl by ve své továrně zavésti lepší pořádek než jaký je tam až dosud."
+    },
+    {
+        "question_id": "gen_li_113",
+        "source_chunk_id": "4afe2772-a496-4df6-a8f8-b967a7161b92",
+        "question": "Kolik exemplářů časopisu Zář mělo v době prostějovského sjezdu náklad?",
+        "ground_truth": "Zář, jež měla tehdá v době prostějovského sjezdu 35.000 nákladu."
+    },
+    {
+        "question_id": "gen_li_114",
+        "source_chunk_id": "1bef96ce-e80c-454a-b2b1-8b7de8fc3591",
+        "question": "Jaké vousy má revizor?",
+        "ground_truth": "Anna Andrejevna se ptá: „revizor? má vousy? jaké má vousy?\"\n"
+    },
+    {
+        "question_id": "gen_li_115",
+        "source_chunk_id": "cb68425a-a922-47cd-8b55-190b60bc2dfb",
+        "question": "Kdy bude konána valná hromada Občanské záložny v Zábřeze?",
+        "ground_truth": "Valnou hromadu Občanské záložny v Zábřeze bude konána v neděli dne 28. ledna 1894 o 1 hodině odpoledne."
+    },
+    {
+        "question_id": "gen_li_116",
+        "source_chunk_id": "88e243e7-5d9b-4254-b177-5c696839553d",
+        "question": "Kdy se konalo shromáždění táboru lidu v Mor. Ostravě?",
+        "ground_truth": "Shromáždění táboru lidu v Mor. Ostravě se konalo dne 17. září 1911."
+    },
+    {
+        "question_id": "gen_li_117",
+        "source_chunk_id": "a95b264d-cd68-4450-ace4-0c5c618b149e",
+        "question": "Jak často by měla být procedura s horkými náčinkami opakována?",
+        "ground_truth": "Procedura se opakuje po případě po 3—4kráte."
+    },
+    {
+        "question_id": "gen_li_118",
+        "source_chunk_id": "0431b4c6-8e1b-485f-8f9f-328e0fd2f6a1",
+        "question": "Kdy princ Carignanský tázal prince Napoleona?",
+        "ground_truth": "Když se ho při hostině princ Carignanský tázal."
+    },
+    {
+        "question_id": "gen_li_119",
+        "source_chunk_id": "ff653db2-d7fb-4321-aaad-d6206ae38a43",
+        "question": "Jaké je jméno značky, pod kterou nabízí vážnou známost služebnou, šlechtnou a hezkou dámu do 30 let?",
+        "ground_truth": "„Jeseň“"
+    },
+    {
+        "question_id": "gen_li_120",
+        "source_chunk_id": "ccaff9a5-d4db-4bfc-8bbd-c82909d126c0",
+        "question": "Kde se nachází společná obuvnická dílna?",
+        "ground_truth": "Společná obuvnická dílna se nachází v Sirkové ulici, č. 473—1 v 1. poschodí."
+    },
+    {
+        "question_id": "gen_li_121",
+        "source_chunk_id": "5c873ff3-62e0-426c-afe7-023d55c6dd78",
+        "question": "Jaké bylo hlasování o návrhu p. hr. Zedwitze?",
+        "ground_truth": "Návrh zamít-nut 101 hlasem proti 93."
+    },
+    {
+        "question_id": "gen_li_122",
+        "source_chunk_id": "7768941e-cbe7-4ab3-9fab-573ac89099e2",
+        "question": "Co nesla Verunka na zádech?",
+        "ground_truth": "Verunka nesla na zádech objemný uzel."
+    },
+    {
+        "question_id": "gen_li_123",
+        "source_chunk_id": "5afdaeba-5718-40e7-abf2-3f2fd87ff466",
+        "question": "Kdy pochází kovaný kříž náhrobní u pana Thdr. J. Šulce?",
+        "ground_truth": "Kovaný kříž náhrobní u pana Thdr. J. Šulce pochází z poč. XIX. stol."
+    },
+    {
+        "question_id": "gen_li_124",
+        "source_chunk_id": "ade12d0f-f41e-4207-baa9-5403661f2837",
+        "question": "Kdy byla napsána studie »Propaganda«?",
+        "ground_truth": "Studie »Propaganda« byla napsána v dubnu roku 1916."
+    },
+    {
+        "question_id": "gen_li_125",
+        "source_chunk_id": "84c8696b-9819-4c46-b862-fc45aab129e5",
+        "question": "Jaký uspořádání práce a majetku chce socialismus?",
+        "ground_truth": "Socialisté chtějí uspořádání práce a majetku, jak tomu chce socialismus."
+    },
+    {
+        "question_id": "gen_li_126",
+        "source_chunk_id": "60bee6cd-a15c-4095-8246-93605f16b15d",
+        "question": "Co Maurice zdůrazňuje jako výrok Clémenceauův?",
+        "ground_truth": "Maurice zdůrazňuje výrok Clémenceauův, že vítězství je jisté, jestliže veřejné autority budou na výši situace."
+    },
+    {
+        "question_id": "gen_li_127",
+        "source_chunk_id": "876de5ad-de3b-4c02-8503-c8eaa8755cae",
+        "question": "Kdo bude přednášet o Janu Krouském?",
+        "ground_truth": "Přednášeti bude jednatel p. H. Pittauer o Janu Krouském, vzorném rolníkovi."
+    },
+    {
+        "question_id": "gen_li_128",
+        "source_chunk_id": "eaa7f36f-3ddd-42bd-beb3-7e7e3baccfa2",
+        "question": "Jaké typy kostí byly nalezeny v jeskyni Šošůvské?",
+        "ground_truth": "Kosti buď celých, omletých nebo roztříštěných."
+    },
+    {
+        "question_id": "gen_li_129",
+        "source_chunk_id": "35915e9e-1fcd-433b-940d-cd72a161be38",
+        "question": "Kdo bude přednostou středoevropského odboru v polském ministerstvu zahraničí?",
+        "ground_truth": "Jeho přednostou bude dosavadní leg. rada u Kvirinálu, Ginter."
+    },
+    {
+        "question_id": "gen_li_130",
+        "source_chunk_id": "45fa78f4-ea4f-4f2d-8dae-85e3691fe243",
+        "question": "Kdy se sjezd bude zahájen?",
+        "ground_truth": "Sjezd bude zahájen dne 26. května 1928 slavnostním otevřením v Národním divadle."
+    },
+    {
+        "question_id": "gen_li_131",
+        "source_chunk_id": "417c72b9-e872-49be-95fe-f52a2d4a3393",
+        "question": "Jak se jmenoval první úředník, kterého národ zvolil?",
+        "ground_truth": "Národ volil si tu prvního svého úředníka, „posadníka,“ jehož úřad trval na čas."
+    },
+    {
+        "question_id": "gen_li_132",
+        "source_chunk_id": "6b628e84-b316-4154-b014-eac7a6b1aea4",
+        "question": "Jaká část demonstrantů byla vojskem stlačena ze tří stran?",
+        "ground_truth": "Jedna část demonstrantů stlačena byla ze tří stran vojskem.\n"
+    },
+    {
+        "question_id": "gen_li_133",
+        "source_chunk_id": "7bf50833-905d-4028-9615-05f572a1a3de",
+        "question": "Jaké datum bylo uvedeno v souvislosti s jednáním Berního výboru?",
+        "ground_truth": "Jednání Berního výboru bylo uvedeno v souvislosti s datem 13. listopadu.\n"
+    },
+    {
+        "question_id": "gen_li_134",
+        "source_chunk_id": "18cad8f0-9d34-4d79-a101-c2f0deb49c10",
+        "question": "Jaká byla hodnoty pro srdce u normalního individua (muž 27letý) na 100 dílů pevné součásti?",
+        "ground_truth": "Hodnoty pro srdce u normalního individua (muž 27letý) na 100 dílů pevné součásti byly 80-25."
+    },
+    {
+        "question_id": "gen_li_135",
+        "source_chunk_id": "ac042611-9470-4e5f-81e7-d3d1b899a2b5",
+        "question": "Kdy bylo uveřejněno článkem v »Giornale del Mattino«?",
+        "ground_truth": "Odpovídám článkem, uveřejněným v »Giornale del Mattino« ze dne\n29. června 1917."
+    },
+    {
+        "question_id": "gen_li_136",
+        "source_chunk_id": "ff36f4a8-5056-49a3-b2e3-b58a245628f7",
+        "question": "Z Turina, dne 3. října, přináší „Discussione“ zprávu o čem?",
+        "ground_truth": "Z Turina, dne 3. října, „Discussione“ přináší zprávu, že ku prosbě princezny Pie."
+    },
+    {
+        "question_id": "gen_li_137",
+        "source_chunk_id": "ce38ef18-136a-4884-b26b-9ce95012b998",
+        "question": "Kdo je zakladatelem nejčistšího náboženství ve smyslu lidskosti?",
+        "ground_truth": "Jeho učení o všeobjímající lásce, o tiše pokorném a užitečném životě se vzpomínkou samo překlenuje přes celá takřka dvě tisíciletí. A když v kruhu a kouzlu rodinného Ježíška samovolně zapůsobí, jistě i leckde zúrodní úhor nitra."
+    },
+    {
+        "question_id": "gen_li_138",
+        "source_chunk_id": "5946baae-0d33-4406-bf84-175c1b5b75df",
+        "question": "Proč byl propuštěn první missionář, Košata?",
+        "ground_truth": "Po jeho další blahodárné čin-nosti, jako akvisitér na Opavsku, kde dělal hlavně separatistické volební služby dru Wittovi, byl propuštěn.\n"
+    },
+    {
+        "question_id": "gen_li_139",
+        "source_chunk_id": "e91edb67-2595-49de-b30f-523b18321c5c",
+        "question": "Kolik námětů projednávala Ústřední dramaturgie v únoru?",
+        "ground_truth": "Ústřední dramaturgie projednávala v únoru 18 námětů."
+    },
+    {
+        "question_id": "gen_li_140",
+        "source_chunk_id": "d7ba0b08-212d-4871-ad55-f04a2f81afde",
+        "question": "Kolik kusů dančí zvěře zakoupil Karel Pivnička?",
+        "ground_truth": "Karel Pivnička zakoupil asi 80 kusů dančí zvěře."
+    },
+    {
+        "question_id": "gen_li_141",
+        "source_chunk_id": "798da83e-b128-403d-9146-f67e7e04c7d7",
+        "question": "Kolik osob má představovat živé obrazy na jevišti?",
+        "ground_truth": "živé obrazy na jevišti představovat bude asi 50 osob.\n"
+    },
+    {
+        "question_id": "gen_li_142",
+        "source_chunk_id": "7fe5b2bb-5cda-4894-aa57-77397526249c",
+        "question": "Jaký rozpor názorů připomíná Krofta?",
+        "ground_truth": "Krofta připomíná zejména rozpor názorů v otázce zavedení všeobecného práva hlasovacího do vídeňského parlamentu a také."
+    },
+    {
+        "question_id": "gen_li_143",
+        "source_chunk_id": "db5d325e-c619-47f2-a320-53cd8cef2775",
+        "question": "Jak se říká, že Městský hejtman nikdy držel karty v rukou?",
+        "ground_truth": "Já jsem karet nikdy ani do rukou nebral; ba ani nevím, jak se hraje v karty."
+    },
+    {
+        "question_id": "gen_li_144",
+        "source_chunk_id": "02d7246e-216e-4b0e-9c66-b0592b995460",
+        "question": "Od roku kdy vydává signoria (ministerium dože) benátská zprávy o veřejných záležitostech?",
+        "ground_truth": "Signoria (ministerium dože) benátská vydává zprávy o veřejných záležitostech již od roku 1563."
+    },
+    {
+        "question_id": "gen_li_145",
+        "source_chunk_id": "a002b7c9-d891-4032-b823-ab28ae4e9921",
+        "question": "Jakou možnost ukázal Moravský sněm ve svém novém složení?",
+        "ground_truth": "Moravský sněm ve svém novém složení měl už možnost ukázat svou kvalitu k lidovým právům a náklonnost ku všeobecnému právu hlasovacímu."
+    },
+    {
+        "question_id": "gen_li_146",
+        "source_chunk_id": "68ca07d4-ff6b-475f-9163-93f63d720ebf",
+        "question": "Proč perský šach odložil cestu po Evropě na příští rok?",
+        "ground_truth": "Perský šach odložil, jak známo svou cestu po Evropě na příští rok.\n"
+    },
+    {
+        "question_id": "gen_li_147",
+        "source_chunk_id": "4873de6a-9be0-468d-b3d6-790d408f9b1c",
+        "question": "Z jakého vozidla Horymír odčerpal větší dávku benzinu?",
+        "ground_truth": "Z jednoho vozu, který stál uprostřed parkoviště, s tloukoucím srdcem odčerpal větší dávku benzinu."
+    },
+    {
+        "question_id": "gen_li_148",
+        "source_chunk_id": "f92cfad3-b932-4bba-a404-cd64a816cf45",
+        "question": "Jakou literaturu si může dovolit spisovatel řádu Goncourtova?",
+        "ground_truth": "Francouzská literatura si ho může arci dovoliti, zrovna jako spisovatel řádu Goncourtova."
+    },
+    {
+        "question_id": "gen_li_149",
+        "source_chunk_id": "bab7ef68-f3de-43c3-a826-8ab0284113bc",
+        "question": "Kdy se narodil Sebastiano Tecchio?",
+        "ground_truth": "Advokát Sebastiano Tecchio narodil se r. 1844 ve Vicenza."
+    },
+    {
+        "question_id": "gen_li_150",
+        "source_chunk_id": "f69a83de-5828-4445-8c60-50f2a7380037",
+        "question": "Jaký byl hlavní cíl cesty Lotiho?",
+        "ground_truth": "Hlavní cíl cesty Lotiho byl Jerusalem.\n"
+    },
+    {
+        "question_id": "gen_li_151",
+        "source_chunk_id": "b701a6ab-e8b7-42de-8de8-38647364df6b",
+        "question": "Kdy byla založena farnost Osičky?",
+        "ground_truth": "Par. ab ao. 1654."
+    },
+    {
+        "question_id": "gen_li_152",
+        "source_chunk_id": "ffe29e40-cef3-4bfe-a64d-e378aa1cca69",
+        "question": "Kolik mužů československého vojska přijelo z Padovy před jedenáctou hodinou?",
+        "ground_truth": "Před 11. hodinou přijelo z Padovy 400 mužů československého vojska."
+    },
+    {
+        "question_id": "gen_li_153",
+        "source_chunk_id": "b79dc02a-1e83-48f3-a9fa-dc200b87836b",
+        "question": "Kdy S. Preciosa Jablonec připravuje žákovský turnaj kopané?",
+        "ground_truth": "S. Preciosa Jablonec připravuje na neděli 9. července žákovský turnaj kopané."
+    },
+    {
+        "question_id": "gen_li_154",
+        "source_chunk_id": "893e571f-fa52-46ea-87dd-8a2a6d3125c7",
+        "question": "Kde se šíří komunistické hnutie?",
+        "ground_truth": "V Pešti sa šíri komunistické hnutie."
+    },
+    {
+        "question_id": "gen_li_155",
+        "source_chunk_id": "f12aefca-0d59-44af-95ed-b1a0d4665370",
+        "question": "Zabýval se otázkou, může-li éterová narkosa způsobiti crouposní pneumonii, kdo?",
+        "ground_truth": "Zabýval se otázkou, může-li éterová narkosa způsobiti crouposní pneumonii, dr. Ant. Beorchia-Nigris."
+    },
+    {
+        "question_id": "gen_li_156",
+        "source_chunk_id": "72a71273-6cf5-492f-adc7-bc74f3dfde39",
+        "question": "Kdy začala vyjednávání o obchodní smlouvě mezi Švédskem, Velkou Británií, Francií, Italií a Spojenými Státy americkými?",
+        "ground_truth": "Od prosince r. 1917 vyjednávalo se o obchodní smlouvu mezi Švédskem na jedné. Velkou Británií, Franclí, Italií a Spojenými Státy americkými na druhé straně."
+    },
+    {
+        "question_id": "gen_li_157",
+        "source_chunk_id": "32d16a4a-e0c4-430c-a4d0-220be09c035d",
+        "question": "Kdy byla poslána zpráva z Poruby?",
+        "ground_truth": "Z Poruby byla poslána 2. března."
+    },
+    {
+        "question_id": "gen_li_158",
+        "source_chunk_id": "d1c6a55c-2120-4518-bc60-d2636d160a26",
+        "question": "Která škola menšin je ve Velké Bukovině se sídlem ve Chvalkovicích?",
+        "ground_truth": "Sch. civ. puer. et puell. 2 Cl. (Státní škola menšinová ve Velké Bukovině, se sídlem ve Chvalkovicích)."
+    },
+    {
+        "question_id": "gen_li_159",
+        "source_chunk_id": "90f9ff34-722e-4243-9ad5-52b05c669a2b",
+        "question": "Jak vysoko měří pomník v městě Wangtonu v sev. Americe?",
+        "ground_truth": "Pomník ten jest nejvyšší stavbou na té, měřiť 555 stop výšky."
+    },
+    {
+        "question_id": "gen_li_160",
+        "source_chunk_id": "879ede79-4fd5-49f0-96a2-fa8053da9f88",
+        "question": "Kdy Oskar zamýšlí přijet prohlédnout si závody?",
+        "ground_truth": "Oskar žádal, aby přijel na druhý týden prohlédnout si závody.\n"
+    },
+    {
+        "question_id": "gen_li_161",
+        "source_chunk_id": "dd0521a4-9a04-4924-b500-28ea6a7a7847",
+        "question": "Kdy bylo vyčerpání řádné dovolenky za rok 1948?",
+        "ground_truth": "Vycčerpání řádné dovolenky za rok 1948 bylo 28. 1."
+    },
+    {
+        "question_id": "gen_li_162",
+        "source_chunk_id": "cf379e25-216b-407a-830c-535aa66da931",
+        "question": "Jaká byla ostrost zraková večer po strychninové injekci a čtyřech inhalacích amylnitritu?",
+        "ground_truth": "Po dalších 4 inhalacích (vždy za 2 hodiny jedna) a strychninové injekci byla ostrost zraková večer 6/12."
+    },
+    {
+        "question_id": "gen_li_163",
+        "source_chunk_id": "84154481-ddbd-4ad1-af3d-0fae2c2b671a",
+        "question": "Kam zamířil pasažer po najmutí nejbližší drožky?",
+        "ground_truth": "Místo na výlet odejel k lékaři a po poskytnuté pomoci domů — do postele."
+    },
+    {
+        "question_id": "gen_li_164",
+        "source_chunk_id": "b6f0fa7c-7e04-4246-b8d7-762fba41d3c3",
+        "question": "Kdo svolal schůzi dělnictva mlynářského do Brna?",
+        "ground_truth": "Redaktor „Proletáře“ a „Mlynářského Obzoru“ centrálního p. Nádvorník svolává schůzi dělnictva mlynářského do Brna."
+    },
+    {
+        "question_id": "gen_li_165",
+        "source_chunk_id": "063410e3-b4d9-4fa8-a903-143a643039db",
+        "question": "Od koho pocházejí tři vzácné stříbrné mince?",
+        "ground_truth": "Tři vzácné stříbrné mince pocházejí od slečny Elišky Lauermannové."
+    },
+    {
+        "question_id": "gen_li_166",
+        "source_chunk_id": "04f4515b-d9c0-4fe5-8d51-6af7b85a4626",
+        "question": "Kolik českých představení týdně musí pan Thomé dávati v prozatímním českém divadle?",
+        "ground_truth": "Pan Thomé musí dávati 4 česká představení týdně v prozatímním českém divadle."
+    },
+    {
+        "question_id": "gen_li_167",
+        "source_chunk_id": "ae63ac63-bf47-4690-9808-9e57af7fc53e",
+        "question": "Co shledali revisoři za r. 1895?",
+        "ground_truth": "Řekli, že je to všechno v nejlepším po-řádku, jako vždycky a ujišťovali, že je ještě čistý."
+    },
+    {
+        "question_id": "gen_li_168",
+        "source_chunk_id": "7d24eb88-d09e-4439-a72b-ac79096b8126",
+        "question": "Kdo potvrdil zjištění Schultzeho o přítomnosti kyseliny mléčné při otravě fosforem?",
+        "ground_truth": "Kohts (l. c.) potvrdil zjištění Schultzeho o přítomnosti kyseliny mléčné při otravě fosforem."
+    },
+    {
+        "question_id": "gen_li_169",
+        "source_chunk_id": "c2dc5adf-99fc-44cb-b38b-7772c06c527c",
+        "question": "Kolik rublů si Chlestakov vypůjčil od Poštmistra?",
+        "ground_truth": "Chlestakov si vypůjčil od Poštmistra tři sta rublův.\n"
+    },
+    {
+        "question_id": "gen_li_170",
+        "source_chunk_id": "c8dca73c-c0b3-4935-bb65-550633c1e7b8",
+        "question": "Na základě čehož byl p. Ludvík Powidaj odsouzen?",
+        "ground_truth": "P. Ludvík Powidaj byl odsouzen na základě §§. 300 a 305 tr. z."
+    },
+    {
+        "question_id": "gen_li_171",
+        "source_chunk_id": "78a140b3-7f37-4e67-854e-bcc6606a5b2c",
+        "question": "Kde Method Haník nabízí lampiony, koriandoli a kon?",
+        "ground_truth": "Method Haník nabízí lampiony, koriandoli a kon v Mor. Ostavě, Nová ul., 77 vedle Sokolovny."
+    },
+    {
+        "question_id": "gen_li_172",
+        "source_chunk_id": "016e9f49-09d9-4ba0-9304-8a94882aeb91",
+        "question": "Čemu lidé radí, abychom se umírnili a spořili?",
+        "ground_truth": "Radějí nám proto, abychom spořili, aby-chom se umírňovali: politika beře nám mnoho času i proto lidičky nechte politiky, zvláště čtení novin."
+    },
+    {
+        "question_id": "gen_li_173",
+        "source_chunk_id": "52a4fb06-07ce-402f-bb67-2021a502ad7c",
+        "question": "Kdy císař Karel VI. přijal od hraběte Františka Ant. Šporka řád sv. Huberta?",
+        "ground_truth": "Císař Karel VI. přijal od hraběte Františka Ant. Šporka řád sv. Huberta r. 1724."
+    },
+    {
+        "question_id": "gen_li_174",
+        "source_chunk_id": "2eb6f5da-a291-4701-8f56-947f3a1771e8",
+        "question": "Kdy se konaly porady předsednictva Českého svazu?",
+        "ground_truth": "Porady předsednictva Českého svazu byly konány ve dnech 22. a 23. ledna ve Vídni."
+    },
+    {
+        "question_id": "gen_li_175",
+        "source_chunk_id": "ba9db762-c173-417c-867d-784a1d48bb64",
+        "question": "Jaké množství mužů ve francouzském vojenském oddílu vpadlo do Budapešti?",
+        "ground_truth": "Francouzský vojenský oddíl o 2.000 mužích vpadl do Budapešti, jak zpráva z Uher oznamuje."
+    },
+    {
+        "question_id": "gen_li_176",
+        "source_chunk_id": "f0ef5feb-a3be-4b51-a111-7657620bddbc",
+        "question": "Doporučovalo by se užiti methody synoptické, pokud dovolí hojnost pozorování?",
+        "ground_truth": "Avšak tu a tam, kde to hojnost pozorování dovolí, zajisté by se doporučovalo užiti methody synoptické."
+    },
+    {
+        "question_id": "gen_li_177",
+        "source_chunk_id": "29b7b131-6dac-4d1e-94cc-0143dd665ad6",
+        "question": "Kolik paragrafů obsahovala předloha zákona, kterou učinila vláda?",
+        "ground_truth": "Vláda učinila ve své předloze zákona velmi všeobecného, jen z 5 paragrafů složeného."
+    },
+    {
+        "question_id": "gen_li_178",
+        "source_chunk_id": "9d906c73-14ac-4c93-a97b-a0d4a7505e97",
+        "question": "Jak bylo jméno změněno na Sup Ivánovič?",
+        "ground_truth": "Tehdejší hlavní velitel, Potemkin, kázal mu dáti jiné jméno: „Ty,« povídá, »nejsi Sichfried, nýbrž Sup — tak se nazývej Supem Ivánovičem.«"
+    },
+    {
+        "question_id": "gen_li_179",
+        "source_chunk_id": "ed2c91ec-85df-43a5-9371-039ca969d95d",
+        "question": "Kolik původních vzorů ruských paličkovaných krajek má Paní Marie Červená?",
+        "ground_truth": "Paní Marie Červená má 27 původních vzorů ruských paličkovaných krajek."
+    },
+    {
+        "question_id": "gen_li_180",
+        "source_chunk_id": "b363c859-3a85-4e76-a592-c0e489fd7a63",
+        "question": "Kolik korun stálo 100 kg umělého hnojiva od Liberálního slovinsko-německého spolku?",
+        "ground_truth": "Druhý spolek prodával 100 kg umělého hnojiva za zl. 2.90."
+    },
+    {
+        "question_id": "gen_li_181",
+        "source_chunk_id": "9a969b58-4f11-440d-b4e7-6155da727c58",
+        "question": "Při jakých nemocech se dle Thomovy typologie objevují parenchymatosní degenerace tukové?",
+        "ground_truth": "Dle Thomy parenchymatosní degenerace tukové se objevují při nemocech infekčních, velmi konstantní při neštovicích, chabější při pochodech septických, někdy při kloubovém rheumatismu, skoro pravidelně při neštovicích, tyfu střevním i exanthematickém, při febris recurrens, choleře, septicopyaemii, puerperalní horečce, tetanu, malarii, tuberkulose, gangraeně nemocnicové a j."
+    },
+    {
+        "question_id": "gen_li_182",
+        "source_chunk_id": "e8d67687-2ba3-4b2d-89c7-ef39f74f1ce1",
+        "question": "Komu Arthur Schnitzler nepřipomíná ani jeden z portrétů Wittnerových?",
+        "ground_truth": "Arthur Schnitzler nepřipomíná se mu ani jeden z portrétů Wittnerových."
+    },
+    {
+        "question_id": "gen_li_183",
+        "source_chunk_id": "d34dd8aa-1ae7-4df0-b3e3-c57aaf9613e8",
+        "question": "Kdo schvaluje dohodu, ústy vedoucích svých lidí, zejména Venizela?",
+        "ground_truth": "Řekové, ústy vedoucích svých lidí, zejména Venizela, schvalují tuto dohodu."
+    },
+    {
+        "question_id": "gen_li_184",
+        "source_chunk_id": "6d1c5f9e-305c-4283-b85a-dd011870cccc",
+        "question": "Jak bude určen okruh působnosti společného parlamentu?",
+        "ground_truth": "Okruh působnosti společného parlamentu bude určen ústavou."
+    },
+    {
+        "question_id": "gen_li_185",
+        "source_chunk_id": "57b4b83f-7cad-4f0c-b9ae-858710b54b47",
+        "question": "Kdo byl jmenován rektorem „Szkoła Główna“?",
+        "ground_truth": "Jest jím skutečný rada státní Jos. Mianowski, někdys profesor na fakultě lékařské ve Vilně a pak v Petrohradě."
+    },
+    {
+        "question_id": "gen_li_186",
+        "source_chunk_id": "32593c05-163d-4a7c-9d7a-f4f78cf3f969",
+        "question": "Jaké město Prokop Veliký chtěl dobýt dříve než Němci?",
+        "ground_truth": "Prokop Veliký chtěl dobýt Plzeň, kterou stůj co stůj spíše než Němci příjdou."
+    },
+    {
+        "question_id": "gen_li_187",
+        "source_chunk_id": "44c41f6f-0911-4d04-af8a-d4f72d3d13de",
+        "question": "Jaké opatření učinilo MNV ve Vrchlabí ohledně neznámého škůdce ovocných stromů?",
+        "ground_truth": "MNV učinil všechna opatření, aby byl dopaden."
+    },
+    {
+        "question_id": "gen_li_188",
+        "source_chunk_id": "23f69e57-3dbf-4972-8677-a95e1a4f3a08",
+        "question": "Kdo zahájí slavnost pod heslem „družba vesnice a závodů“?",
+        "ground_truth": "Již dnes večer bude slavnost pod heslem „družba vesnice a závodů“, zahájena v Železném Brodě pro pracující semilského okresu."
+    },
+    {
+        "question_id": "gen_li_189",
+        "source_chunk_id": "8ab3b394-158c-4112-90b9-eff2a981e648",
+        "question": "Kdo psal list starostovi své rodné obce?",
+        "ground_truth": "Jistý chasník z blízké obce u Opavy, který je v Uhrách v práci, psal list starostovi své rodné obce."
+    },
+    {
+        "question_id": "gen_li_190",
+        "source_chunk_id": "ed5c1d56-18da-4b94-b9b9-1cb8dbb0d63b",
+        "question": "Jaké heslo je uvedeno na praporu, který je sňat z cimbuří?",
+        "ground_truth": "„bratr bratru\nroveň“"
+    },
+    {
+        "question_id": "gen_li_191",
+        "source_chunk_id": "294c4ba6-f80b-4c55-af62-ae079e2f3be1",
+        "question": "Kdo byli členové výkonného výboru komitétu?",
+        "ground_truth": "Ve výkonném výboru komitétu byli senátoři Ruffini a Scialoja, poslanci Arca, Barzilai, Torre, žurnalisté Amendola a Maraviglia."
+    },
+    {
+        "question_id": "gen_li_192",
+        "source_chunk_id": "83d64e31-09bf-4ffe-a21b-58b1af8ef920",
+        "question": "Kdo byl Felix Časný?",
+        "ground_truth": "Felix Časný byl náš soudruh a obchodník z Hodolan, ustanoven kandidátem za okres olomoucký a enklávy na okresní konferenci za všeobecného nadšení."
+    },
+    {
+        "question_id": "gen_li_193",
+        "source_chunk_id": "571cab01-baaa-4c7e-89d5-52bac028e4b6",
+        "question": "Co Lukjanow shledal při zkoumání střevního epithelu u ascaris mystax?",
+        "ground_truth": "Lukjanow shledal, zkoumaje epithel střevní u ascaris mystax, v hlubších částech buňky zrnka, jak se zdálo, povahy tukovité, kdežto části k luminu obrácené jich neobsahovaly."
+    },
+    {
+        "question_id": "gen_li_194",
+        "source_chunk_id": "42c01732-84b2-4c06-90f6-b926122590aa",
+        "question": "Kolik korun ročně stojí předplacení všech 24 sešitů „Vojenské bibliotéky“?",
+        "ground_truth": "Předplacení na všech 24 sešitů, jež ročně vyjdou, pouze 4 zl. 80 kr."
+    },
+    {
+        "question_id": "gen_li_195",
+        "source_chunk_id": "fe41ff6b-6231-4016-acaf-eb63325b2584",
+        "question": "Kde byl pořízen snímek?",
+        "ground_truth": "Snímek byl pořízen v OD Ještěd v Liberci."
+    },
+    {
+        "question_id": "gen_li_196",
+        "source_chunk_id": "951fcead-9395-4d6a-bffe-31b34ec61738",
+        "question": "Koho životopisy věnoval do knihovny ředitel škol Polsko-Ostravských, K. J. Bukovský?",
+        "ground_truth": "Ředitel škol Polsko-Ostravských, K. J. Bukovský, do knihovny věnoval životopisy Josefa Wurma a Ignáce Vondráčka.\n"
+    },
+    {
+        "question_id": "gen_li_197",
+        "source_chunk_id": "e642aca6-1c7a-4cf9-95f5-1e8733afe4d0",
+        "question": "Proč Anton Antonovič nevzdává dceru za prostého šlechtice?",
+        "ground_truth": "Nevdávám dceru za nějakého prostého šlechtice, ne snad, abyste to chtěli spravit nějakým sušeným jeseterem nebo homolí cukru."
+    },
+    {
+        "question_id": "gen_li_198",
+        "source_chunk_id": "66a00578-e8fa-4c88-877b-e43f2ade1f72",
+        "question": "Jak rozdílného stáří a velikosti jsou čelisti vykopané v okolí Sloupa?",
+        "ground_truth": "Jak rozdílného stáří a tím i velikosti jsou čelisti vykopané v okolí Sloupa, o tom poučí nás nejlépe následující tabulka."
+    },
+    {
+        "question_id": "gen_li_199",
+        "source_chunk_id": "8aae4bed-f2bf-47ec-88fb-d6aade462572",
+        "question": "Jakým způsobem byly duté kosti končetin poškozeny?",
+        "ground_truth": "Duté kosti končetin byly přeráženy."
+    },
+    {
+        "question_id": "gen_li_200",
+        "source_chunk_id": "c1dc1932-b8f5-40d2-8eb3-752080199cdf",
+        "question": "Kde nyní bydlí?",
+        "ground_truth": "Nyní bydlí — v Poštovské či Hrachové ulici?\n"
+    }
+]
