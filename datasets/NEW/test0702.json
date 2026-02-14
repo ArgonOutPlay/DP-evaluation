@@ -10,11 +10,5 @@
         "source_chunk_id": "7c9f46e5-2a61-43b4-bebb-0938e28c9f99",
         "question": "Co znamená termín „horniny porfyrické a sklovité“ podle uvedeného textu?",
         "ground_truth": "Termín „horniny porfyrické a sklovité“ znamená buďto horniny, které jeví zrna dle velikosti dvojí, ale tak, že jedna jsou velmi malá a okem buď sotva ještě rozeznatelná nebo úplně nerozeznatelná, tato zrna tvoří jakousi „základní hmotu“, v které vynikají „vtroušeniny“, t. j. jednotlivá větší zrna nebo krystaly, anebo je vyvinuta toliko hmota."
-    },
-    {
-        "question_id": "gen_li_3",
-        "source_chunk_id": "f517deaf-de9d-4656-b0b7-2792d61b5b89",
-        "question": "Jaké jsou nejdůležitější typy uzavřenin v nerostech a proč jsou významné pro studium vývoje hornin?",
-        "ground_truth": "Nejdůležitějšími typy uzavřenin v nerostech jsou uzavřeniny skla, tekutin a plynů, neboť z těchto můžeme mnohdy souditi o vývoji hornin."
     }
 ]

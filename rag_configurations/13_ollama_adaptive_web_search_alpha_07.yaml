@@ -7,9 +7,9 @@ params:
   model_name: "gemma3:12b"
   temperature: 0.0
   search_type : "hybrid"
-  alpha: 0.5
+  alpha: 0.7
   chunk_limit: 5
   qt_strategy : "multi_query"
   max_retries : 3
-  web_search_enabled : False
+  web_search_enabled : True
   metadata_extraction_allowed : True
