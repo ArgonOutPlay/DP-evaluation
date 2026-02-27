@@ -1,0 +1,16 @@
+id: "3"
+name: "model_google"
+description: "model_google"
+class_name: "AdaptiveRagGenerator"
+params:
+  model_type: "GOOGLE"
+  model_name: "gemini-2.5-pro"
+  temperature: 0.0
+  search_type : "hybrid"
+  alpha: 0.5
+  chunk_limit: 5
+  qt_strategy : "multi_query"
+  max_retries : 3
+  web_search_enabled : True
+  metadata_extraction_allowed : True
+  self_reflection : True

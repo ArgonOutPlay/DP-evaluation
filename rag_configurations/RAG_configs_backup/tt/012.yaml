@@ -1,0 +1,17 @@
+id: "12"
+name: "max_retries_0"
+description: "max_retries_0"
+class_name: "AdaptiveRagGenerator"
+params:
+  model_type: "OPENAI"
+  model_name: "gpt-5.1"
+  temperature: 0.0
+  search_type : "hybrid"
+  alpha: 0.5
+  chunk_limit: 5
+  qt_strategy : "multi_query"
+  max_retries : 0
+  web_search_enabled : False
+  metadata_extraction_allowed : False
+  self_reflection : False
+  additional_tries_with_web_search: 1

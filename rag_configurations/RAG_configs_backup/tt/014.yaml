@@ -1,0 +1,17 @@
+id: "14"
+name: "Should_be_basic_rag_with_web_search"
+description: "Should_be_basic_rag_with_web_search"
+class_name: "AdaptiveRagGenerator"
+params:
+  model_type: "OPENAI"
+  model_name: "gpt-5.1"
+  temperature: 0.0
+  search_type : "hybrid"
+  alpha: 0.5
+  chunk_limit: 5
+  qt_strategy : "nothing"
+  max_retries : 0
+  web_search_enabled : True
+  metadata_extraction_allowed : False
+  self_reflection : False
+  additional_tries_with_web_search: 0
