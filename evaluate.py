@@ -39,6 +39,9 @@ from ragas.metrics import (
     context_recall,
     answer_correctness
 )
+from ragas import RunConfig
+run_config = RunConfig(max_workers=2, timeout=600)
+                       
 #deepeval
 from deepeval.test_case import LLMTestCase
 from deepeval import evaluate as deepEvaluate
@@ -316,9 +319,9 @@ async def main():
                 metrics=[faithfulness, answer_relevancy, context_recall, context_precision, answer_correctness]
             evaluation_dataset = EvaluationDataset.from_list(dataset)
             if (eval_model == "OLLAMA"):
-                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=ollama_ragas_emb)
+                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=ollama_ragas_emb, run_config=run_config)
             else: #openai
-                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=openai_ragas_emb)
+                result = evaluate(dataset=evaluation_dataset, metrics=metrics, llm=llm, embeddings=openai_ragas_emb, run_config=run_config)
         else:   #deepeval have to be setuped like this to avoid token overflow - this allow to create own llm instance with token limit
             #NOGT
             metrics = [AnswerRelevancyMetric(model=llm, threshold=0.5), FaithfulnessMetric(model=llm, threshold=0.5)]
