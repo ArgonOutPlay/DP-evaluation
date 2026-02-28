@@ -1,0 +1,16 @@
+class_name: AdaptiveRagGenerator
+params:
+  model_type: OLLAMA
+  search_type: hybrid
+  model_name: gemma3:12b
+  temperature: 0.0
+  alpha: 0
+  chunk_limit: 1
+  qt_strategy: multi_query
+  max_retries: 1
+  web_search_enabled: true
+  metadata_extraction_allowed: false
+  self_reflection: true
+id: exp_model_type_OPENAI_search_type_hybrid_model_gpt-5.1_temp_0.0_alpha_0_chunk_limit_1_qt_strategy_multi_query_max_retries_1_web_search_enabled_True_metadata_extraction_allowed_False_self_reflection_True
+name: exp_model_type_OPENAI_search_type_hybrid_model_gpt-5.1_temp_0.0_alpha_0_chunk_limit_1_qt_strategy_multi_query_max_retries_1_web_search_enabled_True_metadata_extraction_allowed_False_self_reflection_True
+description: exp_model_type_OPENAI_search_type_hybrid_model_gpt-5.1_temp_0.0_alpha_0_chunk_limit_1_qt_strategy_multi_query_max_retries_1_web_search_enabled_True_metadata_extraction_allowed_False_self_reflection_True
