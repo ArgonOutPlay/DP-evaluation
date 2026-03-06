@@ -211,3 +211,6 @@ __marimo__/
 
 #DeepEval
 .deepeval
+
+# embedding wrapper that is not used, but im keeping it localy for now
+utils/deepeval_wrappers.py
