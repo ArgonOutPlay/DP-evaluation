@@ -70,9 +70,10 @@ async def run_one_config(rag_config_path, dataset, search, previous_docs = None)
 async def main():
     #paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    CONFIGS_DIR  = os.path.join(base_dir, "rag_configs")
-    DATASET_PATH = os.path.join(base_dir, "datasets/test.json")
-    OUTPUT_DIR = os.path.join(base_dir, "..", "experiment_results", "raw_outputs")
+    #CONFIGS_DIR  = os.path.join(base_dir, "rag_configs")
+    CONFIGS_DIR  = os.path.join(base_dir, "test_configs_02")
+    DATASET_PATH = os.path.join(base_dir, "datasets/200cze_gpt51_complex_questions_altered.json")
+    OUTPUT_DIR = os.path.join(base_dir, "..", "experiment_results", "raw_outputs_judge")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # init searcher

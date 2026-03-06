@@ -5,15 +5,15 @@ import copy
 model_type = "OPENAI"         #in the template
 search_type = "hybrid"        #in the template
 # openai_models = ["gpt-5.2", "gpt-5.1", "gpt-5", "gpt-5-mini", "gpt-5-nano", "gpt-4.1" , "gpt-4.1-mini", "gpt-4.1-nano", "gpt-4o", "gpt-4o-mini"]
-openai_models = ["gpt-5.1", "gpt-5-mini", "gpt-5-nano"]
+openai_models = ["gpt-5.1", "gpt-4o-mini", "gpt-4.1-nano"]  # ["gpt-5.1", "gpt-5-mini", "gpt-5-nano"]
 temperatures = [0.0]
-alphas = [0.3, 0.5, 0.7]
-chunk_limits = [1, 3, 5, 10]
-qt_strategies = ["multi_query", "hyde", "nothing"]
-max_retries = [1, 3]
-web_search_enabled = [True, False]
-metadata_extraction_allowed = [True, False]
-self_reflection = [True, False]
+alphas =  [0.5]                 #[0.3, 0.5, 0.7]
+chunk_limits = [3]              #[1, 3, 5, 10]
+qt_strategies = ["multi_query"] #["multi_query", "hyde", "nothing"]
+max_retries = [3] #[1, 3]
+web_search_enabled = [True]
+metadata_extraction_allowed = [True]
+self_reflection = [True]
 
 template = {
     "class_name": "AdaptiveRagGenerator",
@@ -23,7 +23,7 @@ template = {
     }
 }
 
-output_dir = "rag_configurations/experiments"
+output_dir = "rag_configurations/experiments/eval_judge"
 os.makedirs(output_dir, exist_ok=True)
 
 counter = 0
@@ -52,8 +52,6 @@ for strat in qt_strategies:
                             config["params"]["self_reflection"] = sr
 
                             counter = counter +1
-                            if (counter >= 10):
-                                break
 
                             file_path = os.path.join(output_dir, f"{config_id}.yaml")
                             with open(file_path, "w", encoding="utf-8") as f:
