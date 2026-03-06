@@ -1,0 +1,268 @@
+[
+    {
+        "user_input":"Jaké byly důsledky zavedení říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a jaké problémy tento zákon způsobil v souvislosti s pohyblivými třídami obyvatelstva a jejich právem domovským?",
+        "retrieved_contexts":[
+            "Vás, jak se to srovnává se zákonem, že jste se opovážil dne 24. t. m. vybírat almužnu pro místní chudé a to jen od jednotlivých občanů? Koho pak zde Váš zákon považuje za občara? Snad jen půlláníka? Či zde není občanem také jak familiant tak i domkař? — Vždyť přec §. 22. (částka 4) zákona daného dne 3. prosince r. 1863 o povinosti obcí opatřovati chudé v odstavci druhém čteme: „Nejsou-li v obci ústavy aneb fundace, které by byly povinny v obci opatřovati chudé, anebo by k tomu neměly důchodů, povinna bude obec osobám schudlým práve domovská v ní majícím pomoc poskytovati.“ Tedy není zde ani řeči o jednotlivých občanech, nýbrž mluví se zde oobci. Či jak si ráčite vykládat „povinnosti a „práva“ občanská? Snad aby jedni platili, a druzí naušívajíce se do syto-"
+        ],
+        "response":"Podle dostupného kontextu, zákon ze dne 3. prosince 1863 o povinosti obcí opatřovati chudé stanovuje, že pokud v obci nejsou ústavy nebo fundace, které by měly povinnost se o chudé starat, je obec povinna poskytnout pomoc osobám, které mají v ní domovské právo [doc 1]. Zákon se zmiňuje o obci, nikoli o jednotlivých občanech [doc 1]. Konkrétní problémy a důsledky pro chudé venkovské obce a pohyblivé třídy obyvatelstva nejsou v kontextu uvedeny [doc 1].",
+        "reference":"Zavedení říšského zákona ze dne 10. prosince 1863 poškozovalo chudé venkovské obce na prospěch zámožných a rostoucích měst a míst průmyslových, protože obyvatelé pocházející z cizích obcí byli nuceni hledat pomoc u své obce domovské, kde byli neznámí a ničím neprospěli. Nový zákon neodstranil tyto nedostatky úplně, protože požadavek nepřetržitého pobytu 10 let byl příliš dlouhý pro pohyblivé třídy obyvatelstva, které byly nuceny zdržovat se mimo obec domovskou kvůli ekonomickým a sociálním poměrům.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.2302158507,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky odhalení pomníku Josefa Dobrovského v Praze na vnímání jeho odkazu a jak se to projevilo ve veřejném prostoru města?",
+        "retrieved_contexts":[
+            "slice ukazují, nezbývá nám nic jiného, než pěkně platit — a zas platit. Pomník věhlasného učence českého Josefa Dobrovského odhalen byl v den sv. Petra a Pavla o půl 11 hod. dopoledne ve městském sadě blíže musea království českého v Praze. Pomníkem tímto bude počet veřejných pomníků, kterými se máti českých měst Praha honosí, opět rozmnožen. Těšíme se z toho velice, že pomník tento platí křísiteli národa našeho, který mu mimo tento pomník zachová ještě jiný, a to věčnou pamět v srdcích svých. Dle učení Tolstého. „Nový kult“ v 9. svém čísle v překladu má tento zajímavý dopis. Bývalý vojenský lékař dr. Skarvan byv vyzván obecní radou v Locarnu ve Švýcarsku, aby zaplatil daně, odpověděl následujícím listem. „Obecní radě v Locarnu! Dne 24. t. m. přišel do mého bytu jeden"
+        ],
+        "response":"Odhalení pomníku Josefa Dobrovského v Praze vedlo k rozšíření počtu veřejných pomníků, kterými se Praha může pyšnit [doc 1]. Pomník bude sloužit jako věčná památka v srdcích lidí, kteří ho uctívají jako křísitele národa [doc 1].",
+        "reference":"Pomník Josefa Dobrovského v Praze přispěl k rozmnožení počtu veřejných pomníků, kterými se město Praha honosí, a zároveň slouží jako pocta křísiteli národa, jehož odkaz bude zachován nejen tímto pomníkem, ale i věčnou pamětí v srdcích lidí.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.9284678133,
+        "answer_correctness":0.6930229997,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké jsou důsledky nesprávného použití nástrojů při odstraňování ušního mazu a jaké preventivní opatření je doporučeno k minimalizaci rizika infekce?",
+        "retrieved_contexts":[
+            "Caeruminis accumulatio. Jak odstraňovati zátky mazu  lušního ze zevního zvukovodu, pojednává G. Laurens. Především nutno se vystříhati všech nástrojů, jimiž by se mohla poraniti kůže, a třebas byl nástroj úplně sterilisovaný, může z mazu chovajícího spousty bakterií vniknouti do rány nákaza, z čehož resultuje otitis externa, furunculi atd. Stříkačka musí býti tak konstruována, aby se dala sterilisovati co nejpřísněji. Budiž opatřena 3 prsteny. Nechť pojme asi 100 gr. tekutiny. Konec stříkačky budiž opatřen měkkou trubicí kaučukovou. Voda má býti 370 C. teplá. Naplníme jí stříkačku tak, aby neobsahovala bublin, které narážejíce na bubínek, způsobují nepříjemné šelesty. Nemocný při vystřikování má seděti. Na rameně pod uchem chorým budiž šátek, aby se zamezilo potřísnění. Nemocný"
+        ],
+        "response":"Nesprávné použití nástrojů při odstraňování ušního mazu může vést k poranění kůže [doc 1]. I sterilizované nástroje mohou zavléct infekci z mazu do rány [doc 1], což může způsobit zánět zevního zvukovodu (otitis externa) a furunkuly [doc 1]. Doporučuje se používat stříkačku, která je konstruována pro přísnou sterilizaci a je opatřena třemi prsteny a měkkou gumovou trubicí [doc 1]. Voda by měla mít teplotu 37°C a stříkačka by neměla obsahovat bubliny [doc 1]. Pacient by měl sedět a pod ucho by měl mít šátek, aby se předešlo potřísnění [doc 1].",
+        "reference":"Nesprávné použití nástrojů při odstraňování ušního mazu může vést k poranění kůže a vniknutí nákazy z mazu chovajícího spousty bakterií do rány, což může mít za následek otitis externa, furunculi atd. Doporučuje se používat stříkačku, která je konstruována tak, aby se dala co nejpřísněji sterilizovat, a měla by být opatřena měkkou trubicí kaučukovou.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.9504399035,
+        "answer_correctness":0.6150477083,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké jsou důvody pro použití různých léčebných metod u novorozenců a dospělých s očními infekcemi, a jaké jsou potenciální důsledky nesprávného použití těchto metod?",
+        "retrieved_contexts":[
+            "stigmin, jenž se vkapává v 1\/40 roztoku několikráte denně. Mimo to lze vkapovati každou hodinu aq. chlorat. (1: 2 až 1:3 aq. destill.). Prognosticky jest důležito, že obrat k lepšímu nastává súžením se zorničky. Ku vyjasnění jizev rohovkových, kteréž ovšem lze konati teprve po úplném přestání sekrece, používá se zprvu tinct opiová, každodenně dopoledne. Jelikož novorozenec jest velmi citlivý oproti opiu, nesmí se přenechati podávání jeho lidem domácím. Důležito jest sesíliti zároveň celkový stav dítěte. Mnohem obtížnější jest léčiti gonnorrhoický zánět spojivky u dospělého, jelikož tu i zdánlivě lehký případ může končiti přes nejpečlivější léčení oslepnutím. Tu jest nutno bez výjimky poslati nemocného do nemocnice k ošetřování. (Münch. Med. Woch. 1896, č. 7.) z—."
+        ],
+        "response":"U novorozenců je důležité sesílit zároveň celkový stav dítěte [doc 1]. Jelikož novorozenec jest velmi citlivý oproti opiu, nesmí se přenechati podávání jeho lidem domácím [doc 1]. Mnohem obtížnější jest léčiti gonnorrhoický zánět spojivky u dospělého, jelikož tu i zdánlivě lehký případ může končiti přes nejpečlivější léčení oslepnutím [doc 1]. V případě gonorrhoického zánětu spojivky u dospělého je nutno bez výjimky nemocného do nemocnice k ošetřování [doc 1].",
+        "reference":"U novorozenců je důležité sesílit celkový stav dítěte a opium nesmí být podáváno lidem domácím kvůli citlivosti novorozence. U dospělých je léčba gonnorrhoického zánětu spojivky obtížnější, protože i zdánlivě lehký případ může končit oslepnutím, a proto je nutné poslat nemocného do nemocnice k ošetřování. Potenciální důsledky nesprávného použití léčebných metod zahrnují oslepnutí u dospělých a riziko pro novorozence kvůli citlivosti na opium.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.8109626352,
+        "answer_correctness":0.7370305543,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?",
+        "retrieved_contexts":[
+            "January 27, 2026 - Přirozeným spojencem Hindenburga pro vytvoření autoritativní vlády byla Německá národně lidová strana (Deutschnationale Volkspartei, DNVP), která zastávala pozici nacionalistů, ovšem po roce 1929 vlivem nastupující ekonomické krize čelila odlivu mladých a více radikálních sympatizantů k myšlence revoluce zosobňovanou NSDAP. Tato strana taktéž sloužila jako protiváha narůstající popularitě komunismu v Německu.\nNovember 27, 2025 - Prezident vydal 28. února 1933 Dekret o požáru Říšského sněmu, který pozastavil do odvolání ty články ústavy, které se týkaly osobní svobody, svobody projevu, svobody tisku, práva na shromažďování a poštovního tajemství. Noviny podporující komunisty a sociální demokraty byly na 14 dní zavřeny. Kanceláře Komunistické strany byly uzavřeny a komunističtí poslanci s jejich úředníky vsazeni do ochranné vazby.\nJune 23, 2025 - Sociálně slabé skupiny obyvatel ... podmínek. Po vojenských porážkách vzbouřenců a bezvýsledném zasedání Frankfurtského parlamentu byla revoluce v německých zemích v roce 1849 potlačena ....\n3 weeks ago - Německé znovusjednocení (německy Deutsche Wiedervereinigung) je proces připojení Německé demokratické republiky (NDR) a Západního Berlína ke Spolkové republice Německo (SRN), završený 3. října 1990. Bylo umožněno pádem komunismu a železné opony na sklonku roku 1989.\nFebruary 3, 2025 - Němečtí komunisté byli obviněni ze záměrného zkreslování situace v Německu a neschopnosti celou akci zorganizovat . Stalin využil selhání povstání proti Trockému a jeho podporovatelům a vyšel z celé události jako pomyslný vítěz. Vyostřil se i boj uvnitř ruské komunistické ..."
+        ],
+        "response":"Komunistická revoluce v Německu byla potlačena po vojenských porážkách vzbouřenců a bezvýsledném zasedání Frankfurtského parlamentu [doc 1]. Němečtí komunisté byli obviněni ze záměrného zkreslování situace v Německu a neschopnosti celou akci zorganizovat [doc 1]. Prezident vydal 28. února 1933 Dekret o požáru Říšského sněmu, který pozastavil články ústavy týkající se osobní svobody, svobody projevu a dalších práv [doc 1]. Noviny podporující komunisty a sociální demokraty byly zavřeny a kanceláře Komunistické strany byly uzavřeny [doc 1].",
+        "reference":"Komunistická revoluce v Německu byla vyloučena, protože občanstvo bylo příliš silné a dobře organizované, což by umožnilo potlačit každé takové hnutí.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.8438657289,
+        "answer_correctness":0.2284825239,
+        "context_precision":0.9999999999,
+        "context_recall":0.0
+    },
+    {
+        "user_input":"Jaké byly důsledky kritické situace stavebních živnostníků, na kterou poukázali řečníci jako stavitel Havlena a tajemník Pekárek, a jak tato situace souvisí s politickými změnami v Rumunsku a Ukrajině, které jsou zmíněny v textu?",
+        "retrieved_contexts":[
+            "Podíváme se dnes na dva reálné živnostníky , jejich příjmy a jejich rodinnou situaci . Tihle dva chtějí mít zajištěný příjem nebo rezervu za každé životní situace a nejsou přitom fanoušky vysokých daní či odvodů na sociální pojištění (což je ostatně taky daň).\nA ještě jednou pozor. Doba, po kterou je SVČ přerušena, není dobou důchodového pojištění, tedy laicky řečeno, do důchodu se nezapočítává. I živnostník má nárok na podporu v nezaměstnanosti.\nOdvody živnostníků na sociální pojistné se zřejmě vrátí na loňskou úroveň. Sněmovna propustila do 3. čtení předlohu koalice, která vrací vyměřovací základ na loňskou úroveň.\nDále nastává situace , kde učitel zadá problém, a to zjistit délku kružnice ( je -li známa konstrukce pro obvod pravidelného n-úhelníku).\nBěloruský lídr Alexandr Lukašenko je přesvědčen o tom, že Rusko a Ukrajina se ve válce ocitly v patové situaci . Podle něj by měly usednout k jednacímu stolu a diskutovat o ukončení konfliktu."
+        ],
+        "response":"Omlouvám se, ale nemám dostatek informací k zodpovězení této otázky. Text neobsahuje informace o důsledcích kritické situace stavebních živnostníků, ani o souvislosti s politickými změnami v Rumunsku a na Ukrajině. [doc 1]",
+        "reference":"Důsledky kritické situace stavebních živnostníků, na kterou poukázali řečníci jako stavitel Havlena a tajemník Pekárek, nejsou v textu přímo uvedeny, a jejich souvislost s politickými změnami v Rumunsku a Ukrajině není explicitně zmíněna. Text se zaměřuje na různé problémy a politické situace v různých zemích, ale přímé propojení mezi těmito událostmi a situací stavebních živnostníků v textu chybí.",
+        "faithfulness":0.6666666667,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.8274921189,
+        "context_precision":0.0,
+        "context_recall":0.6666666667
+    },
+    {
+        "user_input":"Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?",
+        "retrieved_contexts":[
+            "výhradně stát“. Legalizoval se tak akt Národního výboru českých filmových pracovníků, který už 9. května 1945 převzal správu všech nejdůležitějších filmových podniků. Toto vyvlastnění se připravovalo během okupace. Cílem skupiny filmařů, která připravovala nové uspořádání filmové tvorby a průmyslu, byl takový organizační a ekonomický model, který by odstranil nebezpečí neustále se opakujících konjunkturálních výkyvů, vyvolávaných nejistotou trhu, vyřešil problémy financování a napomáhal rozvoji tvůrčího potenciálu. V roce 1945 tedy dochází k proměně organizační struktury všech složek kinematografie a rodí se jednotný podnik, Československý film. Stát, ne kapitálově silní jedinci, měl v budoucnu pečovat o kinematografii. Úmysl byl tedy jasný a pozitivní. Ale v únoru 1948, kdy se „vlády ujal lid“, mění se idea, původně motivovaná tvůrčí vůlí, v úřední diktát. Ukazuje se, že ani technická, ani materiální základna není zárukou skutečného umění. To je závislé a přímo souvisí s celkovým kulturně politickým ovzduším. At-",
+            "váno ve stavu, který bránil jeho zdravému rozvoji a pokroku a který zachovával reakčním silám naději na zvrat zestátňovacího procesu. Tvůrčí činnost byla uváděna ve zmatek prosazováním komerčních hledisek na jedné straně a rozvratnou kritikou na straně druhé. Únor 1948 zlikvidoval tyto uměle udržované nepříznivé podmínky a všechny podvratné snahy a umožnil tak rychlou a cílevědomou konsolidaci státního filmu. Ministr informací zrušil výnosem z 26. února 1948 opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu, a rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání. Zrušil instituci zmocněnců a přenesl jejich úkoly na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti. Tím byl dán základní",
+            "předpoklad sjednocení a jednotného řízení veškeré činnosti v oblasti filmu. Současně byl učiněn první krok k přípravě systematického plánování v oblasti filmu jmenováním náměstka ústředního ředitele pro plánování a výzkum a pronikavou reorganisací osobní vytvořeny nezbytné podmínky pokrokového vývoje ve filmové výrobě a distribuci. Vláda pak v jednom z prvních zasedání po únoru schvaluje ustavení státního podniku Československý státní film pro celou oblast státu jako jediného nositele veškeré činnosti v oboru filmu. Tím se odstraňuje nezdravý dualismus, pěstovaný odstředivými silami na Slovensku, který bránil stejnoměrnému vývoji filmu v celé republice. Zestátnění filmu je zabezpečeno ústavou. Státní film dostává vládním nařízením ze dne 13. dubna 1948 č. 72 Sb. pevnou právní základnu, na níž je možno vybudovati jeho řádnou organisaci a zdravý vývoj. Je možno přistoupiti k systematickému uspořádání jeho hospodářstvi, filmové výroby a distribuce a k plánovitému řízení jeho rozvoje v celé oblasti státu."
+        ],
+        "response":"Před únorem 1948 čelil státní film v Československu několika překážkám [doc 2]. Mezi ně patřily uměle udržované nepříznivé podmínky a podvratné snahy, které bránily zdravému rozvoji a pokroku [doc 2]. Dále existoval nezdravý dualismus, pěstovaný odstředivými silami na Slovensku, který bránil stejnoměrnému vývoji filmu v celé republice [doc 3]. Únorové události zlikvidovaly tyto uměle udržované nepříznivé podmínky a podvratné snahy [doc 2] a umožnily tak rychlou a cílevědomou konsolidaci státního filmu [doc 2]. Zrušením opatření poskytujících samostatnou právní subjektivitu zmocněncům a úsekovým ředitelům a přenesením jejich úkolů na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti byl dán základní předpoklad sjednocení a jednotného řízení veškeré činnosti v oblasti filmu [doc 2].",
+        "reference":"Hlavní překážky, kterým čelil státní film v Československu před únorem 1948, zahrnovaly nedostatečnou a nedokonalou právní úpravu, která vedla k odporu některých držitelů provozních prostředků proti jejich předání, popírání účinnosti dekretu o zestátnění filmu na Slovensku, nemožnost převodu nemovitostí v pozemkových knihách, právní nejistotu, snahy o vynětí některých kin ze zestátnění, organizační nejednotnost a nesoulad mezi složkami státního filmu, které bránily řádnému plánování investic a vývoje. Únor 1948 tyto nepříznivé podmínky a podvratné snahy zlikvidoval, což umožnilo rychlou a cílevědomou konsolidaci státního filmu.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.9553442802,
+        "answer_correctness":0.4521885596,
+        "context_precision":1.0,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?",
+        "retrieved_contexts":[
+            "váno ve stavu, který bránil jeho zdravému rozvoji a pokroku a který zachovával reakčním silám naději na zvrat zestátňovacího procesu. Tvůrčí činnost byla uváděna ve zmatek prosazováním komerčních hledisek na jedné straně a rozvratnou kritikou na straně druhé. Únor 1948 zlikvidoval tyto uměle udržované nepříznivé podmínky a všechny podvratné snahy a umožnil tak rychlou a cílevědomou konsolidaci státního filmu. Ministr informací zrušil výnosem z 26. února 1948 opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu, a rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání. Zrušil instituci zmocněnců a přenesl jejich úkoly na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti. Tím byl dán základní"
+        ],
+        "response":"Zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů položilo základ pro konsolidaci a jednotné řízení filmového průmyslu v Československu [doc 1]. Ministr informací zrušil opatření, která poskytovala těmto jednotlivcům samostatnou právní subjektivitu [doc 1]. Tímto zrušením se stal jediným nositelem právní subjektivity v oblasti filmu zestátněné filmové podnikání [doc 1]. Úkoly zmocněnců byly přeneseny na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti [doc 1].",
+        "reference":"Zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů umožnilo sjednocení a jednotné řízení veškeré činnosti v oblasti filmu, což vedlo k rychlé a cílevědomé konsolidaci státního filmu v Československu po únoru 1948.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.8955919715,
+        "answer_correctness":0.4895807878,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?",
+        "retrieved_contexts":[
+            "Received 17 June 2001  Boubínský prales po 24 letech (1972-1996) — vývoj stromového patra  T. VRŠKA', L. HORT2, P. ODEHNALOVÁ?, D. HORAL2, D. ADAM2  Správa Národního parku Podyjí, Znojmo, Česká republika 2Agentura ochrany přírody a krajiny ČR, detašované pracoviště Brno, Česká republika  ABSTRAKT: V roce 1996 byla provedena opakovaná měření taxačních, typologických a porostních charakteristik v národní přírodní rezervaci Boubínský prales. Tyto úkony následovaly po výzkumu provedeném v roce 1972 s použitím stejné metodiky a následným vyhodnocením změn, k nimž ve sledované oblasti došlo. Došlo k výraznému poklesu zastoupení jedle a tento úbytek byl nahrazen zvýšenou účastí buku. Dominantní postavení si v pralese udržel smrk. Počet živých stromů mírně klesl, naopak stoupl objem kmenů živých stromů. Celkem 30 % plochy pralesa je pokryto souvislým nárostem s dominancí buku. Na vhodných místech mimo bukové nárosty se úspěšně zmlazuje jedle i smrk s doprovodem dalších vtroušených dřevin. Lze předpokládat, že postupně dojde k obnově populace jedle bělokoré i k obnově smrku. Je navržen další management rezervace."
+        ],
+        "response":"Mezi lety 1972 a 1996 došlo k výraznému poklesu zastoupení jedle, který byl nahrazen zvýšenou účastí buku [doc 1]. Dominantní postavení v pralese si udržel smrk [doc 1]. Pro budoucí obnovu populace jedle bělokoré i smrku je navržen další management rezervace [doc 1].",
+        "reference":"Důsledkem změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996 byl výrazný pokles zastoupení jedle, který byl nahrazen zvýšenou účastí buku, přičemž dominantní postavení si udržel smrk. Počet živých stromů mírně klesl, ale objem kmenů živých stromů stoupl. Celkem 30 % plochy pralesa je pokryto souvislým nárostem s dominancí buku, zatímco na vhodných místech mimo bukové nárosty se úspěšně zmlazuje jedle i smrk s doprovodem dalších vtroušených dřevin. Pro budoucí obnovu populace jedle bělokoré a smrku byl navržen další management rezervace.",
+        "faithfulness":0.8,
+        "answer_relevancy":0.9079104707,
+        "answer_correctness":0.6643531767,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké jsou důsledky výrazného poklesu zastoupení jedle bělokoré a zvýšené účasti buku na strukturu a stabilitu Boubínského pralesa, a jaké opatření bylo navrženo k zajištění jeho přirozeného vývoje?",
+        "retrieved_contexts":[
+            "plochu pralesa, a to přesto, že na řadě míst došlo k náhlým rozpadům stávajícího porostu, dochází k výraznému stárnutí a odumírání populace jedle bělokoré apod. Tato skutečnost potvrzuje jedinečnost Boubínského pralesa a dokazuje životaschopnost a stabilitu pralesovitých útvarů, ponechaných samovolnému vývoji na dostatečně velké souvislé ploše. Došlo k výraznému poklesu zastoupení jedle a tento úbytek byl nahrazen zvýšenou účastí buku. Dominantní postavení si v pralese udržel smrk. Počet živých stromů mírně klesl. Naopak stoupl objem kmenů živých stromů, což svědčí o celkovém stárnutí pralesa. Celkem 30 % plochy je však pokryto souvislým nárostem s dominancí buku. Tyto nárosty jsou zatím pod registrační hranicí dendrometrických šetření, v budoucnu však dojde k větší"
+        ],
+        "response":"Výrazný pokles zastoupení jedle bělokoré byl nahrazen zvýšenou účastí buku [doc 1]. Tato skutečnost potvrzuje jedinečnost Boubínského pralesa a dokazuje životaschopnost a stabilitu pralesovitých útvarů, ponechaných samovolnému vývoji na dostatečně velké souvislé ploše [doc 1]. V budoucnu dojde k většímu nárostu, který je nyní pod registrační hranicí dendrometrických šetření [doc 1].",
+        "reference":"Výrazný pokles zastoupení jedle bělokoré a zvýšená účast buku vedly k tomu, že dominantní postavení si v pralese udržel smrk, a došlo k celkovému stárnutí pralesa, což se projevilo mírným poklesem počtu živých stromů, ale zvýšením objemu kmenů živých stromů. K zajištění přirozeného vývoje Boubínského pralesa bylo navrženo trvale udržovat oplocení v provozuschopném stavu a podle možností lovit či vytlačovat ven zvěř, která se do pralesa dostane, a v pralese by neměly být prováděny žádné úmyslné zásahy.",
+        "faithfulness":0.8333333333,
+        "answer_relevancy":0.8285432145,
+        "answer_correctness":0.3616512254,
+        "context_precision":0.9999999999,
+        "context_recall":0.5
+    },
+    {
+        "user_input":"Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor souvisí s ekonomickými zájmy velkostatkářů a průmyslových kapitalistů?",
+        "retrieved_contexts":[
+            "z prací a agitačních statí dr. Russa a jiných. Varovného hlasu v té příčině pozdvihla (14. dubna) v Praze Ústřední hospodářská společnost, kde kníže Bedřich Schwarzenberg hájil prospěchů zemských v ten rozum, aby především zamezeny byly škody, které rozvodňováním přítoků Vltavy a Labe každého roku zemědělství se způsobují, a pak teprve aby se přikročilo k zřizování velkých průplavů. Ohromný kapitál má býti vložen do průplavů těch, a není dnes jisto, zda by nesloužily jen prospěchům kapitalistickým, neotevřely příchod cizozemské výrobě a nezaplavovaly naše země hospodářskými plodinami z Uher a zemí Balkánských. Napřed regulování řek a meliorace, potom průplavy, v tom smyslu přijata byla jednomyslně resoluce. Z důvodů, aby přítomnost něčeho získala, ujednalo české poselstvo na říšské radě trojí junctim s vládou, jak z projevu dr. Pa-",
+            "dářské, jejímž předsedou je kníže Bedřich Schwarzenberg rozeslalo hospodářským spolkům provolání, v němž se rozhodně staví proti zamýšlené stavbě vodních drah. Nečiní to arciť přímo, ale to na věci nic nemění V provolání se praví: „Ačkoli nutno návrh zákona na zřízení průplavů pokládati za prospěšný veškeré výrobě a tržbě, má Ústřední společnost hospodářská za to, že nelze odlučovati stavbu těchto kanálů vůbec od celkové úpravy našeho vodního hospodářství a že projektované průplavy nabyly by pravého významu pro domácí výrobu a tržbu teprve po předcházející soustavně provedené úpravě řek a toků a řádném provedení všech úkolů a potřeb melioračních.“ A že úkol tento nebude snadným, to se přiznává v provolání bez obalu: „Organisace  LIDU Redakce a administrace nalézá se",
+            "— je jisto, že původní rozpočty budou jako obyčejně značně překročeny — se nechá velice mnoho vydělat. Sumy ty velice zúrodní vypráhlé lány průmyslu. Ale nad radostnou náladou pánů kapitalistů stahují se černé mraky. Vedle kapitalistů průmyslových máme ještě jiné kapitalisty. A tito jsou mnohem mocnější, než ti různí komínoví baroni. Jsou to naši počestní velkostatkáři. První blesk již vyslali. Byl to sice prozatím jen blesk papírový, ale je na něm podepsán kníže Schwarzenberg a proto bude míti dalekosáhlé účinky. Dost možná, že ochromení celé akce. Řiditelstvo Ústřední společnosti hospodářské, jejímž předsedou je kníže Bedřich Schwarzenberg rozeslalo hospodářským spolkům provolání, v němž se rozhodně staví proti zamýšlené stavbě vodních drah. Nečiní"
+        ],
+        "response":"Kníže Bedřich Schwarzenberg a Řiditelstvo Ústřední společnosti hospodářské se staví proti zamýšlené stavbě vodních drah [doc 1, doc 2, doc 2, doc 3]. Důvodem je obava, že stavba by mohla vést ke škodám zemědělství, otevřít příchod cizozemské výrobě a zaplavit země hospodářskými plodinami z Uher a zemí Balkánských [doc 1]. Navíc se staví proti stavbě, dokud nebude provedena úprava řek a toků a meliorace [doc 2]. Odpor je spojen s ekonomickými zájmy velkostatkářů, kteří jsou \"mnohem mocnější\" než průmysloví kapitalisté a jejichž odpor je \"prozatím jen blesk papírový\" [doc 3]. Je možné, že tento odpor by mohl \"ochromení celé akce\" [doc 3].",
+        "reference":"Odpor knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah byl motivován ekonomickými zájmy velkostatkářů, kteří jsou považováni za mocnější než průmysloví kapitalisté. Tento odpor souvisí s obavami, že stavba vodních drah by mohla ohrozit jejich ekonomické zájmy, zatímco průmysloví kapitalisté vidí v projektu příležitost k zisku. Schwarzenbergův podpis na provolání proti stavbě naznačuje, že odpor může mít dalekosáhlé účinky a potenciálně ochromit celou akci.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.8720462937,
+        "context_precision":1.0,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důvody a možné důsledky nesouhlasu Ústřední společnosti hospodářské, vedené knížetem Bedřichem Schwarzenbergem, se zamýšlenou stavbou vodních drah, a jak tento nesouhlas ovlivnil politickou situaci a reakce kapitalistů v kontextu plánů vlády Körbrovy?",
+        "retrieved_contexts":[
+            "níka do Protivina bude moci snadno být na všechny strany dopravováno. Komora jest přesvědčena, že by průplav se nemohl vyplácet a kapitál — byť i ciní — v něm uložený, přišel by buď zcela buď z části v ohledu hospodářském na zmar. Ostatně jest projekt podnikatelů těch nejasné naznačen, že nelze nní určit, má-li jit kanál řečištěm Vltavy a Labe, neb mimo řečiště. V případě posledním nelze soohlasiti s projektem proto, že by při stale klesajícím množství vody práva pobřežních průmyslníků a statkářů mohla být ohrožena. Komora má za to, že spíše by bylo záhodno všemi prostředky etarati se o to, aby země česká poznenáhla nevysýchala. Ničení velkých lesů českých jednak pohromami živelními n hmyzem, jednak následkem vad lesního zákona může být pro hospodářské ba i zdravotní poměry"
+        ],
+        "response":"Omlouvám se, ale nemám dostatek informací k zodpovězení této otázky. [doc 1]",
+        "reference":"Ústřední společnost hospodářská, vedená knížetem Bedřichem Schwarzenbergem, nesouhlasila se zamýšlenou stavbou vodních drah, protože se domnívala, že tyto kanály nelze oddělit od celkové úpravy vodního hospodářství a že by měly pravý význam pro domácí výrobu a tržbu až po předcházející soustavně provedené úpravě řek a toků a řádném provedení všech úkolů a potřeb melioračních. Tento nesouhlas mohl ochromit celou akci a ovlivnil politickou situaci tím, že vláda Körbrova čelila potížím s národními štvanicemi, zatímco kapitalisté, zejména z Brna, vyjádřili podporu vládnímu plánu a přijali resoluci, která vítala vládní předlohu o vodních drahách jako počátek splnění vládních slibů.",
+        "faithfulness":0.0,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.1966490079,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?",
+        "retrieved_contexts":[
+            "vání krajek vedle Vamberka provádí se v osadách Potštýnu, Doudlebách, Zámělu, Pekle, Bystré, Lupenici, Merklovicích, Křivicích a Kostelci n. O. Založením odborné školy krajkářské ve Vamberku zachována zde sice domácí tato industrie, než v sousedním okresu žambereckém poklesla nadobro. Teprve v r. 1897, kdy po několika neúrodných letech bída těžce doléhala na ubohý horský lid a hrozila částečným vylidněním nejchudších obcí, v nichž obyvatelé celých domků opouštěli na celé léto osady, hledajíce zaměstnání v sousedních okresích, po společné úradě usneseno na návrh p. Ant. Selichara, náj. statku, znovuzavedením krajkářství zjednati lidu nový pramen výživy za zaniklé domácké tkaní a vysilující výrobu nítěných knoflíků. Za pomoci učitelstva a za hmotné podpory státní, zemské"
+        ],
+        "response":"Znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století bylo motivováno několika faktory [doc 1]. Po několika neúrodných letech těžce dopadla bída na horské obyvatelstvo a hrozilo částečné vylidnění chudších obcí [doc 1]. Obyvatelé opouštěli osady a hledali zaměstnání v sousedních okresech [doc 1]. Po společné úradě bylo na návrh Ant. Selichara rozhodnuto znovuzavést krajkářství, aby se lidu zajistil nový zdroj výživy za zaniklé domácké tkaní a výrobu nítěných knoflíků [doc 1]. Ant. Selichar, nájemný statkář, hrál roli v navrhování znovuzavedení krajkářství [doc 1]. Založení odborné školy krajkářské ve Vamberku pomohlo zachovat místní průmysl [doc 1]. Znovuzavedení krajkářství bylo podpořeno učitelstvím a hmotnou podporou státní a zemské [doc 1].",
+        "reference":"Důvody znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století zahrnovaly těžkou bídu, která doléhala na horský lid po několika neúrodných letech, a hrozbu částečného vylidnění nejchudších obcí, kde obyvatelé opouštěli své domovy hledajíce zaměstnání jinde. Důsledkem znovuzavedení krajkářství bylo vytvoření nového pramene výživy pro místní obyvatele, kteří dříve spoléhali na zaniklé domácké tkaní a výrobu nítěných knoflíků. Místní instituce a jednotlivci, jako Ant. Selichar, hráli klíčovou roli v tomto procesu tím, že navrhli znovuzavedení krajkářství a za pomoci učitelstva a státní i zemské podpory se snažili oživit tuto tradiční řemeslnou činnost.",
+        "faithfulness":0.8888888889,
+        "answer_relevancy":0.8495980557,
+        "answer_correctness":0.9922262689,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky zavedení ústřední tržnice krajek v Hradci Králové na rozvoj krajkářství v Žamberku a jaké překážky musely být překonány, aby se zajistil kvalitní materiál pro výrobu?",
+        "retrieved_contexts":[
+            "Tržnice v Hradci Králové je high-tech [1] stavba z druhé poloviny 80. let 20. století. Nachází se na adrese Hořická 1640. Poté, co bylo v Hradci Králové diskutováno o možné asanci pražského předměstí, bylo rozhodnuto o zvolení prostoru u Blažíčkova náměstí k nové výstavbě.\nV letech 1766 až 1857 sloužilo město jako vojenská pevnost, pro nezájem města obnovená a zrušená až v roce 1884. Správa města plně využila možnosti úplného řízení urbanistického rozvoje.\nV Čechách byly vymezeny již ve 13. století, na Moravě o něco později. Původně se jednalo o správní celky stojící mezi panstvími a zeměmi. V 19. století bylo krajské uspořádání zrušeno, aby bylo ve 20. století opět zavedeno, přičemž bylo od té doby ještě několikrát reformováno.\n„Vůdčí osobou v otázkách územního plánování města se stal od poloviny 20. let 20. století významný český architekt a Kotěrův žák Josef Gočár, v Hradci známý svým moderně pojatým schodištěm z let 1909-1910 na místě zbořené věže Kropáčky.\" [7, s. 27]\nNáměstek primátorky Hradce Králové se vyjádřil, že město nepočítá s variantou demolice ani prodeje objektu, na stole je naopak nové využití tohoto cenného areálu. Město Hradec Králové již déle uvažuje o demolici části areálu a jeho nahrazením moderními skladovacími halami."
+        ],
+        "response":"Omlouvám se, ale na tuto otázku nemohu odpovědět. Kontext neposkytuje informace o dopadu ústřední tržnice krajek v Hradci Králové na rozvoj krajkářství v Žamberku, ani o překážkách spojených s kvalitním materiálem pro výrobu [doc 1].",
+        "reference":"Zavedení ústřední tržnice krajek v Hradci Králové vedlo k zaměstnání přibližně 80 krajkářek, kterým poskytovala slušný výdělek, a rozšíření prodeje, přičemž největším odbytištěm byla Vídeň. Překážkou bylo zajištění kvalitního materiálu pro výrobu, protože pokusy nahradit švýcarské a francouzské hedvábí domácími zdroji byly bezvýsledné, což znamenalo nutnost používat dovážené materiály.",
+        "faithfulness":0.6666666667,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.2252644075,
+        "context_precision":0.0,
+        "context_recall":0.0
+    },
+    {
+        "user_input":"Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?",
+        "retrieved_contexts":[
+            "O čem se píše. „Venkovu“ zaslal vyslanec Polské republiky hrabě Lasocki přípis, v němž vzhledem k zprávám o útisku na Volyňsku zdůrazňuje, že na Volyni za ruské vlády byly pouze školy ruské, kdežto v září 1924 bylo tam 22 škol českých, dvě polsko-české a řada škol s češtinou jako vyučovacím předmětem. Ruská statistika napočítala na celé Volyni asi 20.000 Čechů, statistika polská udává již 25.000 v části Volyně, která připadla Polsku. Rozhodně vyslanectví musí zdůrazniti, že na straně úřadů polských je zřejmá tendence vyjíti vstříc poměrně nepatrné české menšině na Volyňsku jak v ohledu školském, tak i kulturním. Není nejmenší pochybnosti, že v nejbližší době věc ta udělá pokroky.  Král. Srbů, Chorvatů a Slovinců. Ljuba Jovanovič vyvrací obvinění známé ne-"
+        ],
+        "response":"Podle dostupných informací polské úřady měly zjevný trend vyjít vstříc poměrně nepatrné české menšině na Volyňsku jak v oblasti školství, tak i kultury [doc 1]. Ruská statistika napočítala na celé Volyni asi 20.000 Čechů [doc 1], zatímco polská statistika udává již 25.000 v části Volyně, která připadla Polsku [doc 1]. V září 1924 tam bylo 22 českých škol, dvě polsko-české a řada škol s češtinou jako vyučovacím předmětem [doc 1]. Důvody a důsledky této snahy, a její souvislost s demografickými změnami a politickými aktivitami v regionu, nejsou v poskytnutém textu specifikovány [doc 1].",
+        "reference":"Polské úřady se snažily vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, protože na Volyni za ruské vlády existovaly pouze ruské školy, zatímco v září 1924 tam bylo 22 českých škol, dvě polsko-české a řada škol s češtinou jako vyučovacím předmětem, což ukazuje na snahu polských úřadů podporovat kulturní a vzdělávací potřeby české menšiny. Tato snaha souvisí s demografickými změnami, kdy polská statistika uvádí nárůst počtu Čechů na Volyni z 20.000 na 25.000, a s politickými aktivitami, které ukazují tendenci polských úřadů podporovat menšiny v regionu.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.6828837611,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?",
+        "retrieved_contexts":[
+            "váno ve stavu, který bránil jeho zdravému rozvoji a pokroku a který zachovával reakčním silám naději na zvrat zestátňovacího procesu. Tvůrčí činnost byla uváděna ve zmatek prosazováním komerčních hledisek na jedné straně a rozvratnou kritikou na straně druhé. Únor 1948 zlikvidoval tyto uměle udržované nepříznivé podmínky a všechny podvratné snahy a umožnil tak rychlou a cílevědomou konsolidaci státního filmu. Ministr informací zrušil výnosem z 26. února 1948 opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu, a rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání. Zrušil instituci zmocněnců a přenesl jejich úkoly na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti. Tím byl dán základní",
+            "razně projevilo. Zestátněný film byl před únorem 1948 předmětem soustavných, podvratných útoků. Připravovaným návrhem zákona o vynětí sokolských a některých jiných kin ze zestátnění měla býti rozrušena zásada výlučného provozování filmu státem. Štvavé pomluvy v tisku, zákulisní politické zásahy a zlovolné interpelace v Národním shromáždění ohrožovaly samu existenci státního filmu a bránily rozvinutí možností daných filmů znárodněním. Státní film odolával těmto útokům dík zdravé hospodářské základně, kterou se podařilo vytvořiti přes všechny překážky a dík významným úspěchům, kterých dosáhli jeho pokrokoví tvůrčí pracovníci nejen doma, ale i v mezinárodních soutěžích, hlavně však zásluhou pevné linie a cílevědomé politiky ministra informací Václava Kopeckého, jenž dovedl proti",
+            "předpoklad sjednocení a jednotného řízení veškeré činnosti v oblasti filmu. Současně byl učiněn první krok k přípravě systematického plánování v oblasti filmu jmenováním náměstka ústředního ředitele pro plánování a výzkum a pronikavou reorganisací osobní vytvořeny nezbytné podmínky pokrokového vývoje ve filmové výrobě a distribuci. Vláda pak v jednom z prvních zasedání po únoru schvaluje ustavení státního podniku Československý státní film pro celou oblast státu jako jediného nositele veškeré činnosti v oboru filmu. Tím se odstraňuje nezdravý dualismus, pěstovaný odstředivými silami na Slovensku, který bránil stejnoměrnému vývoji filmu v celé republice. Zestátnění filmu je zabezpečeno ústavou. Státní film dostává vládním nařízením ze dne 13. dubna 1948 č. 72 Sb. pevnou právní základnu, na níž je možno vybudovati jeho řádnou organisaci a zdravý vývoj. Je možno přistoupiti k systematickému uspořádání jeho hospodářstvi, filmové výroby a distribuce a k plánovitému řízení jeho rozvoje v celé oblasti státu."
+        ],
+        "response":"Před únorem 1948 bránily rozvoji československého státního filmu uměle udržované nepříznivé podmínky a reakční síly se snažily o zvrat zestátňovacího procesu [doc 1]. Zestátněný film byl předmětem soustavných, podvratných útoků [doc 2]. Před únorem 1948 existoval nezdravý dualismus, pěstovaný odstředivými silami na Slovensku, který bránil stejnoměrnému vývoji filmu v celé republice [doc 3]. Únor 1948 zlikvidoval tyto uměle udržované nepříznivé podmínky a podvratné snahy [doc 1] a umožnil tak rychlou a cílevědomou konsolidaci státního filmu [doc 1]. Ministr informací zrušil opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu [doc 1]. Vláda schválila ustavení státního podniku Československý státní film pro celou oblast státu [doc 3].",
+        "reference":"Nedostatečná právní úprava a organizační nejednotnost vedly k právní nejistotě, bránily konstituování stabilní základny filmového podnikání a znemožňovaly řádné plánování investic a vývoje, což udržovalo filmové podnikání ve stavu, který bránil jeho zdravému rozvoji a pokroku. Únor 1948 zlikvidoval tyto nepříznivé podmínky a podvratné snahy, což umožnilo rychlou a cílevědomou konsolidaci státního filmu.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.8916497255,
+        "answer_correctness":0.4194964997,
+        "context_precision":1.0,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?",
+        "retrieved_contexts":[
+            "váno ve stavu, který bránil jeho zdravému rozvoji a pokroku a který zachovával reakčním silám naději na zvrat zestátňovacího procesu. Tvůrčí činnost byla uváděna ve zmatek prosazováním komerčních hledisek na jedné straně a rozvratnou kritikou na straně druhé. Únor 1948 zlikvidoval tyto uměle udržované nepříznivé podmínky a všechny podvratné snahy a umožnil tak rychlou a cílevědomou konsolidaci státního filmu. Ministr informací zrušil výnosem z 26. února 1948 opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu, a rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání. Zrušil instituci zmocněnců a přenesl jejich úkoly na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti. Tím byl dán základní"
+        ],
+        "response":"Zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů položilo základ pro konsolidaci a jednotné řízení filmového průmyslu v Československu [doc 1]. Ministr informací zrušil opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu [doc 1]. Tímto zrušením se stal jediným nositelem právní subjektivity v oblasti filmu zestátněné filmové podnikání [doc 1]. Úkoly zmocněnců byly přeneseny na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti [doc 1].",
+        "reference":"Zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů umožnilo sjednocení a jednotné řízení veškeré činnosti v oblasti filmu, což vedlo k rychlé a cílevědomé konsolidaci státního filmu a vytvoření nezbytných podmínek pro pokrokový vývoj ve filmové výrobě a distribuci.",
+        "faithfulness":0.75,
+        "answer_relevancy":0.8896736709,
+        "answer_correctness":0.6135351525,
+        "context_precision":0.9999999999,
+        "context_recall":0.6666666667
+    },
+    {
+        "user_input":"Jakým způsobem ovlivnila první francouzská republika a Napoleon I. vojenské strategie Prusů, zejména generála Moltkeho, a jaké důsledky to mělo pro vojenskou kulturu a přístup k válce v Prusku?",
+        "retrieved_contexts":[
+            "ních vítězů u Jeny a Borodina, „Viva Italia, viva Garibaldi“ garibaldistů a „Urá“ Rusů nebo Prusů. — Republika francouzská vyměnila záhy frygickou čepici svobody za vojenský klobouk, stala se státem vojenským, jakým nyní Prusko. Pravým zástupcem jejím byl tedy vojin, a proto mohla na něm vymáhati, by věděl vše, čeho u válce věděti třeba, by se pokládal za šťastna, že smí vše, co mu uloží, vykonávati. Ona však mu vštípila jen přesvědčení, že vše dovede, dadouc mu do pole toto naučení: „Ničemu nezvykej, leda tomu, bys ničemu neuvyknul a žádné překážky se nehrozil. Jen nevoják, zbabělec a zrádce vlastí zná a miluje slovo: „nemožné!“ První francouzská republika a Napoleon I. naučil Prusy, a zvláště generála Moltkeho velmi mnohému; předce však bylo by lze, od obou ještě více"
+        ],
+        "response":"První francouzská republika a Napoleon I. naučili Prusy, a zvláště generála Moltkeho, mnoho [doc 1]. Bylo by možné, od obou se naučit ještě více [doc 1]. První francouzská republika a Napoleon I. naučili Prusy, že voják by měl vědět vše, čeho u válce věděti třeba, aby se pokládal za šťastný, že smí vše, co mu uloží, vykonávati [doc 1]. První francouzská republika vštípila vojákům přesvědčení, že vše dovedou [doc 1].",
+        "reference":"První francouzská republika a Napoleon I. naučili Prusy, a zvláště generála Moltkeho, velmi mnohému, což mělo za následek, že Prusko se stalo vojenským státem, kde voják byl pravým zástupcem státu a bylo na něm vymáháno, aby věděl vše potřebné k válce a vykonával vše, co mu bylo uloženo, s přesvědčením, že vše dovede.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.7002735657,
+        "context_precision":0.9999999999,
+        "context_recall":1.0
+    },
+    {
+        "user_input":"Jaké byly důsledky slavnosti, které se účastnil velkokníže Nikolaj Nikolajevič, na vztahy mezi českými účastníky a ruskými důstojníky a generály, a jak se tato událost odrazila na vnímání českého národa?",
+        "retrieved_contexts":[
+            "a vědomí kmenové souvislosti živě se probudilo u všech národů slovanských. V Čechách pobyt vojsk ruských způsobil rozhodný obrat ve prospěch národa českého. Lid český rozuměl vojínům ruským a tito rozuměli lidu českému. V Praze, kdo jen trochu uměl česky, snažil se dorozuměti se s vojíny a důstojníky ruskými. Od Němců v Praze Rusové se odvraceli a jen společnosť českou vyhledávali. To nejen českému lidu lichotilo, nýbrž dodávalo mu i odvahy, když viděl, že vítězové nad Napoleonem a věrní spojenci císaře rakouského a krále pruského, jej vyznamenávali, aby vážil si svého jazyka a věnoval pěstování své národnosti větší než dosud pozornost. Že styků Čechů s Rusy vytryskla na půdě české vzájemnosť slovanská, která k obrození českému přispěla více, než dosud se uznává. Marek byl nad-"
+        ],
+        "response":"Pobyt ruských vojsk v Čechách způsobil rozhodný obrat ve prospěch národa českého [doc 1]. V Praze se snažili lidé, kteří trochu uměli česky, dorozumět se s vojíny a důstojníky ruskými [doc 1]. Rusové se od Němců v Praze odvraceli a vyhledávali společnost českou [doc 1]. To nejen českému lidu lichotilo, nýbrž dodávalo mu i odvahy, když viděl, že vítězové nad Napoleonem jej vyznamenávali [doc 1]. Ze styku Čechů s Rusy vytryskla na půdě české vzájemnost slovanská, která k obrození českému přispěla více, než dosud se uznává [doc 1].",
+        "reference":"Slavnost, které se účastnil velkokníže Nikolaj Nikolajevič, posílila vztahy mezi českými účastníky a ruskými důstojníky a generály, neboť došlo k přátelským gestům, jako bylo tisknutí rukou a přípitky na zdar českého národa, což vedlo k nadšení a uznání českého národa, jak bylo patrné z volání „Urá“ a „Sláva“ na jeho počest.",
+        "faithfulness":1.0,
+        "answer_relevancy":0.9033298367,
+        "answer_correctness":0.6976230207,
+        "context_precision":0.9999999999,
+        "context_recall":0.0
+    },
+    {
+        "user_input":"Jaké byly důsledky touhy tvůrčího Geniuse stát se tvůrcem a vyrovnat se bohu, a jak se tato touha projevila v jeho interakci s lidmi a jejich následném chování?",
+        "retrieved_contexts":[
+            "Romantismus vznikl jako reakce na monopol rozumu ve filozofii osvícenství, strohost antikou inspirovaného klasicismu. Výchozí podněty hledal v minulosti (hlavně ve středověku) a v exotických zemích.\nV jedné ze čtyř hlavních forem jógy, v karmajóze, se může i běžné každodenní jednání stát prostředkem osobní, vnitřní proměny, pracuje-li člověk obětavě a bez touhy po společenském postavení a odměně.\nSpolečně s Perunem je odsouzen i žurnalista, „protože se bohu rouhal a psal proti víře\". Po Perunově smrti běží vše bez problémů dál, jen církev ztrácí autoritu a chudne, jelikož lidé odmítají platit desátky.\nV tomto kurzu se budeme detailněji zabývat tím, jak é významné události přineslo 19. století, jak se změnila kultura, umění a literatura, ale také jak é novinky přinesla do každodenního života lidstva.\nKaždá její podkapitola se skládá ze stručného přehledu historických událostí daného období, ke kterému jsou vztaženy kontrolní otázky a úkoly. Jejich splnění by mělo studentům poskytnout zpětnou vazbu paměťového zvládnutí a pochopení učiva obsaženého ve studijní opoře."
+        ],
+        "response":"Omlouvám se, ale na tuto otázku nemohu odpovědět na základě poskytnutého kontextu [doc 1].",
+        "reference":"Touha tvůrčího Geniuse stát se tvůrcem a vyrovnat se bohu vedla k tomu, že odešel od andělů k člověku, kterému daroval meč ze železa, aby mu pomohl v boji. Tento dar se však změnil v kletbu, protože člověk začal zabíjet svého bratra. Genius se snažil vést lidi ke spáse učením čisté lásky, ale lidé začali ve jménu lásky a kříže vraždit, hubit nepřátele a ničit města požáry.",
+        "faithfulness":0.0,
+        "answer_relevancy":0.0,
+        "answer_correctness":0.1918124216,
+        "context_precision":0.0,
+        "context_recall":0.0
+    }
+]
