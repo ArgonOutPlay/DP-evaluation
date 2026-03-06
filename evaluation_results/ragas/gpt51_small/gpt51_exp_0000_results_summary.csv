@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,answer_correctness,context_precision,context_recall,context_sufficiency,framework
+gpt51_exp_0000_results,gpt-5.1,0.5734388888888888,0.708415,0.44633333333333325,0.720835,0.6375,0.25,ragas

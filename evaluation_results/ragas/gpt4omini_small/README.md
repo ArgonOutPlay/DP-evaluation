@@ -1,0 +1,4 @@
+- Běh byl na malé datové sadě - 20 prvních vzorků
+- hodnoceno gpt4omini
+- 01_ollama_default - basic rag
+- 11_ollama_adaptive - adaptivní rag

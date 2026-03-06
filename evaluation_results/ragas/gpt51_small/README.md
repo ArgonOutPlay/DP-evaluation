@@ -1,0 +1,5 @@
+- Běh byl na malé datové sadě - 20 prvních vzorků
+- hodnoceno gpt51
+- 01_ollama_default - basic rag
+- 11_ollama_adaptive - adaptivní rag
+- další ragy odpovídají modelům v jejich názvu a jedná se o adaptivní rag

@@ -1,0 +1,4 @@
+- Běh byl na velké datové sadě.
+- hodnoceno gpt4omini
+- ollama_default - basic rag
+- exp_ollama_results - adaptivní rag

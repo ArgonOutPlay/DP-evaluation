@@ -1,0 +1,11 @@
+{
+    "faithfulness": 0.34884,
+    "answer_relevancy": 0.52643,
+    "answer_correctness": 0.37898499999999996,
+    "context_precision": 0.55,
+    "context_recall": 0.40833499999999995,
+    "context_sufficiency": 0.3,
+    "framework": "ragas",
+    "experiment": "gpt41nano_exp_0002_results",
+    "judge": "gpt-5.1"
+}
