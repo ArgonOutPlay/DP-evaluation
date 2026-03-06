@@ -1,0 +1,2 @@
+experiment,judge,answer_relevancy,faithfulness,contextual_precision,contextual_recall,framework,pass_rate
+exp_0000_results,gpt-4o-mini,0.91665,0.92855,1.0,1.0,deepeval,100.0

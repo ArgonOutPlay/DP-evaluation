@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,answer_correctness,context_precision,context_recall,context_sufficiency,framework
+11_ollama_adaptive_20,gpt-5.1,0.66964,0.8475699999999999,0.475175,0.57722,0.6,0.25,ragas

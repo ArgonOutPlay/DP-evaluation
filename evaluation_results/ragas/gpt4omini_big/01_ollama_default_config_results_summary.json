@@ -1,0 +1,9 @@
+{
+    "faithfulness": 0.876011,
+    "answer_relevancy": 0.7764330000000002,
+    "answer_correctness": 0.599567,
+    "context_precision": 0.837644,
+    "context_recall": 0.835003,
+    "experiment": "01_ollama_default_config_results",
+    "judge": "gpt-4o-mini"
+}

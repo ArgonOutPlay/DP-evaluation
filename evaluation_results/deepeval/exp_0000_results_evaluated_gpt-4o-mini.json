@@ -1,0 +1,20 @@
+[
+    {
+        "question":"Jaké jsou důsledky použití roztoku Thouletova pro určení hustoty nerostů a jakým způsobem váhy Westphalovy přispívají k tomuto procesu?",
+        "answer":"Roztok Thouletova, což je roztok jodidu draselnatortuťnatého ve vodě, se používá pro určení hustoty nerostů [doc 1]. Tento roztok dosahuje hustoty skoro 3.2 a na něm plují nerosty, jejichž hustota je menší, například křemen (hust. 2.65) a orthoklas (hust. 2·57) [doc 1]. Text neposkytuje informace o tom, jak váhy Westphalovy přispívají k tomuto procesu [doc 1].",
+        "answer_relevancy":0.8333,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké geologické procesy vedou k přeměně masivních hornin na břidličnaté a jaké jsou důsledky těchto procesů na vznik různých typů břidlic a dalších hornin, jako jsou zelené břidlice, křemence a zrnité mramory?",
+        "answer":"Tlakem horniny pukají a zrna nerostná v nich se drtí [doc 1]. Některé nerosty se proměňují, například augit přechází na paprskovec a na uralit, olivin na plstnatý amfibol [doc 1]. Z diabasu se tvoří zelené břidlice [doc 1]. Z pískovců vznikají křemence, z vápenců zrnité mramory, a z klastických hornin horniny krystalickým břidlicím podobné [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8571,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    }
+]
