@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,answer_correctness,context_precision,context_recall,context_sufficiency,framework
+gpt41nano_exp_0002_results,gpt-4o-mini,0.4729,0.40095000000000003,0.47626999999999997,0.75,0.633335,0.3,ragas
