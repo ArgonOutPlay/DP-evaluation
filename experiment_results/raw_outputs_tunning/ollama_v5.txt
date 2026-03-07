@@ -1,0 +1,605 @@
+Found 1 configurations. Starting batch processing...
+Running config: new_adaptive_v5
+Adaptive RAG version 5
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1863,
+  "max_year": 1863,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1863, 'max_year': 1963, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zavedení říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a jaké problémy tento zákon způsobil v souvislosti s pohyblivými třídami obyvatelstva a jejich právem domovským?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1863 max_year=1963 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 7c9965e8-7381-42cb-ad64-68357fa81e9d
+chunk id: 941d201f-c274-4cc0-9e30-a2b9cea98081
+chunk id: 33925731-6060-4bac-9d0a-452321b73c6a
+chunk id: 3b68db9d-d9ea-4c90-a931-b7a107b234f7
+chunk id: 9ab5f17e-e3ec-43d2-9b7f-9d02804f5ddc
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Omlouvám se, ale na základě poskytnutých dokumentů nemohu odpovědět na otázku ohledně důsledků říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a problémy s pohyblivými třídami obyvatelstva.
+Self reflection mode is ON
+Answer is not supported, feedback: The generated answer states it cannot answer a question about the consequences of a law from December 10, 1863, on poor rural communities and problems with mobile classes of the population. However, the provided context does not contain any information about such a law or its consequences. The generated answer hallucinated the existence of a law from December 10, 1863.
+Retrying generation with feedback (1/2).
+rag answer: Omlouvám se, ale na základě poskytnutých dokumentů nemohu odpovědět na otázku ohledně důsledků říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a problémy s pohyblivými třídami obyvatelstva a jejich právem domovským.
+Self reflection mode is ON
+Answer is not supported, feedback: The generated answer states it cannot answer a question about the consequences of a law from December 10, 1863, on poor rural communities and issues with mobile classes of the population and their right of domicile. However, the provided context does not contain any information about such a law or its consequences. The generated answer hallucinates the existence of a law from December 10, 1863.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1900,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1900, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky odhalení pomníku Josefa Dobrovského v Praze na vnímání jeho odkazu a jak se to projevilo ve veřejném prostoru města?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1900 max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: cc4e3ac5-4e43-4158-a6b5-12b845380ac6
+chunk id: 38ccf5b2-63a0-4d06-bc34-2e85afc0df2d
+chunk id: 40d5b8c1-1fe3-4e89-8074-95d8850a78c0
+chunk id: 94cdc749-4fa5-4132-bf30-6dbddd3964cf
+chunk id: 3cb56a59-091c-42de-b346-2995c302d8c1
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Den 29. června 1902 bude opravdovým svátkem všeho českého lidu [doc 5]. Mistrovské dílo nadějného umělce Žďárského, jehož v rozpuku vývinu jeho umělecké tvorby povolal Nejvyšší do svých nevyzpytatelných končin, bude chloubou a ozdobou nejen naší matičky Prahy, nýbrž celého českého národa [doc 5]. Pomník věhlasného učence českého Josefa Dobrovského odhalen byl v den sv. Petra a Pavla o půl 11 hod. dopoledne ve městském sadě blíže musea království českého v Praze [doc 2]. Den 29. června 1902 bude opravdovým svátkem všeho českého lidu [doc 5].
+Self reflection mode is ON
+Answer is not supported, feedback: The answer contains information not present in the context. The sentence 'Mistrovské dílo nadějného umělce Žďárského, jehož v rozpuku vývinu jeho umělecké tvorby povolal Nejvyšší do svých nevyzpytatelných končin, bude chloubou a ozdobou nejen naší matičky Prahy, nýbrž celého českého národa' is not present in the provided context.
+Retrying generation with feedback (1/2).
+rag answer: Odhalení pomníku Josefa Dobrovského v Praze bylo vnímáno jako významná událost pro český národ [doc 1, doc 2, doc 5]. Den 29. června 1902 byl vnímán jako "opravdový svátek všeho českého lidu" [doc 5]. Pomník měl být "chloubou a ozdobou nejen naší matičky Prahy, nýbrž celého českého národa" [doc 5]. Pomník Josefa Dobrovského byl jedním z mnoha pomníků, kterými se Praha pyšnila [doc 2].
+Self reflection mode is ON
+Answer is not supported, feedback: The generated answer states "Pomník Josefa Dobrovského byl jedním z mnoha pomníků, kterými se Praha pyšnila [doc 2]". Document 2 states "Pomníkem tímto bude počet veřejných pomníků, kterými se máti českých měst Praha honosí, opět rozmnožen." This is a slight misrepresentation of the original text. The original text states that the monument will *increase* the number of monuments, not that it was one of many already present.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důsledky nesprávného použití nástrojů při odstraňování ušního mazu a jaké preventivní opatření je doporučeno k minimalizaci rizika infekce?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 3d624e5c-533a-4dce-a11b-983b59e99183
+chunk id: 14718b36-06a7-42a3-9fc4-38aa358e94d2
+chunk id: 2150ca46-0d7b-4eba-819c-d56b537ebbc6
+chunk id: 384eec00-8fe9-43c1-a512-b04bde1f4055
+chunk id: 63300f65-5874-4bb5-b653-6fbe6041e121
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Nesprávné použití nástrojů při odstraňování ušního mazu může vést k poranění kůže a následné infekci, což může způsobit otitis externa a furunculi [doc 1]. Stříkačka by měla být konstruována tak, aby se dala sterilizovat a měla 3 prsteny, pojmout asi 100 gr tekutiny a být opatřena měkkou trubicí z kaučuku [doc 1]. Voda by měla být teplá (37°C) a bez bublin [doc 1]. Pacient by měl sedět při vystřikování a pod uchem by měl mít šátek, aby se předešlo potřísnění [doc 1].
+Self reflection mode is ON
+Answer is supported.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důvody pro použití různých léčebných metod u novorozenců a dospělých s očními infekcemi, a jaké jsou potenciální důsledky nesprávného použití těchto metod?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 0b3b1a87-5045-4e20-b469-0a4e634e469d
+chunk id: a7de665f-c41e-4a14-9c84-5c9560a92094
+chunk id: 79cd6aba-f248-4a54-b277-c2bd550f616c
+chunk id: ff9929b6-b738-4455-b444-e9bcf3d73976
+chunk id: f9312ee9-b6f8-44e7-9112-3a63ccf96f28
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: U dospělých je gonorrhoický zánět spojivek obtížnější léčit, jelikož i zdánlivě lehký případ může končit oslepnutím i přes pečlivé léčení [doc 2]. Proto je nutné poslat nemocného do nemocnice k ošetřování [doc 2]. Novorozenec je velmi citlivý na opium, proto nesmí být podávání opiu přenecháno lidem domácím [doc 2]. Důležité je sesílit zároveň celkový stav dítěte [doc 2].
+Self reflection mode is ON
+Answer is supported.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1918,
+  "max_year": 1945,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1918, 'max_year': 2045, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2045 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?
+metadata_clean_result: {
+  "min_year": 1918,
+  "max_year": 1945,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1918, 'max_year': 2045, 'language': 'ces'}
+Queries: ['Proč nedošlo ke komunistickému povstání v Německu a jaké faktory ovlivnily politický vývoj a občanskou angažovanost v té době?', 'Jaké byly překážky pro komunistickou revoluci v Německu a jaký vliv měly sociální a politické podmínky a zapojení občanů do dění?', 'Co zabránilo vzniku komunistické revoluce v Německu a jaké byly klíčové politické a společenské dynamiky a role veřejnosti v tomto procesu?', 'Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?']
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč nedošlo ke komunistickému povstání v Německu a jaké faktory ovlivnily politický vývoj a občanskou angažovanost v té době?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2045 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly překážky pro komunistickou revoluci v Německu a jaký vliv měly sociální a politické podmínky a zapojení občanů do dění?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2045 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Co zabránilo vzniku komunistické revoluce v Německu a jaké byly klíčové politické a společenské dynamiky a role veřejnosti v tomto procesu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2045 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2045 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('420687f6-0669-4e33-bc24-bb5542024418') title='DuckDuckGo Search' text='Únor 1948 (též únorový převrat, únorový puč[1], v komunistické terminologii a historiografii Vítězný únor[2] či jen Únor[3][4]) je pojmenování komunistického státního převratu v Československu, který proběhl mezi 17. a 25. únorem 1948.\nSrovnejme s tím, jaký význam mají volby u nás a jak vyjadřují vůli našeho lidu. I tu ou ukazatelem, jaké politické výše dosáhl pracující lid. jaký vliv má na ostatní vrstvy národa a jak je získal pro svůj socialistický program.\nJakou úlohu hraje např. „německá národní identita“ v konfliktu s USA? AD: Věděl jsem , že by tato mohla otázka přijít… MO: Protože je to důležitý aspekt? AD: To jistě je , ale nebude hrát žádnou roli v konfliktu s Washningtonem, ke kterému dojde v blízké budoucnosti.\nJaký byl pro vás rok 1989? Končila jsem vysokou školu, nicméně to bylo nahnuté, jelikož už v lednu se konaly demonstrace a pochody. Já jako dobrodruh jsem tam chodila, ale když se objevila VB, musela jsem zdrhnout.\nJe procentuální zastoupení ženské problematiky v zájmovém poli poslankyň determinováno širším společenským kon-textem? Změnila se forma argumentace, když se změnila společenská situace v Československu?' start_page_id=UUID('420687f6-0669-4e33-bc24-bb5542024418') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('420687f6-0669-4e33-bc24-bb5542024418') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('420687f6-0669-4e33-bc24-bb5542024418'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Sorry, I can´t answer the question.
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky kritické situace stavebních živnostníků, na kterou poukázali řečníci jako stavitel Havlena a tajemník Pekárek, a jak tato situace souvisí s politickými změnami v Rumunsku a Ukrajině, které jsou zmíněny v textu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 8bca0965-8e58-4b7f-b78f-8ec051894607
+chunk id: 819ba2d2-2cd6-4141-9858-696939ca9b3e
+chunk id: e08321f0-adc2-4b36-8441-95c788523a85
+chunk id: 814a98f3-969a-4ad8-a3d7-eb6f8412d525
+chunk id: 70bc441a-6e3b-46c9-a058-e34a6793e6f2
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Podle dostupných dokumentů kritická situace stavebních živnostníků měla několik důsledků [doc 2]. Stagnace ve stavebnictví vedla k omezení a zastavení práce v továrnách, což způsobovalo materiální škody průmyslu, dělnictvu i státu [doc 2].
+
+Text zmiňuje, že v Rumunsku trvalo království, avšak dříve vládla šlechta, která byla téměř živlem v parlamentu [doc 1]. Text neposkytuje informace o souvislosti mezi touto situací a stavebními živnostníky. Text neposkytuje informace o situaci na Ukrajině.
+
+Self reflection mode is ON
+Grader freezed. Skipping grading.
+Answer is supported.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Queries: ['Jaké byly problémy a výzvy pro rozvoj filmové produkce v Československu v období před 1948, a jakým způsobem události 25. února 1948 ovlivnily a usnadnily centralizaci a organizaci filmového sektoru?', 'Jaké faktory bránily státní podpoře a rozvoji kinematografie v Československu do února 1948, a jak události 25. února 1948 vedly k překonání těchto překážek a k vytvoření jednotného filmového systému?', 'Jaké byly klíčové obtíže a omezení pro státní filmovou politiku v Československu před rokem 1948, a jak události 25. února 1948 přispěly k jejich překonání a k následné integraci filmového průmyslu pod státní kontrolu?', 'Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?']
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly problémy a výzvy pro rozvoj filmové produkce v Československu v období před 1948, a jakým způsobem události 25. února 1948 ovlivnily a usnadnily centralizaci a organizaci filmového sektoru?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké faktory bránily státní podpoře a rozvoji kinematografie v Československu do února 1948, a jak události 25. února 1948 vedly k překonání těchto překážek a k vytvoření jednotného filmového systému?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly klíčové obtíže a omezení pro státní filmovou politiku v Československu před rokem 1948, a jak události 25. února 1948 přispěly k jejich překonání a k následné integraci filmového průmyslu pod státní kontrolu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('b7f4749b-e254-4fa4-b396-db1e399530cb') title='DuckDuckGo Search' text='1 week ago - Neomezená vláda komunistické strany v Československu trvala až do pádu východního bloku v roce 1989. Únorový převrat a jeho výklad se za předlistopadového režimu stal oblíbenou látkou pro umění socialistického realismu a námětem oficiální státní propagandy, především filmu. Prvním snímkem zobrazujícím dobu únorových událostí je krátkometrážní dokument Vítězný lid, natočený režisérem Drahoslavem Holubem v roce 1949, při příležitosti prvního výročí.\nDecember 11, 2025 - Už v průběhu války české intelektuální kruhy diskutovaly o možnosti zestátnění filmového průmyslu, někteří umělci v tomto kroku viděli naději na nezávislost tvorby na komerčních zájmech producentů. K zestátnění došlo krátce po osvobození, ještě před komunistickým převratem.\nAugust 6, 2025 - Jednalo se o hlavní podnik, který pod sebe integroval jednotlivé součásti filmového průmyslu v Československu. Roku 1945 byla Benešovým dekretem česká kinematografie znárodněna. Roku 1948 vznikla organizace Československý státní film, která fungovala do období politického tání v roce 1956.\nMay 8, 2024 - Seznam českých filmů od roku 1946, jejichž děj je zasazen do doby druhé světové války. …a pátý jezdec je Strach, Zbyněk Brynych, 1964 ... Nabarvené ptáče, Václav Marhoul, 2019, česko-polsko-slovensko-ukrajinský film – chystaný film ... Kamil Fila: České válečné filmy: ...\n3 weeks ago - Chronologický seznam českých filmů, před rokem 1918/1919 také rakousko-uherských s účastí tvůrců z českých zemí, v letech 1918–1939 a 1945–92/93 filmů československých, v letech 1939–1945 českých a německých s účastí tvůrců z českých zemí.' start_page_id=UUID('b7f4749b-e254-4fa4-b396-db1e399530cb') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('b7f4749b-e254-4fa4-b396-db1e399530cb') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('b7f4749b-e254-4fa4-b396-db1e399530cb'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Omlouvám se, ale na tuto otázku nemohu odpovědět pouze na základě poskytnutého kontextu.
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?
+Queries: ['Jak se proměnila správa a organizace československého filmu po únoru 1948 v souvislosti s restrukturalizací a zrušením samostatných pravomocí jednotlivých funkcionářů a vedoucích pracovníků?', 'Jaké reformy a změny v řízení filmového průmyslu v Československu nastaly po únoru 1948, a jak se dotkly dosavadních kompetencí zplnomocněnců a úsekových ředitelů?', 'Jaké byly klíčové organizační změny a centralizace v československém filmovém průmyslu po únoru 1948, a jak se to projevilo na roli a pravomoci jednotlivých vedoucích pracovníků?', 'Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?']
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak se proměnila správa a organizace československého filmu po únoru 1948 v souvislosti s restrukturalizací a zrušením samostatných pravomocí jednotlivých funkcionářů a vedoucích pracovníků?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké reformy a změny v řízení filmového průmyslu v Československu nastaly po únoru 1948, a jak se dotkly dosavadních kompetencí zplnomocněnců a úsekových ředitelů?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly klíčové organizační změny a centralizace v československém filmovém průmyslu po únoru 1948, a jak se to projevilo na roli a pravomoci jednotlivých vedoucích pracovníků?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('b183350f-10d0-4f2a-bff1-310ec9663341') title='DuckDuckGo Search' text='February 27, 2025 - To se odráželo ve výši nákladů takového řízení, kdy jak náklady exekuce, tak náklady oprávněného spočívající většinou v nákladech právního zastoupení byly stanovovány a vymáhány samostatně.\nDecember 11, 2025 - Už v průběhu války české intelektuální kruhy diskutovaly o možnosti zestátnění filmového průmyslu, někteří umělci v tomto kroku viděli naději na nezávislost tvorby na komerčních zájmech producentů. K zestátnění došlo krátce po osvobození, ještě před komunistickým převratem.\nDne 25. února 1948 vznikl v ... a právní subjektivita úsekových ředitelů[19] a jejich pravomoci byly přeneseny na náměstky ústředního ředitele .[20] Do konce března bylo propuštěno 442 osob a zrušen byl ...\nbyla později zahrnuta pod centrální řízení ústředního ředitelství Československé filmové · společnosti, aniž by jim přitom byla odňata právní suverenita (jedná se zejména o případ · zplnomocněnců).\n4. 1948, o zřzení a organisaci státního podniku Československý státní film (vydáno 13. 4. 1948, zrušeno 31. 12. 1956). Zákon číslo 272/1949 Sbírky zákonů, s účinností od 29. 12. 1949, o řízení výroby a distribuce v oboru působnosti ministra informací a osvěty (vydán 19.' start_page_id=UUID('b183350f-10d0-4f2a-bff1-310ec9663341') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('b183350f-10d0-4f2a-bff1-310ec9663341') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('b183350f-10d0-4f2a-bff1-310ec9663341'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů vedlo k tomu, že jejich pravomoci byly přeneseny na náměstky ústředního ředitele [doc 1].  Tímto procesem byla právní suverenita jednotlivých zplnomocněnců a úsekových ředitelů zahrnuta pod centrální řízení ústředního ředitele Československé filmové společnosti [doc 1].
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1972,
+  "max_year": 1996,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1972, 'max_year': 2096, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1972 max_year=2096 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?
+metadata_clean_result: {
+  "min_year": 1972,
+  "max_year": 1996,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1972, 'max_year': 2096, 'language': 'ces'}
+Queries: ['Jaké dopady měly změny v zastoupení druhů stromů v Boubínském pralese v období 1972-1996, s důrazem na pokles jedle a růst buku, a jaké byly navrženy strategie pro ochranu a obnovu populací jedle bělokoré a smrku v této oblasti?', 'Jak se proměnila struktura lesa v Boubínském pralese mezi rokem 1972 a 1996, s ohledem na změny v poměru jedle a buku, a jaké byly navrženy postupy pro udržitelné hospodaření a podporu obnovy jedle bělokoré a smrku?', 'Jaké byly ekologické a hospodářské dopady změn v lesním porostu Boubínského pralesa v letech 1972 až 1996, konkrétně v souvislosti s poklesem jedle a nárůstem buku, a jaké byly navrženy intervence pro zajištění dlouhodobé vitality populací jedle bělokoré a smrku?', 'Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?']
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké dopady měly změny v zastoupení druhů stromů v Boubínském pralese v období 1972-1996, s důrazem na pokles jedle a růst buku, a jaké byly navrženy strategie pro ochranu a obnovu populací jedle bělokoré a smrku v této oblasti?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1972 max_year=2096 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak se proměnila struktura lesa v Boubínském pralese mezi rokem 1972 a 1996, s ohledem na změny v poměru jedle a buku, a jaké byly navrženy postupy pro udržitelné hospodaření a podporu obnovy jedle bělokoré a smrku?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1972 max_year=2096 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly ekologické a hospodářské dopady změn v lesním porostu Boubínského pralesa v letech 1972 až 1996, konkrétně v souvislosti s poklesem jedle a nárůstem buku, a jaké byly navrženy intervence pro zajištění dlouhodobé vitality populací jedle bělokoré a smrku?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1972 max_year=2096 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1972 max_year=2096 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('daf2adf6-dbab-41b0-bcca-013e1c885433') title='DuckDuckGo Search' text='December 14, 2025 - Toto přemnožení má za následek decimaci nižšího stromového patra, protože zvěř okusuje, a tím poškozuje mladé stromky, především jedli bělokorou (Abies alba) a javor klen (Acer pseudoplatanus). Z důvodu ochrany před zvěří a i turisty byl kolem nejcennější části pralesa vystavěn plot, který je nicméně na několika místech poškozen a tedy průchozí. Jako další obranný mechanismus v 80. letech 20.\nCílové skladby hospodářského lesa přírodě bližšího, stabilnějšího a hospodářsky výhodného (trvalá produkce, přirozená obnova) jsou zatím kompromisem mezi únosným zastoupením (např. smrku) a nutnou příměsí tzv. melioračních a zpevňujících dřevin (např. buku a jedle). Pralesovité porosty se vyskytují v jedlobukovém až smrkovém lesním vegetačním stupni, s výjimkou lužních lanžhotských pralesů, v pahorkatině chybí. V letech 1971-1979 jsem provedl první šetření na celé ploše 13 pralesovitých porostů o celkové výměře 330 ha (zaměření všech stromů od 10 cm výčetního průměru, fytocenologické zápisy, půdní analýzy, typologické mapování, zakreslení přirozené obnovy, vyhodnocování stromového patra).\n1). Ze snímků dále vyplývá ústup buku lesního (Fagus sylvatica), smrku ztepilého (Picea abies) a jedle bělokoré (Abies alba) z etáží dřevin vyšších než 1/2 hlavní úrovně (spojená etáž I+II+III) (obr. 2). Zatímco buk vykazuje pouze mírný pokles pokryvnosti, jedle ve stromových etážích téměř vymizela. Zastoupení smrku v porovnání s rokem 1975 se výrazně snížilo. Důvodem jsou větrné disturbanční události v minulých letech a bezpochyby také gradační vlny kůrovce.\nJune 19, 2020 - Boubínský prales tvoří kombinace buku, smrku a jedlí a je nejzachovalejším zbytkem původních rozsáhlých šumavských smíšených horských lesů. ČTK Sdílet na Facebooku Sdílet na Twitteru Sdílet na LinkedIn Tisknout Kopírovat ...\nMay 1, 2015 - Na ploše dnes zapojeného lesa, jenž byl v roce 1938 otevřeným/strukturovaným, stojí o 48,0 % těchto stromů více, než by odpovídalo rovnoměrnému zastoupení podle rozlohy. Současná intenzita těžby dříví a způsob hospodaření negativně ovlivňuje prostorovou a věkovou strukturu lesa a vytváří extinkční dluh. Pro zachování biodiverzity území je nutno začít uplatňovat management, pro nějž mohou být touto prací získané informace podkladem: zejména rozvolnění porostů, snížení intenzity těžby dřeva a její vhodné prostorové umísťování.' start_page_id=UUID('daf2adf6-dbab-41b0-bcca-013e1c885433') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('daf2adf6-dbab-41b0-bcca-013e1c885433') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('daf2adf6-dbab-41b0-bcca-013e1c885433'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Mezi lety 1972 a 1996 došlo k ústupu buku lesního (Fagus sylvatica), smrku ztepilého (Picea abies) a jedle bělokoré (Abies alba) z etáží dřevin vyšších než 1/2 hlavní úrovně [doc 1]. Zastoupení smrku v porovnání s rokem 1975 se výrazně snížilo [doc 1]. Pro zachování biodiverzity území je nutno začít uplatňovat management, pro nějž mohou být touto prací získané informace podkladem: zejména rozvolnění porostů, snížení intenzity těžby dřeva a její vhodné prostorové umísťování [doc 1].
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důsledky výrazného poklesu zastoupení jedle bělokoré a zvýšené účasti buku na strukturu a stabilitu Boubínského pralesa, a jaké opatření bylo navrženo k zajištění jeho přirozeného vývoje?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 6a0bb83e-72a6-421a-8ae7-9d7d5b0f4ecc
+chunk id: 192a5fc4-dfb5-490b-a8d5-fecc014c2551
+chunk id: 74b7c80b-a072-4f3c-8b99-d30fc56b3182
+chunk id: 72c264d5-7248-4259-9bfa-2726fe28945e
+chunk id: b6060ccc-71c7-4c66-97bd-de1308097b21
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Výrazný pokles zastoupení jedle bělokoré a zvýšená účast buku vedly k výraznému stárnutí a odumírání populace jedle bělokoré [doc 1], a také ke strukturální diferenciaci pralesa [doc 2]. Celkem 30 % plochy je pokryto souvislým nárostem s dominancí buku [doc 1, doc 5]. K zajištění jeho přirozeného vývoje je doporučeno trvale udržovat oplocení v provozuschopném stavu a podle možností lovit či vytlačovat ven zvěř, která se do pralesa dostane [doc 2]. Je také navrženo, že by v pralese neměly být prováděny žádné úmyslné zásahy [doc 2].
+Self reflection mode is ON
+Answer is supported.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor souvisí s ekonomickými zájmy velkostatkářů a průmyslových kapitalistů?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: a92d80a6-3859-471b-b4f8-d5bac755a6e9
+chunk id: f66003fe-923e-4211-9838-1ac8422c42d1
+chunk id: 96d0615e-3946-46aa-8722-76294466d195
+chunk id: 32950342-2374-4963-9930-7dfdf59ed5cc
+chunk id: d54ab4c8-d02b-4bd0-ab16-6420858d3ba2
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Kníže Bedřich Schwarzenberg a Řiditelstvo Ústřední společnosti hospodářské se stavěli proti zamýšlené stavbě vodních drah z několika důvodů a s obavami z možných důsledků.
+
+*   **Regulace řek a meliorace před průplavy:** Kníže Schwarzenberg hájil prospěchů zemských a navrhoval, aby se především zamezily škody způsobené rozvodňováním přítoků Vltavy a Labe, než aby se přikročilo k zřizování velkých průplavů [doc 5]. Řiditelstvo Ústřední společnosti hospodářské se rozhodně staví proti zamýšlené stavbě vodních drah, protože se nelze odlučovat stavbu těchto kanálů vůbec od celkové úpravy vodního hospodářství [doc 1], [doc 2].
+*   **Obavy z ekonomických důsledků:** Obávali se, že průplavy by mohly sloužit pouze prospěchům kapitalistickým, otevřít příchod cizozemské výrobě a zaplavit české země hospodářskými plodinami z Uher a zemí Balkánských [doc 5].
+*   **Ekonomické zájmy:** Tento odpor souvisí s ekonomickými zájmy velkostatkářů, protože regulace řek a meliorace by mohla prospět zemědělství, což je pro velkostatkáře důležité [doc 5]. Zároveň se objevují obavy, že průplavy by mohly poškodit průmysl, protože by mohly vést k dovozu levnějších výrobků [doc 5].
+Self reflection mode is ON
+Answer is not supported, feedback: The answer states that the opposition to the waterways was due to concerns that they could lead to the import of cheaper goods and harm industry. This is not mentioned in any of the provided documents. The documents focus on concerns about damage to agriculture from flooding and the potential for waterways to benefit capitalists and foreign imports of agricultural products, not manufactured goods.
+Retrying generation with feedback (1/2).
+rag answer: Kníže Bedřich Schwarzenberg a Řiditelstvo Ústřední společnosti hospodářské vyjádřili odpor proti zamýšlené stavbě vodních drah z několika důvodů [doc 1], [doc 2], [doc 3], [doc 3], [doc 4], [doc 5]. Především se obávali škod, které by rozvodňováním přítoků Vltavy a Labe mohlo způsobit zemědělství [doc 1], [doc 5]. Dále se obávali, že by stavba vodních drah mohla sloužit pouze prospěchu kapitalistů a otevřít cestu pro dovoz cizozemských zemědělských plodin z Uher a zemí Balkánských [doc 5].
+
+Kníže Schwarzenberg hájil prospěchy zemské a navrhoval, aby se nejprve zaměřilo na regulaci řek a meliorace, a teprve poté na stavbu vodních drah [doc 1], [doc 5]. Tento odpor souvisí s ekonomickými zájmy velkostatkářů, protože regulace řek a meliorace by prospěla jejich zemědělským aktivitám [doc 3]. Obavy z dovozu levných zemědělských plodin by také chránily zájmy velkostatkářů [doc 5].
+Self reflection mode is ON
+Answer is not supported, feedback: The answer states that the concerns of Schwarzenberg and the Central Economic Society were 'because regulace řek a meliorace would benefit their agricultural activities'. This is an interpretation not explicitly stated in the provided documents. While it's a reasonable inference, it's not a direct statement from the sources.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1848,
+  "max_year": 1848,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1848, 'max_year': 1948, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a možné důsledky nesouhlasu Ústřední společnosti hospodářské, vedené knížetem Bedřichem Schwarzenbergem, se zamýšlenou stavbou vodních drah, a jak tento nesouhlas ovlivnil politickou situaci a reakce kapitalistů v kontextu plánů vlády Körbrovy?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1848 max_year=1948 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 4ca07bb2-f476-4a85-bc11-97c92d613247
+chunk id: e739d4dd-4855-4942-8eba-9f6f705eb8fd
+chunk id: b7e05e7c-e9e7-49d5-b1fc-89aab7d6b44e
+chunk id: c81e2c5d-50d8-4a2b-9078-54cf233e55bc
+chunk id: ea475a6e-5064-42f9-b842-3b3e48973336
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Ústřední společnost hospodářská, vedená knížetem Bedřichem Schwarzenbergem, nesouhlasila se stavbou vodních drah z několika důvodů [doc 2, doc 3, doc 3]. Komora se obávala, že průplav by se nemohl vyplácet a kapitál by mohl přijít na zmar [doc 2]. Navíc, stavba průplavu dunajsko-oderského by učinila projekt zaplavení moravského ne-li nemožný, tož tak nesnadný, že se jen s větším nákladem menší sady založiti mohou [doc 2].
+
+Důsledkem nesouhlasu bylo, že se společnost snažila, aby země česká poznenáhla nevysýchala [doc 2].  Zvodnění řeky Moravy a ostatních řek, způsobené hrázemi, hrozilo majetku polnímu i domácímu, ha celým osadám na pobřežích Moravním [doc 4].
+
+Politická situace a reakce kapitalistů byly ovlivněny tím, že ministr se snažil omluviti jednání kuratora majitelů priorit a dokázat, že stát nesmí tu věcem nechati průchodu [doc 5]. Zavedení konkursu mělo by za následek velkou katastrofu a mnoho tisíc dělníků by přišlo o práci [doc 5].
+Self reflection mode is ON
+Answer is not supported, feedback: The answer states that the 'Ústřední společnost hospodářská, vedená knížetem Bedřichem Schwarzenbergem' disagreed with the construction of waterways. This information is not present in the provided context. The context mentions 'Ústřední výbor hospodářské společnosti' and 'Komora', but not a specific society led by a named individual. Additionally, the answer claims that the society was led by Prince Friedrich Schwarzenberg, which is not mentioned in the provided documents.
+Retrying generation with feedback (1/2).
+rag answer: Omlouvám se, ale na základě poskytnutého kontextu nemohu odpovědět na otázku. Kontext neobsahuje informace o Ústřední společnosti hospodářské vedené knížetem Bedřichem Schwarzenbergem, ani o jejím nesouhlasu se stavbou vodních drah, ani o reakcích kapitalistů v kontextu plánů vlády Körbrovy.
+Self reflection mode is ON
+Answer is not supported, feedback: The generated answer states that the context does not contain information about the Ústřední společnost hospodářské vedené knížetem Bedřichem Schwarzenbergem, nor does it contain information about their disagreement with the construction of waterways, nor does it contain information about the reactions of capitalists in the context of Körbrovy government plans. This is a hallucination. The provided context does not address these topics.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1800,
+  "max_year": 1900,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1800, 'max_year': 2000, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1800 max_year=2000 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 73062af8-5b95-4d80-b410-8080f350c66f
+chunk id: 5258dc64-d093-4b90-8c7b-dd5d6976ad54
+chunk id: 6f83f05e-d538-42c1-a785-38050d27fba0
+chunk id: 25a23a50-c45a-4635-b614-b4c4861fd8dd
+chunk id: d798a934-48a6-4637-938d-412dd58392bd
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Sorry, I can´t answer the question.
+Self reflection mode is ON
+Basic Search failed to answer. Starting Adaptive Multi-Query Retry ---
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?
+Queries: ['Jaké faktory přispěly k obnově a rozvoji výroby krajek ve Vamberku a jeho okolí v období konce 19. století, jaké byly socioekonomické dopady této obnovy, a jak se na tomto procesu podílely organizace a osobnosti, včetně Ant. Selichara?', 'Jaké byly příčiny a následky oživení tradičního řemesla krajkářství v regionu Vamberk a okolí v závěru 19. století, a jaké byly aktivity a vliv místních organizací a osobností, například Ant. Selichara, při tomto procesu?', 'Jaké byly ekonomické a společenské motivace k podpoře a revitalizaci krajkářství ve Vamberku a přilehlých oblastech v období konce 19. století, jaké byly dopady této podpory na místní komunitu, a jakou roli hráli místní aktéři a instituce, včetně Ant. Selichara, v tomto procesu?', 'Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?']
+metadata_clean_result: {
+  "min_year": 1800,
+  "max_year": 1900,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1800, 'max_year': 2000, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké faktory přispěly k obnově a rozvoji výroby krajek ve Vamberku a jeho okolí v období konce 19. století, jaké byly socioekonomické dopady této obnovy, a jak se na tomto procesu podílely organizace a osobnosti, včetně Ant. Selichara?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1800 max_year=2000 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly příčiny a následky oživení tradičního řemesla krajkářství v regionu Vamberk a okolí v závěru 19. století, a jaké byly aktivity a vliv místních organizací a osobností, například Ant. Selichara, při tomto procesu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1800 max_year=2000 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly ekonomické a společenské motivace k podpoře a revitalizaci krajkářství ve Vamberku a přilehlých oblastech v období konce 19. století, jaké byly dopady této podpory na místní komunitu, a jakou roli hráli místní aktéři a instituce, včetně Ant. Selichara, v tomto procesu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1800 max_year=2000 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1800 max_year=2000 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: f3553d4f-fda5-4052-a604-def6046df994
+chunk id: 369e7689-44cc-4d5c-8306-554d09de623d
+chunk id: d798a934-48a6-4637-938d-412dd58392bd
+chunk id: ee0c57da-579c-48df-ba38-5dc81fc1610d
+chunk id: c7b83678-01d4-479c-83d3-ed5262ddbf07
+chunk id: 9a1c5adc-2e87-49b3-81a8-975cc32a9312
+chunk id: 50e1cafc-5014-4262-bac9-d00da4ed0c61
+chunk id: bebab117-e0da-431b-8d4f-2edc96e5b253
+chunk id: 5900f61d-5a08-498d-a0f3-136060cc794c
+chunk id: 73062af8-5b95-4d80-b410-8080f350c66f
+chunk id: 5258dc64-d093-4b90-8c7b-dd5d6976ad54
+chunk id: 6f83f05e-d538-42c1-a785-38050d27fba0
+Doc to be graded: DOCUMENT/DOKUMENT: Národní listy. 104 (Year issued/Rok vydání: 1870) CONTENT/OBSAH: zřízením porot. Jaké mohou míti ceny vaše zemím. Ústupky Haliči mají býti větší či menší dle toho, zdali tato země přímé volby na říšskou „základní zákony“, když vedle nich má dosud radu přijme či zamítne. úplnou platnost zákon z r. 1854, dle něhož každý byrokrat může týrat občana kde a jak Pro volební opravu přijat nejsvobodomyslse mu líbí? nější základ, a myšlenka jich zbavena všech zneUčinili jste bankrot se svým parlamentvořujících přídavků, k nimž dr. Giskra viděl se tem, se svou ústavou, se svými základními nucena, dílem v horoucím přání, aby volební zákony a se svými politickými vůdci, a přec opravu ještě v tomto zasedání prosadil a pro nechcete uznati potřeby, aby zbankrotované příští podzimek umožnil říšskou radu přímo zvotyto vaše faktory politické nahraženy byly
+Doc to be graded: DOCUMENT/DOKUMENT: Národní listy. 104 (Year issued/Rok vydání: 1870) CONTENT/OBSAH: zřízením porot. Jaké mohou míti ceny vaše zemím. Ústupky Haliči mají býti větší či menší dle toho, zdali tato země přímé volby na říšskou „základní zákony“, když vedle nich má dosud radu přijme či zamítne. úplnou platnost zákon z r. 1854, dle něhož každý byrokrat může týrat občana kde a jak Pro volební opravu přijat nejsvobodomyslse mu líbí? nější základ, a myšlenka jich zbavena všech zneUčinili jste bankrot se svým parlamentvořujících přídavků, k nimž dr. Giskra viděl se tem, se svou ústavou, se svými základními nucena, dílem v horoucím přání, aby volební zákony a se svými politickými vůdci, a přec opravu ještě v tomto zasedání prosadil a pro nechcete uznati potřeby, aby zbankrotované příští podzimek umožnil říšskou radu přímo zvotyto vaše faktory politické nahraženy byly
+Doc to be graded: DOCUMENT/DOKUMENT: Posel z Prahy: Občanské noviny a věstník národo-hospodářský. 4 (Year issued/Rok vydání: 1871) CONTENT/OBSAH: Město Bělí bývalo dříve sídlem kvetoucího průmyslu soukennického, sukna bělská byla pro svou molidnost a pěknou úpravu hledána. Zařízením továren klesl tento průmysl v městě nalem úplněAčkoliv cech soukennický v středu svém měl muže zámožné, nepomýšleno tenkráta na zařízení společného závoda soukemmického, který by s prospěchem byl konkurovati mohl s továrnami německými. Následek toho byl, že ze samostatných fprůmyslníků stali se z většího dílu dělníci v továrnách libereckých. Nyní ještě pracuje značný počet soukenníků bělakých v Liberci; o vycvičené síly pracovni pro novou továrnu v Bělé jest tedy úplně postaráno. I čas nynějšího spolčování jest k zařízení továrny soukemnické velmi příhodný. — Právě v době novější zařízen velký počet společenských obchodů ve ztřížném zboží
+Doc to be graded: DOCUMENT/DOKUMENT: Moravská orlice. 19 (Year issued/Rok vydání: 1863) CONTENT/OBSAH: (od 9. března nazpět počítaje) přeložení onoho svátku věřícím ohlásili s kazatelen. Spolu pak změní co nejspíš konsistoř naše v kalendáři duchovním, čeho z té příčiny potřeba jest, a milovanému duchovenstvu sdělí. Bedřich vr.“ Ostatně neopomineme dále ještě o Velehradě a letošních, jakož i jeho budoucích slavnostech psáti. Z okolí Napajedelského. Chápu se také péra, bych pokud možno poměry nynější v našem kraji a počínání si občanů nastínil, neboť dobře vím, že jedenkaždý probuzenec a věrný ctitel matky Slavie vší pílí zraky své na naše česko-slovanské listy obrací a z nich co ze zdroje síly nabyti chce mužnosti a hrdosti národní. Při tom všem, že také vždy dychtiv jest poznati kterak jeho spolurodáci a bratří v odlehlých krajích si počínají, jaké následky
+Doc to be graded: DOCUMENT/DOKUMENT: None (Year issued/Rok vydání: 1867) CONTENT/OBSAH: Výrobky chemické byly četně zastoupeny a pocházely z fabrik pp. Starka, kníž. Anersperka a p. L'evalda, purkmistra radnického. Krajina, kdež vyrábí se, leží na bohatém ložisku kameného uhlí u Radnic a upomíná velice rozsáhlým průmyslem svým na některé krajiny Anglicka. Z řemeslnických prací nalezaly se zde: klempířské práce pánů Páníka a Poláčka, obuvnické práce pp. Bereševského a Bechra, práce rukavičkářské a kožešnické, prvější p. Šmída, druhé p. Stacha. Dále byly výrobky cukrářské p. Koutského a pivo pana Jana Krafty. Všeobecný obdiv spůsobily práce řezbářské samouka Františka Zajíčka, šefařa z Vranůvka (hole a dýmky.) Zápředky z letošního chovu bourců hedvábných vystavily pí. Anna Kraftová a pí. A. Kurzova. V pěkném skupení byly dále umístěny zahradnické
+Doc to be graded: DOCUMENT/DOKUMENT: None (Year issued/Rok vydání: 1867) CONTENT/OBSAH: Výrobky chemické byly četně zastoupeny a pocházely z fabrik pp. Starka, kníž. Anersperka a p. L'evalda, purkmistra radnického. Krajina, kdež vyrábí se, leží na bohatém ložisku kameného uhlí u Radnic a upomíná velice rozsáhlým průmyslem svým na některé krajiny Anglicka. Z řemeslnických prací nalezaly se zde: klempířské práce pánů Páníka a Poláčka, obuvnické práce pp. Bereševského a Bechra, práce rukavičkářské a kožešnické, prvější p. Šmída, druhé p. Stacha. Dále byly výrobky cukrářské p. Koutského a pivo pana Jana Krafty. Všeobecný obdiv spůsobily práce řezbářské samouka Františka Zajíčka, šefařa z Vranůvka (hole a dýmky.) Zápředky z letošního chovu bourců hedvábných vystavily pí. Anna Kraftová a pí. A. Kurzova. V pěkném skupení byly dále umístěny zahradnické
+Doc to be graded: DOCUMENT/DOKUMENT: Dějepis města Třebíče. Sv. 1 (Year issued/Rok vydání: 1874) CONTENT/OBSAH: nad poddanými svými v mezích právního poměru, jejž sám ustanovil mezi sebou a nimi, úplnou moc. On soudil rozepře mezi nimi o statky nemovité, avšak jen takové; které na něm závisely; soudy však ve věcech trestních, jakož i rozepře mezi poddanými rozličných vrchností vyhraženy byly soudům župním. Teprvé během času byli od vrchností ustanovováni místní představení, jimž vrchnosť část moci své postoupila. Tím teprv původ svůj vzala obecní zřízení v jednotlivých osadách. Toť v hlavních obrysech společenské poměry v podhradích a jiných osadách v století XI. a XII. Byly-li poměry tyto, jak jsme již svrchu napověděli, všude v podstatě stejné, můžeme je zajisté přenésti také na naše Podklášteří a na jiné osady ku klášteru Třebickému patřící.  Hlava pátá.  Klášter Třebický až po Otakara II. (1253). Opatové:
+Doc to be graded: DOCUMENT/DOKUMENT: Moravská orlice. 145 (Year issued/Rok vydání: 1866) CONTENT/OBSAH: sestoupil se podporovací spolek, jenž sobě obral úlohu, sbírati příspěvky v penězích, prádlu, věcech spitalních, přírodninách a ostatních užitečných předmětech a s nimi nakládati v prospěch c. k. armády. Odbor se skládá z následujících pp.: Ant. Pompe, c. k. okresní v Jihlavě co předseda, Karel hr. Blankenstein, statkář a purkmistr, Fr. Vondráček a Šim. Böhm, majitel továrny v Batelově, Bedř. Šmál, majitel továrny v Handelsdorfě; Jan Haine, purkmistr v Dřevěných Mlýnech; Jan Nussbaum, statkář v Jamném; Fr. Záborský, purkmistr a Jan Filipp, statkář v Kamenici; Fr. Leizner, purkmistr a Fr. Irkas, mlynář v Kněžicích; Matěj Lang, purkmistr v Pistoči; Karel Dobrovolný, mlynář, Jan Popelák, ředitel statku, Josef Hofmann, obecní rada a Vilém Šulhof, obchodník v Brtnici;
+Doc to be graded: DOCUMENT/DOKUMENT: Národní listy. 83 (Year issued/Rok vydání: 1866) CONTENT/OBSAH: men, továrník v Komárově, Julius Seifert, c. k. notář v Hořovicích, Karel Hejl, poštmistr v Příbrami a p. Alois Kulhánek, městský pokladník v Příbrami, stalo se usnešení že se bude k tomu působiti, aby byly v každé farní osadě okresu hořovického, zbirovského a příbramského, kde veliká část obyvatelstva řemeslo hřebíčkářské provozuje, hřebíčkářské spolky na spůsob onoho v Hluboši zařízeny a aby p. farář Kohout vládou k zavádění těchto jednot oprávněn byl. Po boku těchto spolků má státi akcijní společnost s jistinon 50.000 zl. která by jim všemožnou samostatnost zabezpečila, dodávajíc členům jednoty co nejlacinější železo k zdělávání a odebírajíc vedlé toho výrobky hotové. Dále by bylo účelem této společnosti hřebičkáře znenáhla k jinému průmyslu převáděti. Společnost má se jmenovati: „Akcijní spo-
+Doc to be graded: DOCUMENT/DOKUMENT: None (Year issued/Rok vydání: 1864) CONTENT/OBSAH: vše, že jsme ve svém vlastním. Doufáme pevně, že dle toho budou i návštěvy obecenstva. Včerejší návštěva alespoň byla více než uspokojující. Nechať tedy i správa divadelní neochabuje v snahách uměleckých, a jsme přesvědčeni, že divadlo bude rádo navštěvováno. Nepochybujeme také, že se brzy opět osvěží i repertoir náš domácí a že tak všichni vzájemně napomáhati budou k zábavě nejušlechtilejší, jakou jest divadlo každému národu. — Představení „Povídek královny Navarské“ bylo dobré, místy výtečné. Lepší byly tenkráte dámy, než pánové, u kterých vadila místy jskási nejistota slova, čimž se stával nápověda osobou nad míru důležitou, ale pro posluchače velmi nemilou. V místech, kde výhradně dámy hrály, jako ke konci čtvrtého aktu, byla souhra právě výtečná, kdežto u pánů
+Doc to be graded: DOCUMENT/DOKUMENT: None (Year issued/Rok vydání: 1864) CONTENT/OBSAH: vše, že jsme ve svém vlastním. Doufáme pevně, že dle toho budou i návštěvy obecenstva. Včerejší návštěva alespoň byla více než uspokojující. Nechať tedy i správa divadelní neochabuje v snahách uměleckých, a jsme přesvědčeni, že divadlo bude rádo navštěvováno. Nepochybujeme také, že se brzy opět osvěží i repertoir náš domácí a že tak všichni vzájemně napomáhati budou k zábavě nejušlechtilejší, jakou jest divadlo každému národu. — Představení „Povídek královny Navarské“ bylo dobré, místy výtečné. Lepší byly tenkráte dámy, než pánové, u kterých vadila místy jskási nejistota slova, čimž se stával nápověda osobou nad míru důležitou, ale pro posluchače velmi nemilou. V místech, kde výhradně dámy hrály, jako ke konci čtvrtého aktu, byla souhra právě výtečná, kdežto u pánů
+Doc to be graded: DOCUMENT/DOKUMENT: Posel z Prahy: Občanské noviny. 101 (Year issued/Rok vydání: 1869) CONTENT/OBSAH: ústav! Shromáždění provolalo hlučně Na zdar a vzdalo díky zařizujícímu výboru povstáním. Na to sdělil pan Makovský výsledek volby. Prošla jednohlasně kandidátní listina zařizujícím výborem sestavena a sice jsou zvoleni co výborové: Jan Beneš, krejčí (firma J. Beneš a syn), Josef Čermák, železník (firma Čermák & Bernard), František Fišer, výbor zlatnického gremin, J. Hampel, lakýrník, Jan Häusler, kloboučník, Antonín Klíma, pekař, František Krámeš, starší obuvnické jednoty, Dr. Frant. Lirš, úředník hypoteční banky, František Makovský, knihař, Karel Makovský, barvíř nedbáví, Josef Neuman, majitel domu, Tomáš Novotný, předseda ústředního výboru záloženského, Eduard Šiffner, starší jednoty kožešnické, Otakar Skřivan, obchodník (firma Vacin & Skřivau), Josef
+Relevant documents number: 10  original doc number: 12
+rag answer: Sorry, I can´t answer the question.
+Self reflection mode is ON
+Internet search result: id=UUID('f9b40d79-0a8a-4395-919e-9fd8cad3df80') title='DuckDuckGo Search' text='Koncem 19 . století nastal úpadek ručního krajkářství , především následkem tlaku konkurence strojní výroby krajek. V roce 1889 byla ve Vamberku založena krajkářská škola, na které bylo v 1. polovině 20. století zapsáno ročně až 50 žákyň.\nKrajky se od druhé poloviny 19 . do začátku 20. století ve Vamberku vyráběly téměř v každé domácnosti. V 19 . století se krajka začala vyrábět také strojně a poptávka po ručně paličkované krajce začala slábnout.\nNejlépe tyto důvody vystihuje VRÁNOVÁ (2004) : Krajkové doplňky se poprvé objevily až na renesančním oděvu v 2. polovině 16. století a právě v Itálii v prostředí šlechtických dvorů. Krajkářství v Českých zemích.\n"Muzeum krajky ve Vamberku je zásadním místem uchovávání, výzkumu a prezentace více než čtyřsetleté tradice krajkářství v tomto regionu a je také jediným dlouhodobě fungujícím pracovištěm, které se specializuje výhradně na tuto oblast .\nHistorie krajkářství na Vamberecku sahá do 17. století , kdy podorlické panství získal císařský generál Kašpar z Grambu. Jeho manželka Magdaléna Grambová pocházela z belgických Flander a zavedla mezi zdejším obyvatelstvem paličkování jako robotní povinnost.' start_page_id=UUID('f9b40d79-0a8a-4395-919e-9fd8cad3df80') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('f9b40d79-0a8a-4395-919e-9fd8cad3df80') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('f9b40d79-0a8a-4395-919e-9fd8cad3df80'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Na konci 19. století nastal úpadek ručního krajkářství, především kvůli konkurenci strojní výroby [doc 11]. Ve Vamberku byla v roce 1889 založena krajkářská škola, kde bylo v první polovině 20. století zapsáno až 50 žákyň ročně [doc 11]. Historie krajkářství na Vamberecku sahá do 17. století, kdy zavedla paličkování mezi místním obyvatelstvem Magdaléna Grambová, manželka císařského generála Kašpara z Grambu [doc 11].
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zavedení ústřední tržnice krajek v Hradci Králové na rozvoj krajkářství v Žamberku a jaké překážky musely být překonány, aby se zajistil kvalitní materiál pro výrobu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: b32d2ef8-66ad-498b-a573-4b9d8c5c8537
+chunk id: d48965f7-bb8a-492a-b1fe-00bcde0b4179
+chunk id: 472d9dca-398e-46b5-b293-f7e91302c606
+chunk id: b9de8e09-05dd-4175-a613-ea85a147c37e
+chunk id: b5c46297-e737-465e-bb1b-733c78201c24
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Zavedení ústřední tržnice krajek v Hradci Králové mělo vliv na rozvoj krajkářství v Žamberku. Po nezdařeném pokusu o sdružování v Žamberku byla tržnice zřízena v Hradci Králové [doc 2, doc 3, doc 3, doc 4, doc 5].  Tržnice se snažila udržet a rozvíjet tradiční technickou dovednost lidu při výrobě krajek [doc 3]. Aby se zajistil kvalitní materiál pro výrobu, bylo nutné užívat i dobrý materiál, včetně švýcarského a francouzského hedvábí, protože pokusy nahradit tento materiál z domácích zdrojů byly bezvýsledné [doc 4].
+Self reflection mode is ON
+Answer is not supported, feedback: The statement 'The establishment of the central lace market in Hradec Králové had an impact on the development of lacemaking in Žamberk' is not explicitly stated in the provided documents. While the documents mention the market's connection to Žamberk, they don't describe a direct impact on its development. The documents state that the market was established in Hradec Králové after a failed attempt at association in Žamberk [doc 2, doc 3, doc 3, doc 4, doc 5].
+Retrying generation with feedback (1/2).
+rag answer: Zavedení ústřední tržnice krajek v Hradci Králové následovalo po neúspěšném pokusu o sdružování v Žamberku [doc 2, doc 3, doc 3, doc 4, doc 5]. Dokumenty neuvádějí přímý dopad na rozvoj krajkářství v Žamberku, ale zmiňují, že tržnice následovala neúspěšný pokus v Žamberku [doc 2, doc 3, doc 3, doc 4, doc 5]. Pro zajištění kvalitního materiálu pro výrobu bylo nutné používat i švýcarské a francouzské hedvábí, protože pokusy nahradit tuto potřebu domácím materiálem byly bezvýsledné [doc 4]. Řízení tržnice ochotně převzala pí M. Klumparová [doc 4, doc 5].
+Self reflection mode is ON
+Answer is not supported, feedback: The statement 'Zavedení ústřední tržnice krajek v Hradci Králové následovalo po neúspěšném pokusu o sdružování v Žamberku [doc 2, doc 3, doc 3, doc 4, doc 5]' is a hallucination. While doc 2 and doc 5 mention a connection to Žamberk, they do not state that the establishment of the market in Hradec Králové *followed* a failed attempt at association in Žamberk. The documents describe the market as a result of discussions and a desire to support the local industry, not as a direct consequence of a failed attempt elsewhere.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1918,
+  "max_year": 1939,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1918, 'max_year': 2039, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2039 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?
+metadata_clean_result: {
+  "min_year": 1918,
+  "max_year": 1939,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1918, 'max_year': 2039, 'language': 'ces'}
+Queries: ['Jaká byla politika polských vlád vůči českému etniku na Volyni v období školství a kultury, a jaké byly její dopady na demografický vývoj a politické dění v regionu?', 'Jaké faktory ovlivnily polskou snahu o podporu české komunity na Volyni v oblasti vzdělávání a kulturního života, a jak se to projevilo v demografických trendech a politických procesech v regionu?', 'Jaké byly polské strategie a jejich výsledky v oblasti vzdělávání a kultury pro české obyvatelstvo na Volyni, a jak tyto aktivity ovlivnily demografické a politické proměny v regionu?', 'Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?']
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaká byla politika polských vlád vůči českému etniku na Volyni v období školství a kultury, a jaké byly její dopady na demografický vývoj a politické dění v regionu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2039 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké faktory ovlivnily polskou snahu o podporu české komunity na Volyni v oblasti vzdělávání a kulturního života, a jak se to projevilo v demografických trendech a politických procesech v regionu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2039 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly polské strategie a jejich výsledky v oblasti vzdělávání a kultury pro české obyvatelstvo na Volyni, a jak tyto aktivity ovlivnily demografické a politické proměny v regionu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2039 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1918 max_year=2039 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('adab4155-47c7-466a-b60e-a8d644d0426a') title='DuckDuckGo Search' text='1 Důvody a záminka.Německá společnost se nedokázala smířit s obnovením nezávislosti Polska a se ztrátou dobytých polských území. Nediplomatický politický tón a nacionální vášně v polsko -německých vztazích byly vzájemné a vycházely z obou stran.\nJak pokračuje autor materiálu, Polsko se v současné době nachází ve stavu vážné ekonomické krize způsobené tvrdými a bezmyšlenkovitými prohlášeními polského premiéra a prezidenta.\nAnotace. Edice je výslednou publikacní projektu Grantové agentury ČR č. 409/09/0951 a představuje více jak 175 dokumentů z českých archivů, které ilustrují vývoj státní politiky vůči polské menšině na Těšínsku během prvních poválečných let.\nСмотрите онлайн «Video ukazuje Romy, jak pronásledují auto TCK na Volyňsku , informují místní veřejné stránky» от автора Pravda Czechia - Czech Republic News. Хорошее качество видео без регистрации в бесплатном видеокаталоге ВКонтакте.\nV české literatuře se téma sokolských jednot Čechů na Volyni objevovalo jen minimálně, a to zpravidla v sou -borných publikacích, kde však byly uvedeny i leckteré zá-sadní nepřesnosti.13 Jaroslav B. ZYKA, Šedesát let od založení první Sokolské jednoty na Volyňsku , Sokol, 1931, roč.' start_page_id=UUID('adab4155-47c7-466a-b60e-a8d644d0426a') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('adab4155-47c7-466a-b60e-a8d644d0426a') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('adab4155-47c7-466a-b60e-a8d644d0426a'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Omlouvám se, ale na základě poskytnutého kontextu nemohu odpovědět na otázku ohledně snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, ani o souvislosti s demografickými změnami a politickými aktivitami v regionu [doc 1].
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Queries: ['Jaké problémy bránily rozvoji československého filmu v období před únorem 1948, související s legislativou a strukturou, a jakým způsobem události února 1948 ovlivnily řešení těchto problémů?', 'Jak se projevily nedostatky v legislativě a organizační problémy v československém filmovém průmyslu před rokem 1948 a jak události února 1948 přispěly k vytvoření stabilnějšího systému?', 'Jaké byly překážky v organizaci a právním rámci, které omezovaly rozvoj československého filmu do února 1948, a jak události února 1948 vedly ke změnám v tomto prostředí?', 'Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?']
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké problémy bránily rozvoji československého filmu v období před únorem 1948, související s legislativou a strukturou, a jakým způsobem události února 1948 ovlivnily řešení těchto problémů?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak se projevily nedostatky v legislativě a organizační problémy v československém filmovém průmyslu před rokem 1948 a jak události února 1948 přispěly k vytvoření stabilnějšího systému?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly překážky v organizaci a právním rámci, které omezovaly rozvoj československého filmu do února 1948, a jak události února 1948 vedly ke změnám v tomto prostředí?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('e944533a-2bc5-4a5c-96a0-e864d6d5c414') title='DuckDuckGo Search' text='Únor 1948 (též únorový převrat, únorový puč[1], v komunistické terminologii a historiografii Vítězný únor [2] či jen Únor [3][4]) je pojmenování komunistického státního převratu v Československu, který proběhl mezi 17. a 25. únorem 1948 .\n50. let ZESTÁTNĚNÍ ČESKÉ KINEMATOGRAFIE Důsledky zestátnění – státní správa filmu 1946– 1948 – výběr a schvalování námětů, filmových povídek a scénářů prováděly dva orgány: Filmový umělecký sbor (FIUS) a tzv...\nRozkaz byl vydán 4. února 1948 a jeho smyslem bylo uvést do souladu organizační strukturu policie s územní působ-ností obvodních národních výborů.\nObdobí mezi lety 1948 - 1989 nebylo jednolitým, kinematografie reagovala na politické události, coţ se pak viditelně projevovalo v produkci animovaného filmu , ve volbě témat a "ţánru".\n2. 1948 pověřilo předsednictvo KSČ Alexeje Čepičku vedením Ústředního akčního výboru Národní fronty.85 Akční výbory pak vznikly nikoliv spontánně, ale organizovaně, na všech stupních organizační struktury státu. Tedy od ministerstev až po nejmenší továrny.' start_page_id=UUID('e944533a-2bc5-4a5c-96a0-e864d6d5c414') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('e944533a-2bc5-4a5c-96a0-e864d6d5c414') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('e944533a-2bc5-4a5c-96a0-e864d6d5c414'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Podle dostupných informací, období 1948-1989 nebylo jednotné a kinematografie reagovala na politické události [doc 1]. Důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 nejsou v kontextu uvedeny [doc 1]. Únor 1948 je pojmenování komunistického státního převratu v Československu, který proběhl mezi 17. a 25. únorem 1948 [doc 1].
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADE CONTEXT - skipping firtst iteration grading
+No documents found, transformig query. Turning metadata extraction OFF.
+Multi query mode
+Retrying multi-query feedback: 
+CRITICAL NOTE: The previous search variations failed to find relevant documents. For this attempt, provide SIGNIFICANTLY DIFFERENT and BROADER search terms. Avoid terms used previously if possible and focus on different synonyms or related concepts.Previous queries: Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?
+metadata_clean_result: {
+  "min_year": 1948,
+  "max_year": 1948,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1948, 'max_year': 2048, 'language': 'ces'}
+Queries: ['Jak se proměnila správa a organizace československého filmu po únoru 1948 v souvislosti s centralizací a zrušením samostatných pravomocí jednotlivých funkcionářů a vedoucích oddělení?', 'Jaké reformy a změny v řízení filmového průmyslu v Československu nastaly po únoru 1948, a jak se dotkly postavení a pravomocí zplnomocněnců a úsekových ředitelů?', 'Jaké byly klíčové organizační změny v československém filmovém průmyslu po únoru 1948, které vedly ke sjednocení řízení a eliminaci samostatných právních subjektivit pro zplnomocněnce a úsekové ředitele?', 'Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?']
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak se proměnila správa a organizace československého filmu po únoru 1948 v souvislosti s centralizací a zrušením samostatných pravomocí jednotlivých funkcionářů a vedoucích oddělení?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké reformy a změny v řízení filmového průmyslu v Československu nastaly po únoru 1948, a jak se dotkly postavení a pravomocí zplnomocněnců a úsekových ředitelů?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly klíčové organizační změny v československém filmovém průmyslu po únoru 1948, které vedly ke sjednocení řízení a eliminaci samostatných právních subjektivit pro zplnomocněnce a úsekové ředitele?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?' limit=3 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1948 max_year=2048 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+MQ/HyDe failed. Falling back to Web Search ---
+Internet search result: id=UUID('55abcdfb-6278-4a4d-8aaf-7401941631ce') title='DuckDuckGo Search' text='February 27, 2025 - To se odráželo ve výši nákladů takového řízení, kdy jak náklady exekuce, tak náklady oprávněného spočívající většinou v nákladech právního zastoupení byly stanovovány a vymáhány samostatně.\nDecember 11, 2025 - Už v průběhu války české intelektuální kruhy diskutovaly o možnosti zestátnění filmového průmyslu, někteří umělci v tomto kroku viděli naději na nezávislost tvorby na komerčních zájmech producentů. K zestátnění došlo krátce po osvobození, ještě před komunistickým převratem.\nDne 25. února 1948 vznikl v ... a právní subjektivita úsekových ředitelů[19] a jejich pravomoci byly přeneseny na náměstky ústředního ředitele .[20] Do konce března bylo propuštěno 442 osob a zrušen byl ...\nbyla později zahrnuta pod centrální řízení ústředního ředitelství Československé filmové · společnosti, aniž by jim přitom byla odňata právní suverenita (jedná se zejména o případ · zplnomocněnců).\n4. 1948, o zřzení a organisaci státního podniku Československý státní film (vydáno 13. 4. 1948, zrušeno 31. 12. 1956). Zákon číslo 272/1949 Sbírky zákonů, s účinností od 29. 12. 1949, o řízení výroby a distribuce v oboru působnosti ministra informací a osvěty (vydán 19.' start_page_id=UUID('55abcdfb-6278-4a4d-8aaf-7401941631ce') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('55abcdfb-6278-4a4d-8aaf-7401941631ce') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('55abcdfb-6278-4a4d-8aaf-7401941631ce'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+rag answer: Po únoru 1948 byla právní subjektivita úsekových ředitelů přenesena na náměstky ústředního ředitele [doc 1]. To vedlo k tomu, že jednotlivé případy byly zahrnuty pod centrální řízení ústředního ředitelství Československé filmové společnosti [doc 1].
+Self reflection mode is OFF
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": 1792,
+  "max_year": 1815,
+  "language": "ces"
+}
+metadata_structured: {'min_year': 1792, 'max_year': 1915, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakým způsobem ovlivnila první francouzská republika a Napoleon I. vojenské strategie Prusů, zejména generála Moltkeho, a jaké důsledky to mělo pro vojenskou kulturu a přístup k válce v Prusku?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=1792 max_year=1915 min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 3e924ebd-7f9e-43c5-a84b-2652fdfd5953
+chunk id: b6356667-eb2c-486c-ab25-ee914c47bd49
+chunk id: 3164cd16-47db-4f41-a7f7-767d78f57d50
+chunk id: 253d02d0-5505-41d0-9c12-fe5774998a47
+chunk id: 71485373-32d9-46a1-a46b-26e98b7f5682
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: První francouzská republika a Napoleon I. naučili Prusy mnoha věcem, zejména generála Moltkeho [doc 1].  První francouzská republika a Napoleon I. naučili Prusy, a zvláště generála Moltkeho velmi mnohému [doc 1]. Carnot, který byl prvním revolučním Francií, byl Moltkem [doc 1]. Carnot hodlal způsobit, aby bylo možné odříci se vojenských podrobností pomocí velkých kombinací vojenských [doc 1].
+Self reflection mode is ON
+Answer is not supported, feedback: The statement "Carnot, který byl prvním revolučním Francií, byl Moltkem [doc 1]" is a hallucination. The provided context does not state that Carnot *was* the first French Revolution, but rather that Carnot was associated with the French Revolution.
+Retrying generation with feedback (1/2).
+rag answer: První francouzská republika a Napoleon I. naučili Prusy mnoha věcem, zejména generála Moltkeho [doc 1]. Carnot, který byl spojen s francouzskou revolucí, se snažil strategicky pohybovat nevycvičenými jednotkami, aby nahradil pravidelné vojsko a vyhověl potřebám války [doc 2].  Carnot se snažil způsobit, aby bylo možné odříci se vojenských detailů pomocí velkých kombinací vojenských strategií [doc 2].  Jenerál Moltke se však musel překonat, aby utajil city, které ho trápily, a to zejména v okamžiku, kdy bitva směřovala k nešťastnému výsledku [doc 3].
+Self reflection mode is ON
+Answer is supported.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky slavnosti, které se účastnil velkokníže Nikolaj Nikolajevič, na vztahy mezi českými účastníky a ruskými důstojníky a generály, a jak se tato událost odrazila na vnímání českého národa?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 4b53e75e-24db-4fe9-956b-8d15b50cd17e
+chunk id: ccac0a2c-c3c7-4341-acd4-3935a0d1b2bd
+chunk id: d6623a36-dc29-418f-8766-62de47a7bac5
+chunk id: 725dbee0-aa08-49d9-9036-d6ecfbe80a7e
+chunk id: f835f52f-062b-4cd6-8ca8-831ef088be45
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Podle dostupných dokumentů pobyt ruských vojáků v Čechách způsobil rozhodný obrat ve prospěch národa českého [doc 1]. Lidé, kteří uměli česky, se snažili dorozumět se s vojíny a důstojníky ruskými [doc 1]. Češi se odvraceli od Němců a vyhledávali společnost ruskou [doc 1]. Tato vzájemnost slovanská, která z této události vyplynula, přispěla k obrození českého národa více, než se dosud uznává [doc 1].
+Self reflection mode is ON
+Grader freezed. Skipping grading.
+Answer is supported.
+[]
+Starting  DB search.
+metadata_clean_result: {
+  "min_year": null,
+  "max_year": null,
+  "language": "ces"
+}
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky touhy tvůrčího Geniuse stát se tvůrcem a vyrovnat se bohu, a jak se tato touha projevila v jeho interakci s lidmi a jejich následném chování?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 14f06cea-1e02-45bb-a711-7713e8931047
+chunk id: b9e2e6fe-9144-4d64-96f0-c4453c92136c
+chunk id: 3794e01c-7281-4274-9c4c-02332223ee2e
+chunk id: 217dc907-2875-482d-97ba-551ace201e3a
+chunk id: 74ec68b3-f5f7-4ca1-a9d5-dad01092a5fc
+GRADE CONTEXT - skipping firtst iteration grading
+rag answer: Podle dokumentu, touha tvůrčího Geniuse stát se tvůrcem a vyrovnat se Bohu vedla k tomu, že opustil anděly a šel k vyhnanému člověku, aby mu pomohl [doc 5]. Genius daroval člověku meč ze železa [doc 5]. Následkem toho, člověk zneužil dar a začal zabíjet [doc 5]. Genius také přinesl lidem zlato, ale i to vedlo k vraždění [doc 5].
+Self reflection mode is ON
+Answer is supported.
+DONE: new_adaptive_v5 saved.
+All experiments completed.
