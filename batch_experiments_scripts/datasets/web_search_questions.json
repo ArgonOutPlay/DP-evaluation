@@ -1,0 +1,68 @@
+[
+    {
+        "question_id": "hum_001",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Kdy naposled vyhrál Serral mistrovství světa ve StarCraft 2?",
+        "ground_truth": "Serral vyhrál mistrovství světa ve StarCraft II v roce 2025, konkrétně Esports World Cup 2025."
+    },
+    {
+        "question_id": "hum_002",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "How much the flash costs in CS2",
+        "ground_truth": "The flash in CS2 costs 200$."
+    },
+    {
+        "question_id": "hum_003",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "What software company is headquartered in Redmond, Washington?",
+        "ground_truth": "Microsoft Corporation."
+    },
+    {
+        "question_id": "hum_004",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Who was the Ancient Greek God of the Sun?",
+        "ground_truth": "The Ancient Greek God of the Sun was Apollo."
+    },
+    {
+        "question_id": "hum_005",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Jak se jmenoval první umělý satelit vypuštěný do vesmíru?",
+        "ground_truth": "První umělý satelit vypuštěný do vesmíru se jmenoval Sputnik 1."
+    },
+    {
+        "question_id": "hum_006",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "V jakém městě se nachází NFL Hall of Fame? ",
+        "ground_truth": "NFL Hall of Fame se nachází v městě Canton v americkém státě Ohio."
+    },
+    {
+        "question_id": "hum_007",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Jaká televizní sério od HBO adaptuje události z roku 1986 související z havárií jaderné elektrárny na Ukraině? ",
+        "ground_truth": "Série od HBO, která adaptuje události z roku 1986 související s havárií jaderné elektrárny na Ukrajině, se jmenuje \"Chernobyl\"."
+    },
+    {
+        "question_id": "hum_008",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Which composer pioneered the 12-tone technique?",
+        "ground_truth": "Arnold Schoenberg pioneered the 12-tone technique."
+    },
+    {
+        "question_id": "hum_009",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Mateřské mléko jakého zvířete je přirozeně růžové?",
+        "ground_truth": "Mateřské mléko hrocha je přirozeně růžové."
+    },
+    {
+        "question_id": "hum_010",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Ve kterém sci-fi seriálu se objevuje policejní budka zvaná TARDIS?",
+        "ground_truth": "Ve seriálu \"Doctor Who\" se objevuje policejní budka zvaná TARDIS."
+    },
+    {
+        "question_id": "hum_011",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Kdo je autorem článku CRAG (Corrective Retrieval Augmented Generation)?",
+        "ground_truth": "Autory článku CRAG (Corrective Retrieval Augmented Generation) jsou Shi-Qi Yan, Jia-Chen Gu, Yun Zhu, Zhen-Hua Ling."
+    }
+]

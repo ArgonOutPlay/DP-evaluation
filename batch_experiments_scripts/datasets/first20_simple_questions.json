@@ -1,0 +1,122 @@
+[
+    {
+        "question_id": "gen_li_1",
+        "source_chunk_id": "25d0cb5f-534c-4ef2-935f-7b8acba0a61a",
+        "question": "Kdy byla ukrajinská vláda uznána Francií a Anglií?",
+        "ground_truth": "Ukrajinská vláda byla uznána Francií a Anglií 4. ledna 1918."
+    },
+    {
+        "question_id": "gen_li_2",
+        "source_chunk_id": "270766ad-59ab-4677-bd15-d0c88eb44d9d",
+        "question": "Jaká byla škoda způsobená požárem v levém křídle budovy vojenské reálky v Hranicích?",
+        "ground_truth": "Škoda způsobená požárem v levém křídle budovy vojenské reálky v Hranicích obnáší 10.000 zl."
+    },
+    {
+        "question_id": "gen_li_5",
+        "source_chunk_id": "0362ec48-eb20-4319-8b2c-77596f04cdf3",
+        "question": "Kdy zemřel soudruh Krapka?",
+        "ground_truth": "Soudr. Krapka zemřel dne 13. dubna 1909."
+    },
+    {
+        "question_id": "gen_li_6",
+        "source_chunk_id": "edd6b066-88f0-4bd2-8417-e1ade862079a",
+        "question": "Jakou funkci zastával Ju. N. Danilov v ruské armádě během prvního roku světové války?",
+        "ground_truth": "Ju. N. Danilov zastával funkci generálního ubytovatele ruské armády v prvním roce světové války."
+    },
+    {
+        "question_id": "gen_li_9",
+        "source_chunk_id": "25033475-e954-4bbd-8e7c-eb44ddfe3ad5",
+        "question": "Kolik knih bylo koncem roku 1926 ve slovenských obecních knihovnách?",
+        "ground_truth": "Koncem roku 1926 bylo ve slovenských obecních knihovnách 202.781 knih."
+    },
+    {
+        "question_id": "gen_li_14",
+        "source_chunk_id": "7ac080d1-7198-4ae6-a039-e7c3e7d29527",
+        "question": "Jaké jsou požadavky kladenských horníků ohledně průměrné denní mzdy kopáče?",
+        "ground_truth": "Průměrná denní mzda kopáče budiž zvýšena tak, aby kopáč nejméně K 3.60 denně mohl vydělati. Tato mzda budiž dodržována ve všech pracích, k nimž kopáčů jest používáno."
+    },
+    {
+        "question_id": "gen_li_17",
+        "source_chunk_id": "003d6e7b-2a82-404d-98fd-3674e48d981c",
+        "question": "Kolik osob bylo odsouzeno pro krádež ve Štýrsku v roce 1863?",
+        "ground_truth": "Odsouzeno bylo 1051 osob pro krádež ve Štýrsku v roce 1863."
+    },
+    {
+        "question_id": "gen_li_19",
+        "source_chunk_id": "542ca370-28b4-443a-bc77-066ba456313e",
+        "question": "Kdy byl Václav Nebeský zvolen do řiditelstva?",
+        "ground_truth": "Václav Nebeský byl zvolen do řiditelstva již r. 1873."
+    },
+    {
+        "question_id": "gen_li_22",
+        "source_chunk_id": "7e8bb770-5c30-44d9-99b6-48d6e5549262",
+        "question": "Jaké místo obsadila Pešková v národním žebříčku v LOB 1980 v kategorii D 17?",
+        "ground_truth": "Pešková obsadila 2. místo v národním žebříčku v LOB 1980 v kategorii D 17."
+    },
+    {
+        "question_id": "gen_li_23",
+        "source_chunk_id": "d04f345e-b8b5-4a7d-814d-ff0f22f0bbe4",
+        "question": "Kdo byl povolán jako náhradník do obecního výboru po panu radním Smékalovi?",
+        "ground_truth": "Na místo pana radního Smékala byl povolán náhradník pan Konštanský."
+    },
+    {
+        "question_id": "gen_li_25",
+        "source_chunk_id": "9baec440-9705-4c46-bd1e-9c6960811e29",
+        "question": "Jaké opatření přijal pruský ministr vnitra ohledně voleb vypsaných polskou vládou na německém území?",
+        "ground_truth": "Pruský ministr vnitra přikázal úřadům, aby netrpěly provedení voleb, vypsaných polskou vládou na německém území, s upozorněním, že osoby, které by se voleb zúčastnily, vydávají se nebezpečí stíhání pro velezradu."
+    },
+    {
+        "question_id": "gen_li_26",
+        "source_chunk_id": "a5b10d9c-283f-4131-b04f-88fb8c8752bf",
+        "question": "Kdo je autorem knihy \"Lehrbuch der Petrographie\"?",
+        "ground_truth": "Autorem knihy \"Lehrbuch der Petrographie\" je Dr. Ferdinand Zirkel."
+    },
+    {
+        "question_id": "gen_li_28",
+        "source_chunk_id": "23027313-1d0f-4990-a571-849cbe3898c8",
+        "question": "Jaký je rozdíl mezi infiltrací a degenerací buněk v kontextu ztučnění?",
+        "ground_truth": "Rozdíl mezi infiltrací a degenerací buněk v kontextu ztučnění spočívá v tom, že při infiltraci je zachována funkce buněk, zatímco degenerace by znamenala ztrátu této funkce."
+    },
+    {
+        "question_id": "gen_li_29",
+        "source_chunk_id": "d0d2864a-3cbd-4bb1-9416-56bb21bd058d",
+        "question": "Jaké důkazy naznačují, že obyvatelé Holasovic v neolitické době konzumovali rostlinnou potravu?",
+        "ground_truth": "Důkazy naznačují, že obyvatelé Holasovic v neolitické době konzumovali rostlinnou potravu, protože se zachovaly obroušené kameny, které sloužily patrně k rozemletí zrna, a otisky ječných klasů v hlíněné omítce."
+    },
+    {
+        "question_id": "gen_li_31",
+        "source_chunk_id": "d9c1c117-acf5-459d-a7d7-8cf4ff916437",
+        "question": "Jaké množství Sapon. viridis je doporučeno pro terpentinovou lázeň při rheumatismugonorrhoickém podle Balzera?",
+        "ground_truth": "Doporučené množství Sapon. viridis pro terpentinovou lázeň při rheumatismugonorrhoickém podle Balzera je 200.0."
+    },
+    {
+        "question_id": "gen_li_34",
+        "source_chunk_id": "a1ab2277-2d74-454b-88d0-6699c1a831ad",
+        "question": "Jaké vlastnosti jsou popsány pro horniny stejnoměrně zrnité, neporfyrické podle Zirkelovy klasifikace?",
+        "ground_truth": "Horniny stejnoměrně zrnité, neporfyrické mají zrna obyčejně makroskopicky zřetelného, rozeznatelného a nejčastěji — ač ne vždycky — také dosti stejnoměrného."
+    },
+    {
+        "question_id": "gen_li_37",
+        "source_chunk_id": "192ecb86-59b4-4f5a-afe9-a1f4ad58c309",
+        "question": "Jaké dny jsou předplatné dny v divadle Uranii?",
+        "ground_truth": "Předplatné dny v divadle Uranii jsou v úterý, středu a čtvrtek."
+    },
+    {
+        "question_id": "gen_li_38",
+        "source_chunk_id": "b7c3fbcb-c72b-4423-9297-2f709cebbd50",
+        "question": "Jaké zlepšovací návrhy podal soudruh Jirák v dílnách ČSD v České Lípě?",
+        "ground_truth": "Soudruh Jirák podal zlepšovací návrh na broušení různých součástek, čímž dosáhl velkých časových úspor a pomohl zlevnit výrobu, a po několika dalších zlepšovacích návrzích zpevnil několikrát normu díky stále dokonalejší organizaci práce."
+    },
+    {
+        "question_id": "gen_li_40",
+        "source_chunk_id": "80857342-ffc8-4269-8e73-a71928541185",
+        "question": "Jaká byla největší vada ústavy, kterou obdrželo rumunské knížetství?",
+        "ground_truth": "Největší vadou jmenované ústavy bylo, že nepomohla ubohému stavu rolníkův z hnusného a otrockého poddanství."
+    },
+    {
+        "question_id": "gen_li_44",
+        "source_chunk_id": "15a741cc-7397-4559-ad68-3ea9b239cb08",
+        "question": "Kdy se koná veřejná schůze katolicko-politické jednoty uh.-hrodské v Bánově v roce 1894?",
+        "ground_truth": "Veřejná schůze katolicko-politické jednoty uh.-hrodské v Bánově se koná v neděli 21. ledna 1894 odpoledne po sv. požehnání."
+    }
+]
