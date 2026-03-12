@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,answer_correctness,context_precision,context_recall,context_sufficiency,framework
+new_adaptive_v9_1_results,gpt-4o-mini,0.918921212121212,0.725929292929293,0.5781204081632653,0.8561646464646465,0.855221212121212,0.5151515151515151,ragas

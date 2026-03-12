@@ -19,6 +19,7 @@
 | new_adaptive_v8_results | gpt-4o-mini |        0.87748 |            0.58385 |              0.51288 |             0.74167 |         0.808335 |                  0.45 | ragas       |
 | new_adaptive_v8_results | gpt-5.1 |        0.63707 |           0.612015 |             0.448315 |             0.53861 |              0.6 |                  0.15 | ragas       |
 | **new_adaptive_v9_results (20)** | gpt-4o-mini |       0.882753 |           0.703395 |             0.630589 |            0.843205 |         0.903511 |              0.631579 | ragas       |
+| new_adaptive_v9_1_results | gpt-4o-mini |       0.918921 |           0.725929 |              0.57812 |            0.856165 |         0.855221 |              0.515152 | ragas       |
 | incremental_adaptive_v11_results | gpt-4o-mini |       0.925755 |            0.85391 |             0.628855 |            0.844035 |              0.9 |                   0.6 | ragas       |
 | incremental_adaptive_v12_results | gpt-4o-mini |        0.93199 |            0.81404 |              0.61612 |            0.826045 |            0.925 |                   0.6 | ragas       |
 | incremental_adaptive_v13_results | gpt-4o-mini |        0.90434 |            0.85153 |             0.587979 |            0.816255 |         0.895835 |                  0.55 | ragas       |
@@ -26,5 +27,14 @@
 | **incremental_adaptive_v15_results (20)** | gpt-4o-mini |        0.90265 |           0.775925 |              0.62844 |            0.844035 |         0.958335 |                  0.55 | ragas       |
 | incremental_adaptive_v15_results | gpt-5.1 |       0.807115 |           0.899995 |             0.494405 |             0.68111 |           0.6875 |                   0.3 | ragas       |
 | incremental_adaptive_v15_results (100) | gpt-4o-mini |       0.899197 |            0.55739 |             0.589222 |            0.834855 |         0.827384 |              0.459184 | ragas       |
-| incremental_adaptive_v15_1_results | gpt-4o-mini |       0.937195 |           0.873853 |             0.624115 |            0.857925 |           0.9125 |                   0.6 | ragas       |
-| incremental_adaptive_v15_1_results | gpt-4o-mini |        0.90891 |           0.766859 |             0.597341 |            0.874037 |         0.850171 |              0.505051 | ragas       |
+| incremental_adaptive_v15_1_results (20) | gpt-4o-mini |       0.937195 |           0.873853 |             0.624115 |            0.857925 |           0.9125 |                   0.6 | ragas       |
+| incremental_adaptive_v15_1_results (100) | gpt-4o-mini |        0.90891 |           0.766859 |             0.597341 |            0.874037 |         0.850171 |              0.505051 | ragas       |
+| incremental_adaptive_v15_2_results (20) | gpt-4o-mini |        0.92481 |            0.88381 |             0.614405 |             0.87188 |           0.9125 |                  0.55 | ragas       |
+| incremental_adaptive_v15_2_results (20) | gpt-5.1 |        0.78786 |           0.931055 |             0.486715 |             0.62528 |            0.735 |                   0.4 | ragas       |
+| incremental_adaptive_v15_2_results (100) | gpt-4o-mini |       0.908806 |           0.773871 |             0.577444 |            0.869393 |         0.842596 |              0.530612 | ragas       |
+| incremental_adaptive_v16_results (20) | gpt-4o-mini |       0.858605 |            0.64164 |              0.58699 |             0.61493 |          0.89167 |                  0.45 | ragas       |
+| 01_ollama_default_config_results (web) | gpt-4o-mini |       0.254545 |           0.335518 |             0.293918 |           0.0484818 |         0.272727 |              0.181818 | ragas       |
+| web_incremental_adaptive_v17_results (web) | gpt-4o-mini |       0.683982 |             0.8509 |             0.569045 |            0.257573 |         0.545455 |              0.454545 | ragas       |
+| incremental_adaptive_v17_results (20) | gpt-4o-mini |         0.9238 |            0.87838 |             0.644695 |            0.817715 |           0.9125 |                   0.6 | ragas       |
+| incremental_adaptive_v17_results (100) | gpt-4o-mini |       0.917582 |           0.790491 |             0.589979 |            0.860541 |         0.853538 |              0.535354 | ragas       |
+| web_incremental_adaptive_v18_results (web) | gpt-4o-mini |       0.693718 |             0.8292 |             0.538736 |            0.446973 |         0.454545 |              0.454545 | ragas       |

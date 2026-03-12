@@ -1,0 +1,704 @@
+Found 1 configurations. Starting batch processing...
+Running config: incremental_adaptive_v16
+Adaptive RAG version 16
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zavedení říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a jaké problémy tento zákon způsobil v souvislosti s pohyblivými třídami obyvatelstva a jejich právem domovským?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: d3a97874-5954-4839-8ad0-3526489c003d
+chunk id: 35560be8-7f74-409b-ac39-39d4c24baf5c
+chunk id: f169bf7e-2653-4fe8-8472-d25c8b64af4c
+chunk id: 6798626a-73cd-4f00-9ac9-85d5b036fabc
+chunk id: 2ef5188a-bc4e-4353-a0f3-ff7aba08afc0
+Getting neighbors
+DEBUG: Context length (chars): 13587
+rag answer: Na základě poskytnutých dokumentů (zejména dokumentu č. 4 a 5) lze shrnout následující důsledky a problémy spojené s říšským zákonem ze dne 10. prosince 1863 a jeho následnými úpravami:
+
+**Důsledky pro chudé venkovské obce:**
+
+*   **Oslabení venkovských obcí:** Zavedení zákona a následné změny (zejména v roce 1896) vedly k odlivu obyvatelstva z chudých venkovských obcí do měst a průmyslových oblastí. To způsobilo oslabení venkovských obcí, které se potýkaly s nedostatkem pracovních sil a s poklesem daňových příjmů.
+*   **Změna příslušnosti:** Zákony umožňovaly, aby se lidé přesunuli do jiných obcí a získali tam domovské právo, což dále oslabovalo původní venkovské obce.
+*   **Změna povinností:** Venkovské obce, které ztratily obyvatele, se staly méně schopny plnit své povinnosti v oblasti veřejné chudiny, což představovalo další zátěž pro stát.
+
+**Problémy s pohyblivými třídami obyvatelstva a právem domovským:**
+
+*   **Pohyblivost obyvatelstva:** Zákony reflektovaly rostoucí mobilitu obyvatelstva, způsobenou průmyslovou revolucí a migrací do měst.
+*   **Ztráta příslušnosti:** Lidé, kteří se vystěhovali z dědičných zemí nebo byli vypovězeni, ztratili své domovské právo.
+*   **Propustné listy:** Vrchnosti vydávaly "propustné listy", které umožňovaly lidem opustit svazek poddanského a obecního, což dále komplikovalo otázky příslušnosti.
+*   **Nejasnosti a složitost:** Získání domovského práva v nové obci bylo složité a vyžadovalo prokazování trvalého pobytu a dalších podmínek.
+*   **Nové postupy:** Zákony stanovily postupy pro prokázání příslušnosti, které zahrnovaly vyhledávání důkazů v konskripčních seznamech a archách.
+
+Celkově lze říci, že říšský zákon ze dne 10. prosince 1863 a jeho následné úpravy měly významný dopad na chudé venkovské obce a na pohyblivé třídy obyvatelstva, a to jak pozitivní (umožnění mobility), tak negativní (oslabení venkovských obcí, komplikace s příslušností).
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky odhalení pomníku Josefa Dobrovského v Praze na vnímání jeho odkazu a jak se to projevilo ve veřejném prostoru města?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: e80672c1-0227-4e5f-8c52-ec5105218f9f
+chunk id: 38ccf5b2-63a0-4d06-bc34-2e85afc0df2d
+chunk id: cbb80db8-4fd6-4d6f-8098-7c6e6eaa43a1
+chunk id: 593e5805-59db-4bd7-9d2d-0fdc3848fb08
+chunk id: 3cb56a59-091c-42de-b346-2995c302d8c1
+Getting neighbors
+DEBUG: Context length (chars): 12930
+rag answer: The provided texts do not discuss the unveiling or consequences of a monument to Josef Dobrovský. They mention the desire for a monument and a grave marker, and lament the current state of his grave, but there's no record of an actual unveiling or its impact.
+
+Here's a breakdown of what the texts *do* say about Dobrovský and his legacy:
+
+*   **Desire for a Monument:** Document 4 expresses a desire for a monument and a more lasting tribute (publication of his writings) to commemorate Dobrovský.
+*   **Neglect of Current Grave:** Document 4 laments the neglect of his current grave in a small cemetery, noting that it's being overtaken by sand and the iron pyramid is deteriorating.
+*   **Forgotten Anniversary:** Document 4 highlights the fact that his 100th birthday was largely forgotten in 1853, and expresses concern that his memory might be lost.
+*   **Overall Sentiment:** The texts convey a sense of regret that Dobrovský's legacy hasn't been properly honored and a hope that future generations will do so.
+
+
+
+To find information about the actual unveiling of a monument and its impact, you would need to consult historical records beyond these excerpts.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důsledky nesprávného použití nástrojů při odstraňování ušního mazu a jaké preventivní opatření je doporučeno k minimalizaci rizika infekce?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 2150ca46-0d7b-4eba-819c-d56b537ebbc6
+chunk id: 14718b36-06a7-42a3-9fc4-38aa358e94d2
+chunk id: ac12f962-f8e3-4e11-8485-c4b5156de825
+chunk id: 37df866d-6750-42ce-9692-45b9f62df3f0
+chunk id: 384eec00-8fe9-43c1-a512-b04bde1f4055
+Getting neighbors
+DEBUG: Context length (chars): 13584
+rag answer: 孫: Omlouvám se, ale žádný z poskytnutých dokumentů se nezabývá odstraňováním ušního mazu a jeho riziky. Nemám tedy informace, které by odpovídaly na vaši otázku.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"ošetření uší" AND "nesprávné použití nástrojů" AND "důsledky" AND "infekce" AND "lékařská péče"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"uší" AND "čištění" AND "nástroje" AND "škody" AND "prevence" AND "zdravotní doporučení" AND "19. století"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"sluch" AND "oční lékařství" AND "léčba" AND "hygiena" AND "zdravotní postupy" AND "sociální dopady" AND "1800-1918"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důsledky nesprávného použití nástrojů při odstraňování ušního mazu a jaké preventivní opatření je doporučeno k minimalizaci rizika infekce?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 986e2dbc-4c0a-4b26-8da8-ed2687fc80c8
+chunk id: defdc972-967f-4f45-9724-cdda598923b5
+chunk id: ac12f962-f8e3-4e11-8485-c4b5156de825
+chunk id: d835a989-52dd-4932-8c4a-84dc0bc3e07f
+chunk id: 3d624e5c-533a-4dce-a11b-983b59e99183
+chunk id: e65acac0-dca4-426c-8e07-072c595bf204
+chunk id: 2150ca46-0d7b-4eba-819c-d56b537ebbc6
+chunk id: 2cef6436-4ba2-4ff2-8436-3b186a8cb6fc
+chunk id: 37df866d-6750-42ce-9692-45b9f62df3f0
+chunk id: c5a56bdc-6478-4bf9-a23b-044c4f1867f2
+chunk id: 4372a976-5d35-4305-a278-8d0ac08da39d
+chunk id: e65acac0-dca4-426c-8e07-072c595bf204
+chunk id: 731ca8d9-9dbb-4ea7-92f1-cf46296d1a0f
+chunk id: e7d109d2-7b3c-4aac-9ce1-082c9003b255
+chunk id: dfc5c02d-bad3-495b-9bdf-7c0ea9f6d40c
+chunk id: 40fa04a3-b835-4190-bdfa-6c86b5395b3f
+chunk id: c55c8e6b-fb46-421a-ac19-d8df68d01c6d
+chunk id: 8003d7e7-20fe-4ddc-bb14-65c61d4d219f
+chunk id: 74697742-0e9e-4336-ab93-730d6d45ff83
+chunk id: ce4488e0-7272-4c89-a38b-0ba5df2d27a8
+chunk id: 320d7683-0f85-42af-b8d0-a1325ab3f91b
+chunk id: a220ef02-0389-4465-947e-c65ff5cc375f
+chunk id: ba748540-1a14-4469-9272-03ca8c77da53
+chunk id: fca0b673-f9aa-4ae7-9ca7-3615185af1e8
+chunk id: b58b3992-26fc-4fa0-baf2-af59fb5c92ab
+chunk id: 60937c83-53d1-4001-8e71-c8190f85eccd
+chunk id: 4fc9f6ce-b9b7-4361-9f41-565c7e7de1f6
+chunk id: e34afa4e-b6b3-429a-9374-694b6c69c0bc
+chunk id: f441a2f3-d61b-4846-be00-042b4f8328ae
+chunk id: dd3134ce-c0b0-4825-87dc-1a30ca5c080e
+chunk id: 2150ca46-0d7b-4eba-819c-d56b537ebbc6
+chunk id: 14718b36-06a7-42a3-9fc4-38aa358e94d2
+chunk id: ac12f962-f8e3-4e11-8485-c4b5156de825
+chunk id: 37df866d-6750-42ce-9692-45b9f62df3f0
+chunk id: 384eec00-8fe9-43c1-a512-b04bde1f4055
+chunk id: 63300f65-5874-4bb5-b653-6fbe6041e121
+chunk id: 5f21cf70-04e0-41f2-9a16-2eeacc3e0fe3
+chunk id: e14f0f00-69ec-4814-8b2c-ec9df0aa6998
+chunk id: 2cef6436-4ba2-4ff2-8436-3b186a8cb6fc
+chunk id: d266419c-5d1c-4f76-b797-f79a7a56284a
+Getting neighbors
+DEBUG: Context length (chars): 13475
+rag answer: Na základě poskytnutých dokumentů, zejména dokumentu č. 5, lze shrnout důsledky nesprávného použití nástrojů při odstraňování ušního mazu a preventivní opatření:
+
+**Důsledky nesprávného použití nástrojů:**
+
+*   **Možnost infekce:** Nesprávné použití nástrojů může poškodit ušní kanál a sliznici, čímž se zvyšuje riziko infekce.
+*   **Možnost poškození:** Nesprávné použití může vést k poškození ušního bubínku nebo sliznice.
+*   **Možnost zhoršení stavu:** Nesprávné odstranění ušního mazu může vést k zhoršení stavu, například k zánětu.
+
+**Preventivní opatření:**
+
+*   **Použití sterilních nástrojů:** Používejte pouze sterilní nástroje.
+*   **Opatrnost při čištění:** Při čištění očí používejte sterilizovanou vatu, kterou se pozorně setře hnis. Potřísněná vata se spálí.
+*   **Použití speciálních roztoků:** Pro čištění očí lze použít speciální roztoky, jako je 20% roztok dusičnanu stříbrného nebo 3% roztok kyseliny borité.
+*   **Použití speciálního vybavení:** Pro vyplachování očí je vhodné použít speciální nádobku zvanou "undina" namísto stříkačky.
+*   **Ochrana zdravého oka:** Při léčbě blennorrhoey je důležité chránit zdravé oko, například potřením hřbetu nosu vaselinou.
+*   **Profesionální ošetření:** V případě komplikovanějších případů je doporučeno vyhledat odbornou pomoc.
+*   **Použití speciálních roztoků:** Pro čištění očí lze použít speciální roztoky, jako je 20% roztok dusičnanu stříbrného nebo 3% roztok kyseliny borité.
+*   **Použití speciálního vybavení:** Pro vyplachování očí je vhodné použít speciální nádobku zvanou "undina" namísto stříkačky.
+
+
+
+**Důležité upozornění:** Odstraňování ušního mazu by mělo být prováděno s opatrností a ideálně pod dohledem lékaře. Nesprávné postupy mohou vést k vážným komplikacím.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důvody pro použití různých léčebných metod u novorozenců a dospělých s očními infekcemi, a jaké jsou potenciální důsledky nesprávného použití těchto metod?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 0b3b1a87-5045-4e20-b469-0a4e634e469d
+chunk id: a7de665f-c41e-4a14-9c84-5c9560a92094
+chunk id: 79cd6aba-f248-4a54-b277-c2bd550f616c
+chunk id: ff9929b6-b738-4455-b444-e9bcf3d73976
+chunk id: f9312ee9-b6f8-44e7-9112-3a63ccf96f28
+Getting neighbors
+DEBUG: Context length (chars): 13770
+rag answer: Z poskytnutých dokumentů nelze získat informace o léčebných metodách u očních infekcí u novorozenců a dospělých. Dokumenty se zabývají metrologií, krystalizačními vlastnostmi skel a hornin, a strojírenským průmyslem. Neobsahují žádné lékařské informace.
+
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"očni nemoci" OR "zánět očí" AND "novorozenci" AND "dospělí" AND ("léčba" OR "terapie" OR "ošetření") AND ("důvody" OR "indikace" OR "rozdíly")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"oční infekce" AND ("novorozenecká péče" OR "pediatrie") AND ("léčebné postupy" OR "farmakoterapie") AND ("dospělí" OR "adulthood") AND ("komplikace" OR "důsledky" OR "nežádoucí účinky") AND ("nesprávná diagnóza" OR "chybná léčba")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"zdravotnický zákon" AND "očni lékařství" AND "historie" AND "léčebné postupy" AND ("novorozenci" OR "děti") AND ("dospělí" OR "zralý věk") AND ("práva pacienta" OR "odpovědnost lékaře")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důvody pro použití různých léčebných metod u novorozenců a dospělých s očními infekcemi, a jaké jsou potenciální důsledky nesprávného použití těchto metod?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: cb89c818-866b-4d48-88a3-08c2dd2529b0
+chunk id: a7de665f-c41e-4a14-9c84-5c9560a92094
+chunk id: 497ab71c-b6d7-4f86-ac2b-7149aaee55cd
+chunk id: 08cb16cb-093b-4e64-870b-3a17b2528980
+chunk id: 34ba8e49-e313-4ea2-be23-965af6a45f44
+chunk id: c1f563bd-5fa2-4d7f-88d8-29ea8f3377e1
+chunk id: 043ebdb2-94f1-4b08-829a-cacdb59b5e7f
+chunk id: 634e9c86-60fb-48ca-960c-b35c97045786
+chunk id: 5735e6f8-d3b6-4fdf-b782-4558b39cdcce
+chunk id: d2c7dc7b-8ed2-487f-ba4a-d4616d2968ff
+chunk id: ec1df531-94cb-4ca5-b0d3-0749bbd2ce8a
+chunk id: a7de665f-c41e-4a14-9c84-5c9560a92094
+chunk id: e1bffdd0-702b-4769-aba2-f7666ed47bc1
+chunk id: 3e9ee52b-ab0c-4273-b1f1-8dca195225cd
+chunk id: 9ea39677-6f80-485a-9454-ac1f50f13206
+chunk id: 87ae5906-8d8f-437a-a9a5-ffa41dead8bf
+chunk id: 9a880740-d356-45a1-bace-424f8377663e
+chunk id: db152e2a-92fb-4961-bbe3-4e9aab530d11
+chunk id: df860bd5-d32a-4559-9e19-0a942fb5e42d
+chunk id: e0563dd5-b378-462c-a54a-7d6b8e7c9ed7
+chunk id: cebcf371-72bc-4e28-a324-7659b6907737
+chunk id: 660ceeb1-d968-4254-a911-71e87e322e21
+chunk id: ea065fe3-cec9-429f-8a0b-0989a625deab
+chunk id: 5e6699ef-c2ab-47a3-9d94-c69034545985
+chunk id: ced513f7-3d14-4298-98fc-fe1231df040c
+chunk id: 431b636a-52fa-4060-948a-5241b3b496a6
+chunk id: 298d4008-4f52-4264-a2b9-8e87932a9d7c
+chunk id: 0509a221-6d02-424a-a03e-941da410403e
+chunk id: 464e0d16-519f-4a28-b99b-07642808f61e
+chunk id: 22781d12-3609-4f68-b888-8222a36b1dec
+chunk id: 0b3b1a87-5045-4e20-b469-0a4e634e469d
+chunk id: a7de665f-c41e-4a14-9c84-5c9560a92094
+chunk id: 79cd6aba-f248-4a54-b277-c2bd550f616c
+chunk id: ff9929b6-b738-4455-b444-e9bcf3d73976
+chunk id: f9312ee9-b6f8-44e7-9112-3a63ccf96f28
+chunk id: d0c7fb28-a759-4556-96a3-85ca9f223580
+chunk id: 7e791abc-4b62-496b-827d-4df50bc73af1
+chunk id: 34ba8e49-e313-4ea2-be23-965af6a45f44
+chunk id: 8d31fc07-2f8a-4258-9924-f7b9fb658476
+chunk id: 8ad540a3-bf0a-4f86-8d66-72dd5f1bdc4f
+Getting neighbors
+DEBUG: Context length (chars): 12120
+rag answer: Na základě poskytnutých textů lze identifikovat několik důvodů pro odlišné léčebné postupy u novorozenců a dospělých s očními infekcemi, a také potenciální rizika nesprávného použití.
+
+**Rozdíly v léčbě a důvody:**
+
+*   **Blennorrhoea neonatorum (novorozenecká blenorrhoea):**
+    *   **Prevence:** Hlavní důraz je kladen na *prevenci* šíření infekce. Používají se metody jako otírání očí roztokem jodu (jod trichlorid 1:4000) a následné kapání stříbrnitého nitrátu. To je proto, že novorozenecká blenorrhoea je často způsobena vertikálním přenosem od matky během porodu.
+    *   **Cíl:** Omezit šíření infekce a chránit ostatní.
+*   **Phlegmona mandlí (u dospělých):**
+    *   **Léčba:** Léčba se zaměřuje na *odstranění hnisu* a prevenci recidiv. Používají se chirurgické metody (incize, discise), vyplachování antiseptickými roztoky a v některých případech odstranění hypertrofické žlázy.
+    *   **Cíl:** Zmírnit bolest, odstranit infekci a zabránit opakovaným infekcím.
+
+**Potenciální důsledky nesprávného použití:**
+
+*   **U novorozenců:**
+    *   **Nadměrné použití jodu:** Může způsobit podráždění a alergické reakce na kůži a sliznicích.
+    *   **Nedostatečná léčba:** Může vést k šíření infekce na jiné novorozence a matku, a potenciálně k vážnějším komplikacím, jako je poškození rohovky.
+*   **U dospělých:**
+    *   **Nesprávná chirurgická technika:** Může vést k poškození okolních tkání, krvácení a infekci.
+    *   **Nedostatečné vyplachování:** Může vést k neúplnému odstranění hnisu a recidivě infekce.
+    *   **Zanedbání prevence recidiv:** Pokud se neřeší příčiny opakovaných infekcí (např. hypertrofie mandlí), infekce se budou vracet.
+
+**Shrnutí:**
+
+Léčebné postupy se liší kvůli odlišným cílům (prevence vs. léčba) a zohledňují specifické faktory spojené s věkem pacienta a povahou infekce. Nesprávné použití metod může vést k nežádoucím účinkům a komplikacím.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: f0b7674a-0f7f-4734-8516-b0938ef05bb4
+chunk id: 1d30be14-6eeb-460a-9363-95fe0798bb78
+chunk id: af45fe43-bfe2-4062-bf54-fca61af005b8
+chunk id: 5b501f72-e259-4f5f-88d0-94197f392ecf
+chunk id: f175a3e5-2275-41ab-8e0c-0903b6575ed8
+Getting neighbors
+DEBUG: Context length (chars): 10585
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"německá revoluce 1918/1919" AND "proč neuspěla" AND "radikální" AND "republika"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"německá revoluce 1918/1919" AND "příčiny neúspěchu" AND "spolkové radní" AND "politické strany" AND "sociální napětí"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"německá říše" AND "1918-1923" AND "politický vývoj" AND "občanské organizace" AND "revoluční hnutí" AND "první republika"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 566de5e4-8072-4cae-a6db-5325a3c0eb6e
+chunk id: c0359db8-3649-4b83-845c-ecc65a169f00
+chunk id: 4c9cbd8a-9c7b-4b5b-8bee-e481d9a12e0d
+chunk id: d4e223bd-633f-49e2-a158-de051db648ad
+chunk id: 0d1fd5c7-3d45-4256-b3c5-226dc94b6809
+chunk id: 2b24d486-228e-459b-aee0-bf504eb22058
+chunk id: f717e40c-7199-446a-b328-67b0e24744ab
+chunk id: ecbdc9ef-a730-414c-a72c-f6f86fae0053
+chunk id: 3751dad9-4e31-484b-b8bb-72b68b46cefb
+chunk id: daeb0e73-6816-4f10-8810-6dcd65b8c539
+chunk id: c4475c62-c7ff-44ad-8170-a3f6681ece7e
+chunk id: 2b24d486-228e-459b-aee0-bf504eb22058
+chunk id: c302431d-dad8-4c9d-af7d-d677d7917738
+chunk id: d4e223bd-633f-49e2-a158-de051db648ad
+chunk id: c0359db8-3649-4b83-845c-ecc65a169f00
+chunk id: 2cc81ab8-f877-44c7-919c-c497fc7c17bc
+chunk id: 4aa5df6b-3e38-477c-a70b-67ef7b63e9af
+chunk id: 49d0be65-05c5-4922-89d9-b25fd88d05a2
+chunk id: cb1fdca2-1895-4a6c-9866-5e5af2c0f85c
+chunk id: 0baf4500-5086-4fa5-b7f6-fd1b6931eff1
+chunk id: 4c9cbd8a-9c7b-4b5b-8bee-e481d9a12e0d
+chunk id: 0a410840-bcab-48d4-bd6f-911b9cdc10b6
+chunk id: 566de5e4-8072-4cae-a6db-5325a3c0eb6e
+chunk id: 93e37188-6bf1-4828-bffa-e83ba7a33356
+chunk id: 43e10c4f-3f5a-4da4-a9f5-473e778649b9
+chunk id: eaac5b52-ce7c-4f90-b13f-b02074b64874
+chunk id: 8a13b4a4-359d-4727-abd0-abd25f6de0f3
+chunk id: 3ca1bed8-6386-4df0-a97b-87fc9da422ff
+chunk id: 5f656a02-bf3d-4b69-88f3-03eaa1601cc9
+chunk id: 67fc113d-a6b2-432e-abe1-c3d7aa5e25db
+chunk id: f0b7674a-0f7f-4734-8516-b0938ef05bb4
+chunk id: 1d30be14-6eeb-460a-9363-95fe0798bb78
+chunk id: af45fe43-bfe2-4062-bf54-fca61af005b8
+chunk id: 5b501f72-e259-4f5f-88d0-94197f392ecf
+chunk id: f175a3e5-2275-41ab-8e0c-0903b6575ed8
+chunk id: daeb0e73-6816-4f10-8810-6dcd65b8c539
+chunk id: bbc13fd3-96d9-4e4c-b24e-fe9fd0dc6d4f
+chunk id: 0d87d027-c008-49fb-844e-85c5d4023508
+chunk id: 731af7b9-337d-4dc5-b356-cf4076e64177
+chunk id: 64c8ed04-5c5b-46a6-8c25-b44b1dd0e7c2
+Getting neighbors
+DEBUG: Context length (chars): 12975
+rag answer: Na základě poskytnutých dokumentů nelze odpovědět na otázku o důvodech neúspěchu komunistické revoluce v Německu a roli občanstva a politické situace. Dokumenty se zabývají tématy jako:
+
+*   **Rádiové vysílání:** Počet účastníků, rozšíření v Rakousku a Německu.
+*   **Rozšíření hranic Vídně:** Připojení obcí a reorganizace obvodů.
+*   **Zadržení bolševických letáků:** Zprávy o zadrženém vozu s letáky.
+*   **Československá politika:** Zprávy o obsazování území a jednání.
+*   **Konvence mezi Maďarskem a Německem:** Podmínky a body dohody.
+
+Žádný z těchto dokumentů neposkytuje informace o politických procesech, které vedly k neúspěchu komunistické revoluce v Německu.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky kritické situace stavebních živnostníků, na kterou poukázali řečníci jako stavitel Havlena a tajemník Pekárek, a jak tato situace souvisí s politickými změnami v Rumunsku a Ukrajině, které jsou zmíněny v textu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 8bca0965-8e58-4b7f-b78f-8ec051894607
+chunk id: 819ba2d2-2cd6-4141-9858-696939ca9b3e
+chunk id: 814a98f3-969a-4ad8-a3d7-eb6f8412d525
+chunk id: 70bc441a-6e3b-46c9-a058-e34a6793e6f2
+chunk id: db8f7615-c7be-4b8f-b96f-a740ae8b1075
+Getting neighbors
+DEBUG: Context length (chars): 10140
+rag answer: Stavební živnostníci v Brně schválili návrh na zřízení obecních výborů předměstských obcí, což vedlo k tomu, že Němci a národní demokraté ze schůze odešli [doc1]. Tato situace souvisí s politickými změnami v Rumunsku, kde se v době vzniku textu (1920) zavádělo všeobecné, přímé a tajné hlasování do poslanecké sněmovny, což narušovalo dosavadní systém, kde vliv měla šlechta [doc1]. V Rumunsku trvalo království, ale politická moc se začala měnit [doc1]. Text zmiňuje také situaci v Besarabii, Bukovině, Sedmihradsku a v starém Rumunsku, kde platily různé zákony, což svědčí o složité politické a právní situaci v regionu [doc1]. O politické situaci na Ukrajině text neposkytuje žádné informace.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: dc7577b9-54ca-4945-9b0e-8344a5569947
+chunk id: 1cc5db2a-dbb7-4fbd-9d1f-4de913045da1
+chunk id: 611500d0-93c3-474e-bcb6-0b40f1058c32
+chunk id: 0fc3ba27-d549-4f3b-942a-8e7945e774e0
+chunk id: 4895cbad-9d5d-400d-a829-f3e99156edee
+Getting neighbors
+DEBUG: Context length (chars): 7907
+rag answer: Před únorem 1948 čelil státní film v Československu řadě překážek. Mezi ně patřila nedostatečná a nedokonalá právní úprava, která vedla k tomu, že držitelé provozních prostředků se bránili jejich předání a na Slovensku se popírala účinnost dekretu o zestátnění filmu [doc2].  Dále bránilo konsolidaci filmového průmyslu, že převod nemovitostí sloužících filmu nebylo možno provést v pozemkových knihách a že existovala právní nejistota a snahy o vynětí některých kin ze zestátnění [doc2]. Organizační nejednotnost a nesoulad mezi jednotlivými složkami státního filmu, udržované různými politickými tendencemi, zabraňovaly řádnému plánování investic a vývoje [doc2].  Kromě toho prosazování komerčních hledisek a rozvratná kritika uváděla tvůrčí činnost ve zmatek [doc2].
+
+Únorové události přispěly k odstranění těchto překážek. Ministr informací zrušil výnosem z 26. února 1948 opatření, která poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu, a rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání [doc2].  Tím byl dán základ pro konsolidaci státního filmu a umožněna rychlá a cílevědomá konsolidace [doc2]. Následně došlo k reorganizaci a zavedení soustavy podnikové samosprávy, decentralizaci řízení a sledování hospodářských výsledků [doc3].
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 1cc5db2a-dbb7-4fbd-9d1f-4de913045da1
+chunk id: 611500d0-93c3-474e-bcb6-0b40f1058c32
+chunk id: 3d41ccd0-e3d3-4965-a5ac-1251d8613fef
+chunk id: a85319e4-624e-4fd7-8205-2b1f67bce384
+chunk id: 66f0c848-b692-4a3e-aa4e-9621fa8cf61c
+Getting neighbors
+DEBUG: Context length (chars): 10409
+rag answer: Po únoru 1948 ministr informací zrušil opatření, která poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu [doc1]. Tímto zrušením se stalo jediným nositelem právní subjektivity v oblasti filmu zestátněné filmové podnikání [doc1]. Úkoly zmocněnců byly přeneseny na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti [doc1]. Tento krok měl přispět ke konsolidaci a jednotnému řízení filmového průmyslu v Československu [doc1].
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 6a0bb83e-72a6-421a-8ae7-9d7d5b0f4ecc
+chunk id: 192a5fc4-dfb5-490b-a8d5-fecc014c2551
+chunk id: b6060ccc-71c7-4c66-97bd-de1308097b21
+chunk id: 9febca16-05f6-4e62-a212-fb6429f02e40
+chunk id: 72c264d5-7248-4259-9bfa-2726fe28945e
+Getting neighbors
+DEBUG: Context length (chars): 10574
+rag answer: Mezi lety 1972 a 1996 došlo v Boubínském pralese k výraznému poklesu zastoupení jedle bělokoré, který byl částečně kompenzován zvýšenou účastí buku [doc2]. Smrk si udržel dominantní postavení [doc2]. Počet živých stromů mírně klesl, zatímco objem kmenů živých stromů stoupl, což svědčí o celkovém stárnutí pralesa [doc2]. 30 % plochy je pokryto souvislým nárostem s dominancí buku [doc2].
+
+Pro budoucí obnovu populace jedle bělokoré i smrku byl navržen další management rezervace [doc2]. Na vhodných místech mimo bukové nárosty se úspěšně zmlazuje jak jedle, tak smrk, doprovázené dalšími dřevinami [doc2].
+
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou důsledky výrazného poklesu zastoupení jedle bělokoré a zvýšené účasti buku na strukturu a stabilitu Boubínského pralesa, a jaké opatření bylo navrženo k zajištění jeho přirozeného vývoje?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 6a0bb83e-72a6-421a-8ae7-9d7d5b0f4ecc
+chunk id: 192a5fc4-dfb5-490b-a8d5-fecc014c2551
+chunk id: 74b7c80b-a072-4f3c-8b99-d30fc56b3182
+chunk id: 72c264d5-7248-4259-9bfa-2726fe28945e
+chunk id: b6060ccc-71c7-4c66-97bd-de1308097b21
+Getting neighbors
+DEBUG: Context length (chars): 10494
+rag answer: Výrazný pokles zastoupení jedle bělokoré a zvýšená účast buku má vliv na stárnutí pralesa a změnu jeho struktury [doc2]. Zastoupení jedle klesá a je nahrazováno bukem, což vede k celkovému stárnutí pralesa [doc2]. Nicméně, dominantní postavení si udržel smrk [doc2]. Celkem 30 % plochy je pokryto souvislým nárostem s dominancí buku [doc2].  Navíc, populace jedle bělokoré vykazuje známky stárnutí a odumírání [doc1].
+
+K zajištění přirozeného vývoje Boubínského pralesa byl navržen další management rezervace [doc2]. Očekává se, že dojde k obnově populace jedle bělokoré i smrku [doc2].
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor souvisí s ekonomickými zájmy velkostatkářů a průmyslových kapitalistů?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: a92d80a6-3859-471b-b4f8-d5bac755a6e9
+chunk id: f66003fe-923e-4211-9838-1ac8422c42d1
+chunk id: 96d0615e-3946-46aa-8722-76294466d195
+chunk id: 32950342-2374-4963-9930-7dfdf59ed5cc
+chunk id: d54ab4c8-d02b-4bd0-ab16-6420858d3ba2
+Getting neighbors
+DEBUG: Context length (chars): 10298
+rag answer: Kníže Bedřich Schwarzenberg a Řiditelstvo Ústřední společnosti hospodářské se stavěli proti zamýšlené stavbě vodních drah z důvodu, že stavba by neměla být oddělena od celkové úpravy vodního hospodářství [doc1]. Zdůrazňovali, že projektované průplavy by získaly skutečný význam teprve po předcházející soustavné úpravě řek a toků a po řádném provedení všech úkolů a potřeb melioračních [doc1].
+
+Tento odpor souvisí s ekonomickými zájmy velkostatkářů. Dokument [doc1] zmiňuje, že vedle průmyslových kapitalistů existují i "počestní velkostatkáři", kteří jsou "mnohem mocnější" a jejichž odpor se projevuje formou "blesku papírového" podepsaného knížetem Schwarzenbergem. Tento odpor naznačuje, že velkostatkáři mohli mít obavy z dopadů melioračních prací na jejich pozemky a z možného omezení jejich vodních práv.
+
+Na druhou stranu, průmysloví kapitalisté měli zájem na stavbě vodních drah, protože by to mohlo zlepšit dopravu a snížit náklady [doc1]. Nicméně, odpor velkostatkářů, zastoupený knížetem Schwarzenbergem, dokázal vytvořit překážku pro realizaci tohoto projektu, což ukazuje na střet ekonomických zájmů mezi různými skupinami.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a možné důsledky nesouhlasu Ústřední společnosti hospodářské, vedené knížetem Bedřichem Schwarzenbergem, se zamýšlenou stavbou vodních drah, a jak tento nesouhlas ovlivnil politickou situaci a reakce kapitalistů v kontextu plánů vlády Körbrovy?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 8a55f2a4-4775-4bf6-95d0-ca6752db50ac
+chunk id: 063d5126-4684-40a6-b0f8-e4372f5fa5af
+chunk id: 1e1180bc-9bd4-417a-b8f9-4b19ce43cc9b
+chunk id: d54ab4c8-d02b-4bd0-ab16-6420858d3ba2
+chunk id: 77b3558b-72ff-4000-b8a8-82a9963e2556
+Getting neighbors
+DEBUG: Context length (chars): 10408
+rag answer: Ústřední společnost hospodářská, vedená knížetem Bedřichem Schwarzenbergem, se postavila proti zamýšlené stavbě vodních drah z několika důvodů. Hlavním argumentem bylo, že stavba vodních drah by neměla být oddělována od celkové úpravy vodního hospodářství a že by nabyla pravého významu teprve po předcházející soustavné úpravě řek a toků a řádném provedení všech úkolů a potřeb melioračních [doc2]. Společnost zdůraznila, že stavba kanálů bez předchozí úpravy toků by byla neúspěšná a náročná [doc2].
+
+Tento nesouhlas ovlivnil politickou situaci a reakce kapitalistů. Zpočátku se zdálo, že kapitalisté průmysloví podporují stavbu vodních drah, ale nesouhlas Ústřední společnosti hospodářské, která zastupovala významnou část agrárního kapitálu, naznačoval hlubší rozkol v ekonomických zájmech [doc2]. Kníže Schwarzenberg, jakožto významná osobnost, svým nesouhlasem posílil pozici agrárního kapitálu a upozornil na potenciální negativní dopady stavby vodních drah na zemědělskou půdu a vodní zdroje [doc2].
+
+Plány vlády Körbrovy, které se zaměřovaly na rozvoj infrastruktury a průmyslu, čelily takto silnému odporu ze strany agrárního kapitálu, což mohlo vést k politickým komplikacím a potenciálnímu zpomalení realizace plánů [doc2]. Reakce kapitalistů byly smíšené, přičemž průmysloví kapitalisté mohli být frustrováni zpožděním, zatímco agrární kapitalisté, zastoupení Schwarzenbergem, se cítili posíleni ve svém postavení a schopni ovlivnit politické rozhodování [doc2].
+
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 2450c3e5-1ad1-4067-806f-31215d7bbcb5
+chunk id: 14847c21-1d45-4dbd-9a18-55c96ccb54e1
+chunk id: 4a1d4bb8-1b78-4e5d-a9bc-0e991dee0567
+chunk id: 55bd30a1-c676-4008-80dc-5cfe1015c1a9
+chunk id: e7ca8de3-4cd0-406c-aa73-1bfa16849f0d
+Getting neighbors
+DEBUG: Context length (chars): 10787
+rag answer: Na konci 19. století došlo ve Vamberku a okolních oblastech ke znovuzavedení krajkářství. Hlavním důvodem byla hospodářská krize a chudoba, která postihla místní obyvatelstvo. Zvláště po zrušení poddanství a následných neúrodách se lidé ocitli v těžké situaci a potřebovali nový zdroj obživy.
+
+Znovuzavedení krajkářství bylo podpořeno místními institucemi a jednotlivci. Ant. Selichar sehrál v tomto procesu klíčovou roli. On sám inicioval a sestavil sbírku lidových krajek, která byla vystavena v městském průmyslovém muzeu v Hradci Králové. Tato sbírka pomohla znovu probudit zájem o tradiční krajky a podpořit jejich výrobu.
+
+Důsledkem znovuzavedení krajkářství bylo zlepšení hospodářské situace místního obyvatelstva a zachování tradičního řemesla. Krajky z Vamberka a okolí si získaly pověstnost a byly rozprodávány po celé říši rakousko-uherské a do zemí východních, severu a jihu Evropy.
+
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zavedení ústřední tržnice krajek v Hradci Králové na rozvoj krajkářství v Žamberku a jaké překážky musely být překonány, aby se zajistil kvalitní materiál pro výrobu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: b32d2ef8-66ad-498b-a573-4b9d8c5c8537
+chunk id: d48965f7-bb8a-492a-b1fe-00bcde0b4179
+chunk id: 472d9dca-398e-46b5-b293-f7e91302c606
+chunk id: b9de8e09-05dd-4175-a613-ea85a147c37e
+chunk id: b5c46297-e737-465e-bb1b-733c78201c24
+Getting neighbors
+DEBUG: Context length (chars): 14021
+rag answer: Na základě poskytnutých dokumentů lze vyvodit následující závěry ohledně dopadu ústřední tržnice krajek v Hradci Králové a překážek při zajišťování materiálu:
+
+**Dopad na rozvoj krajkářství v Žamberku:**
+
+*   **Zlepšení odbytu:** Ústřední tržnice, řízená pí. M. Klumparovou, přispěla k lepšímu odbytu žambereckých krajek. Dokument uvádí, že tržnice dosáhla "slušného úspěchu" již v prvním roce svého trvání.
+*   **Přímé styky s výrobci:** Tržnice navázala přímé styky s výrobci, což umožnilo lepší koordinaci a kontrolu kvality.
+*   **Podpora a propagace:** Tržnice se podílela na propagaci žambereckých krajek a podpoře jejich výroby.
+
+**Překážky při zajišťování materiálu:**
+
+*   **Závislost na továrním cenám:** Dokument zmiňuje, že cílem bylo dodávat materiál v továrních cenách, což naznačuje, že zajištění dostupného materiálu bylo důležitým faktorem.
+*   **Založení družstva:** Pokus o založení krajkářského družstva se nepodařilo, což mohlo zkomplikovat zajištění surovin a organizaci výroby.
+*   **Agenda musea:** Zvýšená agenda musea mohla zdržovat podpůrnou akcí krajkářskou, což naznačuje, že koordinace a řízení byly náročné.
+
+Celkově lze říci, že ústřední tržnice krajek v Hradci Králové měla pozitivní dopad na rozvoj krajkářství v Žamberku, ale její úspěch závisel na překonání organizačních a logistických překážek, zejména v oblasti zajištění kvalitního a dostupného materiálu.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: f0cabc62-7a9c-4b61-8eea-6f8430caeb91
+chunk id: 209d1e65-8d61-42e3-9a09-5c160ab7f39c
+chunk id: 82de2c8c-335f-44ab-948a-6d64410f1f87
+chunk id: c07cb4f0-98f8-47bf-82d6-a92b565d2de7
+chunk id: d9523496-721a-4560-86da-39e11d3a63bd
+Getting neighbors
+DEBUG: Context length (chars): 13687
+rag answer: The provided documents do not directly address the specific situation of the Polish government's efforts to support the Czech minority in Volhynia regarding education and culture. They offer a broader context of minority education policies in Poland, but lack details about Volhynia specifically. However, we can infer some potential reasons and connections based on the general information provided and historical context. Here's a breakdown of what we can deduce, combining information from the documents with broader historical knowledge:
+
+**1. General Context from the Documents:**
+
+*   **Legal Framework for Minority Education:** Document 5 outlines Poland's legal framework for minority education, emphasizing the obligation to provide education in minority languages based on the number of students requesting it. This framework was established to comply with international conventions (Geneva Convention) and Poland's own constitution.
+*   **Desire for International Legitimacy:** Poland, especially in the interwar period, was keen to demonstrate its commitment to minority rights to gain international recognition and legitimacy after World War I and the redrawing of borders. Supporting minority cultures, including education, was a way to project a positive image.
+*   **Complex Minority Landscape:** Poland's post-WWI borders encompassed a diverse population, including significant Ukrainian, Belarusian, German, and Czech minorities. Managing these groups and preventing conflict was a key political challenge.
+
+**2. Potential Reasons for Support of the Czech Minority in Volhynia (Inferred from General Context & Historical Knowledge):**
+
+*   **Small but Visible Minority:** While the Czech population in Volhynia was likely smaller than Ukrainian or Polish, their presence was still recognized. Supporting their education and culture could have been a symbolic gesture to demonstrate inclusivity.
+*   **Strategic Considerations:**  The Polish government might have seen the Czech community as potentially sympathetic to Poland's interests, especially given the complex geopolitical situation in Eastern Europe.
+*   **Avoiding Conflict:** Supporting the Czech minority could have been a way to prevent potential resentment and conflict within the region.
+*   **Cultural Affinity:** There might have been a degree of cultural affinity between Poles and Czechs, making it easier to justify support for their cultural institutions.
+
+**3. Connection to Demographic Changes and Political Activities:**
+
+*   **Volhynia's Demographic Shifts:** Volhynia's demographics were in flux.  While predominantly Ukrainian, there were also Polish settlers (often encouraged by Polish government policies) and smaller minorities like Czechs.  Supporting the Czech community could have been part of a broader strategy to solidify Polish presence and influence in the region.
+*   **Polish Settlement Policies:** After World War I, Poland actively encouraged Polish settlement in Volhynia to counter Ukrainian claims to the territory. Supporting the Czech community might have been a way to integrate them into the Polish settlement effort.
+*   **Ukrainian Nationalism:** The rise of Ukrainian nationalism in the interwar period created tensions in Volhynia. Supporting minority groups like the Czechs could have been a way to counterbalance Ukrainian nationalist sentiment.
+*   **Political Activities:** The Czech community in Volhynia likely had its own political organizations and cultural associations. The Polish government might have engaged with these organizations to gain their support or to influence their activities.
+
+**Limitations:**
+
+*   **Lack of Specific Information:** The provided documents do not offer specific details about the extent of Polish support for the Czech minority in Volhynia.
+*   **Complex Historical Context:** The history of Volhynia is complex and fraught with conflict. Polish-Ukrainian relations were often strained, and the situation of minorities was often precarious.
+
+
+
+To get a more detailed understanding of the specific situation of the Czech minority in Volhynia, you would need to consult specialized historical sources that focus on the region and its ethnic groups.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 1cc5db2a-dbb7-4fbd-9d1f-4de913045da1
+chunk id: 611500d0-93c3-474e-bcb6-0b40f1058c32
+chunk id: 049fd987-0ebb-4056-99e7-a4e6ccd76c99
+chunk id: 36c879b8-0337-47a6-83f0-27ef0c9f5471
+chunk id: 4895cbad-9d5d-400d-a829-f3e99156edee
+Getting neighbors
+DEBUG: Context length (chars): 7714
+rag answer: Nedostatečná a nedokonalá právní úprava a organizační nejednotnost bránily konstituování stabilní základny filmového podnikání [doc1]. Převod nemovitostí sloužících filmu nebylo možno provésti v pozemkových knihách a právní nejistota znemožňovala konstituování stabilní základny filmového podnikání [doc1]. Organizační nejednotnost a nesoulad mezi jednotlivými složkami státního filmu, udržované různými politickými tendencemi, zabraňovaly řádnému plánování investic a vývoje [doc1]. Tyto faktory udržovaly filmové podnikání ve stavu, který bránil jeho zdravému rozvoji a pokroku [doc1].
+
+Únor 1948 zlikvidoval uměle udržované nepříznivé podmínky a podvratné snahy a umožnil tak rychlou a cílevědomou konsolidaci státního filmu [doc1]. Výnosem z 26. února 1948 ministr informací zrušil opatření, která poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu a rozhodl, že jediným nositelem právní subjektivity je zestátněné filmové podnikání [doc1]. Tím byl dán základ pro konsolidaci státního filmu [doc1].
+
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 611500d0-93c3-474e-bcb6-0b40f1058c32
+chunk id: 1cc5db2a-dbb7-4fbd-9d1f-4de913045da1
+chunk id: 3d41ccd0-e3d3-4965-a5ac-1251d8613fef
+chunk id: a85319e4-624e-4fd7-8205-2b1f67bce384
+chunk id: 62b76708-8bd3-4a94-8b59-3033036a09e2
+Getting neighbors
+DEBUG: Context length (chars): 10556
+rag answer: Po únoru 1948 zrušil ministr informací výnosem z 26. února 1948 opatření, která poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu [doc1]. Tímto krokem byl přenesen jejich úkol na náměstky ústředního ředitele a ředitele úseků Československé filmové společnosti [doc1]. Tento postup měl za cíl vytvořit základní podmínky pro konsolidaci a jednotné řízení filmového průmyslu [doc1].
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakým způsobem ovlivnila první francouzská republika a Napoleon I. vojenské strategie Prusů, zejména generála Moltkeho, a jaké důsledky to mělo pro vojenskou kulturu a přístup k válce v Prusku?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 3e924ebd-7f9e-43c5-a84b-2652fdfd5953
+chunk id: af162a31-317e-480e-be23-14f7a05a71fb
+chunk id: fa437b50-312d-462b-91e5-65ba025b0df3
+chunk id: 38b7e804-0fb5-4e48-829e-13306526643d
+chunk id: 240a74b3-1bfa-4244-85ee-b7434e0831cd
+Getting neighbors
+DEBUG: Context length (chars): 13436
+rag answer: Podle textu, který jste poskytl, se zmiňuje, že první francouzská republika a Napoleon I. ovlivnili vojenské strategie Prusů. Konkrétně se uvádí, že:
+
+*   **Napoleon I. byl vzorem:** Pruská armáda se učila z Napoleonových strategií a taktik.
+*   **Moltkeho inspirace:** Generál Moltke, významná postava pruské armády, byl inspirován Napoleonem.
+*   **Vliv na vojenskou kulturu:** Napoleonův vliv vedl ke změně vojenské kultury a přístupu k válce v Prusku.
+
+Text neuvádí konkrétní detaily o tom, jakým způsobem to proběhlo, ale naznačuje, že Napoleonův úspěch a vojenské inovace byly pro Prusko zdrojem inspirace a učení.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky slavnosti, které se účastnil velkokníže Nikolaj Nikolajevič, na vztahy mezi českými účastníky a ruskými důstojníky a generály, a jak se tato událost odrazila na vnímání českého národa?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 4b53e75e-24db-4fe9-956b-8d15b50cd17e
+chunk id: ccac0a2c-c3c7-4341-acd4-3935a0d1b2bd
+chunk id: d6623a36-dc29-418f-8766-62de47a7bac5
+chunk id: 725dbee0-aa08-49d9-9036-d6ecfbe80a7e
+chunk id: f835f52f-062b-4cd6-8ca8-831ef088be45
+Getting neighbors
+DEBUG: Context length (chars): 12617
+rag answer: Žádný z poskytnutých dokumentů se nezabývá událostí, ve které by se účastnil velkokníže Nikolaj Nikolajevič. Dokumenty se týkají Josefa Jungmanna, slovenského národního hnutí, a obecně politické situace v Čechách a na Moravě na počátku 20. století. Proto nemohu odpovědět na vaši otázku na základě těchto zdrojů.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"slavnost velkokníže Nikolaj Nikolajevič" AND "český národ" AND "ruský důstojník" AND "vztahy" AND "vnímání"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"účast velkokníže Nikolaj Nikolajevič" AND "česká společnost" AND "ruská armáda" AND "interakce" AND "dopad"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"10. 12. 1863" AND "česko-ruské vztahy" AND "kulturní výměna" AND "politický kontext" AND "habsburská monarchie"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky slavnosti, které se účastnil velkokníže Nikolaj Nikolajevič, na vztahy mezi českými účastníky a ruskými důstojníky a generály, a jak se tato událost odrazila na vnímání českého národa?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: d6623a36-dc29-418f-8766-62de47a7bac5
+chunk id: 463b9f02-1e9e-442e-b9d7-f1c0badf616e
+chunk id: 291c4e96-972e-489a-ae57-7f6b721241d2
+chunk id: ccac0a2c-c3c7-4341-acd4-3935a0d1b2bd
+chunk id: 725dbee0-aa08-49d9-9036-d6ecfbe80a7e
+chunk id: 75fcb29b-6316-4d98-9f11-5e216918099f
+chunk id: dee232bc-6cc8-482b-b48e-654a4fe651b9
+chunk id: b10f1bf6-364f-48d7-a614-60b366d7b386
+chunk id: 35085ed0-0d1f-4627-8883-b4b00fb75393
+chunk id: d3d5254e-01e5-4731-92ed-34dd9961404c
+chunk id: 98cf534b-1eb2-485a-b723-7de7bee143c5
+chunk id: ccac0a2c-c3c7-4341-acd4-3935a0d1b2bd
+chunk id: d6623a36-dc29-418f-8766-62de47a7bac5
+chunk id: 725dbee0-aa08-49d9-9036-d6ecfbe80a7e
+chunk id: 21dc67bc-632a-41f0-ba38-8f4c88116cdc
+chunk id: d07866fe-36e7-48e4-85f8-f3ba6f908062
+chunk id: 7793a500-402a-4531-8a7f-20459f3c8940
+chunk id: f23898a4-bb8d-4c78-bbde-f90c4764a017
+chunk id: 91b961d4-44c2-44a0-bf71-8543593a0a53
+chunk id: b72f7989-76c2-4b34-ad14-40351983e3d5
+chunk id: 18f51a83-0eaf-41cf-86ff-e75eddc91633
+chunk id: 99bcb949-be90-4eeb-9c81-b9d73d406f9d
+chunk id: bb7b8c50-2f7c-4a68-a116-c2cb623696bd
+chunk id: eafdf50c-83cb-4c79-ac34-82b4d1ef054c
+chunk id: 3a4b2da8-08b4-4025-aeaa-3c23da7b00f3
+chunk id: 33d888ed-9b65-4dda-8354-98dca199ed1b
+chunk id: cfe67b9c-0ee2-4a89-a325-fff018f9c50e
+chunk id: c4d28f94-3c88-4b44-846e-805fea673af6
+chunk id: e1a015e7-3be5-41aa-871c-42e60a7cae43
+chunk id: cda837a2-2fc3-484c-bdd6-a2e110e043f2
+chunk id: 4b53e75e-24db-4fe9-956b-8d15b50cd17e
+chunk id: ccac0a2c-c3c7-4341-acd4-3935a0d1b2bd
+chunk id: d6623a36-dc29-418f-8766-62de47a7bac5
+chunk id: 725dbee0-aa08-49d9-9036-d6ecfbe80a7e
+chunk id: f835f52f-062b-4cd6-8ca8-831ef088be45
+chunk id: 75fcb29b-6316-4d98-9f11-5e216918099f
+chunk id: b83b9555-2a4b-4e9c-aa8b-2da27488fb8a
+chunk id: 29d267d8-ec77-4db9-89ae-965c556464c1
+chunk id: dee232bc-6cc8-482b-b48e-654a4fe651b9
+chunk id: b10f1bf6-364f-48d7-a614-60b366d7b386
+Getting neighbors
+DEBUG: Context length (chars): 13275
+rag answer: Based on the provided texts, here's an analysis of the impact of the event involving Grand Duke Nicholas Nikolaevich, focusing on the relationships between Czechs and Russians and the perception of the Czech nation.
+
+**Analysis based on Document 3 ("Nový deník"):**
+
+*   **Initial Enthusiasm and Disappointment:** The document reveals that Slovaks initially celebrated the October coup and were promised autonomy, which was even signed into the state document by Masaryk during his time in America. However, this initial enthusiasm quickly turned to disappointment.
+*   **Growing Tension and Mistrust:** The text highlights a growing tension between Slovaks and the Prague-based government (referred to as "pražské sebránky"). This tension stemmed from perceived mistreatment and a lack of genuine autonomy.
+*   **Hlinka's Leadership and Nationalism:** The document emphasizes the rise of Hlinka as a leader who championed Slovak interests and nationalism. He is portrayed as a defender of the Slovak people against perceived threats, both moral and political.
+*   **The Event and its Significance:** The event involving Grand Duke Nicholas Nikolaevich is not explicitly detailed in this document. However, the overall tone suggests that such events, while potentially symbolic of unity, were likely viewed with increasing skepticism by those who felt marginalized or betrayed by the central government. The document implies that the event would have been seen as a performance of unity rather than a genuine reflection of the relationship between Czechs and Russians.
+*   **Perception of the Czech Nation:** The document suggests that the Czech nation, or at least its leadership in Prague, was viewed with increasing suspicion and resentment by some Slovaks. They were seen as imposing their will and neglecting the interests of the Slovak people.
+
+**Overall Interpretation:**
+
+The event involving Grand Duke Nicholas Nikolaevich, while potentially intended to foster unity, likely exacerbated existing tensions. It would have been viewed by some as a superficial display of solidarity that did not address the underlying issues of autonomy and representation. The event likely reinforced the perception among some Slovaks that the Czech leadership was more interested in maintaining a facade of unity than in genuinely addressing the concerns of the Slovak people.
+FINISHING: Answer satisfactory or max retries reached.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké byly důsledky touhy tvůrčího Geniuse stát se tvůrcem a vyrovnat se bohu, a jak se tato touha projevila v jeho interakci s lidmi a jejich následném chování?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+chunk id: 14f06cea-1e02-45bb-a711-7713e8931047
+chunk id: b9e2e6fe-9144-4d64-96f0-c4453c92136c
+chunk id: 3794e01c-7281-4274-9c4c-02332223ee2e
+chunk id: 217dc907-2875-482d-97ba-551ace201e3a
+chunk id: d65d90a6-af8c-40fa-82a4-3a61a3f64ea2
+Getting neighbors
+DEBUG: Context length (chars): 12094
+rag answer: Na základě poskytnutých textů lze rekonstruovat následující důsledky touhy tvůrčího Geniuse stát se tvůrcem a vyrovnat se Bohu, a jak se tato touha projevila v jeho interakci s lidmi:
+
+**Důsledky a projevy touhy Geniuse:**
+
+*   **Změna v chování a interakci s lidmi:** Touha Geniuse stát se tvůrcem a vyrovnat se Bohu vedla k tomu, že se odvrátil od původního ráje a začal interagovat s lidmi. Tato interakce však nebyla harmonická.
+*   **Darování meče a následná kletba:** Genius daroval lidem meč, což mělo být něco pozitivního, ale tento dar se proměnil v kletbu, protože lidé ho použili k vraždění a nenávisti.
+*   **Učení lásky a jeho zvrácení:** Genius se snažil naučit lidi čisté lásce, ale i toto učení bylo zvráceno. Lidé ve jménu lásky vraždili, pálili hranice a ničili města.
+*   **Zklamání a návrat:** Zklamaný Genius se vrátil do bývalého ráje, ale nemohl se vrátit, protože brány byly zavřené.
+*   **Změna v roli a vlivu:** Genius se snažil vést lidi k spáse, ale jeho vliv byl zvrácen a jeho dar se stal zdrojem utrpení.
+
+**Vliv na lidské chování:**
+
+*   **Vražednost a nenávist:** Touha po moci a vyrovnání se Bohu vedla lidi k vraždění a nenávisti.
+*   **Zvrácení ideálů:** I ušlechtilé ideály, jako je láska, byly zvráceny a použity k špatným účelům.
+*   **Závislost na vnějších zdrojích:** Lidé se spoléhali na vnější zdroje moci a učení, místo aby hledali vnitřní sílu a moudrost.
+*   **Ztráta harmonie:** Lidské chování bylo narušeno a lidé ztratili harmonii s sebou samými a s okolním světem.
+
+Celkově lze říci, že touha Geniuse stát se tvůrcem a vyrovnat se Bohu vedla k řadě negativních důsledků pro lidstvo. Tato touha, pokud není řízena moudrostí a láskou, může vést k destrukci a utrpení.
+FINISHING: Answer satisfactory or max retries reached.
+DONE: incremental_adaptive_v16 saved.
+All experiments completed.
