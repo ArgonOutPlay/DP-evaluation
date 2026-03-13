@@ -1,0 +1,11 @@
+{
+    "faithfulness": 0.7294363636363635,
+    "answer_relevancy": 0.7541272727272728,
+    "answer_correctness": 0.5133000000000001,
+    "context_precision": 0.37424545454545455,
+    "context_recall": 0.45454545454545453,
+    "context_sufficiency": 0.36363636363636365,
+    "framework": "ragas",
+    "experiment": "web_incremental_adaptive_v19_results",
+    "judge": "gpt-4o-mini"
+}

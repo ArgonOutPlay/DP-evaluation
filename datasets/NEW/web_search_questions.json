@@ -2,7 +2,7 @@
     {
         "question_id": "hum_001",
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
-        "question": "Kdy naposled vyhrál Serral mistrovství světa ve StarCraft 2?",
+        "question": "Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?",
         "ground_truth": "Serral vyhrál mistrovství světa ve StarCraft II v roce 2025, konkrétně Esports World Cup 2025."
     },
     {
@@ -14,14 +14,14 @@
     {
         "question_id": "hum_003",
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
-        "question": "What software company is headquartered in Redmond, Washington?",
-        "ground_truth": "Microsoft Corporation."
+        "question": "Kdo byl nejbohatším člověkem na světě v roce 2025?",
+        "ground_truth": "Nejbohatším člověkem na světě byl Elon Musk."
     },
     {
         "question_id": "hum_004",
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
         "question": "Who was the Ancient Greek God of the Sun?",
-        "ground_truth": "The Ancient Greek God of the Sun was Apollo."
+        "ground_truth": "The Ancient Greek God of the Sun was Helios."
     },
     {
         "question_id": "hum_005",
@@ -58,5 +58,29 @@
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
         "question": "Ve kterém sci-fi seriálu se objevuje policejní budka zvaná TARDIS?",
         "ground_truth": "Ve seriálu \"Doctor Who\" se objevuje policejní budka zvaná TARDIS."
+    },
+    {
+        "question_id": "hum_011",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Kdy USA napadlo Venezuelu?",
+        "ground_truth": "Podle dostupných informací zahájily Spojené státy americké vojenskou akci označovanou jako Operace Absolutní odhodlání (Operation Absolute Resolve) dne 3. ledna 2026."
+    },
+    {
+        "question_id": "hum_012",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Kdy USA napadlo Venezuelu?",
+        "ground_truth": "Podle dostupných informací zahájily Spojené státy americké vojenskou akci označovanou jako Operace Absolutní odhodlání (Operation Absolute Resolve) dne 3. ledna 2026."
+    },
+    {
+        "question_id": "hum_013",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Jak dlouho pracoval Václav Moravec v České televizi?",
+        "ground_truth": "Václav Morvac pracoval v České televizi přibližně 21 let."
+    },
+    {
+        "question_id": "hum_014",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "When was Resident Evil Requiem released?",
+        "ground_truth": "Resident Evil Requiem was released 27. february 2026."
     }
 ]

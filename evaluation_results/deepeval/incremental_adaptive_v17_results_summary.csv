@@ -1,0 +1,8 @@
+experiment,judge,answer_relevancy,faithfulness,contextual_precision,contextual_recall,framework,pass_rate
+incremental_adaptive_v17_results,gpt-4o-mini,0.8595202020202022,0.8404484848484848,0.8461444444444444,0.8937474747474747,deepeval,84.85
+
+pass rate
+Answer Relevancy: 97.00% pass rate
+Faithfulness: 98.99% pass rate
+Contextual Precision: 91.00% pass rate
+Contextual Recall: 92.10% pass rate

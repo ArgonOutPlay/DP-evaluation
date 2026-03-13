@@ -1,0 +1,258 @@
+Found 1 configurations. Starting batch processing...
+Running config: web_incremental_adaptive_v19
+Adaptive RAG version 19
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4800
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Serral" AND "StarCraft 2" AND "World Championship" AND ("2019" OR "2020" OR "2021" OR "2022" OR "2023")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Serral" AND "StarCraft 2" AND ("světový šampionát" OR "mistrovství světa" OR "finále") AND ("vítězství" OR "výhra")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"StarCraft 2" AND ("profesionální turnaje" OR "e-sport") AND ("výsledky" OR "historie" OR "sezóna") AND ("2010" TO "2024")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 1  original doc number: 10
+DEBUG: Context length (chars): 924
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Rewriting web search queries, Error: name 'keywords' is not defined
+Trying to search web using DuckDuckGo
+Searching web: Serral StarCraft 2 championship
+Searching web: Serral tournament results
+Searching web: StarCraft 2 world champion
+Searching web: Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?
+Internet search result: id=UUID('b546d8d6-fc95-4a3d-b1a0-d0b47a03fd3f') title='DuckDuckGo Search' text='*   **2018:** Serral vyhrál WCS 2018 Global Finals (World Championship Series) s odměnou 280 000 $.\n*   **2018:** Serral vyhrál GSL vs The World.\n*   **2022:** Serral vyhrál Intel Extreme Masters Katowice.\n*   **2021:** Serral vyhrál PiG Sty Festival s výhrou 2 400 $.' start_page_id=UUID('b546d8d6-fc95-4a3d-b1a0-d0b47a03fd3f') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('b546d8d6-fc95-4a3d-b1a0-d0b47a03fd3f') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('b546d8d6-fc95-4a3d-b1a0-d0b47a03fd3f'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 405
+rag answer: Serral vyhrál WCS 2018 Global Finals (World Championship Series) v roce 2018 s odměnou 280 000 $ [doc1].
+
+FINISHING: Answer satisfactory.
+[]
+Detected language: eng
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='How much the flash costs in CS2' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4266
+rag answer: I am sorry, but the provided documents do not contain information about the cost of a "flash" in CS2. The documents discuss various topics such as traffic planning, tours with associated costs, and conveyor belt costs, but do not mention "CS2" or "flash."
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Counter-Strike 2 flash grenade price cost"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Counter-Strike 2 utility item expenditure value"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"What factors influenced the pricing of in-game items in Counter-Strike and its sequels?"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='How much the flash costs in CS2' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 0  original doc number: 10
+DEBUG: Context length (chars): 0
+rag answer: Regarding the cost of the flash in CS2, the provided context does not contain this information. Therefore, I am unable to answer your question.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Rewriting web search queries, Error: name 'keywords' is not defined
+Trying to search web using DuckDuckGo
+Searching web: flash grenade cost CS2
+Searching web: CS2 economy guide
+Searching web: counter-strike 2 weapon prices
+Searching web: How much the flash costs in CS2
+Internet search result: id=UUID('adc81aae-1ec0-4769-8c56-1d47e528163c') title='DuckDuckGo Search' text='*   **$200:** Cena flashbang granátu v CS2.\n*   **$200:** Cena flashbang granátu pro teroristy i protiteroristy.\n*   **$300:** Cena HE granátu v CS2.\n' start_page_id=UUID('adc81aae-1ec0-4769-8c56-1d47e528163c') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('adc81aae-1ec0-4769-8c56-1d47e528163c') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('adc81aae-1ec0-4769-8c56-1d47e528163c'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 287
+rag answer: Regarding the cost of a flashbang in CS2, it costs **$200** [doc 1]. It costs the same for both terrorists and counter-terrorists [doc 1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: eng
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='What software company is headquartered in Redmond, Washington?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4845
+rag answer: Regarding software companies, the context mentions that MS Excel 2010 is from MicroSoft, Redmond, USA [doc 4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: eng
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Who was the Ancient Greek God of the Sun?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4572
+rag answer: Regarding the Ancient Greek God of the Sun, Helios was the Greek god of the sun [doc 3]. He was the son of Titan Hyperion and Titaness Theia [doc 3]. Helios was a beautiful, mighty, and lavish god with sparkling eyes [doc 3].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak se jmenoval první umělý satelit vypuštěný do vesmíru?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5240
+rag answer: První umělý satelit, který byl vypuštěn do vesmíru, byl nazýván "sputnik" [doc5]. Ruské slovo "sputnik" bylo přijato ve všech zemích jako výraz obdivu a nadšení [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='V jakém městě se nachází NFL Hall of Fame? ' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4965
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"NFL Hall of Fame" AND "umístění" AND "město"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"National Football League" AND "síň slávy" AND "lokalita"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"sportovní památník" AND "fotbal" AND "historické místo" AND "USA"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='V jakém městě se nachází NFL Hall of Fame? ' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 1  original doc number: 10
+DEBUG: Context length (chars): 883
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Rewriting web search queries, Error: name 'keywords' is not defined
+Trying to search web using DuckDuckGo
+Searching web: NFL Hall of Fame
+Searching web: Canton Ohio
+Searching web: football hall of fame location
+Searching web: V jakém městě se nachází NFL Hall of Fame? 
+Internet search result: id=UUID('0621b889-ada5-4e6c-a07f-3dd602b3df3f') title='DuckDuckGo Search' text='*   **Canton, Ohio** - NFL Hall of Fame se nachází v Canton, Ohio.\n*   **Canton–Massillon** - Metropolitní oblast Canton–Massillon má odhadem 400 551 obyvatel.\n*   **Northeast Ohio** - Canton se nachází v severovýchodní Ohiu.\n*   **Stark County** - Canton je sídlem okresu Stark.' start_page_id=UUID('0621b889-ada5-4e6c-a07f-3dd602b3df3f') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('0621b889-ada5-4e6c-a07f-3dd602b3df3f') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('0621b889-ada5-4e6c-a07f-3dd602b3df3f'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 416
+rag answer: NFL Hall of Fame se nachází v Canton, Ohio [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaká televizní sério od HBO adaptuje události z roku 1986 související z havárií jaderné elektrárny na Ukraině? ' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4927
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Černobyl" OR "Černobylská katastrofa" OR "Černobyl" AND "HBO" AND "televizní seriál" AND "adaptace"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Černobyl" AND "1986" AND "jaderná elektrárna" AND "Ukrajina" AND "filmová adaptace" OR "televizní zpracování"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"televizní produkce" AND "jaderné havárie" AND "Východní Evropa" AND "80. léta" AND "politický kontext"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaká televizní sério od HBO adaptuje události z roku 1986 související z havárií jaderné elektrárny na Ukraině? ' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 5  original doc number: 10
+DEBUG: Context length (chars): 4842
+rag answer: Nina, volyňská Češka, začala svůj životní příběh na Ukrajině nedaleko Černobylu [doc4]. Černobylská katastrofa urychlila přesídlení její rodiny zpět do Čech [doc4]. Kino Evald v Praze uvedlo přehlídku nekomerčních a nezávislých filmů kabelové televize HBO [doc3].
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Rewriting web search queries, Error: name 'keywords' is not defined
+Trying to search web using DuckDuckGo
+Searching web: HBO série Černobyl
+Searching web: Černobylská katastrofa 1986
+Searching web: miniseriály o jaderných nehodách
+Searching web: Jaká televizní sério od HBO adaptuje události z roku 1986 související z havárií jaderné elektrárny na Ukraině? 
+Internet search result: id=UUID('0470087f-198b-4b02-99de-2cdff9901cfa') title='DuckDuckGo Search' text='*   **Název série:** Černobyl\n*   **Produkční společnost:** HBO a Sky (koprodukce)\n*   **Formát:** Pětidílná minisérie\n*   **Rok událostí, které popisuje:** 1986\n*   **Popis:** Rekonstruuje příběh jaderné havárie v Černobylské jaderné elektrárně na Ukrajině.\n*   **Premiéra:** Česká premiéra v úterý večer na kanálu HBO.\n' start_page_id=UUID('0470087f-198b-4b02-99de-2cdff9901cfa') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('0470087f-198b-4b02-99de-2cdff9901cfa') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('0470087f-198b-4b02-99de-2cdff9901cfa'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 458
+rag answer: Televizní série od HBO a Sky (koprodukce) s názvem Černobyl rekonstruuje příběh jaderné havárie v Černobylské jaderné elektrárně na Ukrajině [doc1]. Jedná se o pětidílnou minisérii [doc1]. Česká premiéra proběhne v úterý večer na kanálu HBO [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: eng
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Which composer pioneered the 12-tone technique?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4912
+rag answer: Regarding composers, Arnold Schönberg pioneered the 12-tone technique [doc 3]. He was a composer whose work the Dreililienverlag published [doc 4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Mateřské mléko jakého zvířete je přirozeně růžové?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4935
+rag answer: V dostupných pramenech není zmíněno, jaké zvíře produkuje růžové mateřské mléko. [doc1], [doc2], [doc3], [doc4], [doc5]
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Ve kterém sci-fi seriálu se objevuje policejní budka zvaná TARDIS?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4561
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Doctor Who" AND "TARDIS" AND "police box"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Doctor Who" AND "TARDIS" AND "time machine" AND "exterior"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"British science fiction television" AND "time travel" AND "public telephone box" AND "1960s"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Ve kterém sci-fi seriálu se objevuje policejní budka zvaná TARDIS?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 0  original doc number: 10
+DEBUG: Context length (chars): 0
+rag answer: Policejní budka zvaná TARDIS se objevuje ve sci-fi seriálu Doctor Who [doc 1]. Jedná se o zařízení, které je vnějšími prostory maskované jako britská policejní budka z 1960. a umožňuje cestování v čase a prostoru [doc 1]. TARDIS je zkratka pro "Time and Relative Dimension in Space" [doc 1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je autorem článku CRAG (Corrective Retrieval Augmented Generation)?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4890
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery.
+MULTI QUERY MODE
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"CRAG" AND ("Corrective Retrieval Augmented Generation") AND autor AND publikace' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"CRAG" AND ("Corrective Retrieval Augmented Generation") AND "spisovatel" AND "článek"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Generativní modely" AND "retrieval augmented generation" AND "vývoj" AND "vědci" AND "výzkum"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je autorem článku CRAG (Corrective Retrieval Augmented Generation)?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 1  original doc number: 10
+DEBUG: Context length (chars): 1015
+rag answer: V dostupných pramenech chybí podklady k tomuto tématu.
+
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Rewriting web search queries, Error: name 'keywords' is not defined
+Trying to search web using DuckDuckGo
+Searching web: CRAG authors
+Searching web: Corrective Retrieval Augmented Generation paper
+Searching web: CRAG model development
+Searching web: Kdo je autorem článku CRAG (Corrective Retrieval Augmented Generation)?
+Internet search result: id=UUID('255b6795-8acd-4045-826a-e5b09521413c') title='DuckDuckGo Search' text='Z textu nelze jednoznačně určit autora článku CRAG (Corrective Retrieval Augmented Generation). Jsou zde uvedeny následující informace:\n\n*   Článek je publikován jako "paper".\n*   K dispozici je repozitář s "source code for the paper".\n*   Jazyk je popisován jako "framework" a "approach".' start_page_id=UUID('255b6795-8acd-4045-826a-e5b09521413c') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('255b6795-8acd-4045-826a-e5b09521413c') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('255b6795-8acd-4045-826a-e5b09521413c'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 426
+rag answer: Z textu nelze jednoznačně určit autora článku CRAG (Corrective Retrieval Augmented Generation) [doc1]. Je uvedeno, že se jedná o "paper" s dostupným repozitářem "source code for the paper" [doc1].
+
+FINISHING: Answer satisfactory.
+DONE: web_incremental_adaptive_v19 saved.
+All experiments completed.

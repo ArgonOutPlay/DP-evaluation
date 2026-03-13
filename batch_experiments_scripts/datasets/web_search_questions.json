@@ -2,7 +2,7 @@
     {
         "question_id": "hum_001",
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
-        "question": "Kdy naposled vyhrál Serral mistrovství světa ve StarCraft 2?",
+        "question": "Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?",
         "ground_truth": "Serral vyhrál mistrovství světa ve StarCraft II v roce 2025, konkrétně Esports World Cup 2025."
     },
     {

@@ -1,0 +1,902 @@
+[
+    {
+        "question":"Jaké byly důsledky odhalení pomníku Josefa Dobrovského v Praze na vnímání jeho odkazu a jak se to projevilo ve veřejném prostoru města?",
+        "answer":"The unveiling of the monument to Josef Dobrovský in Prague had the following consequences:\n\n*   The monument was intended to demonstrate immense respect and love for the great educator Josef Dobrovský, with which the Czech people look at their awakener with gratitude. [doc 1], [doc 5]\n*   The monument was intended to be a celebration for the entire nation and a dignified representation of the Beseda. [doc 5]\n*   The monument was intended to be a source of pride and adornment not only for Prague but for the entire Czech nation. [doc 5]\n*   The monument was intended to be a celebration for the entire nation and a dignified representation of the Beseda. [doc 5]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky zavedení říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a jaké problémy tento zákon způsobil v souvislosti s pohyblivými třídami obyvatelstva a jejich právem domovským?",
+        "answer":"According to [doc2], [doc3], the introduction of the Imperial Law of December 10, 1863, harmed many poor rural communities to the benefit of wealthy and growing towns and industrial areas. This law caused people from other communities to be denied the right of domicile, forcing them to seek help from their domicile community, where they were regularly completely unknown.\n\nFurthermore, according to [doc2], [doc3], the new law does not completely eliminate these shortcomings, because a continuous residence of 10 years is too long for mobile population groups who, due to current economic and social conditions, are forced to reside outside the domicile community.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8333,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky nesprávného použití nástrojů při odstraňování ušního mazu a jaké preventivní opatření je doporučeno k minimalizaci rizika infekce?",
+        "answer":"According to [doc3], attempting to remove earwax with unsuitable tools can lead to scratching and crushing the ear canal, tearing the eardrum, injuring the ossicles, or even pushing the object into the drum cavity. [doc3] also mentions cases where such attempts have ended in death.\n\nThere is no information about preventative measures to minimize the risk of infection in the provided documents.",
+        "answer_relevancy":0.75,
+        "faithfulness":1.0,
+        "contextual_precision":0.3333,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké jsou důvody pro použití různých léčebných metod u novorozenců a dospělých s očními infekcemi, a jaké jsou potenciální důsledky nesprávného použití těchto metod?",
+        "answer":"According to the provided documents, here's a breakdown of the differences in treatment approaches for eye infections in newborns and adults, and potential consequences:\n\n*   **Newborns:** They are very sensitive to opium, so its administration should not be left to laypeople [doc 2]. It is important to also focus on the overall condition of the baby [doc 2].\n*   **Adults:** Gonorrhoic conjunctivitis is much more difficult to treat in adults, and even seemingly mild cases can lead to blindness despite careful treatment [doc 2]. In such cases, the patient must be sent to the hospital for treatment [doc 2].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?",
+        "answer":"Here's an answer based solely on the provided context:\n\nThe Communist Party in Germany was burdened by its \"complete spiritual dependence on Russia\" [doc 1]. A conference of Communist Parties in Germany noted this and demanded: 1) \"complete material independence from the Communist International\" and 2) \"subordination of all literature issued by foreign Communist bodies to the joint control of the German party leadership\" [doc 1]. These demands arose because the Communist Party in Europe, including Germany, had ended an era of \"great post-war expansion\" and suffered \"heavy losses\" [doc 3], [doc 3]. This situation was analyzed by the editor of \"Rudý právo,\" Guttmann, who attributed the Communist Party's problems to the defeat of the Communist Party in Germany. However, because this view did not align with the Communist International, Guttmann and his supporters were expelled from the party [doc 3].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8,
+        "contextual_precision":0.0,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky kritické situace stavebních živnostníků, na kterou poukázali řečníci jako stavitel Havlena a tajemník Pekárek, a jak tato situace souvisí s politickými změnami v Rumunsku a Ukrajině, které jsou zmíněny v textu?",
+        "answer":"According to the provided text, here's a summary of the consequences of the critical situation of construction businesses and its relation to political changes:\n\n*   **Consequences of the critical situation:** The critical situation of construction businesses has led to \"a severe crisis\" with \"complete stagnation in construction\" [doc2]. This stagnation results in \"mass restriction and stopping of work\" in factories, causing \"irreplaceable material damage\" to industry, workers, and the state [doc2].\n*   **Political changes in Romania and Ukraine:** The text mentions that there is a kingdom in Romania, but also refers to a near-agreed deal of 300,000 tons of Silesian coal and requests for an additional 100,000 tons by Hungarians [doc1]. It also mentions that in the past, the power in Romania was held by nobility, who were almost a parliamentary element [doc1]. However, the text does not elaborate on how these political changes relate to the critical situation of construction businesses [doc1].",
+        "answer_relevancy":0.5,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":0.5,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů na konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?",
+        "answer":"Po únoru 1948 ministr informací zrušil opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu [doc1]. Rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání [doc1]. Tím byl dán základní předpoklad sjednocení a jednotného řízení veškeré činnosti v oblasti filmu [doc2].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.6667,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?",
+        "answer":"Here's a summary of the obstacles faced by the state film industry in Czechoslovakia before February 1948 and how the events of February 1948 helped to overcome them, based on the provided documents:\n\n**Obstacles Before February 1948:**\n\n*   **Soustavné, podvratné útoky:** The state film was subject to systematic subversive attacks [doc 4].\n*   **Návrh zákona o vynětí kin:** A draft law aimed at exempting Sokol cinemas and others from state ownership threatened the principle of exclusive state operation of film [doc 4].\n*   **Štvavé pomluvy v tisku, zákulisní politické zásahy a zlovolné interpelace:**  Provocative slander in the press, behind-the-scenes political interventions, and malicious interpellations in the National Assembly threatened the very existence of the state film and hindered the development of possibilities created by nationalization [doc 4].\n*   **Nezdravý dualismus:** An unhealthy dualism, fostered by centrifugal forces in Slovakia, hindered the even development of film throughout the republic [doc 3].\n*   **Uměle udržované nepříznivé podmínky:** Artificially maintained unfavorable conditions that hindered healthy development and progress and maintained the hope of a reversal of the nationalization process for reactionary forces [doc 2].\n\n**How February 1948 Contributed to Overcoming These Obstacles and Consolidating the Film Industry:**\n\n*   **Likvidace nepříznivých podmínek:** The February 1948 events eliminated these artificially maintained unfavorable conditions and all subversive efforts [doc 2].\n*   **Sjednocení a jednotné řízení:** It laid the foundation for unification and unified management of all activities in the field of film [doc 3].\n*   **Zrušení opatření:** A decree from the Minister of Information on February 26, 1948, abolished measures that provided individual authorized representatives and sectional directors with separate legal personality [doc 2].\n*   **Vytvoření podmínek:** It created the necessary conditions for progressive development in film production and distribution [doc 3].\n*   **Odstranění nezdravého dualismu:** It eliminated the unhealthy dualism [doc 3].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky výrazného poklesu zastoupení jedle bělokoré a zvýšené účasti buku na strukturu a stabilitu Boubínského pralesa, a jaké opatření bylo navrženo k zajištění jeho přirozeného vývoje?",
+        "answer":"Here's a response based solely on the provided context:\n\nThe decrease in the representation of *Picea abies* (jedle bělokoré) and the increase in the participation of *Fagus sylvatica* (buk) has led to a significant change in the structure and stability of the Boubínský prales [doc 1], [doc 5]. The dominant position in the forest has been maintained by *Picea abies* (smrk) [doc 1], [doc 5]. A management plan has been proposed for the reserve [doc 5]. It is recommended to maintain the fencing in operational condition and, if possible, to hunt or drive away game that enters the forest [doc 2]. No intentional interventions should be carried out in the forest [doc 2].",
+        "answer_relevancy":0.875,
+        "faithfulness":1.0,
+        "contextual_precision":0.8667,
+        "contextual_recall":0.6667,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky změn ve složení stromového patra Boubínského pralesa mezi lety 1972 a 1996, zejména s ohledem na pokles zastoupení jedle a nárůst buku, a jaké managementové kroky byly navrženy pro budoucí obnovu populace jedle bělokoré a smrku?",
+        "answer":"Here's a summary of the changes in the Boubínský prales's tree canopy and proposed management steps, based solely on the provided context:\n\n**Changes in Tree Canopy (1972-1996):**\n\n*   There was a **significant decrease in the representation of fir (jedle)** and this was **replaced by an increased presence of beech (buk)** [doc 1], [doc 3].\n*   **Spruce (smrk)** maintained its dominant position in the forest [doc 1], [doc 3].\n*   The number of living trees **slightly decreased**, while the **volume of living tree trunks increased** [doc 1], [doc 3].\n*   Approximately **30% of the forest area** is covered by a continuous growth dominated by beech [doc 1], [doc 3].\n\n**Proposed Management Steps for Future Regeneration:**\n\n*   It is **predicted that the population of white fir (jedle bělokoré) and spruce will gradually regenerate** [doc 1], [doc 3].\n*   **Regeneration of fir and beech is separated in space** by the arrangement of the tree canopy [doc 4].\n*   Further management of the reserve was proposed [doc 3].\n*   It is recommended to **maintain the fencing in operational condition** and, if possible, hunt or drive away animals that enter the forest [doc 2].\n*   **No intentional interventions should be carried out** in the forest [doc 2].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.6667,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor souvisí s ekonomickými zájmy velkostatkářů a průmyslových kapitalistů?",
+        "answer":"Here's a breakdown of the reasons for and potential consequences of Prince Friedrich Schwarzenberg and the Central Economic Society's opposition to the planned construction of waterways, and how it relates to the economic interests of large landowners and industrial capitalists, based on the provided documents:\n\n*   **Reasons for Opposition:** [doc2], [doc3], [doc5] The Central Economic Society, under the leadership of Prince Friedrich Schwarzenberg, opposed the planned construction of waterways because they believed it should not be separated from a comprehensive reform of the country's water management. They argued that the waterways would only be truly beneficial for domestic production and trade after a systematic improvement of rivers and streams, and after the completion of all tasks and needs of land reclamation. [doc5] They also expressed concerns that the waterways might only benefit capitalists, open the door to foreign production, and flood the country with agricultural products from Hungary and the Balkan countries.\n*   **Potential Consequences:** [doc5] There was a concern that the enormous capital invested in the waterways might only benefit capitalists and open the door to foreign production.\n*   **Connection to Economic Interests:** [doc3], [doc5] The opposition was linked to the economic interests of large landowners. Prince Friedrich Schwarzenberg defended the interests of the country, emphasizing the need to prevent damage caused by the flooding of the Vltava and Labe rivers, which harms agriculture. [doc1] The opposition also involved a contrast between industrial capitalists and large landowners, with the landowners being described as \"much more powerful\" than \"smokestack barons.\"",
+        "answer_relevancy":1.0,
+        "faithfulness":0.6667,
+        "contextual_precision":0.8667,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a možné důsledky nesouhlasu Ústřední společnosti hospodářské, vedené knížetem Bedřichem Schwarzenbergem, se zamýšlenou stavbou vodních drah, a jak tento nesouhlas ovlivnil politickou situaci a reakce kapitalistů v kontextu plánů vlády Körbrovy?",
+        "answer":"Ústřední hospodářská společnost, vedená knížetem Bedřichem Schwarzenbergem, nesouhlasila se zamýšlenou stavbou vodních drah z obav o škody, které by rozvodňováním přítoků Vltavy a Labe mohly způsobit zemědělství [doc 1, doc 2, doc 3, doc 1]. Obávali se také, že by velké průplavy sloužily pouze prospěchu kapitalistů, otevřely by příchod cizozemské výrobě a zaplavily české země hospodářskými plodinami z Uher a zemí Balkánských [doc 1, doc 2, doc 3, doc 1].\n\nTento nesouhlas ovlivnil politickou situaci tím, že společnost jednomyslně přijala resoluci, která navrhovala nejprve regulaci řek a meliorace, a teprve poté zřizování velkých průplavů [doc 1, doc 2, doc 3, doc 1]. Kapitalisté se již ozvali, sjeli se, aby přijali resoluci, jíž vítají vládní předlohu o vodních drahách [doc 1, doc 2, doc 3, doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.6,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky znovuzavedení krajkářství ve Vamberku a okolních oblastech na konci 19. století, a jakou roli v tomto procesu hrály místní instituce a jednotlivci jako Ant. Selichar?",
+        "answer":"Here's an answer based solely on the provided context:\n\nAt the end of the 19th century, the introduction of lace-making in Vamberk and surrounding areas was prompted by a difficult economic situation. Specifically, after several years of poor harvests, poverty severely affected the poor mountain people, threatening the partial depopulation of the poorest communities [doc 1]. To provide the people with a new source of income in place of lost home weaving and exhausting bobbin lace production, lace-making was reintroduced [doc 1].\n\nAnt. Selichar, a leaseholder, proposed the reintroduction of lace-making [doc 1]. The municipal council established a professional lace-making school in 1889 to prevent the complete decline of this domestic industry [doc 1]. This school has thrived and has significantly contributed to maintaining and improving lace-making in the Vamberk region [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.7,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky zavedení ústřední tržnice krajek v Hradci Králové na rozvoj krajkářství v Žamberku a jaké překážky musely být překonány, aby se zajistil kvalitní materiál pro výrobu?",
+        "answer":"Here's an answer based solely on the provided context:\n\n**Impact on Krajkářství in Žamberk:**\n\n*   The Ústřední tržnice žambereckých krajek (Central Market of Žamberek lace) was founded in Hradec Králové as a result of a consultation meeting about the state of folk industry in Žamberk and Něm. Rybná. [doc 5]\n*   The market took over the management of an action that initially came from and was organized by the museum. [doc 3]\n\n**Challenges in Securing Quality Materials:**\n\n*   To ensure the products met every standard, good quality materials had to be used for processing, including Swiss and French silk. [doc 4]\n*   Attempts to replace the need for this material domestically have so far been unsuccessful. [doc 4]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.5,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyňsku v oblasti školství a kultury, a jak to souvisí s demografickými změnami a politickými aktivitami v regionu?",
+        "answer":"According to [doc1], there was a clear tendency on the part of Polish authorities to accommodate the relatively small Czech minority in Volhynia in terms of both education and culture. This was happening because of reports of oppression in Volhynia. The Russian statistics counted about 20,000 Czechs in Volhynia, while Polish statistics indicated 25,000 in the part of Volhynia that belonged to Poland. It is expected that the situation will progress in the near future. [doc5] states that Czech schools on former Russian territory in Volhynia and Podolia suffered under Polish rule, and they suffer from a lack of qualified teachers, especially for the Czech language.",
+        "answer_relevancy":0.5714,
+        "faithfulness":0.8571,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky zrušení právní subjektivity jednotlivých zplnomocněnců a úsekových ředitelů pro konsolidaci a jednotné řízení filmového průmyslu v Československu po únoru 1948?",
+        "answer":"Po únoru 1948 ministr informací zrušil výnosem opatření, jež poskytovala jednotlivým zplnomocněncům a úsekovým ředitelům samostatnou právní subjektivitu, a rozhodl, že jediným nositelem právní subjektivity v oblasti filmu je zestátněné filmové podnikání [doc2]. Tím byl dán základ pro konsolidaci státního filmu [doc2].",
+        "answer_relevancy":0.75,
+        "faithfulness":0.6667,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky nedostatečné právní úpravy a organizační nejednotnosti na rozvoj československého státního filmu před únorem 1948 a jak únor 1948 přispěl k jejich odstranění?",
+        "answer":"According to the provided documents, here's how the situation unfolded:\n\n**Negative Impacts Before February 1948:**\n\n*   **Insufficient legal framework:** The lack of a complete legal framework caused some holders of operational resources to resist their transfer, and even official bodies on Slovakia denied the effectiveness of the decree on the nationalization of film. [doc 4]\n*   **Property transfer issues:** The transfer of properties used for film purposes could not be carried out in land registers. [doc 4]\n*   **Organizational disunity:** Disunity and inconsistency between the various components of the state film, maintained by different political tendencies, prevented proper planning of investments and development. [doc 4]\n\n**How February 1948 Addressed These Issues:**\n\n*   **Elimination of unfavorable conditions:** February 1948 eliminated artificially maintained unfavorable conditions and subversive attempts, enabling rapid and purposeful consolidation of state film. [doc 1]\n*   **Legal foundation:** A government decree on April 13, 1948, No. 72 Coll., provided a solid legal basis for building its proper organization and healthy development. [doc 2]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8571,
+        "contextual_precision":0.8875,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jakým způsobem ovlivnila první francouzská republika a Napoleon I. vojenské strategie Prusů, zejména generála Moltkeho, a jaké důsledky to mělo pro vojenskou kulturu a přístup k válce v Prusku?",
+        "answer":"The First French Republic and Napoleon I influenced Prussian military strategies, especially for General Moltke, in the following ways:\n\n*   They taught the Prussians a great deal, but more could have been learned from them [doc1].\n*   Napoleon I, whose student Moltke is, never acted differently than using artillery to work and sparing soldiers where possible [doc2].\n*   Napoleon invented the concentration of large troop masses through rapid marches [doc2].\n*   Moltke, who counts among Napoleon's admirers, has always held little regard for the new French tactics and strategy [doc2].\n*   Friedrich des Großen's famous oblique wing attack, which had long appeared in the Prussian army as the universal means of victory, made no sense with the large armies that Napoleon set up [doc3].",
+        "answer_relevancy":0.8333,
+        "faithfulness":0.6667,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky slavnosti, které se účastnil velkokníže Nikolaj Nikolajevič, na vztahy mezi českými účastníky a ruskými důstojníky a generály, a jak se tato událost odrazila na vnímání českého národa?",
+        "answer":"According to [doc5], the presence of Russian troops in Bohemia caused a decisive shift in favor of the Czech nation. Czech people understood Russian soldiers, and vice versa. People in Prague who spoke Czech tried to communicate with Russian soldiers and officers. Russians avoided Germans in Prague and sought out Czech society. This not only flattered the Czech people but also gave them courage, as they saw that the victors over Napoleon and loyal allies of the Austrian Emperor and the Prussian King, were honoring them to value their language and devote more attention to the cultivation of their nationality than before. [doc5]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.45,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky toho, že Genius přinesl lidem čistou lásku a zlato, a jak se tyto dary proměnily v negativní jevy, které vedly k jeho zklamání a návratu do bývalého ráje?",
+        "answer":"Here's a breakdown of the consequences of Genius's gifts, according to the provided documents:\n\n*   **Initial Gift of Pure Love:** Genius initially brought pure love to people, but it quickly devolved into violence and conflict. People began to kill in the name of love, fight enemies using the cross, burn people at the stake, and destroy cities with fire. [doc1]\n*   **Gift of Gold:** Genius also gave people gold, which led to them fighting each other for it. [doc1]\n*   **Genius's Disappointment:** Due to these negative transformations, Genius became disappointed and returned to his former paradise. [doc1]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.5,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky touhy tvůrčího Geniuse stát se tvůrcem a vyrovnat se bohu, a jak se tato touha projevila v jeho interakci s lidmi a jejich následném chování?",
+        "answer":"According to [doc3], Genius's desire to become a creator and equal to God resulted in people creating idols, false beliefs, and empty faith. His teachings of pure love were twisted into violence, with people murdering each other in the name of love and burning cities. Genius then brought pure love to people who did not know hatred, but even that love turned into a fatal curse, with people indulging in passion and killing each other.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.5,
+        "contextual_precision":0.7556,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky napětí mezi českou a německou komunitou ve Vídni na konci 19. století, a jak se toto napětí projevovalo v politických a společenských rozhodnutích, jako bylo usnesení poslanecké sněmovny z roku 1883 a usnesení českého sněmu?",
+        "answer":"Here's an answer based on the provided context:\n\nThe context indicates that there was significant tension between the Czech and German communities in Vienna at the end of the 19th century. Here's how it manifested:\n\n*   **Political Demands:** The German National Association (Deutscher Volksverein) advocated for a \"power struggle\" between Germans and other nationalities in Austria, aiming for German dominance and closer ties to Germany [doc 2].\n*   **Educational Concerns:** There was a debate regarding the influence of religious and national interests in education, as reflected in the resolution of the Chamber of Deputies from 1883 and the resolution of the Czech Assembly [doc 1]. The clergy did not want education to be subjected to the influence of religious authorities [doc 1].\n*   **Political Maneuvering:** Some politicians, like Plener, seemed to be taking a cautious approach, potentially waiting for a stronger position before engaging in national struggles [doc 3]. The governor was reportedly prepared to dissolve the assembly if disputes arose, leading to new elections [doc 3].\n*   **Social Division:** Socially democratic workers faced attempts to disrupt their unity through national agitation, as seen in the attempt to establish a mutual aid society among Czech workers, which was met with resistance [doc 5].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly hlavní cíle a požadavky čsl. soc. dem. strany dělnické na župním sjezdu v západních Čechách, a jakým způsobem se tyto cíle a požadavky projevily v přijatých resolucích a ve volbě nového župního výkonného výboru?",
+        "answer":"The main goals and demands of the Čsl. soc. dem. strany dělnické at the regional meeting in western Bohemia were to express a positive relationship with the state and to demonstrate the demands of the working class in the political, economic, social, and cultural spheres [doc 1]. \n\nSpecifically, the resolutions adopted at the meeting outlined these demands [doc 1]. A new regional executive committee was elected, headed by Pik and Remeš [doc 1]. All resolutions were passed unanimously [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.75,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky slavnostního kázání v chrámu Páně, které vedlo k modlitbám za císaře Františka Josefa I. a jeho rodinu, a jak to souviselo s vyjádřením věrnosti a vděčnosti vůči církvi a státu?",
+        "answer":"Based on the provided documents, here's a summary of the events and their significance:\n\n*   **Reason for the sermon:** The sermon was delivered on the occasion of the birthday of Emperor Francis Joseph I. [doc 5].\n*   **Content of the sermon:** The sermon encouraged attendees to express loyalty to the throne and the Emperor, emphasizing that this loyalty would be best demonstrated through faithfulness to the altar (the Catholic Church) [doc 5]. It also spoke about the importance of faith, prayer, and sacraments [doc 5].\n*   **Expression of loyalty and gratitude:** Following the sermon, the congregation was encouraged to express their loyalty to the throne and the Emperor [doc 5]. The event culminated in the singing of \"Te Deum\" and a final blessing [doc 5].\n*   **Connection to the Church and State:** The event highlighted the intertwining of religious and state loyalty, suggesting that faithfulness to the Emperor was linked to faithfulness to the Catholic Church [doc 5].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.25,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky toho, že tvůrčí Genius, který toužil po větší tvůrčí síle a odešel od andělů k člověku, daroval lidem meč a později učení čisté lásky, a jak se tyto dary proměnily v kletbu pro lidstvo?",
+        "answer":"According to the provided context, here's how the gifts of the creative Genius transformed into a curse for humanity:\n\n*   **Gift of the sword:** Genius gave a sword made of iron to a man who was weak and struggling against predators [doc2].\n*   **Teaching of pure love:** Genius then gave people the teaching of pure love [doc1].\n*   **Transformation into a curse:** However, the teaching of pure love turned into a fatal curse, and people began to kill each other in the name of love, and burned each other at the stake [doc1]. People also began to fight enemies and destroy cities in the name of the teaching [doc1]. People also became intoxicated with passion and wasted the gift of Genius in orgies [doc1]. Later, Genius gave people gold, and they began to kill each other for it [doc1].",
+        "answer_relevancy":0.6667,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky snahy Geniuse přinést lidem čistou lásku a zlato, a jak se tyto snahy proměnily v tragédii, kterou umělec původně zamýšlel zobrazit ve svém díle?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.2,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky účasti vídeňských antisemitů a židů na pohřbu J. S. Skrejšovského, a jak tato účast odráží širší společenské a politické vztahy mezi těmito skupinami v té době?",
+        "answer":"According to [doc4], Vídeňští antisemité položili na rakev věnce, největší byl věnec darovaný od Vídeňských antisemitů. Also, deputace Vídeňských spolků účastnila se pohřbu. This participation reflects broader social and political relationships between these groups at the time.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.5,
+        "contextual_precision":0.25,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jaké politické síly a události přispěly k této situaci?",
+        "answer":"According to [doc3], [doc4], the reasons for the failure of the communist revolution in Germany were that communism in Europe had completed an era of great post-war growth, and mass communist parties in Europe had suffered heavy losses. This situation also affected the Communist Party of Czechoslovakia, which was internally divided. The analysis of this situation was done by the editor of \"Rudé právo,\" Guttmann, who attributed the situation of the Communist Party to the defeat of the Communist Party in Germany. However, because this view did not correspond to the view of the Communist International, Guttmann and his supporters were expelled from the party.",
+        "answer_relevancy":0.6667,
+        "faithfulness":0.8,
+        "contextual_precision":0.0,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaký byl význam československého státu v mezinárodním kontextu po stránce politické a hospodářské, a jakou roli hrála Itálie v podpoře této vize v rámci protiněmecké bariéry?",
+        "answer":"Here's an answer based solely on the provided documents:\n\n**Political and Economic Significance of Czechoslovakia:**\n\n*   **Economic Potential:** A Czechoslovak state could positively influence economic activity, both within Czechoslovakia and in Italy. It could facilitate trade and reduce Italy's reliance on Germany and Austria for raw materials and products. [doc2]\n*   **Potential for a Slavic Barrier:** A Czechoslovak state could form a \"slavic barrier\" against German advances towards Constantinople and Baghdad, hindering German colonization of the Balkans and preventing Hungary from acting as a vanguard. [doc3]\n*   **Alignment with Allies:** Supporting Balkan nations, especially Slavic ones, could benefit allies as much as or more than patronizing Turkey, promoting freedom and civilization. [doc3]\n*   **Cooperation with Allies:** Czechoslovakia, having no serious disputes with Germany, Italy, or Austria, would welcome economic cooperation in Central Europe, provided it aligned with the political lines of its allies. [doc5]\n\n**Italy's Role in Supporting the Vision:**\n\n*   **Italian Interest:** Italy had an interest in the healthy resolution of Slavic and particularly South Slavic issues. [doc3]\n*   **Potential for Economic Organization:** The Italian-German rapprochement could facilitate the building of a Central European economic organization. [doc5]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8889,
+        "contextual_precision":0.5,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a očekávané důsledky zapojení svazáků a žen do žňových plánů na Liberecku, a jakou roli v tom hrály výzvy krajských výborů a provolání předsednictva Ústředního výboru Komunistické strany?",
+        "answer":"Here's a breakdown of the reasons and expected outcomes of involving \"svazáci\" (members of the Czechoslovak Association of Youth) and women in the harvest plans in the Liberec region, and the role of calls from regional committees and the proclamation of the Central Committee of the Communist Party, based on the provided documents:\n\n*   **Reasons for Involvement:** The \"svazáci\" had gained experience from the previous year's \"Mládež Libereckého kraje v čele žní\" (Youth of the Liberec Region at the Head of the Harvest) campaign and wanted to continue their involvement [doc 1]. The goal was to ensure the successful completion of the harvest and improve the nutrition of the working people [doc 2].\n*   **Expected Outcomes:** The involvement of \"svazáci\" and women was intended to contribute to a successful harvest [doc 2]. The women were expected to help wherever needed [doc 2].\n*   **Role of Calls and Proclamation:**\n    *   The regional committee and district committees of the Czechoslovak Association of Youth developed harvest plans with specific tasks for each group [doc 1].\n    *   The proclamation of the Central Committee of the Communist Party called on all working people, including youth and women, to participate in the successful progress of the harvest [doc 2].\n    *   The regional committee of the Czechoslovak Association of Women issued a call to all women in the Liberec region to help during the harvest [doc 2].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8571,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký byl účel referenda organizovaného inženýrem Karlem Veselým a jaký vliv mělo na uznání československé legie italskou vládou a na hnutí ve prospěch utlačených národností rakousko-uherských?",
+        "answer":"According to the provided documents, here's the purpose of the referendum organized by engineer Karel Veselý and its influence:\n\n*   **Purpose of the referendum:** Engineer Karel Veselý sent copies of Beneš's book with two questions to a number of Italian personalities on June 15, 1917. The questions were: 1) \"Do you think that sufficient historical and political reasons speak in favor of the Czechs joining their brothers Slovaks from northern Hungary and forming a single Czechoslovak state?\" and 2) \"What advantages will the creation of a larger and independent Czechs in the center of Europe bring to Europe as a whole and to Italy in particular?\" [doc3]\n*   **Influence on the recognition of the Czechoslovak legion by the Italian government:** The congress, about which news reached Austria-Hungary, had a great influence on the \"internal front of Austria-Hungary\" to strengthen the movement of revolutionary nations in this state, especially the internal resistance in the Czech and Slovak lands [doc2].\n*   **Influence on the movement in favor of oppressed nationalities:** The congress meant a defeat of this policy of Sonnino's, which so hampered our Italian action during the war and prevented the formation of our legion and which took a harsh stance against the South Slavs, thus causing a permanent deep discord between Italians and South Slavs [doc2].",
+        "answer_relevancy":0.5833,
+        "faithfulness":0.5,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký byl význam a dopad akce inženýra Karla Veselého, který rozeslal dotazníky a výtisk knihy dr. Beneše italským osobnostem, na politické povědomí a zájem o československou samostatnost v Itálii, a jaké byly důvody pro volbu této formy komunikace?",
+        "answer":"The action of sending questionnaires and copies of Dr. Beneš's book to Italian personalities by engineer Karel Veselý was intended to gain greater interest from political figures in Dr. Beneš's book [doc 1]. The questionnaires were designed to achieve this [doc 1]. The list of people to whom these questionnaires were sent contained a number of people from parliamentary and journalistic circles [doc 2]. The action was part of a larger effort by the Czechoslovak National Council in Italy, which printed approximately 1000 questionnaires and sent them to senators, members of parliament, former ministers, and other prominent figures [doc 1]. The form of communication was chosen to gain interest in Dr. Beneš's book [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8333,
+        "contextual_precision":0.9167,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké historické a politické důvody byly považovány za dostatečné pro uznání nezávislého československého státu a jaké byly reakce italských politických a novinářských kruhů na tyto důvody v kontextu hnutí za podporu utlačených národností Rakousko-Uherska a uznání československé legie italskou vládou?",
+        "answer":"According to the provided documents, here's a summary of the historical and political reasons considered sufficient for recognizing an independent Czechoslovak state, and the Italian response:\n\n*   **Historical and Political Reasons:**\n    *   The creation of a Czechoslovak state is justified by historical and political reasons [doc 1, doc 1].\n    *   The union of Czechs and Slovaks is a historical right and a political necessity [doc 1, doc 1].\n    *   A larger and independent Czechoslovakia would serve as a barrier against German and Russian expansion and contribute to European peace and balance, particularly for Italy [doc 1].\n*   **Italian Response:**\n    *   A response from 9 senators, 13 members of parliament, 11 journalists, and 5 people of other professions considered the historical and political reasons to be fully sufficient for recognizing an independent Czechoslovak state [doc 1].\n    *   Many simply referred to Beneš's arguments [doc 1].\n    *   There was an \"admirable movement of sympathy\" towards the Czechoslovakians in Italy, particularly after Caporetto and in 1918, demonstrated at events like the Congress of Oppressed Nationalities and the formation of the Czechoslovak division [doc 1, doc 1].\n    *   The creation of a Czechoslovak state was a defeat of a particular Italian policy that had hindered Italian actions during the war and caused friction with South Slavs [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8571,
+        "contextual_precision":0.8875,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky nízkého odhadování škody na možnost odepsání pozemkové daně a jakou roli hraje včasné oznámení škody v tomto procesu?",
+        "answer":"According to [doc4], a low estimation of the damage could nullify the claim for the write-off of the land tax. Since notification of the damage results in the suspension of land tax collection, it is in the interest of farmers not to delay the notification [doc4].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jakým způsobem přispěla spolupráce s Poláky, Ukrajinci, Jihoslovany, Rumuny, Litevci, Lotyši, Finy, Řeky a Albánci k dosažení vítězství nad Rakouskem a Německem, a jakou roli v tomto procesu hrála podpora Spojených států a prezidenta Wilsona?",
+        "answer":"Here's how the collaboration with various nations and the support from the United States contributed to the victory, based on the provided documents:\n\n*   **Collaboration with Neighboring Nations:** The speaker established friendly relations with Poles, Ukrainians, South Slavs, Romanians, Lithuanians, Latvians, Finns, Greeks, and Albanians [doc 1].\n*   **Impact on Austrian-Hungarian Army:** In the Austrian-Hungarian army fighting against Italy, three-fifths of the soldiers condemned Austria, as two-fifths were Czechs, South Slavs, Romanians, Italians, and Poles [doc 5].\n*   **Support from the United States and President Wilson:** France included the sentence \"liberation of the Czechoslovak people from foreign domination\" in a note addressed to President Wilson, which resonated in both Czechoslovakia and Austria [doc 3]. The former U.S. president Theodore Roosevelt donated $1,000 for the benefit of wounded Czechoslovak soldiers [doc 4].",
+        "answer_relevancy":0.5,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky předvánočního shonu a pracovního nasazení prodavaček a pokladních na jejich pracovní podmínky a jak se to odráželo na jejich interakci se zákazníky?",
+        "answer":"According to [doc2], the pre-Christmas rush and workload for saleswomen and cashiers made their jobs difficult. They had to constantly replenish goods, show them to customers, and advise them, which was especially challenging during the pre-Christmas period. They also had to maintain a friendly smile and hide their fatigue. [doc2] mentions that the sound of cash registers sometimes disappeared in the hustle and bustle.",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.5,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký je vztah mezi procesem redukce kysličníku uhličitého na formaldehyd v chlorofylových buňkách a potřebou drasla při pěstování cukrovky, a jaké důsledky má tento vztah na úrodnost půdy?",
+        "answer":"Here's the answer based on the provided context:\n\nThe context states that in chlorofyllových cells, carbon dioxide is reduced to formaldehyde via several processes [doc1], [doc5]. Specifically, hydrogen, formed by the activity of enzymes and the breakdown of water, reduces carbon dioxide to formaldehyde [doc5]. Furthermore, formaldehyde condenses into carbohydrates in the presence of draslík [doc4].\n\nThe context also indicates that draslík plays a role in the photochemické reakce during the assimilation of carbon dioxide by chlorofyllové cells [doc4]. It is involved in the breakdown of draselný bicarbonate into kyselina mravenčí, kyslík, and draselný bicarbonate [doc4].\n\nRegarding the impact on soil fertility, the context does not directly address the relationship between this process and soil fertility.",
+        "answer_relevancy":0.6667,
+        "faithfulness":0.8,
+        "contextual_precision":0.8875,
+        "contextual_recall":0.6667,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky neochoty vlády vyhovět požadavkům rady říšské a sněmu českého ohledně nového upravení školství, a jak tato situace ovlivnila postoj českých poslanců vůči německému tlaku?",
+        "answer":"According to the provided documents, here's a breakdown of the reasons for the government's inaction and its impact on Czech politicians:\n\n*   **Government inaction:** The government had not yet complied with the demands of the Imperial Council and the Czech Assembly regarding a new arrangement of education and had not presented any proposals that would leave the assemblies with the authority constitutionally due to them. It was deemed difficult to predict when such a step would be taken. [doc1]\n*   **Impact on Czech politicians:** Czech politicians felt that no one could demand that they accept a \"German dictate,\" and they emphasized that their educational needs were independent of \"German whims.\" They believed it would be detrimental to concede to the Germans' right to decide on such matters. [doc3]\n*   **Influence of other issues:** The demand of the Germans had pushed aside discussions about concrete issues like the sanitation of the region's finances. [doc2]",
+        "answer_relevancy":0.7143,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky napětí mezi českou a německou komunitou ve Vídni na konci 19. století, a jak se toto napětí projevovalo v politických rozhodnutích a společenských postojích?",
+        "answer":"According to [doc2], feeling pressured by Czech competition, Austrians and Germans saw securing their existence as being linked to incorporating Austrian and Czech lands into a powerful Germany led by victorious Prussia, and suppressing the Czech national movement. The German National Association (Deutscher Volksverein), which brought together German nationalists in Austria, issued a proclamation during the Prussian-French war calling for solidarity among Germans and a joint action by Austria and Germany. The association issued a program in 1870 calling for a power struggle by Germans in Austria against other nations, requesting autonomy for Halych and the annexation of Dalmatia to Hungary, so that Austrians and Germans could gain a majority over Slavs in the remaining Předlitavsko, and so that the resulting new state formation could draw as close as possible to Germany. German newspapers",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8889,
+        "contextual_precision":0.5,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky opakovaných měření dendrometrických, typologických a porostních charakteristik v Boubínském pralese v roce 1996 na pochopení vlivu člověkem ovlivňovaných stavů spárkaté zvěře na vývoj pralesa mezi lety 1960 a 1996?",
+        "answer":"Based on the provided context, here's what can be said about the impact of human-influenced ungulate populations on the development of the primeval forest between 1960 and 1996, based on repeated measurements of dendrometric, typological, and stand characteristics in 1996:\n\n*   The only significant influence on the development of the primeval forest was the state of ungulate populations influenced by humans [doc 1].\n*   Repeated measurements of dendrometric, typological, and stand characteristics were performed in 1996, building on earlier measurements from 1972, using the same methodology to evaluate changes on the monitored area [doc 1].\n*   Between 1960 and 1996, there was practically no significant fluctuation in the main dendrometric indicators, despite the sudden decay of existing stands in many places, the significant aging and death of the Norway spruce population, and a decrease in the proportion of Norway spruce replaced by an increase in beech [doc 2].\n*   The measurements confirmed the uniqueness of the Boubín primeval forest and demonstrated the viability and stability of primeval stands left to natural development on a sufficiently large, contiguous area [doc 2].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":0.9167,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky změn v zastoupení dřevin v Boubínském pralese mezi lety 1972 a 1996 na strukturu a management rezervace, a jaké kroky byly navrženy k zajištění přirozeného vývoje pralesa?",
+        "answer":"Here's a summary of the changes in tree species distribution and management recommendations for the Boubínský prales, based on the provided documents:\n\n**Changes in Tree Species Distribution (1972-1996):**\n\n*   There was a **significant decrease in the representation of fir (jedle)**, which was **replaced by an increased presence of beech (buk)** [doc 3], [doc 4].\n*   **Spruce (smrk)** maintained its dominant position [doc 3], [doc 3].\n*   The **number of living trees slightly decreased**, while the **volume of living tree trunks increased**, indicating overall aging of the forest [doc 3], [doc 3].\n*   Approximately **30% of the forest area is covered by continuous beech growths** [doc 3], [doc 3].\n\n**Management and Natural Development:**\n\n*   It is recommended that **no intentional interventions are carried out in the forest** [doc 2].\n*   It is suggested that **complete fencing of the forest is the only solution** to ensure its relatively natural, self-driven development, and that the fence should be maintained and wildlife should be removed [doc 2].\n*   It is recommended that **fir and spruce regeneration is successful in suitable locations outside of beech growths**, and that the populations of white fir and mountain spruce will gradually recover [doc 2], [doc 3].\n*   The forest is protected as it was previously, and a space is provided for researchers [doc 5].",
+        "answer_relevancy":0.9091,
+        "faithfulness":0.875,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a velkostatkářů proti zamýšlené stavbě vodních drah, a jak tento odpor ovlivnil náladu a plány průmyslových kapitalistů?",
+        "answer":"Here's a breakdown of the reasons for and potential consequences of Prince Bedřich Schwarzenberg and the large landowners' opposition to the planned construction of waterways, and how this opposition affected the mood and plans of industrial capitalists, based solely on the provided documents:\n\n**Reasons for Opposition & Potential Consequences:**\n\n*   **Concern for Agricultural Damage:** Prince Schwarzenberg, at a meeting of the Central Economic Society, defended the interests of the land and advocated for preventing damage caused by flooding of the Vltava and Labe rivers before considering large waterways [doc 4].\n*   **Prioritizing River Regulation & Land Improvement:** The Central Economic Society, chaired by Prince Bedřich Schwarzenberg, issued a proclamation against the planned construction of waterways, stating that the construction of these canals should not be separated from the overall reform of the country's water management and that the waterways would only be truly valuable for domestic production after a systematic reform of rivers and streams and proper completion of all tasks and needs of land improvement [doc 1], [doc 2].\n*   **Fear of Foreign Agricultural Products:** There was concern that the waterways might benefit capitalist interests, open the way for foreign production, and flood the country with agricultural products from Hungary and the Balkan countries [doc 1], [doc 4].\n\n**Impact on Industrial Capitalists:**\n\n*   **Initial Optimism & Potential Loss:** The documents suggest that industrial capitalists initially felt optimistic about the potential profits from the waterways, as it was believed that original budgets would be significantly exceeded [doc 1]. However, the opposition from landowners and the Central Economic Society threatened to hinder or even cripple the entire project [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.5714,
+        "contextual_precision":0.9167,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a potenciální důsledky nesouhlasu Ústřední společnosti hospodářské, vedené knížetem Bedřichem Schwarzenbergem, se zamýšlenou stavbou vodních drah, a jak tento postoj ovlivnil politickou situaci a reakce kapitalistů v kontextu plánů vlády Körbrovy?",
+        "answer":"Here's a breakdown of the reasons for and potential consequences of the Central Economic Society's opposition, and its impact on the political situation and capitalist reactions, based solely on the provided documents:\n\n**Reasons for Opposition & Potential Consequences:**\n\n*   **Agricultural Damage:** The Central Economic Society, led by Prince Friedrich Schwarzenberg, voiced concerns that the construction of waterways could cause damage to agriculture through flooding of the Vltava and Labe river tributaries. [doc3]\n*   **Capitalist Benefit & Foreign Competition:** There were concerns that the massive investment in waterways might primarily benefit capitalists, open the door to foreign production, and flood the country with agricultural products from Hungary and the Balkans. [doc3]\n*   **Prioritizing River Regulation:** The society advocated for prioritizing river regulation and land reclamation *before* embarking on large waterway construction. [doc3]\n*   **Potential for Action Paralysis:** Prince Schwarzenberg's signature on a proclamation against the planned waterways suggests a potential to \"paralyze the entire action.\" [doc4]\n\n**Impact on Political Situation & Capitalist Reactions:**\n\n*   **Political Situation:** The society's opposition, particularly with Schwarzenberg's involvement, could have significant and far-reaching effects. [doc4]\n*   **Capitalist Reactions:** While some capitalists (referred to as \"arcitects from the Austrian Manchester - Brno\") initially praised the Körbro government's plan and passed a resolution welcoming it, the opposition from the Central Economic Society represented a counter-reaction. [doc5]\n*   **Government Difficulty:** The Körbro government faced \"nationalistic agitation\" and was criticized for prioritizing capitalist gain (750 million K) over democratic development. [doc5]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky rozporu mezi veřejně hlásaným bojem proti němectví a skutečným chováním předních českých národovců, jako je posílání jejich dětí do německých škol, na vnímání jejich důvěryhodnosti a autority v rámci českého národního hnutí?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.9167,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly hlavní výtky vůči české sociální demokracii ze strany jiných politických stran a jak se k těmto výtkám stavěly pokrokové listy jako „Čas“ a „Osvěta Lidu“?",
+        "answer":"According to the provided documents, here's a summary of the main criticisms of the Czech Social Democracy and how \"Čas\" and \"Osvěta Lidu\" responded:\n\n*   **Criticisms:** Other political parties criticized the Czech Social Democrats for being passive, not engaging in positive politics, refusing to join the government, and rejecting the budget, which allocated funds to harmful and not useful things. [doc 1], [doc 2]\n*   **Response from \"Čas\" and \"Osvěta Lidu\":** Progressive papers like \"Čas\" and \"Osvěta Lidu\" considered these criticisms to be incorrect and not valid. \"Čas\" specifically stated that criticisms from \"České Slovo\" were unfounded and based on prejudice and competition. [doc 1], [doc 2]",
+        "answer_relevancy":0.875,
+        "faithfulness":0.6667,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký byl význam československého státu v mezinárodním kontextu a jaké specifické zájmy měla Itálie na vytvoření protiněmecké bariéry, kterou měly tvořit státy československý, polský a jihoslovanský, a jak to souviselo s italskými mazziniány a nacionalisty?",
+        "answer":"Here's an answer based solely on the provided context:\n\nAccording to [doc1], the establishment of a Czechoslovak state was declared as a political postulate for the liberation of the Czechoslovak nation, which belongs to the common program of the Allies. Italian Mazzinians and nationalists repeated the slogan of destroying Austria in relation to Czechoslovakia, supporting it with both negative portrayals of oppression by the Austro-Hungarian government and positive highlighting of the international importance of the Czechoslovak state politically and economically compared to German-Hungarian imperialism.\n\n[doc1] states that Italy had a specific interest in this anti-German barrier, which was to be formed by the states of Czechoslovakia, Poland, and the South Slavic state, alongside Italy itself. This barrier would definitively distance Germans from the Adriatic Sea.\n\n[doc4] further explains that a separate Czechoslovakia could influence economic activity, both its own and that of Italy, and could act as a barrier against German and Hungarian pressure in Eastern Europe.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8889,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký byl účel referenda organizovaného inženýrem Karlem Veselým a jaký vliv mělo na uznání československé legie italskou vládou a na širší politické hnutí ve prospěch utlačených národností Rakousko-Uherska?",
+        "answer":"According to [doc3], inženýr Karel Veselý, director of the Bohemian mission (incaricato d’affari in Italia), sent copies of Beneš's book with two questions to a number of Italian personalities on June 15, 1917. The purpose was to inquire whether historical and political reasons supported the unification of Czechs and Slovaks into a single Czechoslovak state and what benefits the creation of a larger, independent Czech state would bring to Europe and Italy.\n\nThe congress, about which reports reached Austria-Hungary, had a great influence on the \"internal front of Austria-Hungary\" to strengthen the movement of revolutionary nations within that state, especially the internal resistance in the Czech and Slovak lands [doc2]. It also strengthened the anti-Austrian stance in the Allied countries, leading to recognition of these efforts and later, the independent states for the revolutionary nations [doc2].\n\n\n\nThe congress also helped explain the remarkable movement of sympathy for the Czechoslovak people that occurred in Italy after Caporetto and in 1918, first at the congress of oppressed nationalities of Austria-Hungary on the Capitol and then at the establishment, formation, and military action of the Czechoslovak division [doc5].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.7143,
+        "contextual_precision":1.0,
+        "contextual_recall":0.5556,
+        "success":true
+    },
+    {
+        "question":"Jaké důvody vedly k tomu, že církevní instituce investovaly své kapitály do půdy, a jaké výhody jim to přineslo v kontextu finančních katastrof a jejich touhy po moci a nezávislosti?",
+        "answer":"According to [doc1], církevní instituce investují do půdy, protože touží po jistém a výnosném uložení svých kapitálů, ale také po moci a nezávislosti. They have survived financial catastrophes because they have mostly invested their money in land, which secures their power and existence. [doc1]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor ovlivnil náladu a plány průmyslových kapitalistů?",
+        "answer":"Here's a breakdown of the reasons for and potential consequences of Prince Friedrich Schwarzenberg and the Central Economic Society's opposition to the planned construction of waterways, and how it affected the mood and plans of industrial capitalists, based solely on the provided documents:\n\n**Reasons for Opposition:**\n\n*   **Prioritizing River Regulation and Land Improvement:** The Central Economic Society believed that river regulation and land improvement should precede the construction of waterways. [doc2] They felt that the waterways would not be truly beneficial without a prior, systematic improvement of rivers and streams, and the completion of all tasks and needs of land reclamation. [doc4]\n*   **Concerns about Potential Negative Consequences:** Prince Friedrich Schwarzenberg voiced concerns that the waterways might cause damage to agriculture through flooding, benefit only industrial capitalists, open the way for foreign production, and flood the country with agricultural products from Hungary and the Balkans. [doc4]\n*   **Protecting Agricultural Interests:** Prince Schwarzenberg emphasized the need to prevent damage to agriculture caused by the flooding of the Vltava and Labe rivers before considering the construction of large waterways. [doc4]\n\n**Potential Consequences & Impact on Industrial Capitalists:**\n\n*   **Possible Project Paralysis:** The opposition could \"paralyze the entire action.\" [doc1]\n*   **Mood of Industrial Capitalists:** The opposition created a situation where \"over the joyful mood of the industrial capitalists, dark clouds are drawing.\" [doc1] This suggests that the industrial capitalists' plans and expectations were being negatively impacted.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.9,
+        "contextual_precision":0.9167,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a možné důsledky nesouhlasu Ústřední společnosti hospodářské, vedené knížetem Bedřichem Schwarzenbergem, se zamýšlenou stavbou vodních drah, a jak se tento postoj mohl projevit na politické situaci a plánech vlády Körbrovy?",
+        "answer":"According to the provided documents, here's a breakdown of the Ústřední hospodářská společnost's (Central Economic Society) concerns regarding the planned construction of waterways, and the potential consequences:\n\n**Reasons for Disagreement:**\n\n*   **Comprehensive Water Management First:** The society, led by Prince Friedrich Schwarzenberg, argued that the construction of waterways should not be separated from a comprehensive reform of the country's water management system [doc2]. They believed that the waterways would only be truly beneficial after a systematic improvement of rivers and streams, and after completing necessary land reclamation projects [doc2, doc3].\n*   **Potential for Negative Economic Consequences:** There were concerns that the waterways could primarily benefit capitalist interests, open the door to foreign imports, and flood the country with agricultural products from Hungary and the Balkans [doc3].\n*   **Protecting Czech Industry:** The society emphasized the importance of ensuring that the waterways primarily served Czech industry and did not disadvantage Czech production by favoring stronger, more developed German industry through cheaper transportation [doc5].\n*   **Maintaining Prague's Importance:** There was a desire to ensure that Prague remained a central hub and was not bypassed by changes to the initial waterway plans, such as the proposed Danube-Elbe waterway [doc5].\n\n**Potential Consequences & Impact on Government Plans:**\n\n*   **Political Situation:** The society's stance reflected a broader concern about the potential for German dominance in the region [doc5].\n*   **Government Plans:** The society's opposition likely influenced the planning and implementation of waterway projects. The documents suggest that Minister Körbro's ministry, which was likely involved in the plans, might not remain in power when the waterway construction began [doc5].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.875,
+        "contextual_precision":0.45,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky nevhodné úpravy nabývání práva domovského zavedené říšským zákonem z 10. prosince 1863 na chudé venkovské obce a jaké problémy to způsobilo pro obyvatelstvo pocházející z cizích obcí?",
+        "answer":"According to [doc1], [doc2], the consequence of the inappropriate adjustment of acquiring the right of domicile introduced by the imperial law of December 10, 1863, was that many poor rural communities were harmed to the benefit of wealthy and growing towns and industrial places. People originating from foreign communities were then forced to seek help from their domicile community during times of hardship and lack, but they had not contributed anything to it and were regularly completely unknown there.",
+        "answer_relevancy":0.6,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly hlavní argumenty Dr. Pelce a Křístka z Lazů pro zřízení lycea a jak se tyto argumenty vztahují k hospodářským a vzdělávacím potřebám komunity?",
+        "answer":"Dr. Pelc a Křístek z Lazů přimlouvali se za zřízení lycea. [doc1] Dr. Pelc u valné hromady přimlouvá se za hlasování pro zřízení lycea tím, že Orlovský odbor MOL. podává protest proti lyceu a tím vytýká nepřímo jakoby nehospodárnost ústředí MOL. [doc1] Křístek z Lazů také přimlouvá se za zřízení lycea. [doc1]\n\nRegarding the community's economic and educational needs, the context states that:\n\n*   Praha má jen tři střední ústavy dívčí a ty jsou přeplněny. [doc2], [doc3]\n*   Mnoho českých dívek odchází do ciziny nebo do německých a klerikálních ústavů soukromých. [doc2], [doc3]\n*   Zřízením lyceí ulehčí se měšťanským školím i vyšší dívčí škole. [doc2], [doc3]",
+        "answer_relevancy":0.75,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky nedostatku náboženského vychování na společnost v kontextu kritiky liberalismu a jak se tento nedostatek projevuje v politické a kulturní sféře Korutan?",
+        "answer":"According to [doc2], a lack of religious upbringing leads to \"úplným zdivočením\" or complete savagery. This is linked to a criticism of liberalism, specifically a form of liberalism characterized by \"úplné náboženské lhostejnosti anebo úplné bezvěře\" (complete religious indifference or atheism). The text suggests that this form of liberalism is a problem and that the consequences are visible in the political and cultural sphere of Korutan.",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.5,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky vlivu německo-židovské koterie na národnostní vztahy v Rakousku a jaké kroky byly navrženy k obnovení ústavního státu a potlačení národnostních štvanic?",
+        "answer":"According to the provided documents, here's information regarding the influence of a German-Jewish coterie and proposed steps:\n\n*   **Influence on National Relations:** A \"large coterie of German-Jews\" is said to be inciting nationalistic persecution, which fills those who love freedom with disgust [doc 5].\n*   **Proposed Steps:** To restore the idea that gave the state its life, two things are needed: to break the influence of the instigators and to awaken the nation [doc 5].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.5,
+        "contextual_precision":0.7,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky snahy polských úřadů vyjít vstříc české menšině na Volyni v oblasti školství a kultury, a jak se tato situace porovnávala s předchozí ruskou vládou na Volyni?",
+        "answer":"According to [doc2], there was a tendency on the part of Polish authorities to accommodate the relatively small Czech minority in Volhynia, both in terms of education and culture. Before this, under Russian rule, only Russian schools existed in Volhynia. In September 1924, there were 22 Czech schools, two Polish-Czech schools, and several schools with Czech as the language of instruction. [doc1] states that under Polish rule, Czech schools on former Russian territory in Volhynia and Podolia suffered.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":0.8,
+        "success":true
+    },
+    {
+        "question":"Jaký význam mělo vynášení starého Hazuky s poctami a provedení rituálů, jako je dělání křížů nad prahem a pokládání rakve na zem, pro obecní komunitu a jak to souvisí s jejich vnímáním smrti a posmrtného života?",
+        "answer":"Here's an answer based solely on the provided documents:\n\nThe community honored old Hazuka by carrying him out with all the honors of a homeowner. They made three crosses with the coffin over the threshold to prevent him from returning and haunting them [doc1]. They also placed the coffin on the ground three times before placing it on the maras, to ensure a light earth for him [doc1]. The community then approached and made crosses with their thumbs on the coffin as a farewell [doc1].\n\nThese rituals were performed to \"chrániti mrtvého\" (protect the deceased) [doc5] and to prevent him from becoming a revenant (bludná duše) [doc2]. The act of making crosses and placing the coffin on the ground suggests a community effort to ensure the deceased's peaceful transition and to safeguard themselves from his return.",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky nedostatku náboženského vychování a liberalismu, na stabilitu a budoucnost státu a jeho národů?",
+        "answer":"According to the provided documents, here are the consequences of a lack of religious education and liberalism on the stability and future of a state and its people:\n\n*   A lack of religious education and liberalism leads to the \"zkáza mravů\" (moral decay), the \"vzrůstání převratných živlů\" (growth of subversive elements), and a \"zřejmější stálé ohrožování veřejného pořádku\" (clear and constant threat to public order) [doc 1], [doc 1], [doc 3].\n*   Liberalism has \"zasadil liberalismus\" (planted) instability and a lack of stability on the state and its people [doc 3].\n*   The consequences of \"bezbožeckého liberalismu\" (godless liberalism) include the removal of marriage, shared women, state care for children, and the absence of personal property [doc 4].\n*   The decay of liberalism has led to a \"děsnou propast\" (terrible abyss) for \"liberální\" (liberal) humanity [doc 3].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":0.8,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky vlivu německo-židovské koterie na politickou situaci v Rakousku a jak se tento vliv projevoval v kontextu národnostních štvanic a ústavního státu?",
+        "answer":"According to the provided documents, here's how the influence of a \"German-Jewish coterie\" impacted the political situation in Austria:\n\n*   **Nationalist persecution:** The \"German-Jewish coterie\" is accused of inciting nationalist persecution (\"národnostní štvanice\") and stirring up \"pathological\" conditions [doc1], [doc2].\n*   **Damage to constitutional state:** This coterie is blamed for proclaiming a message of \"inferiority of the tribe\" (\"inferiority kmenové\"), which is seen as an insult to Austria's constitutional state (\"červánky státu ústavního\") [doc3].\n*   **Impact on national identity:** The actions of this group are seen as damaging the sense of brotherhood among the Austrian nations [doc3].\n*   **Undermining trust:** The coterie's actions are seen as undermining trust in the government [doc4].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky nespokojenosti dělnictva a chudého lidu s vládními opatřeními a rostoucími cenami životních potřeb, jak je vyjádřeno v projevech a přijatých resolucích během tábora lidu v Moravské Ostravě?",
+        "answer":"Here's a summary of the reasons for and consequences of the discontent of the working class and the poor with government measures and rising prices of essential goods, as expressed in speeches and resolutions during the People's Camp in Moravian Ostrava, based on the provided documents:\n\n**Reasons for Discontent:**\n\n*   **Rising Prices:** \"Šílené, den ode dne vzrůstající zdražování veškerých životních potřeb, přivádí veškerý chudý lid na pokraj zoufalství.\" [doc1] The rapidly increasing cost of living was pushing the poor to the brink of despair.\n*   **Impact on Workers:** \"Neustále stoupající drahota veškerých životních potřeb dotýká se citelně již i lépe situovaných vrstev obyvatelstva, dělnictvu však činí existenci přímo nemož.\" [doc1] Rising prices were making existence nearly impossible for the working class.\n*   **Exploitation by Food Speculators:** There was anger towards \"lichvářům s potravinami\" (food speculators). [doc1]\n*   **Government Policies:** The government's policies were seen as harmful to the population of Austria. [doc3] Specifically, there was criticism of \"vládní politice\" [doc3].\n*   **Economic Hardship:** The combination of rising prices, falling wages in mining and manufacturing, and the threat of unemployment was \"vyburcovaly zdejší proletariát k zahájení boje proti drahotě a jejím původcům.\" [doc2] (incited the local proletariat to begin a fight against high prices and their causes).\n\n**Demands and Consequences (as expressed in resolutions):**\n\n*   **Resolution Demands:** The resolutions demanded:\n    *   Abolition of customs duties on essential goods. [doc3]\n    *   Cancellation of the ban on importing livestock and meat from abroad. [doc3]\n    *   Reduction of import duties on meat and essential goods. [doc3]\n    *   Strict prosecution and prevention of food speculation. [doc3]\n    *   Convening of the Imperial Council to address the high cost of living and alleviate hardship. [doc3]\n*   **Potential Action:** If the government's promises were not fulfilled, the people were \"ochotni zastaviti práci\" (willing to stop work). [doc5]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký je vliv ultrafialových paprsků na bakterie a jak tento vliv souvisí s procesy probíhajícími v rostlinách, zejména s tvorbou uhlohydrátů a usmrcováním protoplasmy?",
+        "answer":"Ultrafialové paprsky **úplně usmrcují mykoplasmu bakterií** [doc 1].\n\nCo se týče souvislosti s procesy v rostlinách, **působením ultrafialových paprsků na CO, a na vodík ve stavu zrodu a za přítomnosti hydroxydu draselnatého může býti vyvolána uměle fotosynthesa** [doc 5].  **Působením kysličníku uhličitého utvořený dvojuhličitan draselný vodíkem u stavu vzrůstu jest redukován v cukr** [doc 5]. **Úlohou chlorofyllu pak jest pohlcování paprsků ultrafialových** [doc 5].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky nedostatku náboženského vychování a liberalismu, které mohou být označovány jako jako lžiliberalismus, na společnost a stát, a jak to souvisí s historickým úkolem a politikou rakouského státu?",
+        "answer":"According to [doc 1], \"Lžiliberalismus, odchýliv se od křesťanství, zplodil mus.\" [doc 4] states that liberalism deviating from Christianity has produced \"mus.\" [doc 4] further explains that the duty is to ensure Christianity has a place not only in churches but also in public life, that secular laws are based on Christianity, and that all paragraphs of secular laws align with the Ten Commandments. This relates to the historical task and politics of the Austrian state because it suggests a concern that deviating from Christian principles has negative consequences for society and the state.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8,
+        "contextual_precision":0.5,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky vlivu německo-židovské koterie na národnostní vztahy v Rakousku a jaké kroky byly navrženy k obnovení vznešené ideje státu?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.0,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jakou roli hrají uhlohydráty v procesu růstu a vývoje rostlin, a jakým způsobem enzymy přispívají k přeměně těchto uhlohydrátů na látky potřebné pro samostatný život rostliny?",
+        "answer":"Here's an answer based on the provided context:\n\n**Role of Carbohydrates in Plant Growth and Development:**\n\n*   **Essential for Structure and Energy:** Carbohydrates are a vital material for building plant structures and serve as the primary source of energy for plants, utilized through respiration or breakdown. [doc2], [doc3]\n*   **Storage and Germination:** Carbohydrates (like starch, sugars, inulin, cellulose) are created during assimilation and transported to permanent parts of the plant. These carbohydrates are then converted by enzymes into soluble substances that nourish the developing embryo, enabling it to grow into an independent plant. [doc1]\n*   **Protein Synthesis:** Carbohydrates (in their nascent state) support protein synthesis more than artificially added carbohydrates, and light provides the necessary energy for overall metabolism. [doc4]\n\n**Enzymes and Carbohydrate Transformation:**\n\n*   Enzymes transform stored reserve carbohydrates into soluble substances that are transported to the developing embryo. [doc1]",
+        "answer_relevancy":0.8,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky snahy německo-liberálních stran uzavřít nové souručenství namířené proti slovanským národům v Rakousku, a jakou roli v této situaci hrála akce předsedy ministerstva dr. Körbera ve vztahu k českým poslancům?",
+        "answer":"According to the provided documents, here's information regarding the question:\n\n**Reasons and Consequences of the German-Liberal Alliance:**\n\n*   There is a situation where \"německo-liberální strany\" (German-liberal parties) are attempting to form a new \"souručenství\" (alliance) aimed at Slavic nations in Austria. [doc 1]\n\n**Dr. Körber's Role:**\n\n*   The government of Dr. Körber claimed that the Czech people were \"naprosto netečným\" (absolutely indifferent) and that it was \"lhostejno\" (unimportant) to them what happened in Vienna. [doc 2]\n*   Dr. Körber reported to the crown (koruna) based on these claims, and the crown believed and had to believe these reports. [doc 2]\n*   He told the crown that Czech MPs were pursuing a different policy than what the Czech people desired. [doc 2]\n*   He held his promises to the Germans, and his opponents had to admit this. [doc 5]\n*   He did everything to preserve German dominance. [doc 5]\n*   However, \"Čas\" (Time) newspaper stated that this was a condemnation of Körber's system and proof of the injustice of his five-year rule. [doc 5]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké terapeutické zkušenosti a postupy byly získány při léčbě epidemie dysenterie, a proč byly obvyklé prostředky jako opium, klystýry a čípky kokainomorfiové považovány za nedostatečné?",
+        "answer":"According to [doc1], during the end of last year and the beginning of this year, an epidemic of dysentery occurred in some villages within the author's area. The author tried almost all known remedies from textbooks, but they were not satisfactory. Specifically, tenesmus did not subside even with opium, various clysters, or kokainormorphine suppositories. Also, stubborn diarrhea resisted all usual soothing agents.",
+        "answer_relevancy":1.0,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké jsou důsledky použití nesterilizovaných nástrojů při odstraňování ušních mazových zátek a jaké kroky jsou doporučeny k minimalizaci rizika infekce během tohoto procesu?",
+        "answer":"According to [doc2], using non-sterilized tools to remove earwax plugs can result in otitis externa and furunculi. To minimize the risk of infection, the syringe should be strictly sterilizable, equipped with three rings, hold about 100 grams of liquid, and have a soft rubber tube at the tip. The water should be 37°C, and the patient should sit during the process, with a towel to prevent spillage.",
+        "answer_relevancy":0.25,
+        "faithfulness":0.875,
+        "contextual_precision":0.5,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důvody americké vlády pro protest proti španělským rejdařům a jaké důsledky mělo toto jednání na vztahy mezi Spojenými státy a Španělskem v kontextu zásobování německých ponorek a vojenské situace v Evropě?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.0,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly strategické důvody pro upřednostnění krátkých traťových spojení před dlouhými námořními cestami a jaký vliv mělo toto rozhodnutí na vojenské operace a zásobování během konfliktu?",
+        "answer":"According to the provided documents, here's the information regarding the strategic importance of short rail connections versus long sea routes:\n\n**Strategic Importance of Short Rail Connections:**\n\n*   Němci considered short rail connections strategically superior to long sea routes. [doc2]\n*   Short rail connections minimize risk, reduce wear and tear on personnel and equipment, require less fuel (allowing for more bombs), and enable the deployment of aircraft previously limited by range. [doc5]\n*   Sea routes are vulnerable to submarine attacks and are used for both troop transport and domestic supply. [doc2]\n*   Short rail routes are not subject to frequent air attacks. [doc2]\n\n**Impact on Military Operations and Supply:**\n\n*   Prioritizing short rail connections was crucial for military operations and supply, as it allowed for reduced risk and increased efficiency. [doc2], [doc5]\n*   This decision enabled operations against distant targets and protected vital interests. [doc2]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8333,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky rozhodnutí o suspendování činnosti \"Matice\" na její úředníky a jak se toto rozhodnutí projevilo v kontextu širšího boje proti slovenským institucím v 70. letech 19. století?",
+        "answer":"Here's an answer based solely on the provided documents:\n\n**Consequences for \"Matice\" Officials:**\n\n*   When \"Matice\" was suspended, its officials did not receive any \"krejcaru „Abfertigungu“\" (payment) [doc 2].\n*   The officials were not subjected to any investigation or hearing to clear them from accusations of \"beťařských podezřívání, na cti urážek a veřejných potup\" (accusations of fraud, insults to honor, and public humiliation) [doc 2].\n\n**Context of Broader Struggle:**\n\n*   In 1868, the government stationed troops in the \"Matice\" building [doc 3].\n*   In 1875, under the ministerial presidency of Koloman Tisza, \"Matice\" was completely dissolved, and its property, intended for the Slovak nation, was seized with the harsh judgment that \"slovenského národa niet\" (there is no Slovak nation) [doc 3].\n*   The Hungarian parliament member, Dr. Miletič, questioned the government about the reasons for dissolving the \"Matice slov.\" [doc 5].\n*   Tisza responded that \"Matice\" made dangerous accusations when the University of Zagreb was opened and that its officials received salaries not in accordance with the statutes [doc 5].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.5833,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky zavedení krutějšího boje Tiszou v roce 1874 na slovenskou kulturu a vzdělanost, a jakou roli v tomto procesu hrála Matice Slovenská a její finanční prostředky?",
+        "answer":"According to the provided documents, here's what happened regarding Tisza's actions in 1874 and its impact on Slovak culture and education:\n\n*   **Suppression of Matica Slovenská:** In 1874, Tisza initiated a harsher conflict that led to the complete suppression of Matica Slovenská in 1875 [doc 3], [doc 5]. Its assets, intended for the Slovak nation, were seized [doc 3], [doc 5].\n*   **Declaration:** The government declared a harsh judgment stating that \"the Slovak nation does not exist\" [doc 3], [doc 5].\n*   **Role of Matica Slovenská:** Despite its short existence and difficult times, Matica Slovenská was significant for the nation [doc 3], [doc 5]. It wasn't primarily due to its scientific and publishing activities, but rather its very existence [doc 3], [doc 5].\n*   **Financial Resources:** Tisza used funds from the \"Matica Slovenskej\" fund, established by enthusiasts of the Slovak nation for the benefit and education of the nation, to publish harmful publications for Slovaks [doc 2].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8333,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky politických a sociálních postojů vyjádřených v Národních Listech na postavení svobodných národů v Anglii a Belgii ve srovnání s národy pod byrokratickým a policejním tlakem?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.5833,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké jsou důsledky horského tlaku na přeměnu hornin a jak se tento proces liší od vlivu sopečných výparů a eruptivních hornin na okolní horniny?",
+        "answer":"Here's a breakdown of the effects of mountain pressure on rock transformation, and how it differs from the influence of volcanic emissions and eruptive rocks, based solely on the provided documents:\n\n**Effects of Mountain Pressure on Rock Transformation:**\n\n*   Mountain pressure can cause rocks to fracture and the mineral grains within them to be crushed [doc 1].\n*   It can cause minerals to change, for example, augite transforms into porphyroblast and uralite, and olivine transforms into platy amphibole (\"pilit\") [doc 1].\n*   Massive rocks can transform into layered rocks [doc 1].\n*   Darvin, Baur and Daubrée suspected that great pressure could cause significant rock transformation [doc 2].\n*   Lossen stated that crystalline slates of the Taunus Mountains were originally [doc 2].\n\n**Differences from Volcanic Emissions and Eruptive Rocks:**\n\n*   Volcanic emissions can transform rocks [doc 2].\n*   Eruptive rocks, when they erupt through cracks, can cause changes in the rocks they pass through [doc 2].\n*   If a coal deposit burns for a long time, as in northern Bohemia near Teplice, Karlovy Vary and Bílina, the surrounding slates are glassy [doc 2].",
+        "answer_relevancy":0.75,
+        "faithfulness":0.875,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký je rozdíl mezi masivními horninami eruptivního původu a krystalickými břidlicemi z hlediska jejich struktury a uspořádání součástek, a jaké důsledky to má pro jejich geologické vlastnosti a chování v přírodě?",
+        "answer":"Here's a breakdown of the differences between massive eruptive rocks and crystalline schists, based on the provided documents:\n\n*   **Massive eruptive rocks:** These rocks have their components scattered in all directions [doc 1]. They are completely crystalline, sometimes glassy [doc 1]. They can penetrate other rocks [doc 3].\n*   **Crystalline schists:** These rocks have their components arranged more or less parallel to one another in a single plane [doc 1]. They do not penetrate other rocks like eruptive rocks do [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jakým způsobem přispěla podpora Spojených států a prezidenta Wilsona k posílení postavení a mezinárodního uznání nově vzniklé republiky, a jaké důsledky to mělo pro její vztahy se spojeneckými národy?",
+        "answer":"Here's how the United States and President Wilson contributed to the strengthening of the newly formed republic and its international recognition, based on the provided documents:\n\n*   **Material Support:** The United States provided and continues to provide substantial material assistance to the republic, with promises for the future. [doc2]\n*   **President Wilson's Attention:** President Wilson personally dedicated significant and sincere attention to the republic's issues. [doc2]\n*   **Crucial Help to Masaryk:** In 1918, President Wilson provided crucial assistance to President Masaryk in his work to liberate the nation. [doc5]\n*   **Support During Paris Peace Conference:** The speaker maintained very close relationships with President Wilson during the Paris Peace Conference, and Wilson's support for their national demands was a key guarantee of success. [doc5]\n*   **Gratitude and Loyalty:** The republic is indebted to and loyal to the Allies, and will remain so forever. [doc2]\n\n\n\nThese actions strengthened the republic's position and facilitated its international recognition.",
+        "answer_relevancy":0.75,
+        "faithfulness":1.0,
+        "contextual_precision":0.8667,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly hlavní cíle a očekávané důsledky zapojení svazáků a žen do žňových plánů na Liberecku, a jakou roli v tom hrály výzvy předsednictva Ústředního výboru Komunistické strany a krajského výboru Československého svazu žen?",
+        "answer":"Here's a summary of the main goals, expected consequences, and roles of various entities regarding the harvest plans in the Liberec region, based on the provided documents:\n\n**Main Goals and Expected Consequences:**\n\n*   **Successful Harvest:** The primary goal was to successfully manage the harvest and ensure food supply for the working people, contributing to improved nutrition [doc 1, doc 3].\n*   **Participation of Youth and Women:** There was a call for youth (svazáci) and women to actively participate in the harvest [doc 1, doc 3].\n*   **Construction of JZD:** The involvement of the Československý svaz mládeže (ČSM) was also aimed at providing labor for the construction of agricultural cooperatives (JZD) [doc 2].\n*   **Meeting Production Goals:** The overall goal was to fulfill the five-year plan's production targets [doc 4].\n\n**Roles of Key Entities:**\n\n*   **Presidency of the Central Committee of the Communist Party:** Issued a proclamation that set the goal of a successful harvest and called for the participation of youth and women [doc 1, doc 1].\n*   **Regional Committee of the ČSM:** Developed harvest plans with specific tasks for groups in villages, state machine stations, and state farms [doc 1]. They also organized brigades to work on JZD construction [doc 3].\n*   **Regional Committee of the ČSVŽ (Československý svaz žen):** Issued a call to all women in the Liberec region to help during the harvest wherever needed [doc 1, doc 3].\n*   **ČSM Members (Svazáci):** Were actively involved in the harvest plans, including tasks like mowing grain [doc 1, doc 3].",
+        "answer_relevancy":0.875,
+        "faithfulness":0.7778,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké důsledky by mohlo mít svolání zemského sněmu a odstranění korupční vlády privilegovaných řádů volebních na moravský lid a jeho politické zastoupení?",
+        "answer":"According to [doc2], calling the zemský sněm would have the following consequences for the Moravian people and their political representation:\n\n*   It would open the eyes of the Moravian people. [doc2]\n*   It would lead to a demand for an end to the korupční vláda privilegovaných řádů volebních (corrupt government of privileged electoral orders). [doc2]\n*   It would result in a demand for a sněm (assembly) that would be a důstojným representantem vůle lidu (worthy representative of the will of the people) and would have všeobecného rovného práva hlasovacího (universal equal right to vote). [doc2]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky napětí mezi českou a německou komunitou ve Vídni na konci 19. století, a jak se toto napětí projevovalo v politických rozhodnutích a postojích, které byly přijaty, aby se ochránila česká národní identita a práva?",
+        "answer":"According to [doc2], feeling pressure from Czech competition, Austrian and Czech lands saw securing their existence only in being incorporated into a powerful Germany, led by victorious Prussia, and in suppressing the Czech national movement. The first \"German congress\" held in Vienna in May 1870 opposed the demands of the Czech opposition and requested the introduction of direct elections to the Reichstag. The German National Association (Deutscher Volksverein), which united German nationalist elements in Austria, issued a proclamation during the start of the Prussian-French war, calling for solidarity among all Germans and for a joint action by Austria and Germany. The association issued a program in 1870 calling for a power struggle by Germans in Austria against other nations, requesting autonomy for Galicia and the annexation of Dalmatia to Hungary, so that in the remaining Austria, Germans and Austrians would gain a majority over Slavs, and so that the resulting new state formation could be as closely linked to Germany as possible.",
+        "answer_relevancy":0.0714,
+        "faithfulness":1.0,
+        "contextual_precision":0.5,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důvody a důsledky toho, že české duchovenstvo odmítalo podřídit školství vlivu duchovenských úřadů, a jak se tato situace odrazila na postavení českých poslanců a jejich schopnosti prosazovat změny ve školství?",
+        "answer":"According to the provided documents, here's a breakdown of the reasons for the Czech clergy's resistance and its impact:\n\n*   **Resistance to Clerical Influence:** The Czech clergy did not want to subject education to the influence of clerical offices, as had been the case previously. [doc1]\n*   **Impact on Czech Poslanci (Members of Parliament):** The resistance made it difficult for Czech poslanci to influence education reform. [doc1] The poslanci were often sidelined, as evidenced by the fact that the government had not yet responded to the requests of the Imperial Council and the Czech Assembly and had not submitted any proposals to amend education in accordance with the constitution, leaving the assemblies what was due to them. [doc1]\n*   **Further Obstacles:** A further obstacle was that even if progressive people were found among the constitutional nobility, two virilist bishops and clerical representatives would join forces to prevent a qualified majority. [doc2]",
+        "answer_relevancy":0.6667,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké důsledky by mohlo mít nedostatečné ošetřování a špatná komunikace mezi lékaři, jako je Christián Ivánovič, a pacienty, zejména v kontextu očekávané návštěvy cestujícího úředníka, a jak se na tuto situaci připravuje Artemij Filippovič?",
+        "answer":"Based on the provided documents, here's a summary of the issues and Artemij Filippovič's response:\n\n**Issues:**\n\n*   **Patient complaints:** Patients are complaining about the strong tobacco smoke in the hospital, and they blame poor care or the doctor's incompetence when experiencing issues [doc 2].\n*   **Communication barrier:** Christián Ivánovič does not speak Russian, making communication with patients difficult [doc 2].\n*   **Upcoming revisor:** A revisor from St. Petersburg is expected to visit, and this is causing concern among the officials [doc 4].\n\n**Artemij Filippovič's Preparation:**\n\n*   He and Christián Ivánovič have made arrangements for treatment, focusing on natural remedies and avoiding expensive medications [doc 2].\n*   He is aware of the communication issues with Christián Ivánovič and the patient complaints [doc 2].",
+        "answer_relevancy":0.9091,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky prohlášení dr. Stránského, že se před soudem projednává proces celého českého národa, a jak toto prohlášení ovlivnilo vnímání procesu s \"Omladinou\" v kontextu tehdejších politických a společenských poměrů?",
+        "answer":"Dr. Stránský prohlásil, že „projednává se to před soudem proces celého českého národa!“ a toto prohlášení obsahuje hanebné nařknutí celého českého národa [doc1]. Toto prohlášení vyvolalo potřebu co nejdůrazněji se proti němu ohradit [doc1]. Obhájcové se v novější době libují ve křiklavých frázích, které mají zaslepit soudce a obecenstvo a mají být dobrou vodou na jejich mlýny [doc1].",
+        "answer_relevancy":0.5,
+        "faithfulness":0.75,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jakým způsobem festival ve Strážnici reflektuje význam a odkaz profesora Vladimíra Úlehly a jaké konkrétní prvky programu jsou tomu věnovány?",
+        "answer":"The festival program commemorates the 120th anniversary of the birth of Professor Vladimír Úlehly [doc 1]. This is reflected through the screening of the film \"Mizející svět\" and a program called \"Písňová zahrada\" [doc 1]. Additionally, the festival references a moment when Strážničané asked him to advise on the content of national celebrations to be held in 1946, leading to the proposal of a competition for musicians, singers, and recruiters [doc 1], [doc 1].",
+        "answer_relevancy":0.6,
+        "faithfulness":0.6,
+        "contextual_precision":0.7556,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké role a aktivity jsou nabízeny návštěvníkům festivalu ve Strážnici a jak tyto možnosti přispívají k celkovému zážitku z festivalu?",
+        "answer":"The festival offers visitors several roles and activities, contributing to the overall experience: [doc3], [doc4]\n\n*   **Role of a viewer:** Watching large stage performances like the program dedicated to the \"Kraj beze stínů\" - Hanácké Slovácku, children's folklore, or foreign ensembles. [doc4]\n*   **Role of a participant:** Participating in the competition for the best dancer of the Slovácký verbuněk or visiting the Children's Court. [doc3]\n*   **Role of a student:** Attending the school of traditional dances or the Folklore School of Morals. [doc3]\n*   **Role of a listener:** Enjoying the beauty and atmosphere of the festival, singing, dancing, or playing music. [doc3]\n*   **Role of a viewer:** Watching presentations of Strážnice folklore ensembles. [doc3]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky působení Kamila Krofty jako ministra zahraničních věcí na jeho vědeckou práci a jak se jeho zkušenosti z koncentračního tábora promítly do jeho pozdějšího přínosu pro českou historickou vědu a diplomatickou službu?",
+        "answer":"Kamil Krofta byl dočasně odveden z pracovny badatele funkcí ministra zahraničních věcí, kterou zastával po volbě dr. E. Beneše prezidentem republiky [doc2]. Podlehl v důsledku úplného vyčerpání, vzniklého za více než ročního pobytu v koncentračním táboře Terezínském [doc2]. S Kamilem Kroftou odešel před dvěma roky z české historické vědy i diplomatické služby historik vpravdě národní [doc2].",
+        "answer_relevancy":0.4,
+        "faithfulness":0.6667,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly hlavní faktory, které přispěly k tomu, že Marie François Sadi Carnot byl považován za vhodného kandidáta na prezidenta, a jak jeho technické a politické zkušenosti ovlivnily jeho schopnost vykonávat tuto funkci?",
+        "answer":"Here's a breakdown of the factors contributing to Marie François Sadi Carnot's suitability for the presidency and how his experience shaped his ability to perform the role, based solely on the provided documents:\n\n**Factors Contributing to Suitability:**\n\n*   **Lack of Factionalism:** Carnot was considered suitable because he \"neúčastnil se bojů jednotlivých frakcí a že není politikem ve velkém stylu\" [doc 1].\n*   **Family Reputation:** His family's reputation, including his father, Lazar Hypolita Carnota, was a factor [doc 1].\n*   **Integrity:** His \"čestnosť i jeho rodiny\" was considered important [doc 1].\n\n**Technical and Political Experience:**\n\n*   **Technical Background:** He was a technician by profession and worked as an engineer in Annecy, where he built bridges and canals [doc 1].\n*   **Prefectural Experience:** He served as a prefect in the Lower Seine region, where he established national defenses against the Prussians [doc 1].\n*   **Parliamentary Involvement:** He was a member of the National Assembly and joined the Gambetta party [doc 1].\n*   **Ministerial Role:** He served as Minister of Public Works from 1880 to 1881 [doc 1].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.8571,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky pořádání sjezdu rolnictva Českoslovanského a jakou roli v tom hrály sokolské jednoty a Matice školská?",
+        "answer":"Here's an answer based solely on the provided context:\n\nThe Českoslovanské rolnictvo sjezd (Českoslovanské rolnictvo sjezd) was held on December 8 and 9, 1900, and was well-attended by farmers [doc 4]. The sjezd addressed the sad state of Czech agriculture, leading to a resolution with several key points [doc 4]:\n\n*   **Economic Unions:** Zemské svazy hospodářských společenstev should encompass all types of sales, purchase, and credit cooperatives under unified management [doc 4].\n*   **Central Union:** These regional unions should unite into a single central union for all three lands of the Czech Crown [doc 4].\n*   **Politics Excluded:** Politics should be excluded from the management and development of this cooperative movement, as the aim is to protect the independence of the middle classes, particularly the Českoslovanské rolnictvo [doc 4].\n*   **Sokolské jednoty:** Sokolské jednoty were called upon to maintain order and organize the procession for the sjezd [doc 2].\n*   **Matice školská:** After the sjezd, a large national celebration would be held in support of Matice školská, featuring Czech girls and boys in national costumes [doc 2].\n*   **Národní jednota:** The Národní jednota played an important role, focusing on supporting minority Czech communities and their material and ideological support [doc 3].\n*   **Brněnská Matice školská:** It focused on the development of Czech schools and created a counterbalance to the German Schulverein [doc 3].",
+        "answer_relevancy":0.7333,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké důvody vedly Čechy k pocitu, že mají právo na svobodný pohyb a užívání dobrodiní v rakousko-uherském mocnářství, a jak se tento nárok projevoval v jejich vynálezech a inovacích, jako je například ruchadlo Václava Veverky?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky Veverkovy snahy o inovaci zemědělských nástrojů na jeho osobní život a jak se to odráží v širším kontextu boje za jazykovou rovnoprávnost ve Slezsku?",
+        "answer":"Sorry, I can´t answer the question.",
+        "answer_relevancy":0.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.6389,
+        "contextual_recall":0.8,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky zavedení říšského zákona ze dne 10. prosince 1863 na chudé venkovské obce a jaké problémy tento zákon způsobil v kontextu správy chudinských ústavů a podpory obyvatelstva?",
+        "answer":"According to [doc1], [doc3], the Imperial Law of December 10, 1863, negatively impacted many poor rural communities, benefiting wealthier and growing towns and industrial areas. This law caused an uneven distribution of the burden of poverty. People originating from other communities were denied the right of domicile, forcing them to seek help from their domicile community, where they were often unknown and had not contributed. The law also caused problems with the administration of poorhouses and the support of the population, as the burden fell disproportionately on poor rural communities.",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":0.8333,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky odhalení pomníku Josefa Dobrovského v Praze na vnímání jeho odkazu a jak se to projevilo v srdcích českého národa?",
+        "answer":"The unveiling of the monument to Josef Dobrovský in Prague had several consequences for the perception of his legacy and its impact on the Czech people:\n\n*   It was a significant celebration for the entire Czech nation, marking a demonstration of respect and love for the \"awakener\" [doc 1].\n*   The monument added to the number of public monuments that the Czech cities, particularly Prague, could boast [doc 3].\n*   It ensured that Dobrovský would be remembered eternally in the hearts of the Czech people, beyond just the monument itself [doc 3].\n*   The event was seen as a revitalization of the nation [doc 2].",
+        "answer_relevancy":0.8333,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky toho, že Československo nezískalo finanční podporu od Spojenců, a jak to ovlivnilo jeho mezinárodní uznání a vztahy s ostatními zeměmi během a po první světové válce?",
+        "answer":"Československo nezískalo finanční podporu od Spojenců, protože Sovětská vláda neprosadila svou podmínku, tj. uznání předválečných dluhů za poskytnutí dlouhodobého finančního úvěru. [doc2] V důsledku toho západoevropské finanční kruhy v jednotné frontě s finančním světem severoamerickým pokračovaly ve své finanční blokádě. [doc2] Československá zahraniční politika nenásledovala své západoevropské spojence a nepřipojila se k uznání SSSR de jure. [doc2]",
+        "answer_relevancy":1.0,
+        "faithfulness":0.6667,
+        "contextual_precision":0.0,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důvody a důsledky toho, že p. Krnka, Čech, byl oslavován za své pušky a náboje, které daroval ruskému carství, a jak tato událost ovlivnila vztahy mezi českými a ruskými účastníky slavnosti?",
+        "answer":"According to the provided documents, here's a breakdown of the reasons for and consequences of Mr. Krnka's celebration, and how it affected Czech-Russian relations:\n\n**Reasons for the Celebration:**\n\n*   Mr. Krnka, a Czech, gifted \"výtečné pušky a náboje\" (excellent rifles and ammunition) to the entire Russian Empire [doc 1].\n*   A grand celebration was held at his factory to honor this gift [doc 1, doc 4].\n*   A grand duke, Nikolai Nikolaevich, thanked Mr. Krnka on behalf of the Tsar for the gift [doc 1].\n\n**Consequences and Impact on Relations:**\n\n*   The event was a significant celebration for both the Russian nation and foreign governments [doc 4].\n*   There was enthusiastic cheering (\"Urá\" and \"Sláva\") from the Russian attendees in honor of Mr. Krnka and the gift [doc 1, doc 1].\n*   Czechs were cheered and celebrated by the Russians, with calls of \"Urá\" and \"Sláva\" directed towards the Czech nation [doc 1, doc 2].\n*   Generals were reportedly shouting for all the Czechs to be recognized [doc 2].\n*   The event fostered a sense of connection and shared Slavic identity, with Russians expressing joy in speaking the Slavic language with the Czechs [doc 3].",
+        "answer_relevancy":1.0,
+        "faithfulness":0.625,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky německého vlivu na finskou buržoazii a jak se tento vliv projevil v kontextu pomsty na socialistickém dělnictvu, které se účastnilo proletářské revoluce, a jakou roli v tom hrála německá sociální demokracie?",
+        "answer":"According to the provided documents, here's how German influence impacted the Finnish bourgeoisie and its actions against socialist workers:\n\n*   **German influence and Finnish bourgeoisie:** A Viennese newspaper of the German Social Democracy states that Germany is a \"great accomplice\" in the actions of the Finnish bourgeoisie [doc 1].\n*   **Pomsta na socialistickém dělnictvu:** During battles between counter-revolutionary white guards (supported by German troops), 80,000 volunteers from socialist revolutionary red guards, mostly workers, were captured [doc 3].\n*   **Role of German Social Democracy:** The Viennese newspaper of the German Social Democracy voiced concerns about the actions of the Finnish bourgeoisie and suggested that German Social Democracy should take action to stop the \"worst cruelties and injustices\" [doc 1]. It also mentions that German workers \"made order\" in Finland [doc 1].",
+        "answer_relevancy":0.8,
+        "faithfulness":1.0,
+        "contextual_precision":0.8333,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důsledky amerického protestu proti španělským rejdařům a jak to souviselo s dodávkami zboží mezi Amerikou a Španělskem během války?",
+        "answer":"According to [doc5], an association of shipowners in Barcelona submitted a protest to the government against the seizure of Spanish ships by Americans, requesting that the French representative in Washington be asked to intervene. This protest likely stemmed from incidents like the encounter between the Spanish ship \"Ligera\" and the American torpedo ship \"Cushing\" [doc5].\n\nThe context also mentions that the USA drastically reduced imports of food, fruits, coffee, cocoa, and wool from South America, while increasing imports of strategic raw materials from countries like Chile, Venezuela, and Brazil [doc2]. This shift in trade relations likely impacted the flow of goods between America and Spain during the war.",
+        "answer_relevancy":0.6667,
+        "faithfulness":0.8333,
+        "contextual_precision":0.2,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly argumenty různých skupin, jako jsou velkoprůmyslníci a hrabě G. Serényi, ohledně využití kontribučenských fondů, a jaké důsledky by mohly mít jejich návrhy na ekonomickou stabilitu a rozvoj infrastruktury?",
+        "answer":"Here's a summary of the arguments regarding the use of contribution funds, based on the provided documents:\n\n*   **Velkoprůmyslníci:** They desired that the funds be used to build railways, believing this would benefit everyone, especially themselves. [doc 1]\n*   **Hrabě G. Serényi:** He proposed forming larger credit institutions from the contribution funds. [doc 1], [doc 3]\n*   **Potential Consequences:** If state papers (containing the funds) were lost, it could lead to a lack of benefit. However, if landowners lent or donated their state papers for railway construction, it could be beneficial. [doc 1]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaký byl důvod konfiskace pondělního čísla »Nár. Listů« a jaký vliv měla tato konfiskace na vnímání veřejnosti, zejména ve srovnání s reakcí na feuilleton v »Tagblattu«, který obsahoval kontroverzní výrok o Kristu?",
+        "answer":"Here's the information regarding the confiscation of \"Nár. Listů\" and its comparison to the \"Tagblattu\" feuilleton, based solely on the provided context:\n\n**Reason for Confiscation of \"Nár. Listů\":**\n\n*   The reason for the confiscation of the Monday issue of \"Nár. Listů\" was due to an \"urážku úřadnické vlády Körbrovy\" [doc 1].\n*   Another confiscation of \"Nár. Listů\" occurred on October 20th, and it was due to \"urážku\" [doc 5].\n*   A further confiscation occurred when \"závadnými shledány tři věty (7 řádků) úvodní stati k referátu z říšské rady vídeňské\" [doc 4].\n\n**Comparison to \"Tagblattu\" Feuilleton:**\n\n*   The context mentions a feuilleton in \"Tagblattu\" that contained a controversial statement about Christ on the cross [doc 1].\n*   The text questions the purpose of confiscations, specifically asking why they are used for offenses against state authorities and why they advertise the publications they target [doc 1].\n*   The text implies a comparison between the confiscation of \"Nár. Listů\" and the \"Tagblattu\" feuilleton by questioning the rationale behind confiscations in general [doc 1].",
+        "answer_relevancy":0.8333,
+        "faithfulness":0.6667,
+        "contextual_precision":0.75,
+        "contextual_recall":0.6,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a důsledky snahy německo-liberálních stran uzavřít nové souručenství namířené proti slovanským národům v Rakousku, a jakou roli v této situaci hrála akce předsedy ministerstva dr. Körbera ve vztahu k českým poslancům?",
+        "answer":"According to the provided documents, here's information regarding the question:\n\n**Reasons and Consequences of the German-Liberal Alliance:**\n\n*   There is a situation where \"německo-liberální strany\" (German-liberal parties) are attempting to form a new \"souručenství\" (alliance) aimed at Slavic nations in Austria. [doc 1]\n\n**Dr. Körber's Role:**\n\n*   The government of Dr. Körber claimed that the Czech people were \"naprosto netečným\" (absolutely indifferent) and that it was \"lhostejno\" (unimportant) to them what happened in Vienna. [doc 2]\n*   Dr. Körber reported to the crown (koruna) based on these claims, and the crown believed and had to believe these reports. [doc 2]\n*   He told the crown that Czech MPs were pursuing a different policy than what the Czech people desired. [doc 2]\n*   He held his promises to the Germans, and his opponents had to admit this. [doc 5]\n*   He did everything to preserve German dominance. [doc 5]\n*   However, \"Čas\" (Time) newspaper stated that this was a condemnation of Körber's system and proof of the injustice of his five-year rule. [doc 5]",
+        "answer_relevancy":1.0,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody americké vlády pro protest proti španělským rejdařům a jaké důsledky mělo toto jednání na vztahy mezi Spojenými státy a Španělskem v kontextu zásobování německých ponorek?",
+        "answer":"According to the provided documents, here's information regarding the US protest against Spanish actions and its relation to German U-boats:\n\n*   **US Protest against Spanish actions:** There was a \"nový tuhý spor\" (new stiff dispute) between Spain and the United States regarding the condemnation of \"amerických flibustierů\" (American pirates) [doc 4].\n*   **Context of German U-boats:** The US government protested against Spanish actions because it valued \"velkou cenu, kterou klade na dlouhé nerušené přátelství mezi vládou a národem ve Spojených Státech a vládou a národem v Německu\" [doc 3]. The US felt compelled to insist that Spain respect neutral rights, as it was necessary to maintain relations with Germany. A note from the US stated that any action by a German warship that harmed American citizens on a merchant ship would be considered an \"úmyslně nepřátelský akt\" (deliberately hostile act) [doc 3].",
+        "answer_relevancy":0.5,
+        "faithfulness":0.5,
+        "contextual_precision":0.0,
+        "contextual_recall":0.0,
+        "success":false
+    },
+    {
+        "question":"Jaké byly důsledky nevhodné úpravy nabývání práva domovského zavedené říšským zákonem z 10. prosince 1863 na chudé venkovské obce a jaké řešení navrhoval zemský výbor k odstranění těchto problémů?",
+        "answer":"According to [doc1], [doc2], the law of December 10, 1863 harmed rural poor communities in favor of wealthy and growing towns and industrial areas. This was due to an inappropriate adjustment of the acquisition of the right of domicile. The law prevented residents from foreign communities from obtaining the right of domicile, forcing them to seek help from their home communities during times of hardship, even though they were completely unknown there.\n\nThe land committee suggested that the new law would not completely eliminate these shortcomings, because a continuous residence of 10 years is too long for mobile populations. [doc4] suggests that the acquisition of the right of domicile should be facilitated to balance the effects of new conditions and the obligation of home communities.",
+        "answer_relevancy":0.8571,
+        "faithfulness":0.7143,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody a následky znovuzavedení krajkářství v žambereckém okresu v roce 1897, a jakou roli v tomto procesu hrálo městské průmyslové museum v Hradci Králové?",
+        "answer":"Here's an answer based on the provided context:\n\nIn 1897, krajkářství (lacemaking) was znovuzavedeno (reintroduced) in the Žamberecký okres (Žamberk district) due to several factors. After several years of poor harvests, poverty severely affected the poor mountain people, threatening the partial depopulation of the poorest municipalities. Residents of entire houses were leaving settlements for the entire summer, seeking employment in neighboring districts. To provide the people with a new source of livelihood in place of the lost home weaving and exhausting production of netted buttons, it was decided to reintroduce lacemaking [doc 4].\n\nThe Městské průmyslové museum v Hradci Králové (Municipal Industrial Museum in Hradec Králové) played a role in this process by taking over the action for the improvement of domestic lacemaking in the Žamberecký kraj (Žamberk region) [doc 2].",
+        "answer_relevancy":0.7143,
+        "faithfulness":1.0,
+        "contextual_precision":0.9167,
+        "contextual_recall":1.0,
+        "success":true
+    },
+    {
+        "question":"Jaké byly důvody pro nutnost užívání švýcarského a francouzského hedvábí při výrobě krajek a jaké důsledky to mělo na prodej a export těchto výrobků?",
+        "answer":"The use of Swiss and French silk was necessary because attempts to replace the need for this material domestically were unsuccessful [doc1]. The industry of lace, which previously exported over 200 million francs worth of goods annually, faced great difficulties regarding exports to North America, due to a ban issued in France prohibiting the import of luxury goods, including lace and embroidery [doc5].",
+        "answer_relevancy":0.8,
+        "faithfulness":1.0,
+        "contextual_precision":1.0,
+        "contextual_recall":1.0,
+        "success":true
+    }
+]

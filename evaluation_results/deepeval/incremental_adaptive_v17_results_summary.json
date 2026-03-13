@@ -1,0 +1,11 @@
+{
+    "answer_relevancy": 0.8595202020202022,
+    "faithfulness": 0.8404484848484848,
+    "contextual_precision": 0.8461444444444444,
+    "contextual_recall": 0.8937474747474747,
+    "framework": "deepeval",
+    "experiment": "incremental_adaptive_v17_results",
+    "judge": "gpt-4o-mini",
+    "pass_rate": 84.85
+}
+

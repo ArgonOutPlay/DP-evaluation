@@ -1,0 +1,2 @@
+experiment,judge,answer_relevancy,faithfulness,contextual_precision,contextual_recall,framework,pass_rate
+01_ollama_default_config_results,gpt-4o-mini,0.815217,0.8562179999999999,0.8127939999999999,0.8738900000000001,deepeval,78.0
