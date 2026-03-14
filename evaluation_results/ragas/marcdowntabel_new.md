@@ -1,0 +1,9 @@
+| experiment           | judge       |   faithfulness |   answer_relevancy |   answer_correctness |   context_precision |   context_recall |   context_sufficiency | framework   |note   |
+|:---------------------|:------------|---------------:|-------------------:|---------------------:|--------------------:|-----------------:|----------------------:|:------------|:------------|
+| og_adaptive_results | gpt-4o-mini |        0.86522 |           0.787735 |              0.52173 |                   1 |         0.955355 |                   0.6 | ragas       |
+| 01_ollama_default_config_results  (20) | gpt-4o-mini |        0.92235 |           0.774395 |              0.58554 |                   1 |         0.959445 |                  0.55 | ragas       |
+| 01_ollama_default_config_results (20) | gpt-5.1 |       0.828685 |            0.83701 |             0.394605 |             0.82292 |           0.4144 |                  0.25 | ragas       |
+| 01_ollama_default_config_results (100) | gpt-4o-mini |       0.865398 |            0.73243 |             0.520388 |                0.99 |         0.941849 |                  0.49 | ragas       | 
+| ollama_incremental_adaptive_v25_2_results (20) | gpt-4o-mini |        0.93078 |           0.799305 |              0.58175 |                   1 |          0.93486 |                   0.6 | ragas       |
+| ollama_incremental_adaptive_v25_2_results (20) | gpt-5.1 |        0.83375 |            0.93854 |               0.4583 |              0.8375 |          0.41249 |                  0.25 | ragas       |
+| ollama_incremental_adaptive_v25_2_results (100) | gpt-4o-mini |        0.90857 |           0.786366 |              0.52185 |            0.989899 |         0.930987 |              0.505051 | ragas       |
