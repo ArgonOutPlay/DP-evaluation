@@ -1,0 +1,11 @@
+{
+    "faithfulness": 0.9217989795918367,
+    "answer_relevancy": 0.7008080808080808,
+    "answer_correctness": 0.6000767676767677,
+    "context_precision": 0.8457545454545454,
+    "context_recall": 0.8560626262626262,
+    "context_sufficiency": 0.5050505050505051,
+    "framework": "ragas",
+    "experiment": "basic_ollama_default_required_language_prompt_results",
+    "judge": "gpt-4o-mini"
+}

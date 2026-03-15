@@ -4,6 +4,7 @@
 | 01_ollama_default_20 (basic rag) | gpt-4o-mini |        0.92235 |            0.82765 |             0.590475 |            0.867715 |           0.8875 |                   0.6 | ragas       |
 | **01_ollama_default_20 ((basic rag)  - rerun)** | gpt-4o-mini |       0.912765 |            0.82272 |              0.56959 |            0.867715 |            0.925 |                   0.6 | ragas       |
 | **01_ollama_default_config_results (100)** | gpt-4o-mini |       0.876011 |           0.776433 |             0.599567 |            0.837644 |         0.835003 | no results | ragas
+| basic_ollama_default_required_language_prompt_results | gpt-4o-mini |       0.921799 |           0.700808 |             0.600077 |            0.845755 |         0.856063 |              0.505051 | ragas       |
 | 01_ollama_default_20 (basic rag) | gpt-5.1 |       0.851735 |            0.88097 |             0.461595 |            0.646945 |             0.66 |                   0.1 | ragas       |
 | **11_ollama_adaptive_20 (version 0)** | gpt-4o-mini |       0.820155 |            0.62249 |              0.55456 |             0.90573 |           0.8625 |                  0.55 | ragas       |
 | 11_ollama_adaptive_20 (version 0)| gpt-5.1 |        0.66964 |            0.84757 |             0.475175 |             0.57722 |              0.6 |                  0.25 | ragas       |
