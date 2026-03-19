@@ -1,0 +1,11 @@
+{
+    "faithfulness": 0.9175939393939394,
+    "answer_relevancy": 0.7572505050505051,
+    "answer_correctness": 0.5874857142857143,
+    "context_precision": 0.8840404040404042,
+    "context_recall": 0.8434373737373738,
+    "context_sufficiency": 0.5353535353535354,
+    "framework": "ragas",
+    "experiment": "100complex_ollama_incremental_adaptive_v26_nometadata_results",
+    "judge": "gpt-4o-mini"
+}

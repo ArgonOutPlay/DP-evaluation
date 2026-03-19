@@ -50,8 +50,8 @@
     {
         "question_id": "hum_009",
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
-        "question": "Mateřské mléko jakého zvířete je přirozeně růžové?",
-        "ground_truth": "Mateřské mléko hrocha je přirozeně růžové."
+        "question": "Kolik srdcí má chobotnice?",
+        "ground_truth": "Chobotnice mají celkem tři srdce. Dvě srdce (žaberní) pumpují krev do žáber, kde se okysličuje, a třetí, hlavní srdce (systolické) rozvádí okysličenou krev do zbytku těla."
     },
     {
         "question_id": "hum_010",
@@ -62,8 +62,8 @@
     {
         "question_id": "hum_011",
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
-        "question": "Kdy USA napadlo Venezuelu?",
-        "ground_truth": "Podle dostupných informací zahájily Spojené státy americké vojenskou akci označovanou jako Operace Absolutní odhodlání (Operation Absolute Resolve) dne 3. ledna 2026."
+        "question": "When did the second season of Frieren: Beyond Journey’s End came out?",
+        "ground_truth": "The second season of Frieren: Beyond Journey’s End is set to premiere in January 16, 2026. "
     },
     {
         "question_id": "hum_012",
@@ -82,5 +82,53 @@
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
         "question": "When was Resident Evil Requiem released?",
         "ground_truth": "Resident Evil Requiem was released 27. february 2026."
+    },
+    {
+        "question_id": "hum_015",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "When was Hearthstone game released?",
+        "ground_truth": "The game Hearthstone was released on March 11, 2014."
+    },
+    {
+        "question_id": "hum_016",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Jaké jsou ceny vstupenek do Britského muzea pro sezónu jaro 2026?",
+        "ground_truth": "Vstup do stálých sbírek Britského muzea v Londýně je pro jaro 2026 zdarma."
+    },
+    {
+        "question_id": "hum_017",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Kdo se 9. prosince 2025 stal premiérem České republiky?",
+        "ground_truth": "9. prosince 2025 se premiérem České republiky stal Andrej Babiš."
+    },
+    {
+        "question_id": "hum_018",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "How much does spine crawler cost to build in Starcraft 2?",
+        "ground_truth": "The Spine Crawler costs 100 minerals to build."
+    },
+    {
+        "question_id": "hum_019",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "In which genre of games is streamer LilAggy specialized?",
+        "ground_truth": "LilAggy is specialized in Soulsborne games, Action RPGs, and variety streaming, with a strong focus on speedrunning and challenge runs."
+    },
+    {
+        "question_id": "hum_020",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "What is Joe Abecrombie's last published book?",
+        "ground_truth": "Joe Abercrombie's last published book is \"The Devils\"."
+    },
+    {
+        "question_id": "hum_021",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Kdo vyhrál Oscary 2026 za nejlepší mužský herecký výkon?",
+        "ground_truth": "Oscar za nejlepší mužský herecký výkon v hlavní roli vyhrál Michael B. Jordan."
+    },
+    {
+        "question_id": "hum_022",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "Jaké je vlastní jméno hráče CS2 donk?",
+        "ground_truth": "Vlastní jméno profesionálního hráče CS2, který vystupuje pod přezdívkou donk, je Danil Kryškovets (rusky: Данил Крышковец)."
     }
 ]

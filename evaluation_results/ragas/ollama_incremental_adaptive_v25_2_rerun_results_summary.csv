@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,answer_correctness,context_precision,context_recall,context_sufficiency,framework
+ollama_incremental_adaptive_v25_2_rerun_results,gpt-4o-mini,0.8768414141414141,0.7220474747474747,0.5508444444444444,0.8549575757575759,0.8341787878787879,0.46464646464646464,ragas
