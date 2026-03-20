@@ -11,3 +11,4 @@
 | ollama_incremental_adaptive_v25_2_results (100) | gpt-4o-mini |        0.90857 |           0.786366 |              0.52185 |            0.989899 |         0.930987 |              0.505051 | ragas       |
 | ollama_incremental_adaptive_v25_2_nometadata_results (100) | gpt-4o-mini |       0.922632 |           0.808157 |             0.524654 |                0.99 |         0.933684 |                  0.53 | ragas       |
 | pc_01_ollama_default_config_results | gpt-4o-mini |       0.914299 |           0.660162 |             0.614474 |            0.860322 |         0.856905 |              0.505051 | ragas       |
+| server_new100_ollama_incremental_adaptive_v25_4_3_results | gpt-4o-mini |        0.90199 |           0.799781 |             0.512979 |                0.99 |         0.930756 |                   0.5 | ragas       |

@@ -75,3 +75,4 @@
 | pc_ollama_incremental_adaptive_v25_2_1808_results | gpt-4o-mini |       0.877239 |           0.731228 |             0.564338 |            0.850806 |         0.858591 |              0.474747 | ragas       |
 | server_100complex_ollama_incremental_adaptive_v25_4_2_results | gpt-4o-mini |       0.895914 |           0.808148 |             0.571163 |            0.891189 |         0.854595 |              0.525773 | ragas       |
 | server_100complex_ollama_incremental_adaptive_v25_4_3_results | gpt-4o-mini |       0.915997 |           0.805149 |             0.598993 |             0.85354 |         0.863638 |              0.525253 | ragas       |
+| server_web_ollama_incremental_adaptive_v25_4_3_results (web) | gpt-4o-mini |       0.880955 |           0.743818 |             0.543664 |            0.556064 |         0.636364 |              0.545455 | ragas       |
