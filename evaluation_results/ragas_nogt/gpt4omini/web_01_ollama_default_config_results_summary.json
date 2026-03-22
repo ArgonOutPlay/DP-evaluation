@@ -1,0 +1,8 @@
+{
+    "faithfulness": 0.11199999999999999,
+    "answer_relevancy": 0.143292,
+    "context_sufficiency": 0.08800000000000001,
+    "framework": "ragas_nogt",
+    "experiment": "web_01_ollama_default_config_results",
+    "judge": "gpt-4o-mini"
+}

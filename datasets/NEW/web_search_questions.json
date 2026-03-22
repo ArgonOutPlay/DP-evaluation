@@ -130,5 +130,23 @@
         "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
         "question": "Jaké je vlastní jméno hráče CS2 donk?",
         "ground_truth": "Vlastní jméno profesionálního hráče CS2, který vystupuje pod přezdívkou donk, je Danil Kryškovets (rusky: Данил Крышковец)."
+    },
+    {
+        "question_id": "hum_023",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "What is name of the final boss in lies of p overture?",
+        "ground_truth": "The final boss of the Lies of P: Overture DLC is Arlecchino the Blood Artist, also known as the King of Riddles."
+    },
+    {
+        "question_id": "hum_024",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "What year did Kate Middleton and Prince William get married?",
+        "ground_truth": "2011"
+    },
+    {
+        "question_id": "hum_025",
+        "source_chunk_id": "000040cf-a69e-4428-8bdd-3b5a43cd9295",
+        "question": "What U.S. woman was appointed as the first woman Speaker of the House?",
+        "ground_truth": "Nancy Pelosi"
     }
 ]
