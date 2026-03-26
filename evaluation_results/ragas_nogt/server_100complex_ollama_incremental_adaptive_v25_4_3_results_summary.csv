@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,context_sufficiency,framework
+server_100complex_ollama_incremental_adaptive_v25_4_3_results,gpt-5.1,0.7520101010101011,0.9160525252525252,0.6202020202020203,ragas_nogt

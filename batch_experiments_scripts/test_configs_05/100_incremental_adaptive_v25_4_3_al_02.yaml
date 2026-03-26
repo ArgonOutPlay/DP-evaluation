@@ -1,0 +1,15 @@
+id: "xandry12_IncrementalAdaptiveRagGenerator_ollama_default_multiquery"
+name: "Incremental Adaptive RAG using Ollama with multi query and web search"
+description: "NEW Incremental Adaptive RAG Generator configuration using Ollama with multi query strategy and web search enabled."
+class_name: "IncrementalAdaptiveRagGenerator"
+params:
+  model_type: "OLLAMA"
+  model_name: "gemma3:12b"
+  temperature: 0.0
+  search_type : "hybrid"
+  alpha: 0.2
+  chunk_limit: 10
+  max_retries : 3
+  web_search_enabled : True
+  metadata_extraction_allowed : False
+  max_web_result : 8

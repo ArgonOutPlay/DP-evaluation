@@ -1,0 +1,10 @@
+{
+    "answer_relevancy": 0.8690454545454546,
+    "faithfulness": 0.839960606060606,
+    "contextual_precision": 0.8055848484848486,
+    "contextual_recall": 0.8985414141414141,
+    "framework": "deepeval",
+    "experiment": "server_100_ollama_incremental_adaptive_v25_4_3_rerun_results",
+    "judge": "gpt-4o-mini",
+    "pass_rate": 79.8
+}

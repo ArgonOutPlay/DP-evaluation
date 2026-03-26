@@ -1,0 +1,2 @@
+experiment,judge,answer_relevancy,faithfulness,contextual_precision,contextual_recall,framework,pass_rate
+server_100_ollama_incremental_adaptive_v25_4_3_rerun_results,gpt-4o-mini,0.8690454545454546,0.839960606060606,0.8055848484848486,0.8985414141414141,deepeval,79.8

@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,context_sufficiency,framework
+20_incremental_adaptive_v25_4_3_nometadata_results,gpt-5.1,0.804985,0.9374900000000002,0.675,ragas_nogt
