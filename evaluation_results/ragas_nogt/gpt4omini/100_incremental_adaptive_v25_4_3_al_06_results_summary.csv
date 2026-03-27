@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,context_sufficiency,framework
+100_incremental_adaptive_v25_4_3_al_06_results,gpt-4o-mini,0.9129550000000001,0.728341,0.6809999999999999,ragas_nogt

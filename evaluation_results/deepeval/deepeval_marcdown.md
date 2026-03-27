@@ -1,4 +1,5 @@
 | experiment                       | judge       |   answer_relevancy |   faithfulness |   contextual_precision |   contextual_recall | framework   |   pass_rate |
 |:---------------------------------|:------------|-------------------:|---------------:|-----------------------:|--------------------:|:------------|------------:|
-| 01_ollama_default_config_results | gpt-4o-mini |           0.815217 / 90.00% |       0.856218 / 100.00% |               0.812794 / 87.00% |             0.87389 / 90.00% | deepeval    |          78 |
-| incremental_adaptive_v17_results | gpt-4o-mini |            0.85952 / 97.00%  |       0.840448 / 98.99%  |               0.846144 / 91.00%|            0.893747 / 92.10%| deepeval    |       84.85 |
+| 01_ollama_default_config_results (100 - complex) | gpt-4o-mini |           0.815217 / 90.00% |       0.856218 / 100.00% |               0.812794 / 87.00% |             0.87389 / 90.00% | deepeval    |          78 |
+| incremental_adaptive_v17_results (100 - complex) | gpt-4o-mini |            0.85952 / 97.00%  |       0.840448 / 98.99%  |               0.846144 / 91.00%|            0.893747 / 92.10%| deepeval    |       84.85 |
+| ollama_incremental_adaptive_v25_4_3 (100 - new complex) | gpt-4o-mini |           0.869045 / 95.96% |       0.839961 / 96.97%  |               0.805585 / 83.84% |            0.898541 / 92.93% | deepeval    |        79.8 |
