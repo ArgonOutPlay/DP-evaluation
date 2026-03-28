@@ -1,0 +1,970 @@
+Found 1 configurations. Starting batch processing...
+Running config: 100simple_incremental_adaptive_v25_4_3
+Adaptive RAG version 25_4_3
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy byla ukrajinská vláda uznána Francií a Anglií?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5042
+rag answer: Francie uznala československou vládu smlouvou z 28. září 1918 [doc4]. Anglie uznala Národní Radu smlouvou z 3. září 1918 [doc4]. Dokument [doc3] zmiňuje, že uznání ukrajinské vlády bylo pouhými papírovými cáry, které nikoho nezavazovaly.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Francie" AND "Anglie" AND "ukrajinská vláda" AND "uznání" AND "diplomatické vztahy"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Francie" AND "Anglie" AND "ukrajinské exilové vlády" AND "přiznání" AND "mezinárodní uznání"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"ukrajinská otázka" AND "rusko-ukrajinské vztahy" AND "diplomacie" AND "první světová válka" AND "versailleský mír"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy byla ukrajinská vláda uznána Francií a Anglií?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 10  original doc number: 10
+DEBUG: Context length (chars): 4865
+rag answer: Francie a Anglie uznály ukrajinskou vládu již 4. ledna 1918, kdy úřední zástupci Francie a Anglie, páni Taboni a Bagee, úředně doručili uznání naší vlády [doc2]. Petljurovci se bezvýsledně snažili o uznání u dohodových států až do posledních týdnů [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaká byla škoda způsobená požárem v levém křídle budovy vojenské reálky v Hranicích?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4748
+rag answer: Škoda způsobená požárem v levém křídle budovy vojenské reálky v Hranicích činila 10.000 zl. [doc1]
+
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy zemřel soudruh Krapka?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4682
+rag answer: Soudruh Krapka zemřel 13. dubna 1909 [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou funkci zastával Ju. N. Danilov v ruské armádě během prvního roku světové války?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5114
+rag answer: Ju. N. Danilov byl generálním ubytovatelem ruské armády v prvním roce světové války [doc1]. Po zbavení Nikolaje Nikolajeviče vrchního velitelství, také Danilov ztratil svou hodnost, konkrétně funkci náčelníka hlavního štábu v ruské armádě [doc1]. Následně se stal velitelem armádního sboru [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: slk
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik knih bylo koncem roku 1926 ve slovenských obecních knihovnách?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5117
+rag answer: Koncem roku 1926 bylo ve slovenských obecních knihovnách 202.781 knih [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou požadavky kladenských horníků ohledně průměrné denní mzdy kopáče?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5196
+rag answer: Průměrná denní mzda kopáče by měla být taková, aby kopáč nejméně K 3.60 denně vydělal [doc1]. V roce 1900 požadovali horníci pro kopáče minimum 1 zl. 60 kr. za šiohtu [doc2, doc3]. V roce 1918 se uvádí, že průměrné mzdy se pohybovaly mezi K 7.80 až K 9.60 [doc4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik osob bylo odsouzeno pro krádež ve Štýrsku v roce 1863?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5026
+rag answer: V roce 1863 bylo ve Štýrsku odsouzeno pro krádež 1051 osob [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy byl Václav Nebeský zvolen do řiditelstva?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4766
+rag answer: Václav Nebeský byl zvolen do řiditelstva již v roce 1873 [doc1, doc2]. V roce 1888 byl zvolen za starostu, v roce 1896 za starostu Nový, ale Nebeský zůstal i nadále ve výboru [doc1, doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké místo obsadila Pešková v národním žebříčku v LOB 1980 v kategorii D 17?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5089
+rag answer: Pešková obsadila v národním žebříčku v LOB 1980 v kategorii D 17 druhé místo [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo byl povolán jako náhradník do obecního výboru po panu radním Smékalovi?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5682
+rag answer: Pan Konštanský byl povolán jako náhradník do obecního výboru po panu radním Smékalovi [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké opatření přijal pruský ministr vnitra ohledně voleb vypsaných polskou vládou na německém území?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4892
+rag answer: Pruský ministr vnitra přikázal úřadům, aby netrpěly provedení voleb vypsaných polskou vládou na německém území. Osoby, které by se voleb účastnily, by byly vystaveny nebezpečí stíhání pro velezradu [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je autorem knihy "Lehrbuch der Petrographie"?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5088
+rag answer: Autorem knihy "Lehrbuch der Petrographie" je Ferdinand Zirkel. [doc1] a [doc3] uvádějí, že je profesorem mineralogie a geognosie na univerzitě v Lipsku a jedním ze zakladatelů moderní vědy petrografické.
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký je rozdíl mezi infiltrací a degenerací buněk v kontextu ztučnění?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5090
+rag answer: Teoreticky se infiltrace odlišuje od degenerace tím, že při infiltraci jsou buňky naplněny abnormalními produkty, které do nich byly přijaty hotové, zatímco při degeneraci se produkty utvořily v buňce samotné [doc2]. Nicméně, v každém konkrétním případě je obtížné provést toto rozdělení [doc2]. Virchow navrhoval rozlišovat je podle velikosti tukových kapek – větší kapky označoval za infiltraci a menší za degeneraci [doc3]. Toto rozlišení však není vždy platné, protože menší kapky se mohou splývat a velikost kapek závisí na struktuře buňky a množství alkali a mýdel v jejím okolí [doc5]. V počátcích je často obtížné rozlišit mezi infiltrací a degenerací [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké důkazy naznačují, že obyvatelé Holasovic v neolitické době konzumovali rostlinnou potravu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4626
+rag answer: V Holasovicích byly nalezeny obroušené kameny, které sloužily patrně k rozemletí zrna [doc1]. Dále byla v hlinité omítce nalezena otisky ječných klasů [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké množství Sapon. viridis je doporučeno pro terpentinovou lázeň při rheumatismugonorrhoickém podle Balzera?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4967
+rag answer: Podle Balzera je doporučeno 200 gramů Sapon. viridis pro terpentinovou lázeň při rheumatismugonorrhoickém [doc1]. Voda by měla být tak horká, jak ji nemocný snese.
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké vlastnosti jsou popsány pro horniny stejnoměrně zrnité, neporfyrické podle Zirkelovy klasifikace?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4952
+rag answer: Podle Zirkelovy klasifikace jsou horniny stejnoměrně zrnité, neporfyrické charakterizovány tím, že mají zrna obyčejně makroskopicky zřetelná a rozeznatelná, nejčastěji také dosti stejnoměrná [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké dny jsou předplatné dny v divadle Uranii?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4610
+rag answer: Předplatné dny v divadle Uranii jsou úterý, středa a čtvrtek [doc1]. V tyto dny se střídá premiéra činohry s premierou operetní [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké zlepšovací návrhy podal soudruh Jirák v dílnách ČSD v České Lípě?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4946
+rag answer: Soudruh Jirák podal zlepšovací návrh na broušení různých součástek, čímž dosáhl velkých časových úspor a pomohl zlevnit výrobu. Po několika dalších zlepšovacích návrzích zpevnil několikrát normu, což dokázal stále dokonalejší organisací práce. [doc1] Dá se předpokládat, že soudruh Jirák ještě neřekl poslední slovo a brzo oznámí další svůj zlepšovací návrh. [doc1]
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaká byla největší vada ústavy, kterou obdrželo rumunské knížetství?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5276
+rag answer: Největší vada ústavy, kterou obdrželo rumunské knížetství, spočívala v tom, že šlechta rumunská byla mocná a ústava jí dala většinu v národním sboru [doc 4]. Dále je zmíněno, že rumunský lid na dráze osvěty tehdy daleko nepokročil [doc 4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy se koná veřejná schůze katolicko-politické jednoty uh.-hrodské v Bánově v roce 1894?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4777
+rag answer: Katolicko-politická jednota uh.-hrodská koná v neděli 21. ledna 1894 odpoledne po sv. požehnání veřejnou schůzi v Bánově v obecním hostinci u p. Koncera [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký prášek doporučuje Robin pro tišení neuralgie u diabetiků?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5373
+rag answer: Robin doporučuje prášek pro tišení neuralgie u diabetiků, který obsahuje antipyrin, bromid amonný, hydrochlorid kokainu a valerii. Konkrétní složení je: Antipyrini Ammonii bromat. aa 5·0 Cocaini hydroch. 0-10 Coffeini valerian. 1·20 M. f. p. Div. in dos. No. X. [doc1]
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký pokus provedl Recklinghausen k znázornění chemického postupu přeměny kyseliny uhličité v tukové kapky?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5116
+rag answer: Recklinghausen se snažil znázornit chemický postup přeměny kyseliny uhličité v tukové kapky pokusem, ve kterém vložil žábu do řídkého neutralního roztoku mýdla [doc2]. Po několika hodinách se buňky střední a nejhlubší vrstvy epithelu zevnější kůže a rohovky naplnily tukem [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké výsledky dosahují Poláci v propagaci svých ideálů ve srovnání s jinými národy podle autora studie »Propaganda« z roku 1916?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4731
+rag answer: Poláci v propagaci svých ideálů dosahují výsledků nepatrných a zůstávají daleko za jinými národy, přičemž jsou "dějinně a civilisačně nepoměrně slabší" [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='V jaký den týdnu se konal pohřeb Josefa Schustera?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4784
+rag answer: V dostupných pramenech chybí podklady k tématu.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Schuster Josef" AND "úmrtní zpráva" AND "datum" AND "10. 12. 1863"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Schuster Josef" AND "pohřeb" AND "10. 12. 1863" AND "den v týdnu"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"matrika zapsaných úmrtí" AND "1863" AND "prosinec" AND "Schuster Josef" AND "okolnosti úmrtí"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='V jaký den týdnu se konal pohřeb Josefa Schustera?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 3  original doc number: 10
+DEBUG: Context length (chars): 2362
+rag answer: Pohřeb Josefa Schustera se konal v sobotu [doc3].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak nazvali Jablonečtí pracující svou okresní slavnost?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5289
+rag answer: Jablonečtí pracující nazvali svou okresní slavnost Slavností míru [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč nebylo možné vyhovět žádosti, aby českého jazyka bylo užíváno při telegrafování?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4752
+rag answer: Podle dostupných dokumentů nebylo možné vyhovět žádosti o užívání českého jazyka při telegrafování, protože c. k. ministerstvo se domnívalo, že by jinak povoleno býti muselo telegrafování v jazycích polském, slovenském, rumunském a dalších [doc2]. C. k. vláda prý by nenašla úředníky, kteří by tyto jazyky ovládali [doc2]. Dále se uvádí, že jazyk český nemá žádné právo ve školách, a proto jej nelze užívat v praktickém životě, a zároveň prý v praktickém životě jej nikdo není mocen užívat [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je pravděpodobným autorem díla, které se obvykle připisuje Bellinimu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5203
+rag answer: Podle [doc1] se zdá, že autorem díla, které se obvykle připisuje Bellinimu (1428—1516), je spíše jeho vrstevník Čaten. [doc2] a [doc3] uvádějí, že dílo není ani Gentile Bellini, Previtali, Boccacino da Cremona, Carpaccio, Lazaro Sebastiani, Mansueti, Cima da Conegliano, Chatena, Basaiti, Bartolomeo Veneto, Pasqualinus, Bissolo, Bartolomeo Vivarini, Crivelli, Alvise Vivarini, Antonello da Messina, Pietro da Messina, Baldassare Carrari.
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak byli odhaleni třináctiletí loupežní vrazi a dvanáctiletí žháři v Korutanech?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4851
+rag answer: Třináctiletí loupežní vrahové a dvanáctiletí žháři byli odhaleni díky známkám na prádle, které poškozené oběti zanechali [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč byl vyhlášen bojkot na obuvnický závod pana Antonína Pachuty a oděvnické závody firem K. Blum a H. Korn & Comp. v Moravské Ostravě?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4863
+rag answer: Bojkot byl vyhlášen na obuvnický závod pana Antonína Pachuty, závody firem K. Blum a H. Korn & Comp. v Moravské Ostravě [doc1, doc2, doc3, doc4, doc5]. Důvodem bylo, že dělníci neměli kupovat u těchto závodů [doc1, doc2, doc3, doc4, doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou povinnost považují samarští Lotyši za nutné splnit vůči ruskému, českému a spojeneckým národům?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5182
+rag answer: Samarští Lotyši považují za svou povinnost obrátit se k národu ruskému, českému, národům spojeneckým a jejich vládám s ujištěním své plné důvěry a vřelých sympatií, jakož i hluboké vděčnosti za započaté dílo obrody Ruska, s níž těsně souvisí i spása lotyšského národa [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké mýdlo se používá jako základ při výrobě toaletních mýdel?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5589
+rag answer: Při výrobě toaletních mýdel se jako základ používá mýdlo jádrové, kokosové, transparentní nebo glycerinové [doc1, doc3].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké město je popisováno jako čarokrásné a tajuplné sídlo někdejší hrdoslavné republiky?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4912
+rag answer: Benátky jsou popisovány jako čarokrásné a tajuplné sídlo někdejší hrdoslavné republiky [doc1], [doc2] a [doc3].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak se vyrábějí průsvitná mýdla s využitím lihu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5202
+rag answer: Průsvitná mýdla (Transparentseife) se vyrábějí rozpouštěním čistého jadrného mýdla v líhu a následným odpařením rozpustidla [doc1, doc3]. Tímto procesem se eliminuje přebytečné žíraviny [doc1, doc3]. Některé továrny vyrábějí průsvitné mýdlo glycerinové i bez použití lihu [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakým způsobem Magendie a Gluge vyvolali tukovou infiltraci jater?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5213
+rag answer: Magendie a Gluge vyvolali tukovou infiltraci jater injekcí tekutého tuku do oběhu krevního [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kde v Čechách má krajkářství svůj původ?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5695
+rag answer: Krajkářství v Čechách má svůj původ ve Vamberce již v 17. století [doc1]. V Čechách se krajkářství udrželo v oblastech jako Vamberecko, Žamberecko, jižní Čechy a Strážovsko [doc1]. V 17. století se krajkářství objevilo v Českém lese [doc2]. V Klenči a Postřekově se české krajkářství přistěhovalo z horních německých krajin [doc4, doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak reaguje německá sociální demokracie v Rakousku na obvinění z podpory rozpoltění českoslovanské sociálně-demokratické strany?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4793
+rag answer: Německá sociální demokracie v Rakousku se proti obvinění z podpory rozpoltění českoslovanské sociálně-demokratické strany ohradila [doc1, doc2]. Tvrdila, že toto tvrzení je nepravdivé a připojila se k němu i vyhrůžky [doc1, doc2]. Zdůraznila, že stanovisko německé sociální demokracie ku sporům uvnitř českého dělnictva bylo od prvního dne jasné a důsledné [doc1, doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký názor vyjádřil socialistický poslanec Arturo Labriola 6. března 1917 ohledně zřízení československého státu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4824
+rag answer: Arturo Labriola, socialistický poslanec, prohlásil 6. března 1917, že ohlašované zřízení československého státu je "těžký omyl" [doc1]. Kritizoval ironicky územní revindikace, uvedené jako cíl války v prohlášení Dohody, a označil česko-slovenský stát za "metafysický stát" [doc1]. Labriola se ptal, co by bylo získáno výměnou italo-rakouského konfliktu za trvalý italo-ruský spor [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik korun bude stát zřízení zastávky v Oseku podle obecního výboru?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4784
+rag answer: V dostupných pramenech chybí podklady k tématu nákladů na zřízení zastávky v Oseku.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"obecní výbor" Osek "zřízení zastávky" náklady výdaje odhad' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"obecní rada" Osek "zřízení nádraží" rozpočet investice' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Osek" "veřejná doprava" "návrh zastávky" "financování" "19. století" "správní vyhlášky"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik korun bude stát zřízení zastávky v Oseku podle obecního výboru?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 10  original doc number: 10
+DEBUG: Context length (chars): 4700
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+HYDE MODE
+Is used hyde embedding: True.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Obecní výbor v Oseku, v dopise datovaném 23. července 1912, sdělil zemskému výboru v Praze, že zřízení nové železniční zastávky v obci Osek by stálo přibližně 12 500 korun rakouských. Tato suma zahrnovala náklady na vybudování nástupiště, čekárny a potřebných stavebních prací, a byla odvozena z odhadů stavebního inženýra Josefa Nováka, který se na projektu podílel. Obecní výbor zároveň žádal o finanční podporu ze strany zemského výboru, s ohledem na omezené finanční zdroje obce.\n' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.9 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=True
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 10  original doc number: 10
+DEBUG: Context length (chars): 5021
+rag answer: Zřízení zastávky v Oseku bude stát 64.000 korun [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké povinnosti měli rodiče, když chtěli dát syna na řemeslo nebo na studie před rokem 1775?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4667
+rag answer: Před rokem 1775, pokud chtěl rodič dát syna na řemeslo nebo na studia, byl povinen to oznámit. Oznámení záviselo na zvolené vrchnosti a zahrnovalo i zaplacení daně. Pokud se syn oženil nebo dcera provdala, muselo se to oznámit a rodiče museli doručit „oeduli“ panu faráři na ohlášky [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký je úkol výběrové komise při dovozu filmů?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4815
+rag answer: Výběrová komise vybírá dovážené filmy podle potřeb a zájmu lidu a státu, nikoli podle komerčních hledisek, ale podle kulturních a ideových měřítek [doc1]. V roce 1960 schválila přijetí 17 hraných a 2 dokumentárních filmů a zamítla 56 filmů [doc3]. V roce 1949 se na místě dřívější dovozní komise vytváří jako podnikový orgán výběrová komise [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký význam má slavnost Novgorodská podle petrohradského dopisovatele „Indep.“?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4613
+rag answer: Podle petrohradského dopisovatele „Indep.“ je Novgorod město, o němž Evropa ví málo, kde se slaví tisíciletá památka říše Ruské [doc2, doc3, doc4, doc5]. V Moskvě je brána na Kremlu, u které smeká každý mimochod, a stejnou čest musela vzdávat celá Rus Novgorodovi [doc2, doc3, doc4, doc5]. Každý si měl připomenout jeho starobylou slávu, jako by šel vedle náhrobku muže duchem i ctnostmi velikého [doc2, doc3, doc4, doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč se Lombardsko-Benátsko v roce 1858 postavilo proti vídeňským námluvám?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5318
+rag answer: Lombardsko-Benátsko odolalo vídeňským námluvám, protože jak Lombarďané, tak Benátčané chtěli být pány ve vlastním domě [doc2]. Rakousko se pokusilo připoutat poddané italské rozsáhlými sliby, ale narazilo na nejtužší odpor [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jak dlouho trvalo léčení tuberkulosy kloubů hyperaemií městnavou v nejkratším případě podle C. Wagnera?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5511
+rag answer: V nejkratším případě trvalo léčení tuberkulosy kloubů hyperaemií městnavou pouze 4 dny [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kde se nachází továrna zbraní F. Dušek?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5024
+rag answer: Továrna zbraní F. Dušek se nachází v Opočně u Náchoda, na adrese Opočno u Náchoda 26 [doc3].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy se koná novoroční výstup na Ještěd?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4737
+rag answer: Novoroční výstup na Ještěd se koná 1. ledna. Prezentace a start je od 9:30 v Horním Hanychově [doc3]. Trasa vede po modré turistické značce Horní Hanychov – Ještěd a má délku 4 km s převýšením 500 m [doc3].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik hlasů obdržel Sadi Carnot ve druhé volbě na prezidenta republiky?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4697
+rag answer: Ve druhé volbě na prezidenta republiky obdržel Sadi Carnot 616 hlasů [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy byl Jekatěrinburk dobyt našimi legiemi v roce 1918?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4649
+rag answer: Jekatěrinburk byl dobyt našimi legiemi 25. července 1918 [doc1]. Byl dlouho sídlem Odbočky Národní rady a tudíž i centrem naší akce na Rusi [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké blahopřání vyslovil Prof. Francesco Durante českému národu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4627
+rag answer: Prof. Francesco Durante vyjádřil nejupřímnější blahopřání českému národu, aby dosáhl všech svých vznešených ideálů [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký návrh podali sociálně-demokratičtí poslanci na zemském sněmu moravském, který vyvolal hluk v táboře klerikálním?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4951
+rag answer: Sociálně-demokratičtí poslanci podali návrh na převedení velkých latifundií z rukou zemědělských kapitalistů do správy zemědělských pracovníků [doc1, doc2]. Tento návrh vyvolal hluk v táboře klerikálním [doc1, doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč nebyl p. Mohapí zvolen do obchodní a živnostenské komory, přestože byl navržen jako kandidát?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4493
+rag answer: P. Mohapí nebyl zvolen do obchodní a živnostenské komory, ačkoliv byl navržen jako kandidát, protože „naši ctitelé“ ho nevolili a volili raději jeho protivníky [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo byl přítomen na závěrečném hodnocení výcvikového roku 1980 jednotky LM n. p. STS Chrastava?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4662
+rag answer: Na závěrečném hodnocení výcvikového roku 1980 jednotky LM n. p. STS Chrastava byli přítomni velitel jednotky V. Pohan, náčelník KS LM L. Šloser, náčelník OŠ LM V. Volprecht, ředitel STS J. Gallistl, zástupce velitele pro věci politické III. roty A. Souček a manželky příslušníků jednotky [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké mzdy platila jaroměřská firma textilní Ettrichova svým dělníkům?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5060
+rag answer: Jaroměřská firma textilní Ettrichova platila svým dělníkům mzdy od 14 do 30 korun týdně [doc1]. V době, kdy kilogram mouky stál 12 korun [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo zemřel v měsíci březnu 1911 v městě Prostějově?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4744
+rag answer: V měsíci březnu 1911 zemřeli v městě Prostějově: Weiskornová Marie (59 let, nádennice), Eliáš Štěpán (30 let, nádenník), Kaštyl František (80 let, soukromnik), Čech Antonín (28 let, sluha) a Ludikovská Her [doc1, doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké výhody poskytuje Zlatá kniha spisovatelům a umělcům českoslovanským?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4857
+rag answer: Zlatá kniha poskytuje spisovatelům a umělcům českoslovanským výhody, včetně platby slušného honoráře ve výši nejméně 20 zlatých za arch tisku prostředního formátu [doc1, doc2, doc3]. Po §. 14. se vynaloží polovice veškerého jmění jejího „Svatoborn“, kdyby zaniknouti měla [doc1, doc2]. Spisovatelé a umělci se mají obraceti činností ústavu, jehož účelem jest vzdělávat dívky poučným a zábavným čtením [doc4, doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký je rozstup, který musí četa dosáhnout při proměně na místě?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4794
+rag answer: Při proměně na místě musí četa dosáhnout rozstupu 3 plných kroků [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik prací bylo přihlášeno do soutěže Československého státního filmu na původní námět dlouhého hraného filmu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5166
+rag answer: Do soutěže Československého státního filmu na původní námět dlouhého hraného filmu bylo přihlášeno 1002 prací českých a 200 prací slovenských, celkem 1202 prací [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo byl předsedou shromáždění v Samaře dne 6. srpna 1918?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5340
+rag answer: Předsedou shromáždění v Samaře dne 6. srpna 1918 byl A. Guža [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo složil hudbu k opeře „La Libussa“ uvedené v roce 1705?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4990
+rag answer: Hudbu k opeře „La Libussa“ složil „accademico filharmonico“ Bernardi [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké problémy způsobovala nedostatečná a nedokonalá právní úprava poměrů státního filmu?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4820
+rag answer: Nedostatečná a nedokonalá právní úprava poměrů státního filmu způsobovala, že někteří držitelé provozních prostředků se bránili jejich předání a na Slovensku i úřední místa popírala účinnost dekretu o zestátnění filmu [doc1]. Převod nemovitostí sloužících filmu nebylo možno provésti v pozemkových knihách [doc1]. Právní nejistota a snahy o vynětí některých kin ze zestátnění znemožňovaly konstituování stabilní základny filmového podnikání [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou částku zaplatilo Družstvo Národního divadla v Brně za stavební pozemek?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4610
+rag answer: Družstvo Národního divadla v Brně zakoupilo stavební pozemek za 42.000 K [doc1, doc4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký vliv má extrakt ze žlázy štítné na počet erythrocytů?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5263
+rag answer: Injekce extraktu ze žlázy štítné zlepšuje nejen celkový stav pokusných zvířat, ale i počet erythrocytů stoupá [doc1]. Podle pokusů, které sledovaly změny krevní po exstirpaci žlázy štítné, nastává v kachexii thyreoprivní soustavné klesání počtu erythrocytů [doc4]. Z pokusů vyplývá, že extrakt ze žlázy štítné vstřiknutý podkožně upravuje poruchy krve a zvyšuje kleslý počet erythrocytů [doc2].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč byl generál Mehmed paša sesazen?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4725
+rag answer: Generál Mehmed paša byl sesazen, protože urazil dragomana rakousko-uherského konsulátu ve Skoplji [doc2]. Abdul Kerim paša, nejvyšší velitel evropské operační armády turecké, byl také sesazen [doc4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou částku navrhuje řečník poskytnout pražskému obchodnímu museu z úvěrů na léta 1901—1902?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4727
+rag answer: Řečník navrhuje poskytnout pražskému obchodnímu museu podporu 5000 korun z úvěrů na léta 1901—1902 [doc1]. Do rozpočtu na rok 1902 má být zařazena položka 10 000 korun k tomuto účelu [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč továrník přestal kontrolovat výplatní listiny sestavené Pilíkem?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5955
+rag answer: V dostupných pramenech chybí podklady k tomu, proč továrník přestal kontrolovat výplatní listiny sestavené Pilíkem.
+
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Pilík" AND "výplatní listiny" AND "továrník" AND ("přestat" OR "ukončit" OR "zastavit" OR "omezit") AND ("kontrola" OR "dozor" OR "správa") AND ("důvod" OR "příčina" OR "okolnosti")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Pilík" AND "výplatní listiny" AND "továrník" AND ("přestat" OR "ukončit" OR "zastavit" OR "omezit") AND ("kontrola" OR "dozor" OR "správa") AND (1850-1914)' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"výplatní listiny" AND "tovární podnik" AND ("práce" OR "zaměstnanci" OR "mzdy") AND ("správa" OR "evidence" OR "vedení záznamů") AND ("právo" OR "regulace" OR "legislativa") AND (19. století OR "průmyslová revoluce")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč továrník přestal kontrolovat výplatní listiny sestavené Pilíkem?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 10  original doc number: 10
+DEBUG: Context length (chars): 5532
+rag answer: Továrník zpočátku kontroloval Pilíka, ale po čase, když zjistil, že je vše v pořádku, odevzdával mu částky k výplatě bez kontroly a v pondělí se pouze dotazoval, zda výplata souhlasila [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: pol
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo byl jmenován rektorem „Szkoła Główna“ ve Varšavě?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4803
+rag answer: Rektorem „Szkoła Główna“ (univerzity) ve Varšavě byl jmenován rada státní Jos. Mianowski [doc1, doc2]. Předtím byl profesorem na fakultě lékařské ve Vilně a následně v Petrohradě.
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query="Jakou politiku obhajoval poslanec Andrea Torre ve svých listech do časopisu »Giornale d'Italia« v roce 1919?" limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5403
+rag answer: Andrea Torre v listech do časopisu *Giornale d'Italia*, které napsal v roce 1919, dokazoval, že politika vedoucí ke kongresu v Římě byla politikou vskutku národní s hlediska italského [doc1]. Torre byl zvolen Dr. Benešem jako předseda římského spolku žurnalistů a měl vynikající postavení v římském žurnalismu [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký postoj zaujímá P. Dinse k teorii glaciální eroze?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4921
+rag answer: P. Dinse dokazuje, že je nutné rozeznávat mezi typem fjordovým a riasovým, ale toto roztřídění je třeba odůvodnit jinak, než učinil baron Richthofen [doc1]. Je stoupencem umírněné teorie glaciální eroze [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je autorem odznaku »Jizerské hory«?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5137
+rag answer: Autorem odznaku »Jizerské hory« je člen turistického odboru Ještěd, akadomický sochař Ota Vajgelt [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou odměnu obdrží zákazník, který nakoupí nejméně za 100 zl. u Jos. Červinky v Kolíně?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5042
+rag answer: Jos. Červinka nabízí odběratelům ve velkém řiměřenou srážku [doc1].
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Červinka Kolín" + "odměna" + "nákup" + "100 zl"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Kolín" + "Červinka" + "slevy" + "výhody" + "nákup" + "cena"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Kolín" + "obchodní zvyklosti" + "19. století" + "slevy" + "odměny" + "nákupy"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou odměnu obdrží zákazník, který nakoupí nejméně za 100 zl. u Jos. Červinky v Kolíně?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 8  original doc number: 10
+DEBUG: Context length (chars): 5131
+rag answer: V dostupných pramenech chybí podklady k tomuto tématu.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+HYDE MODE
+Is used hyde embedding: True.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='V roce 1898, dle inzerátu v Kolínských listech, zákazník, jenž v obchodě Jos. Červinky v Kolíně nakoupí za 100 zlatých a více, obdrží zdarma elegantní fotografii paní Červinkové, jež byla v té době velmi populární a považována za "krásku Kolína". Tato nabídka byla součástí marketingové kampaně, jejímž cílem bylo podpořit prodej v předvánočním období a posílit pověst obchodu Jos. Červinky jako významného kolínského obchodníka.\n' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.9 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=True
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 3  original doc number: 10
+DEBUG: Context length (chars): 3035
+rag answer: V dostupných pramenech chybí podklady k tomuto tématu.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Trying to search web using DuckDuckGo
+Searching web: Červinka  Kolín  odměna
+Searching web: Jakou odměnu obdrží zákazník, který nakoupí nejméně za 100 zl. u Jos. Červinky v Kolíně?
+Internet search result: id=UUID('80e4c778-e83e-4f80-a4f7-b32d980a0514') title='DuckDuckGo Search' text="Pobočky. Centrála: Strnad & Červinka - Kolín IV, Plynárenská 830. Výroba a prodej kožené a kožešinové konfekce.\nHC Kolín – Jiskra Zruč nad Sázavou 30:31 (11:15).Vyloučení: 1/4 (Hladík – Šveněk, Zeman, Petrík, V. Červinka ). Diváci: 47. Rozhodčí: Sovová Marta – Vejvar Lukáš.\nVincenc Červinka se narodil v Kolíně v rodině zdejšího průmyslníka, dlouholetého člena městské rady a předáka strany Staročechů Josefa Červinky .\nMěstská knihovna v Kolíně . Status. Výsledky. Vyhlašovatel. Město Kolín . Vyplacené ceny a odměny celkem. 1 150 000 Kč. Regulérnost. Odměna .\nВойти. RU. Tomáš Červinka . @tomascervinka7242. • 22 подписчика • 14 видео.\nEntrance fee. Tickets can be bought in Regional Museum Kolín , Červinka 's House, Brandlova 27. St. Bartholomew's Hillock. standard.\nRoman Červinka . hra na housle. Zlatý oříšek jsem získal v roce 2019.4. odměna za služby zpracovatele.\nTohle se jen tak nezažije, smutnil po debaklu s Tchaj-wanem baseballista Červinka . Národní tým prohrál v Tokiu i třetí zápas, zatím největším rozdílem ve skupině.\nTenis adidas I-5923 Yellow Black | Bd7612 adidas 100 % Originals En Adidas...\n£1000 RRP Stuff FREE GIVEAWAY, 100 HEATS ALL START AT £1.\nĽubomíra Kudličku prijatím peňažnej záruky v sume 100 .000 eur a inými zákonnými inštitútmi, nebola voči predmetnému uzneseniu zo strany zastupujúcej prokurátorky Úradu špeciálnej prokuratúry Generálnej prokuratúry Slovenskej republiky JUDr.\nШиномонтаж 0₽. Cordiant Winter Drive. 215/70 R16 100 T.\nDoporučený klient během trvání Kampaně obdrží Odměnu pouze při prvním založení Účtu a za podmínky provedení tří plateb Kartou v období do uplynutí dvou kalendářních měsíců následujících po měsíci založení jeho Účtu.\nКурица — 700 гр, лук — 2 шт., помидоры — 3 шт., болгарский перец — 1 шт., сливочное масло — 1 стол. л., хмели-сунели — 1 стол. л., чеснок — 2 зубч., перец острый молотый — по вкусу, соль — по вкусу, зелень — по вкусу.\nOtázka: Jakou odměnu obdrží pracovník firmy SolidCredit podle bodu g) interního pokynu, je-li výše splátky 7 815 Kč a probíhá-li splácení úvěru takto: 1.-12.splátka včas a dle předpisu, 13.-14. splátka dle předpisu, avšak se zpožděním, 15.-24. splátka včas a dle předpisu.\nZa Velikonoce chtějí Češi utratit nejméně za poslední čtyři roky. Zvyky drží, ale tradiční pomlázka je na ústupu." start_page_id=UUID('80e4c778-e83e-4f80-a4f7-b32d980a0514') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('80e4c778-e83e-4f80-a4f7-b32d980a0514') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('80e4c778-e83e-4f80-a4f7-b32d980a0514'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 2430
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou roli hrála princezna Clotilda v udělení amnestie?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5013
+rag answer: Clotilda hrála roli v tom, že představila Remigia králi Chlodvíkovi, což vedlo k Chlodvíkově rozhodnutí nechat své dva syny pokřtít. [doc2] Chlodvík byl přesto, že byl pohan, nakloněn křesťanství, pravděpodobně kvůli své manželce Clotildě, která byla křesťanka. [doc2]
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Clotilda" AND "amnestie" AND "prosinec 1863"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Clotilda" AND ("odpuštění" OR "amnestie" OR "milost") AND ("prosinec 1863" OR "po revoluci 1863") AND ("politický proces" OR "politické vězně")' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"politické usnesení" AND "amnestie" AND "prosinec 1863" AND "politické následky" AND "habsburská monarchie"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou roli hrála princezna Clotilda v udělení amnestie?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 4  original doc number: 10
+DEBUG: Context length (chars): 3712
+rag answer: V dostupných pramenech se o roli princezny Clotildy v udělení amnestie nezmiňuji [doc1, doc2, doc3, doc4].
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+HYDE MODE
+Is used hyde embedding: True.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Princezna Clotilda, manželka franského krále Chlodvíka I., hrála v roce 511 významnou roli v politickém usmiřování po jeho smrti. Po Chlodvíkově úmrtí se jeho království rozdělilo mezi jeho syny a následovalo období vzájemných sporů a bojů. Clotilda, původem vizigótská princezna a dcera krále Alarika, se snažila prosadit amnestii pro bojující strany, a to zejména pro svého syna Chlothara I., který se nakonec stal jediným vládcem celé Frankické říše. Její diplomatické úsilí, podpořené vizigótským vlivem, přispělo k ukončení občanské války a k upevnění Chlotharovy vlády, ačkoliv motivace Clotildy byly pravděpodobně i osobní, spojené s ochranou dědictví jejího syna.\n' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.9 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=True
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 10  original doc number: 10
+DEBUG: Context length (chars): 5716
+rag answer: K tomuto tématu chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Trying to search web using DuckDuckGo
+Searching web: Clotilda  amnestie
+Searching web: Jakou roli hrála princezna Clotilda v udělení amnestie?
+Internet search result: id=UUID('d515f945-6de3-4f8f-ab5b-e106141daf96') title='DuckDuckGo Search' text="May 19, 2022 - Fifty years after the Atlantic slave trade was outlawed, the Clotilda became the last ship to bring enslaved Africans to the United States . The ship was scuttled and burned on arrival to hide evidence of the crime, allowing the wealthy perpetrators ...\nFebruary 27, 2023 - That's the original place where the Clotilda ship is supposed to have landed and it didn't land there because that's where the federal authorities were waiting on them, so that's where I want to start from, the Clotilda landing and bring them into the neighborhood and show them the rich history about Mobile County Training School and the Lewis Quarters and all the history that's around Plateau and even some of the bad history when we had International Paper Mill and Scott Paper and all the pollution is and everything,” he said.\nApril 20, 2023 - On 8 July 1860, after forty-five days at sea, the captives arrived in Mobile, under cover of night. To remove any trace of the landing, the Clotilda was set on fire. Even so, news of the “secret” arrival spread from coast to coast. The federal government was forced to intervene, and a crew was sent to search for the young Africans.\nJuly 30, 2024 - A recent Wall Street Journal article elevates a theory that goes so far as to say, despite a growing body of scholarship, that the Clotilda's infamous voyage simply never happened. Clotilda historians are not impressed.\nAugust 7, 2023 - One hundred and fifty-nine years ago, slave traders stole Lorna Gail Woods’ great-great grandfather from what is now Benin in West Africa. Her ancestor, Charlie Lewis, was brutally ripped from his homeland, along with 109 other Africans, and brought to Alabama on the Clotilda, the last known slave ship to arrive in the United States.\nNovember 2, 2023 - UPDATE: Vessel that caused emotional moment for Auburn students appears not to be remains of ClotildaLow tide along the Mobile River allowed a never before docu\nMarch 17, 2025 - The emancipated survivors of the Clotilda petitioned the federal government for passage back to Africa . That request was denied. As a result, in 1866 a number of the survivors pooled their savings to purchase land from the Meahers and established ...\n2 weeks ago - The schooner Clotilda (often misspelled Clotilde) was the last known U.S. slave ship to bring captives from Africa to the United States , arriving at Mobile Bay, in autumn 1859 or on July 9, 1860, with 110 African men, women, and children.\nMay 12, 2025 - Objevila se v celé řadě rolí, ale když se řekne Princezna Pampeliška , je jasné, že neznámou na úvodním snímku je herečka Klára Jerneková, která nás předčasně opustila v pouhých osmapadesáti letech.\n3 days ago - Amnesties to achieve peace and accompanied by effective Truth and Reconciliation Commissions. One particular case was in Uruguay: the Law on the Expiration of the Punitive Claims of the State put an end to unsolved issues deriving from 12 years of civic-military dictatorship.\nOctober 28, 2024 - Amnestie vyhlášená Václavem Klausem coby prezidentem České republiky představuje právní akt hromadného omilostnění některých odsouzených a zastavení některých trestních řízení dle přesně vymezených podmínek. Tuto částečnou amnestii vyhlásil Václav Klaus dne 1. ...\nNa této stánce je zobrazen seznam filmů ve kterých se vyskytla filmová role a kdo ji hrál. Kliknutím na název filmu se dostanete na obsazení filmu a na konkrétní roli.\nJuly 6, 2024 - Dotyk - Patří mezi nejoblíbenější československé hudební pohádky. To je Šíleně smutná princezna s Helenou Vondráčkovou a Václavem Neckářem v hlavní roli. I přestože je její děj promyšlený do posledního puntíku, i v ní se objevilo pár úsměvných chyb.\nSeptember 22, 2025 - Na rozdíl od prvního filmu, tento nebyl napsaný podle žádné knihy. Ve filmu si své role zopakovali Anne Hathawayová, Julie Andrews, Héctor Elizondo, Heather Matarazzo a Larry Miller. V dalších rolích se objevili John Rhys-Davies, Chris Pine a Callum Blue.\nDecember 14, 2023 - K Sekci se dostaly indicie, že Blomkvist má důkazy o roli Sekci, a proto se odhodlala k zoufalému kroku a poslala na něj nájemné vrahy.\nDecember 29, 2025 - Ivana Andrlová – Princ a Večernice (Lenka), Princové jsou na draka (Lenka), Co takhle svatba princi?, Ať přiletí čáp, královno! (Běla), A co ten ruksak, králi? (Ludmila), Chytrá princezna (princezna), O chytrém Honzovi, aneb jak se Honza stal králem (Kardanka), Omyl děda Vševěda (Kristýna), Tři princezny tanečnice (Dana), Za humny je drak (Liduška)" start_page_id=UUID('d515f945-6de3-4f8f-ab5b-e106141daf96') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('d515f945-6de3-4f8f-ab5b-e106141daf96') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('d515f945-6de3-4f8f-ab5b-e106141daf96'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 4627
+rag answer: Princezna Clotilda je zmíněna v souvislosti s Clotildou, což byla loď, která v roce 1859 nebo 9. července 1860 přivezla 110 afrických mužů, žen a dětí do Spojených států a je považována za poslední známou americkou loď, která to udělala [doc1]. Václav Klaus vyhlásil amnestii, která představuje právní akt hromadného omilostnění některých odsouzených a zastavení některých trestních řízení dle přesně vymezených podmínek [doc1].
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký je důkaz, že „Zátkova fiková káva“ je úplně čistá a neobsahuje přísady jako praženou řepu nebo sušené hrušky?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5701
+rag answer: Důkazem čistoty „Zátkovy fikové kávy“ je, že méně barví než jiné fikové kávy znečištěné přísadami, jako je pražená řepa, sušené hrušky, žaludy nebo divoké kaštany [doc1]. Čisté pražené fíky mají zlatožlutou barvu a nemohou dodat kávě tmavohnědou barvu, což by naznačovalo přítomnost levného šrotu řepového nebo cikorie [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Proč byl princ Ferdinand považován za nezákonného vůdce v Bulharsku?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5107
+rag answer: Princ Ferdinand byl považován za nezákonného vůdce v Bulharsku, protože jeho nástup do funkce porušoval berlínskou smlouvu z roku 1878 [doc5]. Jeho příchod do Bulharska a převzetí moci byly v rozporu se stipulačními podmínkami smlouvy [doc4]. Rusko, kterému byla podle smlouvy přidělena kontrola nad Bulharskem, nemohlo jeho vládu uznat [doc5]. Kromě toho, jeho přítomnost v Bulharsku byla vnímána jako nástroj pro šíření rakousko-uherského vlivu a překážku ruskému vlivu [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdy slaví Řemeslnická Beseda v Semilech památku svého dvacetiletého trvání?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5308
+rag answer: Řemeslnická Beseda v Semilech slaví v neděli dne 27. července za protektorátu slavného městského zastupitelství památku svého dvacetiletého trvání [doc4]. Před 10. hodinou dopolední je uvítání bratrských jednot a v 10 hodin veřejná slavnostní přednáška [doc4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik dolarů věnoval James Smithson na založení a vydávání vědeckých spisů ve Washingtoně?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4637
+rag answer: James Smithson věnoval na založení musea a vydávání vědeckých spisů ve Washingtoně 1,590.000 dolarů [doc3, doc4, doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaká je délka levého metatarsu 4 u Felis spelaea Goldf.?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5326
+rag answer: Levý metatarsus 4 u *Felis spelaea* Goldf. má délku 163 mm [doc1].
+
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Ředitelem jaké šloky byl pan Jiljí V. Jahn?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4654
+rag answer: Pan Jiljí Vratislav Jahn byl ředitelem Pardubické reálky [doc4]. V posledních letech života působil také jako ředitel dívčího gymnasia Minervina [doc4].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kolik bytových jednotek bylo dokončeno stavbaři libereckého okresu na plán šesté pětiletky?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4751
+rag answer: Stavbaři libereckého okresu měli dokončit 11 948 bytových jednotek na plán šesté pětiletky [doc1]. Celkem bylo dokončeno 9809 bytových jednotek [doc1]. V závěrečné etapě šesté pětiletky se plán výstavby překročil o 544 bytových jednotek [doc5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je autorem humoresky „Opice“?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5031
+rag answer: Autorem humoresky „Opice“ je Eduard Just [doc 5].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je paní Janků a jakou roli hraje v kariéře svého manžela?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5063
+rag answer: V dostupných pramenech chybí podklady k tématu.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+Extrackting metadata in Multi-query iteration
+MULTI QUERY MODE
+metadata_structured: {'min_year': None, 'max_year': None, 'language': 'ces'}
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Janku*", životopis, manžel, kariéra, profesní dráha, "osobní život", korespondence, "rodinné záznamy"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"Janku*", "manželská smlouva", "majetkové poměry", "dědické záležitosti", "obchodní aktivity", "společenské postavení"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='"19. století", "ženy", "manželství", "profesní kariéra", "sociální role", "historické záznamy", "osobní dopisy"' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo je paní Janků a jakou roli hraje v kariéře svého manžela?' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 4  original doc number: 10
+DEBUG: Context length (chars): 3868
+rag answer: Tonička Janková hrála roli poštovní úřednice ve filmu Filmová ročenka 1999 [doc1]. O jejím vztahu k manželovi v kontextu dostupných dokumentů není nic uvedeno.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Retrying with multiquery or hyde.
+HYDE MODE
+Is used hyde embedding: True.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Paní Anna Nováková-Janků, rozená Nováková (1886-1966), byla významnou osobností v životě a kariéře svého manžela, spisovatele a novináře Jaroslava Janků. Působila jako jeho literární spolupracnice, redaktorka a překladatelka, zejména v oblasti francouzské literatury, kterou pro českého čtenáře popularizovala. Její zásluhy na jeho tvorbě, ať už jde o výběr témat, stylistickou úpravu nebo překlady, jsou historiky literatury uznávány a přispěly k jeho úspěchu v období první republiky a po druhé světové válce. Její vliv na Jankův publicistický a literární odkaz je nezpochybnitelný.\n' limit=10 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.9 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language='ces' tag_uuids=[] positive=False automatic=False is_hyde=True
+GRADING RETRIEVED CONTEXT: (10 docs)
+Relevant documents number: 1  original doc number: 10
+DEBUG: Context length (chars): 969
+rag answer: V dostupných pramenech chybí v dostupných pramenech podklady.
+GRADE GENERATION: Answer incomplete. Routing to Retry.
+Extracting keyword for the internet search.
+Trying to search web using DuckDuckGo
+Searching web: Janků  manžel  kariéra
+Searching web: Kdo je paní Janků a jakou roli hraje v kariéře svého manžela?
+Internet search result: id=UUID('ea1fcf15-a894-418a-9620-a67a14e488ab') title='DuckDuckGo Search' text='Česká speváčka Heidi Janků (54) sa rozhodla, že so smútkom za svojím milovaným manželom Ivom Pavlíkom († 84) bude bojovať prácou. Rozhodla sa preto prijať novú ponuku a vrátiť sa na televízne obrazovky.\nPo jeho smrti ale Heidi Janků (61) hlásí dost. Sexy zpěvačka má políčeno na zajíčky a chce, aby se taky konečně staral někdo o ni... Po sedmi letech od skonu životní lásky už Heidi smutek nedrží. „Ano, muži mě zvou na rande. Nechci to nějak prezentovat, občas to i klapne.\nCo se tehdy stalo? Heidi Janků se poprvé vdávala už ve svých osmnácti letech, jen pár měsíců po maturitě. Manželství se Zbyňkem Janků jí ale vydrželo pouhé tři roky. Důvod rozchodu byl prostý. Heidi se zamilovala do o 29 let staršího hudebníka Ivo Pavlíka, se kterým začala spolupracovat.\nKariéra Pochází z muzikantské rodiny. Její matka hrála na violoncello, otec na dechové nástroje a pozoun. Od první třídy navštěvovala lidovou školu umění, kde se naučila vše, co používá v současnosti. Zabývala se také sborovým zpěvem, hrála na klavír.\n12. srpna je to pět let, kdy Heidi Janků zemřel manžel Ivo Pavlík. Zpěvačka muže svého života bude mít navždy vrytého v srdci, ale i tak by ráda potkala nového.\nZpěvačka a herečka Heidi Janků patří mezi stálice české hudby. V posledních letech se svěřila se zdravím i životem po smrti manžela. Talentovaná Heidi Janků i po své šedesátce stále koncertuje a udržuje se v perfektní kondici, kterou by jí leckterá mladice mohla závidět.\nJejí kariéra se ale nerozjela sama od sebe. Na jejím začátku stál zkušený hudebník, producent a kapelník Ivo Pavlík (†84), který v mladé zpěvačce dokázal rozpoznat potenciál.\nHeidi Janků už několik let žije bez partnera a zatím to vypadá, že si nového muže do života pouštět nehodlá. Jelikož má zpěvačka z předchozích vztahů bolestivé zkušenosti, rozhodla se už na vztahy definitivně zanevřít.\nZnámé jméno je někdy na škodu. Své o tom ví Heidi Janků (59), okolo které muži krouží celý život. O to více, když před čtyřmi lety pochovala manžela , hudebníka Ivo Pavlíka (†84). Stále však toho pravého nenašla, protože - jak sama přiznává - muži se jí občas bojí.\n12. srpna je to pět let, kdy Heidi Janků (59) zemřel milovaný manžel Ivo Pavlík (†84). Zpěvačka muže svého života bude mít navždy vrytého v srdci, ale i tak už by ráda potkala nového chlapa.\nBiografie tvůrce Heidi Jank ů. Vše o životě, kariéře , filmech a seriálech tvůrce Heidi Jank ů.\nHeidi Janků je po léta populární zpěvačkou. Nyní vystupuje s kapelou a za sebou má mnoho úspěchů, ale život se s ní už odmala nemazlil. Jako dítě přišla o maminku, později o bratra a lehké to neměla ani s otcem.\nHeidi Jank ů, rozená Heidi Hantlová[1], (* 23. listopadu 1962 Ostrava - Vítkovice) je česká zpěvačka, moderátorka a muzikálová herečka.\nPři pohledu na stále energickou a usmívající se zpěvačku Heidi Janků se jen těžko věří, co těžkého má za sebou a s čím vším se již musela ve svém životě vyrovnat. Bylo jí teprve deset let, když jí zemřela na rakovinu maminka. V květnu se dozvěděla nelítostnou diagnózu a tři měsíce na to jí podlehla.\nMilníkem v její kariéře bylo vítězství v Intertalentu. Vzala si svého o třicet let staršího manažera Iva Pavlíka, teď vystupuje s jeho synem Adamem, který vedl kapelu své maminky Věry Špinarové.' start_page_id=UUID('ea1fcf15-a894-418a-9620-a67a14e488ab') from_page=0 to_page=0 end_paragraph=True language=None document=UUID('ea1fcf15-a894-418a-9620-a67a14e488ab') ner_P=None ner_T=None ner_A=None ner_G=None ner_I=None ner_M=None ner_O=None query_title=None query_summary=None summary=None document_object=Document(id=UUID('ea1fcf15-a894-418a-9620-a67a14e488ab'), library='web_search', title='DuckDuckGo Search', subtitle=None, partNumber=None, partName=None, yearIssued=2026, dateIssued=None, author=None, publisher=None, language=None, description=None, url=None, public=None, documentType=None, keywords=None, genre=None, placeTerm=None)
+DEBUG: Context length (chars): 3377
+rag answer: Heidi Janků, rozená Hantlová, je česká zpěvačka, moderátorka a muzikálová herečka [doc1]. Narodila se 23. listopadu 1962 v Ostravě-Vítkovicích [doc1]. Její matka hrála na violoncello a otec na dechové nástroje a pozoun [doc1]. Od první třídy navštěvovala lidovou školu umění [doc1]. Milníkem v její kariéře bylo vítězství v Intertalentu [doc1].
+
+Hudebník, producent a kapelník Ivo Pavlík (1942–2021) dokázal v mladé zpěvačce rozpoznat potenciál a pomohl jí v jejím kariérním rozvoji [doc1]. Heidi Janků se s ním vzala [doc1]. Po jeho smrti se rozhodla, že bude bojovat se smutkem prací a vrátí se na televizní obrazovky [doc1]. Nyní vystupuje s Adamem Pavlíkem, synem Iva Pavlíka, který vedl kapelu své maminky Věry Špinarové [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké nebezpečí hrozí německému Rakousku podle »Neue Freie Presse«?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4900
+rag answer: Podle dokumentu [doc2] tvrdila německá novina „Neue freie Presse“, že v okolí Železnobrodského okresu hrozí velké nebezpečí německému obyvatelstvu kvůli údajné surovosti, bažení po výstřednostech a odpírání daní. [doc5] uvádí, že „Neue Freie Presse“ prohlašovala, že českoněmecké dorozumění je nutné, aby parlament udržel své zastoupení v kabinetě. [doc3] zmiňuje, že „Neue Freie Presse“ byla orgánem německo-liberální tiskové skupiny a vedla ostatní tisk. [doc4] uvádí, že „Neue Freie Presse“ publikovala telegram z Říma, který tvrdil, že Matajovy porady směřovaly k sjednání zvláštního politickohospodářského poměru mezi Italií a Rakouskem, který by dal Itálii v Rakousku výhodnější postavení. [doc1] uvádí, že „Neue freie Presse“ se proměnila ve svou tvářnost a hraje si na patriotu.
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaké jsou dvě možnosti, které mohou vést k nepoměru mezi tvorbou a spalováním tuku v těle?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5080
+rag answer: Dle [doc1] může nepoměr mezi tvorbou a spalováním tuku v těle vzniknout dvěma způsoby. Předně může vzniknout tím, že se přijímá více bílkovin a tuku, než je organismus schopen zpracovat, a to bez odpovídajícího přívozu kyslíku. Za druhé, může vzniknout snížením rozkládání látek.
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kde bylo zrušeno kino „Svépomoc“?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4886
+rag answer: Kino „Svépomoc“ bylo zrušeno v Praze VII. [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jaký byl vztah mezi představeným a podřízeným na ruských drahách před revolucí v březnu 1917?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4767
+rag answer: Na ruských drahách před revolucí v březnu 1917 byl vztah mezi představeným a podřízeným přátelskyjší a vřelejší, ba možno říci bratrský. Nebylo titulatur, všichni se oslovovali jménem křestním a otcovským [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo zbudoval zadní oddělení krypty v kostele sv. Václava ve Staré Boleslavi?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4791
+rag answer: Zadní oddělení krypty v kostele sv. Václava ve Staré Boleslavi zbudoval Břetislav [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Kdo byl majitelem Heřmanova Městce a Stolan v roce 1661?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 4694
+rag answer: V roce 1661 koupil panství Heřmanov Město a Stolany od hraběnky Khieslové hrabě Jan Špork [doc1].
+FINISHING: Answer satisfactory.
+[]
+Detected language: ces
+Starting  DB search.
+Is used hyde embedding: False.
+search_request: search_title_generate=True search_title_prompt=None search_title_model=None search_title_brevity=None search_summary_generate=True search_summary_prompt=None search_summary_model=None search_summary_brevity=None search_results_summary_generate=True search_results_summary_prompt=None search_results_summary_model=None search_results_summary_brevity=None query='Jakou částku obdržel spolek z přebytků výtěžku XXXIV. státní loterie?' limit=5 type=<SearchType.hybrid: 'hybrid'> hybrid_search_alpha=0.5 search_llm_filter=False min_year=None max_year=None min_date=None max_date=None language=None tag_uuids=[] positive=False automatic=False is_hyde=False
+Embedding...
+DEBUG: Context length (chars): 5181
+rag answer: Ženský výrobní spolek český v Praze obdržel z přebytků výtěžku XXXIV. státní loterie 10.000 korun [doc1].
+FINISHING: Answer satisfactory.
+DONE: 100simple_incremental_adaptive_v25_4_3 saved.
+All experiments completed.

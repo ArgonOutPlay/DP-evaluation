@@ -11,3 +11,4 @@
 | 100_incremental_adaptive_v25_4_3_al_06_results | gpt-4o-mini |       0.912955 |           0.728341 |                 0.681 | ragas_nogt  |
 | 100_incremental_adaptive_v25_4_3_al_06_nometadata_results | gpt-4o-mini |       0.912753 |           0.756666 |                 0.703 | ragas_nogt  |
 | 100_incremental_adaptive_v25_4_3_al_08_results | gpt-4o-mini |        0.88007 |            0.76235 |                   0.7 | ragas_nogt  |
+| 100_incremental_adaptive_v25_4_3_al_08_nometadata_results | gpt-4o-mini |       0.915553 |           0.727397 |                 0.719 | ragas_nogt  |

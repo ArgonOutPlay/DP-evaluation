@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,context_sufficiency,framework
+100_v25_4_3_54nano,gpt-5.4-nano,0.7920575757575756,0.9071505050505051,0.6272727272727273,ragas_nogt

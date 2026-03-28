@@ -1,0 +1,8 @@
+{
+    "faithfulness": 0.8346179999999999,
+    "answer_relevancy": 0.8097179999999998,
+    "context_sufficiency": 0.6370000000000001,
+    "framework": "ragas_nogt",
+    "experiment": "basic_rag_54nano",
+    "judge": "gpt-5.4-nano"
+}
