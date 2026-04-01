@@ -1,0 +1,102 @@
+{
+    "When was Hearthstone game released?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "What year did Kate Middleton and Prince William get married?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "What U.S. woman was appointed as the first woman Speaker of the House?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "When did the second season of Frieren: Beyond Journey’s End came out?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Kdo byl nejbohatším člověkem na světě v roce 2025?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "V jakém městě se nachází NFL Hall of Fame? ": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Kolik srdcí má chobotnice?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Kdo vyhrál Oscary 2026 za nejlepší mužský herecký výkon?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "When was Resident Evil Requiem released?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Ve kterém sci-fi seriálu se objevuje policejní budka zvaná TARDIS?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor ovlivnil náladu a plány průmyslových kapitalistů?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké byly hlavní překážky, kterým čelil státní film v Československu před únorem 1948, a jak únorové události přispěly k jejich odstranění a následné konsolidaci filmového průmyslu?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a velkostatkářů proti zamýšlené stavbě vodních drah, a jak tento odpor ovlivnil náladu a plány průmyslových kapitalistů?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké terapeutické zkušenosti a postupy byly získány při léčbě epidemie dysenterie, a proč byly obvyklé prostředky jako opium, klystýry a čípky kokainomorfiové považovány za nedostatečné?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké byly hlavní cíle a očekávané důsledky zapojení svazáků a žen do žňových plánů na Liberecku, a jakou roli v tom hrály výzvy předsednictva Ústředního výboru Komunistické strany a krajského výboru Československého svazu žen?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké jsou důsledky výrazného poklesu zastoupení jedle bělokoré a zvýšené účasti buku na strukturu a stabilitu Boubínského pralesa, a jaké opatření bylo navrženo k zajištění jeho přirozeného vývoje?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké jsou ceny vstupenek do Britského muzea pro sezónu jaro 2026?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důsledky předvánočního shonu a pracovního nasazení prodavaček a pokladních na jejich pracovní podmínky a jak se to odráželo na jejich interakci se zákazníky?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důsledky napětí mezi českou a německou komunitou ve Vídni na konci 19. století, a jak se toto napětí projevovalo v politických rozhodnutích a společenských postojích?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důsledky německého vlivu na finskou buržoazii a jak se tento vliv projevil v kontextu pomsty na socialistickém dělnictvu, které se účastnilo proletářské revoluce, a jakou roli v tom hrála německá sociální demokracie?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor souvisí s ekonomickými zájmy velkostatkářů a průmyslových kapitalistů?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaký byl význam československého státu v mezinárodním kontextu po stránce politické a hospodářské, a jakou roli hrála Itálie v podpoře této vize v rámci protiněmecké bariéry?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké byly důsledky rozhodnutí o suspendování činnosti \"Matice\" na její úředníky a jak se toto rozhodnutí projevilo v kontextu širšího boje proti slovenským institucím v 70. letech 19. století?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jakou roli hrají uhlohydráty v procesu růstu a vývoje rostlin, a jakým způsobem enzymy přispívají k přeměně těchto uhlohydrátů na látky potřebné pro samostatný život rostliny?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    }
+}

@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,answer_correctness,context_precision,context_recall,context_sufficiency,framework
+100simple_basic_rag_54mini_results,gpt-5.4-mini,0.9128883720930233,0.8447872093023253,0.726395294117647,0.8229023255813952,0.8837209302325582,0.8372093023255814,ragas

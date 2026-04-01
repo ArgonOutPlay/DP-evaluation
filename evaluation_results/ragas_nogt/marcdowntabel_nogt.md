@@ -14,3 +14,7 @@
 | 20_incremental_adaptive_v25_4_3_nometadata_results | gpt-5.1 |       0.804985 |            0.93749 |                 0.675 | ragas_nogt  |
 | webnew_incremental_adaptive_v25_4_3_results | gpt-4o-mini |       0.828284 |           0.940532 |                 0.744 | ragas_nogt  |
 | combined_incremental_adaptive_v25_4_3_results | gpt-4o-mini |       0.882245 |           0.786138 |                0.6648 | ragas_nogt  |
+| 100simple_basic_rag_54mini_results (simple) | gpt-5.4-mini |       0.897573 |           0.858797 |              0.732558 | ragas_nogt  |
+| 100simple_incremental_adaptive_v25_4_3_54omini_results (simple) | gpt-5.4-mini |       0.901272 |           0.921357 |              0.725581 | ragas_nogt  |
+| combined_01_ollama_default_config_54mini | gpt-5.4-mini |        0.71191 |           0.652846 |              0.527049 | ragas_nogt  |
+| combined_incremental_adaptive_v25_4_3_54mini | gpt-5.4-mini |       0.835467 |           0.869289 |                0.6608 | ragas_nogt  |

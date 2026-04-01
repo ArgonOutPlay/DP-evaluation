@@ -1,0 +1,2 @@
+experiment,judge,faithfulness,answer_relevancy,context_sufficiency,framework
+combined_01_ollama_default_config_54mini,gpt-5.4-mini,0.7119096774193548,0.6528459677419354,0.5270491803278688,ragas_nogt

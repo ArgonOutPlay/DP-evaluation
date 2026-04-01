@@ -1,0 +1,102 @@
+{
+    "When was Hearthstone game released?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "What year did Kate Middleton and Prince William get married?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Kdy naposled vyhrál Serral mistrovství světa ve hře StarCraft 2?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "What U.S. woman was appointed as the first woman Speaker of the House?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "When did the second season of Frieren: Beyond Journey’s End came out?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Kdo byl nejbohatším člověkem na světě v roce 2025?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "V jakém městě se nachází NFL Hall of Fame? ": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Kolik srdcí má chobotnice?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Kdo vyhrál Oscary 2026 za nejlepší mužský herecký výkon?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "When was Resident Evil Requiem released?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké byly důsledky toho, že tvůrčí Genius, který toužil po větší tvůrčí síle a odešel od andělů k člověku, daroval lidem meč a později učení čisté lásky, a jak se tyto dary proměnily v kletbu pro lidstvo?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důvody pro vyloučení komunistické revoluce v Německu a jakou roli v tom hrála organizace občanstva a politická situace v zemi?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké jsou důsledky nesprávného použití nástrojů při odstraňování ušního mazu a jaké preventivní opatření je doporučeno k minimalizaci rizika infekce?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké terapeutické zkušenosti a postupy byly získány při léčbě epidemie dysenterie, a proč byly obvyklé prostředky jako opium, klystýry a čípky kokainomorfiové považovány za nedostatečné?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "What is name of the final boss in lies of p overture?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly strategické důvody pro upřednostnění krátkých traťových spojení před dlouhými námořními cestami a jaký vliv mělo toto rozhodnutí na vojenské operace a zásobování během konfliktu?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důvody a důsledky nespokojenosti dělnictva a chudého lidu s vládními opatřeními a rostoucími cenami životních potřeb, jak je vyjádřeno v projevech a přijatých resolucích během tábora lidu v Moravské Ostravě?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaký byl účel referenda organizovaného inženýrem Karlem Veselým a jaký vliv mělo na uznání československé legie italskou vládou a na hnutí ve prospěch utlačených národností rakousko-uherských?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké důsledky by mohlo mít nedostatečné ošetřování a špatná komunikace mezi lékaři, jako je Christián Ivánovič, a pacienty, zejména v kontextu očekávané návštěvy cestujícího úředníka, a jak se na tuto situaci připravuje Artemij Filippovič?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaký význam mělo vynášení starého Hazuky s poctami a provedení rituálů, jako je dělání křížů nad prahem a pokládání rakve na zem, pro obecní komunitu a jak to souvisí s jejich vnímáním smrti a posmrtného života?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důvody a možné důsledky odporu knížete Bedřicha Schwarzenberga a Řiditelstva Ústřední společnosti hospodářské proti zamýšlené stavbě vodních drah, a jak tento odpor souvisí s ekonomickými zájmy velkostatkářů a průmyslových kapitalistů?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké byly důsledky vlivu německo-židovské koterie na politickou situaci v Rakousku a jak se tento vliv projevoval v kontextu národnostních štvanic a ústavního státu?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jak se jmenoval první umělý satelit vypuštěný do vesmíru?": {
+        "System_A": "Adaptive",
+        "System_B": "Basic"
+    },
+    "Jaké jsou důsledky nedostatku náboženského vychování a liberalismu, na stabilitu a budoucnost státu a jeho národů?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    },
+    "Jaké byly důsledky odhalení pomníku Josefa Dobrovského v Praze na vnímání jeho odkazu a jak se to projevilo v srdcích českého národa?": {
+        "System_A": "Basic",
+        "System_B": "Adaptive"
+    }
+}

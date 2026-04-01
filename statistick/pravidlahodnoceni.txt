@@ -1,0 +1,19 @@
+Answer Relevancy (Relevantnost odpovědi)
+1.0  : Excelentní. Odpovídá přesně na otázku, je srozumitelná a neobsahuje zbytečnou vatu.
+0.75 : Velmi dobrá. Odpovídá na vše důležité, ale má drobné stylistické vady nebo je příliš stručná/dlouhá.
+0.5  : Částečná. Odpovídá na jádro otázky, ale ignoruje detaily nebo podotázky.
+0.25 : Slabá. Téma trefila, ale na konkrétní otázku v podstatě neodpovídá.
+0.0  : Irelevantní. Mluví o něčem úplně jiném nebo odpoví „Nevím...“
+
+Faithfulness (Věrnost / Pravdivost)
+1.0  : Naprostá věrnost. Každé tvrzení v odpovědi lze přímo doložit z přiloženého „Kontextu“.
+0.75 : Téměř věrné. Model použil selský rozum nebo všeobecnou znalost (např. „Praha je hlavní město“), která v kontextu není, ale fakta z textu nezkreslil.
+0.5  : Smíšené. Většina je správně, ale obsahuje jedno sporné tvrzení, které v kontextu nelze najít.
+0.25 : Problematické. Model kombinuje fakta z kontextu s vlastními halucinacemi tak, že výsledek je zavádějící.
+0.0  : Halucinace. Odpověď přímo odporuje kontextu nebo obsahuje zcela smyšlená fakta (data, jmén)
+
+Context Sufficiency (Dostatečnost kontextu)
+1.0 (Full): Kontext obsahuje všechny klíčové i doplňující informace pro vyčerpávající odpověď.
+0.7 (Partial): Kontext obsahuje hlavní fakt, ale chybí detaily (např. chybí datum, i když událost tam je).
+0.3 (Insufficient): Kontext se tématu dotýká, ale neobsahuje přímou odpověď na jádro otázky.
+0.0 (Irrelevant): Kontext je o něčem úplně jiném.
