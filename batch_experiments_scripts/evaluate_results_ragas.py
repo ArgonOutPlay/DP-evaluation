@@ -108,6 +108,8 @@ async def main():
     args = parser.parse_args()
 
     eval_model_name = os.getenv("OPENAI_EVAL_MODEL")
+    base_url = os.getenv("OPENAI_BASE_URL")
+    api_key = os.getenv("OPENAI_API_KEY")
 
     with open(args.input, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -121,8 +123,9 @@ async def main():
             "retrieved_contexts": item["retrieved_contexts"],
             "reference": item["ground_truth"]
         })
+
     dataset = EvaluationDataset.from_list(formatted_data)
-    llm = LangchainLLMWrapper(ChatOpenAI(model=eval_model_name, temperature=0))
+    llm = LangchainLLMWrapper(ChatOpenAI(model=eval_model_name, temperature=0, base_url=base_url, api_key=api_key))
     # config so ragas will not timeout
     run_config = RunConfig(max_workers=16, timeout=1600)
 
