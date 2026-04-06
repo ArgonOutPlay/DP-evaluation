@@ -1,0 +1,8 @@
+{
+    "faithfulness": 0.853497,
+    "answer_relevancy": 0.872685,
+    "context_sufficiency": 0.602,
+    "framework": "ragas_nogt",
+    "experiment": "100_incremental_adaptive_v25_4_3_al_04_54mini",
+    "judge": "gpt-5.4-mini"
+}
