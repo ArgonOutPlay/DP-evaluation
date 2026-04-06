@@ -14,8 +14,7 @@ from deepeval.metrics import (
     AnswerRelevancyMetric, 
     FaithfulnessMetric
 )
-from deepeval.evaluate import AsyncConfig
-
+from deepeval.evaluate import AsyncConfig, ErrorConfig
 # wrappers
 from deepeval_custom_model import CustomOpenAI
 
@@ -27,6 +26,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, message="Langchai
 warnings.filterwarnings("ignore", category=DeprecationWarning, message="LangchainEmbeddingsWrapper*")
 
 async def main():
+    os.environ["DEEPEVAL_PER_ATTEMPT_TIMEOUT_SECONDS_OVERRIDE"] = "6000"
     # get path
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=str, required=True, help="Path")
@@ -46,7 +46,7 @@ async def main():
             input=item["question"],
             actual_output=item["rag_answer"],
             retrieval_context=item["retrieved_contexts"],
-            expected_output=item.get("ground_truth", "")
+            expected_output=item.get("ground_truth")
         )
         dataset.append(test_case)
 
@@ -59,15 +59,26 @@ async def main():
 
     #run eval
     print(f"Evaluation started, input: {args.input}")
-    async_config = AsyncConfig(max_concurrent=5)
-    result = deepEvaluate(dataset, metrics=metrics, async_config=async_config)
+    async_config = AsyncConfig(
+        max_concurrent=2
+    )
+    error_config = ErrorConfig(
+        ignore_errors=True
+    )
+
+    result = deepEvaluate(dataset, metrics=metrics, async_config=async_config, error_config=error_config)
 
     # get scores
     detailed_results = []
     for test_result in result.test_results:
         metrics_scores = {}
         for m in test_result.metrics_data:
-            metrics_scores[m.name.lower().replace(" ", "_")] = round(m.score, 4)
+            for m in test_result.metrics_data:
+                key = m.name.lower().replace(" ", "_")
+                if m.score is None:
+                    metrics_scores[key] = None
+                else:
+                    metrics_scores[key] = round(m.score, 4)
         
         detailed_results.append({
             "question": test_result.input,
