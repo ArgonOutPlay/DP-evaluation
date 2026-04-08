@@ -1,0 +1,42 @@
+=== KOMPLETNÍ POWER ANALÝZA (Všechny metriky) ===
+            Metrika              Soudce   Delta  SD (Šum)  Power  Req. N (10% Delta)  Req. N (5% Delta)
+   answer_relevancy GPT-4.1-mini (Hist)  0.0757    0.2348 0.9421                  36                138
+   answer_relevancy  GPT-4o-mini (Comb)  0.1770    0.4735 0.9943                 140                556
+   answer_relevancy  GPT-4o-mini (Hist)  0.0004    0.3115 0.0514                  62                242
+   answer_relevancy      GPT-5.1 (Hist)  0.1159    0.2229 0.9998                  33                125
+   answer_relevancy GPT-5.4-mini (Comb)  0.2221    0.3943 1.0000                  98                386
+   answer_relevancy GPT-5.4-mini (Hist)  0.1046    0.2223 0.9989                  32                124
+   answer_relevancy GPT-5.4-nano (Hist)  0.0970    0.1893 0.9997                  24                 90
+context_sufficiency GPT-4.1-mini (Hist) -0.0030    0.1446 0.0321                  15                 54
+context_sufficiency  GPT-4o-mini (Comb)  0.1456    0.3488 0.9986                  77                303
+context_sufficiency  GPT-4o-mini (Hist)  0.0109    0.1574 0.1700                  17                 63
+context_sufficiency      GPT-5.1 (Hist)  0.0030    0.1438 0.0751                  15                 53
+context_sufficiency GPT-5.4-mini (Comb)  0.1339    0.3520 0.9949                  78                308
+context_sufficiency GPT-5.4-mini (Hist)  0.0366    0.2199 0.5073                  32                121
+context_sufficiency GPT-5.4-nano (Hist) -0.0129    0.1246 0.0037                  12                 40
+       faithfulness GPT-4.1-mini (Hist)  0.0226    0.2796 0.2007                  50                195
+       faithfulness  GPT-4o-mini (Comb)  0.1667    0.4233 0.9969                 113                445
+       faithfulness  GPT-4o-mini (Hist)  0.0421    0.2353 0.5562                  36                139
+       faithfulness      GPT-5.1 (Hist)  0.0089    0.2821 0.0920                  51                199
+       faithfulness GPT-5.4-mini (Comb)  0.1285    0.4425 0.9434                 123                486
+       faithfulness GPT-5.4-mini (Hist)  0.0012    0.2903 0.0545                  54                210
+       faithfulness GPT-5.4-nano (Hist) -0.0450    0.3193 0.0011                  65                254
+
+POWER je u modelů gpt 5.1 a gpt5,4 vysoká -> t test určitě odhalí jestli je jeden model lepší, naopak u gpt4omini nízká, takže to neodhalí
+
+SD říká rozházenost toho, jak se mění ta hodnocení toho judge - malé je lepší (0 by byla kdyby konzistentně byl jeden rag o 0.1 lepší než druhý)
+     - gpt 5.1 má menší -> je lepší
+
+Model GPT-4o-mini má o 70 % vyšší šum (SD Err) než GPT-5.4-nano. Kvůli tomuto šumu v jeho úsudku bychom potřebovali téměř třikrát větší dataset 
+(62 vs 24), abychom prokázali stejné zlepšení systému.
+
+pozn v kalkulačce - https://www.statscalculators.com/calculators/hypothesis-testing/sample-size-and-power-analysis-calculator
+tak to effect size d = delta / SD
+
+vysvětlení od LLM ohledně lišících se výsledků oproti online kalkulačce:
+
+V online kalkulačkách často dochází k záměně mezi Cohenovým d pro nezávislé vzorky a dz pro párové testy. 
+Můj skript používá metodiku Cohenova dz, kde je směrodatná odchylka počítána přímo z diferencí (rozdílů) mezi systémy. 
+Tato hodnota v sobě automaticky zahrnuje korelaci mezi páry. 
+Pro náš naměřený efekt size 0.52 vychází v softwaru GPower i v mém skriptu potřebné N rovno 33, což potvrzuje, 
+že náš dataset 101 otázek má pro tento model (GPT-5.1) více než dostatečnou statistickou sílu.

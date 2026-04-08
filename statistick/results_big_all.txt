@@ -1,29 +1,28 @@
+=== 1. KONZISTENCE: ČLOVĚK VS AI SOUDCŮ (n=50) ===
+Judge        | Metric              | Corr   | Bias    | SD Err  | MAE
+---------------------------------------------------------------------------
+GPT-5.1      | answer_relevancy    | +0.089 | +0.087 | 0.191 | 0.147
+GPT-5.1      | faithfulness        | +0.398 | -0.189 | 0.173 | 0.192
+GPT-5.1      | context_sufficiency | +0.699 | -0.038 | 0.206 | 0.103
+---------------------------------------------------------------------------
+GPT-5.4-mini | answer_relevancy    | +0.148 | +0.071 | 0.189 | 0.143
+GPT-5.4-mini | faithfulness        | +0.605 | -0.102 | 0.109 | 0.107
+GPT-5.4-mini | context_sufficiency | +0.297 | +0.011 | 0.285 | 0.189
+---------------------------------------------------------------------------
+GPT-5.4-nano | answer_relevancy    | +0.181 | +0.079 | 0.188 | 0.145
+GPT-5.4-nano | faithfulness        | +0.228 | -0.131 | 0.194 | 0.155
+GPT-5.4-nano | context_sufficiency | +0.472 | -0.049 | 0.239 | 0.157
+---------------------------------------------------------------------------
+GPT-4.1-mini | answer_relevancy    | +0.202 | +0.010 | 0.219 | 0.156
+GPT-4.1-mini | faithfulness        | +0.062 | -0.015 | 0.141 | 0.077
+GPT-4.1-mini | context_sufficiency | +0.426 | -0.059 | 0.290 | 0.189
+---------------------------------------------------------------------------
+GPT-4o-mini  | answer_relevancy    | +0.142 | -0.054 | 0.319 | 0.217
+GPT-4o-mini  | faithfulness        | +0.215 | -0.029 | 0.132 | 0.081
+GPT-4o-mini  | context_sufficiency | +0.439 | -0.062 | 0.317 | 0.219
+---------------------------------------------------------------------------
 
-=== 1. KONZISTENCE: �LOV�K VS AI SOUDC� (n=50) ===
-Judge        | Metric          | Corr   | MAE   
---------------------------------------------------
-GPT-5.1      | answer_relevancy | +0.089 | 0.147
-GPT-5.1      | faithfulness    | +0.398 | 0.192
-GPT-5.1      | context_sufficiency | +0.699 | 0.103
---------------------------------------------------
-GPT-5.4-mini | answer_relevancy | +0.148 | 0.143
-GPT-5.4-mini | faithfulness    | +0.605 | 0.107
-GPT-5.4-mini | context_sufficiency | +0.297 | 0.189
---------------------------------------------------
-GPT-5.4-nano | answer_relevancy | +0.181 | 0.145
-GPT-5.4-nano | faithfulness    | +0.228 | 0.155
-GPT-5.4-nano | context_sufficiency | +0.472 | 0.157
---------------------------------------------------
-GPT-4.1-mini | answer_relevancy | +0.202 | 0.156
-GPT-4.1-mini | faithfulness    | +0.062 | 0.077
-GPT-4.1-mini | context_sufficiency | +0.426 | 0.189
---------------------------------------------------
-GPT-4o-mini  | answer_relevancy | +0.142 | 0.217
-GPT-4o-mini  | faithfulness    | +0.215 | 0.081
-GPT-4o-mini  | context_sufficiency | +0.439 | 0.219
---------------------------------------------------
-
-=== 2. STATISTICK� V�ZNAMNOST (Historie, n=100) ===
+=== 2. STATISTICKÁ VÝZNAMNOST (Historie, n=100) ===
 
 --- Soudce: GPT-5.1 (n=101) ---
 Metrika              | Delta   | 95% CI           | p-val    | D
@@ -36,6 +35,18 @@ Metrika              | Delta   | 95% CI           | p-val    | D
 answer_relevancy     | +0.105 | [0.06, 0.15] | 7.45e-06 | 0.47
 faithfulness         | +0.001 | [-0.06, 0.06] | 9.66e-01 | 0.00
 context_sufficiency  | +0.037 | [-0.01, 0.08] | 9.72e-02 | 0.17
+
+--- Soudce: GPT-5.4-nano (n=101) ---
+Metrika              | Delta   | 95% CI           | p-val    | D
+answer_relevancy     | +0.097 | [0.06, 0.13] | 1.31e-06 | 0.51
+faithfulness         | -0.045 | [-0.11, 0.02] | 1.59e-01 | -0.14
+context_sufficiency  | -0.013 | [-0.04, 0.01] | 3.02e-01 | -0.10
+
+--- Soudce: GPT-4.1-mini (n=101) ---
+Metrika              | Delta   | 95% CI           | p-val    | D
+answer_relevancy     | +0.076 | [0.03, 0.12] | 1.62e-03 | 0.32
+faithfulness         | +0.023 | [-0.03, 0.08] | 4.19e-01 | 0.08
+context_sufficiency  | -0.003 | [-0.03, 0.03] | 8.36e-01 | -0.02
 
 --- Soudce: GPT-4o-mini (n=101) ---
 Metrika              | Delta   | 95% CI           | p-val    | D
@@ -57,13 +68,13 @@ answer_relevancy     | +0.222 | [0.15, 0.29] | 4.75e-09 | 0.56
 faithfulness         | +0.129 | [0.05, 0.21] | 1.50e-03 | 0.29
 context_sufficiency  | +0.134 | [0.07, 0.20] | 4.43e-05 | 0.38
 
-=== 4. LIDSK� HODNOCEN� (Kontroln� vzorek, n=50) ===
+=== 4. LIDSKÉ HODNOCENÍ (Kontrolní vzorek, n=50) ===
 Metrika              | Delta   | 95% CI           | p-val    | Cohen D
 Answer Relevancy     | +0.353 | [0.25, 0.46] | 2.73e-08 | 0.95
 Faithfulness         | +0.011 | [-0.02, 0.04] | 4.82e-01 | 0.10
 Context Sufficiency  | +0.182 | [0.07, 0.29] | 1.58e-03 | 0.48
 
-=== 5. ANAL�ZA JEDNODUCH�CH OT�ZEK (n=100, Simple Dataset) ===
+=== 5. ANALÝZA JEDNODUCHÝCH OTÁZEK (n=100, Simple Dataset) ===
 
 --- Soudce: GPT-5.4-mini (n=86) ---
 Metrika              | Delta   | 95% CI           | p-val    | D
