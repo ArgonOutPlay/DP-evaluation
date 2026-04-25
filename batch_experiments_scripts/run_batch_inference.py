@@ -71,10 +71,18 @@ async def main():
     #paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
     #CONFIGS_DIR  = os.path.join(base_dir, "rag_configs")
-    CONFIGS_DIR  = os.path.join(base_dir, "test_configs_02")
-    DATASET_PATH = os.path.join(base_dir, "datasets/200cze_gpt51_complex_questions_altered.json")
-    OUTPUT_DIR = os.path.join(base_dir, "..", "experiment_results", "raw_outputs_judge")
+    CONFIGS_DIR  = os.path.join(base_dir, "test_configs_03")    # test_configs_03
+    #DATASET_PATH = os.path.join(base_dir, "datasets/200cze_gpt51_complex_questions_altered.json")
+    #DATASET_PATH = os.path.join(base_dir, "datasets/first20_200cze_gpt51_complex_questions_altered.json")
+    #DATASET_PATH = os.path.join(base_dir, "datasets/first20_updated_dataset.json")
+    #DATASET_PATH = os.path.join(base_dir, "datasets/100_complex_altered.json")
+    DATASET_PATH = os.path.join(base_dir, "datasets/200cze_gpt51_syn_human_altered.json")
+    #DATASET_PATH = os.path.join(base_dir, "datasets/web_search_questions_new.json")
+    #DATASET_PATH = os.path.join(base_dir, "datasets/combined_dataset.json")
+    OUTPUT_DIR = os.path.join(base_dir, "..", "experiment_results", "raw_outputs_simple") #_tunning, _web, _simple, _updated, _big, raw_outputs_updated, v25_rerun, nogt_tests, nogt_tests_alpha
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    #models gpt-4.1-mini, gpt-5.4-mini, gpt-5.4-nano
 
     # init searcher
     searcher = await WeaviateSearch.create(config=config)
