@@ -14,7 +14,7 @@ load_dotenv() #have to be called before config import
 
 #semant app - RAG
 from semant_demo.config import config
-from semant_demo.weaviate_search import WeaviateSearch
+from semant_demo.weaviate_utils.weaviate_abstraction import WeaviateAbstraction
 from semant_demo.rag.rag_factory import rag_load_single_config
 from semant_demo.schemas import RagRequest, RagSearch
 
@@ -85,7 +85,7 @@ async def main():
     #models gpt-4.1-mini, gpt-5.4-mini, gpt-5.4-nano
 
     # init searcher
-    searcher = await WeaviateSearch.create(config=config)
+    searcher = await WeaviateAbstraction.create(config=config)
 
     try:
         # load dataset
