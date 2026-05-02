@@ -6,5 +6,6 @@ langchain-huggingface
 sentence-transformers
 langchain_openai
 tabulate
+seaborn
 # rag from semant_demo
 # -e ../../RAG-projekt/semant-demo/semant_demo_backend
