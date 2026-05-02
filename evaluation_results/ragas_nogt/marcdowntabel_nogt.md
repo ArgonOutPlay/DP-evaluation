@@ -18,3 +18,4 @@
 | 100simple_incremental_adaptive_v25_4_3_54omini_results (simple) | gpt-5.4-mini |       0.901272 |           0.921357 |              0.725581 | ragas_nogt  |
 | combined_01_ollama_default_config_54mini | gpt-5.4-mini |        0.71191 |           0.652846 |              0.527049 | ragas_nogt  |
 | combined_incremental_adaptive_v25_4_3_54mini | gpt-5.4-mini |       0.835467 |           0.869289 |                0.6608 | ragas_nogt  |
+| web_v25_5_results | gpt-4o-mini |          0.864 |           0.860112 |                 0.728 | ragas_nogt  |
