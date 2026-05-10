@@ -32,8 +32,8 @@ logging.getLogger("ragas.prompt.pydantic_prompt").setLevel(logging.ERROR)
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding='utf-8')
 
+# THIS IS OLDER VERSION OF CONTEXT SUFFICIENCY METRIC, WHICH IS NOT USED IN FINAL EVALUATION, BUT IT CAN BE INTERESTING TO LOOK AT IT FOR INSPIRATION OR FUTURE WORK
 # custom metric - context sufficiency - does retrieved context provide enaugh information to answer the question?
-#TODO - try not to be bool, but float - categories
 class SufficiencyInput(BaseModel):
     question: str = Field(description="the user's question to be answered")
     context: str = Field(description="the retrieved context snippets from documents")
@@ -102,11 +102,18 @@ class ContextSufficiency(MetricWithLLM, SingleTurnMetric):
         pass
 
 async def main():
-    # get input path
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--input", type=str, required=True, help="Path")
+    # get input and output paths
+    parser = argparse.ArgumentParser(description="RAG evaluation using Ragas with older version of custom metric.")
+    parser.add_argument("--input", type=str, required=True, help="Path to the inference results JSON file")
+    parser.add_argument("--output", type=str, default="evaluation_results/ragas", help="Directory where results will be saved")
     args = parser.parse_args()
 
+    # check if input exists
+    if not os.path.exists(args.input):
+        print(f"Error: Input file {args.input} not found.")
+        return
+
+    #load variables for llm
     eval_model_name = os.getenv("OPENAI_EVAL_MODEL")
     base_url = os.getenv("OPENAI_BASE_URL")
     api_key = os.getenv("OPENAI_API_KEY")
@@ -139,12 +146,18 @@ async def main():
 
     #get path to results
     base_name = os.path.splitext(os.path.basename(args.input))[0]
-    output_dir = "evaluation_results/ragas"
+    output_dir = args.output
     os.makedirs(output_dir, exist_ok=True)
+
+    # final output paths
+    main_output_path = os.path.join(output_dir, f"{base_name}_evaluated_{eval_model_name}.json")
+    summary_json_path = os.path.join(output_dir, f"{base_name}_summary.json")
+    summary_csv_path = os.path.join(output_dir, f"{base_name}_summary.csv")
+    report_md_path = os.path.join(output_dir, f"{base_name}_report.md")
 
     #save detail score
     results_df = results.to_pandas()
-    results_df.to_json(f"{output_dir}/{base_name}_evaluated_{eval_model_name}.json", orient="records", force_ascii=False, indent=4)
+    results_df.to_json(main_output_path, orient="records", force_ascii=False, indent=4)
 
     #save averages
     results_df = results_df.round(4)
@@ -154,7 +167,7 @@ async def main():
     summary_dict["experiment"] = base_name
     summary_dict["judge"] = eval_model_name
 
-    with open(f"{output_dir}/{base_name}_summary.json", "w", encoding="utf-8") as f:
+    with open(summary_json_path, "w", encoding="utf-8") as f:
         json.dump(summary_dict, f, indent=4, ensure_ascii=False)
 
     #save markdown
@@ -164,7 +177,7 @@ async def main():
         cols = ["experiment", "judge"] + [c for c in summary_df.columns if c not in ["experiment", "judge"]]
         summary_df = summary_df[cols]
         
-        with open(f"{output_dir}/{base_name}_report.md", "w", encoding="utf-8") as f:
+        with open(report_md_path, "w", encoding="utf-8") as f:
             f.write(f"# Evaluation Report (Ragas): {base_name}\n")
             f.write(summary_df.to_markdown(index=False))
             f.write("\n## Detailed Scores per Question\n")
@@ -174,7 +187,7 @@ async def main():
         pass
 
     #save csv
-    summary_df.to_csv(f"{output_dir}/{base_name}_summary.csv", index=False)
+    summary_df.to_csv(summary_csv_path, index=False)
 
     print(f"Evaluation complete (Ragas), results saved to {output_dir}")
 

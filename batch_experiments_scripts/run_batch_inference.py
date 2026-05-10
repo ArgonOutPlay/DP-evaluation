@@ -6,6 +6,7 @@ import json
 import asyncio
 import tqdm
 import logging
+import argparse
 from time import time
 from dotenv import load_dotenv
 
@@ -36,8 +37,12 @@ async def run_one_config(rag_config_path, dataset, search, previous_docs = None)
     for entry in tqdm.tqdm(dataset, desc=f"Processing: {os.path.basename(rag_config_path)}", leave=False):
         question = entry["question"]
         ground_truth = entry["ground_truth"]
+        
         if (previous_docs == None):
             prev_docs = []
+        else:
+            prev_docs = previous_docs
+
         try:
             start_time = time()
             rag_search = RagSearch(
@@ -68,32 +73,35 @@ async def run_one_config(rag_config_path, dataset, search, previous_docs = None)
 
 
 async def main():
-    #paths
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    #CONFIGS_DIR  = os.path.join(base_dir, "rag_configs")
-    CONFIGS_DIR  = os.path.join(base_dir, "test_configs_03")    # test_configs_03
-    #DATASET_PATH = os.path.join(base_dir, "datasets/200cze_gpt51_complex_questions_altered.json")
-    #DATASET_PATH = os.path.join(base_dir, "datasets/first20_200cze_gpt51_complex_questions_altered.json")
-    #DATASET_PATH = os.path.join(base_dir, "datasets/first20_updated_dataset.json")
-    #DATASET_PATH = os.path.join(base_dir, "datasets/100_complex_altered.json")
-    DATASET_PATH = os.path.join(base_dir, "datasets/200cze_gpt51_syn_human_altered.json")
-    #DATASET_PATH = os.path.join(base_dir, "datasets/web_search_questions_new.json")
-    #DATASET_PATH = os.path.join(base_dir, "datasets/combined_dataset.json")
-    OUTPUT_DIR = os.path.join(base_dir, "..", "experiment_results", "raw_outputs_simple") #_tunning, _web, _simple, _updated, _big, raw_outputs_updated, v25_rerun, nogt_tests, nogt_tests_alpha
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    #args
+    parser = argparse.ArgumentParser(description="Batch RAG Inference Runner")
+    parser.add_argument("--configs", type=str, required=True, help="Folder with RAG configuration YAML files")
+    parser.add_argument("--dataset", type=str, required=True, help="Path to JSON dataset with questions")
+    parser.add_argument("--output", type=str, required=True, help="Folder where results will be saved")
 
-    #models gpt-4.1-mini, gpt-5.4-mini, gpt-5.4-nano
+    args = parser.parse_args()
 
+    #get paths
+    configs_dir = os.path.abspath(args.configs)
+    dataset_path = os.path.abspath(args.dataset)
+    output_dir = os.path.abspath(args.output)
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    if (not os.path.exists(dataset_path)):
+        print(f"Error: Dataset not found at {dataset_path}")
+        return
+    
     # init searcher
     searcher = await WeaviateAbstraction.create(config=config)
 
     try:
         # load dataset
-        with open(DATASET_PATH, 'r', encoding='utf-8') as f:
+        with open(dataset_path, 'r', encoding='utf-8') as f:
             dataset = json.load(f)
 
         #get all configs and sort them in order
-        yaml_configs = [f for f in os.listdir(CONFIGS_DIR) if f.endswith(".yaml")]
+        yaml_configs = [f for f in os.listdir(configs_dir) if f.endswith(".yaml")]
         yaml_configs.sort()
 
         print(f"Found {len(yaml_configs)} configurations. Starting batch processing...")
@@ -101,9 +109,9 @@ async def main():
         #run all configurations
         for rag_config_name in yaml_configs:
             #get path and name
-            config_path = os.path.join(CONFIGS_DIR, rag_config_name)
+            config_path = os.path.join(configs_dir, rag_config_name)
             config_id = rag_config_name.replace(".yaml", "")
-            output = os.path.join(OUTPUT_DIR, f"{config_id}_results.json")
+            output = os.path.join(output_dir, f"{config_id}_results.json")
 
             if os.path.exists(output):
                 print(f"Skipping {config_id}, results already exist.")
