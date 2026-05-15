@@ -1,3 +1,8 @@
+# -------------------------------------------------------------------------------
+# Author: Kryštof Andrýsek (xandry12)
+# Name: generate_dataset.py
+# Description: A program for generating a syntactic dataset.
+# -------------------------------------------------------------------------------
 import os
 from dotenv import load_dotenv
 import random
@@ -27,7 +32,9 @@ from deepeval.models import GPTModel as DeepEvalOpenAI
 from deepeval.models import OllamaModel as DeepEvalOllama
 
 #prompts
-from generate_dataset_prompts import generate_question_prompt_template, generate_gt_prompt_template
+# from generate_dataset_prompts import generate_question_prompt_template, generate_gt_prompt_template
+import generate_dataset_prompts
+import generate_dataset_prompts_simple
 
 #colors for better logs in terminal
 class Colors:
@@ -39,8 +46,20 @@ class Colors:
 #load .env
 load_dotenv()
 
+# check if .env file exists and required variables are set
+if not os.path.exists('.env'):
+    print(f"{Colors.RED} \nError: .env file not found. Please create it from env.example.{Colors.RESET}")
+    exit(1)
+
+required_vars = ["WEAVIATE_HOST", "WEAVIATE_REST_PORT", "WEAVIATE_GRPC_PORT", "OLLAMA_URL", "OPENAI_API_KEY", "OPENAI_BASE_URL"]
+missing_vars = [var for var in required_vars if not os.getenv(var)]
+
+if (missing_vars):
+    print(f"{Colors.RED} \nError: Missing required environment variables: {', '.join(missing_vars)}. Please check your .env file.{Colors.RESET}")
+    exit(1)
+
 #load data from weaviate db
-async def loadDataFromWeaviate(limit):
+async def loadDataFromWeaviate(limit, simple=False):
     client =  weaviate.use_async_with_custom(
             http_host=os.getenv("WEAVIATE_HOST"), http_port=int(os.getenv("WEAVIATE_REST_PORT")), http_secure=False,
             grpc_host=os.getenv("WEAVIATE_HOST"), grpc_port=int(os.getenv("WEAVIATE_GRPC_PORT")), grpc_secure=False,
@@ -55,7 +74,7 @@ async def loadDataFromWeaviate(limit):
         response = await chunks_temp.query.fetch_objects(
             limit=5000,
             filters=lang_filter,
-            return_properties=["from_page"],
+            return_properties=["text", "from_page"],
             return_references=[weaviate.classes.query.QueryReference(link_on="document", return_properties=[] )]
         )
 
@@ -81,6 +100,14 @@ async def loadDataFromWeaviate(limit):
             # skip already used docs
             cur_doc_count = doc_question_count.get(d_id, 0)
             if cur_doc_count >= 5:
+                continue
+
+            if (simple == True):
+                data.append({
+                "text": seed.properties["text"].strip(),
+                "id": str(seed.uuid)
+                })
+                doc_question_count[d_id] = cur_doc_count + 1
                 continue
 
             # get chunks next to each other
@@ -125,7 +152,7 @@ def main():
                     help="Library used for generating questions. llama uses custom prompts.")
     parser.add_argument("--model",
                         type=str,
-                        default="OLLAMA",
+                        default="OPENAI",
                         choices=["OLLAMA", "OPENAI"],
                         help="Evaluation models: 'OLLAMA' (server/local) or 'OPENAI' (API) ")
     parser.add_argument("--output_name",
@@ -143,6 +170,9 @@ def main():
     parser.add_argument("--show_progress",
                 action="store_true",
                 help="Show progress while generating data. Information about every sample.")
+    parser.add_argument("--simple",
+                action="store_true",
+                help="Generate simple questions using single chunks and simple prompts.")
 
     args = parser.parse_args()
 
@@ -167,7 +197,7 @@ def main():
     #--- load data ---
     try:
 
-        data_with_id = asyncio.run(loadDataFromWeaviate(limit=num_of_generated_tests))
+        data_with_id = asyncio.run(loadDataFromWeaviate(limit=num_of_generated_tests, simple=args.simple))
         #if db have least data then desired
         data_reduced = random.sample(data_with_id, min(num_of_generated_tests * 2, len(data_with_id)))
 
@@ -180,8 +210,12 @@ def main():
     #LlamaIndex
     if (args.generator == "llama"):
         # custom prompts
-        question_template = PromptTemplate(generate_question_prompt_template)
-        answer_template = PromptTemplate(generate_gt_prompt_template)
+        if (args.simple):
+            question_template = PromptTemplate(generate_dataset_prompts_simple.generate_question_prompt_template)
+            answer_template = PromptTemplate(generate_dataset_prompts_simple.generate_gt_prompt_template)
+        else:
+            question_template = PromptTemplate(generate_dataset_prompts.generate_question_prompt_template)
+            answer_template = PromptTemplate(generate_dataset_prompts.generate_gt_prompt_template)
 
         try:
             if (args.model == "OPENAI"):    #OPENAI

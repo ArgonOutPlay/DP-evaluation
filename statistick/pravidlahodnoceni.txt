@@ -17,3 +17,5 @@ Context Sufficiency (Dostatečnost kontextu)
 0.7 (Partial): Kontext obsahuje hlavní fakt, ale chybí detaily (např. chybí datum, i když událost tam je).
 0.3 (Insufficient): Kontext se tématu dotýká, ale neobsahuje přímou odpověď na jádro otázky.
 0.0 (Irrelevant): Kontext je o něčem úplně jiném.
+
+POZN. Pokud je odpověď na rozmezí dvou hodnocení (např. 0.75 a 1.0), klidně ohodnoťte hodnotou (např. 0.9) dle svého uvážení.
